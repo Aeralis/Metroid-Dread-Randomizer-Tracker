@@ -31,7 +31,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+							"morph" 
+							],
 						"item_count": 1
 					}
 					]
@@ -62,8 +64,8 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
-							"morph, pbomb",
-							"[gravity], speed, @tech/laybomb" ],
+							"morph, pbomb"
+						],
 						"item_count": 1
 					}
 					]
@@ -93,7 +95,9 @@
 						"name": "Charge Beam",
 						"chest_unopened_img": "images/charge.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+							""
+							],
 						"item_count": 1
 					}
 					]
@@ -123,7 +127,9 @@
 						"name": "Energy Tank",
 						"chest_unopened_img": "images/energytank.png",
 						"capture_item": false,
-						"access_rules": [ "charge" ],
+						"access_rules": [ 
+							"charge" 
+							],
 						"item_count": 1
 					}
 					]
@@ -155,7 +161,8 @@
 						"capture_item": true,
 						"access_rules": [
 							"magnet",
-							"[space], [diffusion]" ],
+							"[space], [diffusion]" 
+							],
 						"item_count": 1
 					},
 					{
@@ -165,7 +172,8 @@
 						"hosted_item": "corpius",
 						"access_rules": [ 
 							"magnet",
-							"[space], [diffusion]" ],
+							"[space], [diffusion]"
+							],
 						"item_count": 0
 					}
 					]
@@ -197,7 +205,8 @@
 						"capture_item": false,
 						"access_rules": [ 
 							"charge",
-							"cloak, morph, speed" ],
+							"cloak, morph, speed" 
+							],
 						"item_count": 1
 					}
 					]
@@ -228,7 +237,9 @@
 						"chest_unopened_img": "images/emmi.png",
 						"capture_item": true,
 						"hosted_item": "emmi2",
-						"access_rules": [ "charge" ],
+						"access_rules": [ 
+						"charge" 
+						],
 						"item_count": 0
 					}
 					]
@@ -1150,7 +1161,9 @@
 						"name": "Energy Part",
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"speed" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1174,7 +1187,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"morph, flash, diffusion"
+						],
 						"item_count": 1
 					}
 					]
@@ -1229,7 +1244,7 @@
 			},
 			{
 				"name": "Early Gravity Speedboost Room 1",
-				"access_rules": [ "@room/Bearlygravityspeedboostroom1" ],
+				"access_rules": [ "" ],
 				"children": [
 				{
 					"name": "Early Gravity Speedboost Energy Part",
@@ -1250,7 +1265,9 @@
 						"name": "Energy Part",
 						"chest_unopened_img": "/images/energypart.png",
 						"capture_item": true,
-						"access_rules": [ "ice" ],
+						"access_rules": [ 
+						"ice" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1274,7 +1291,9 @@
 						"name": "Missile+ Pack",
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
-						"access_rules": [ "ice, speed" ],
+						"access_rules": [ 
+						"ice, speed" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1283,7 +1302,7 @@
 			},
 			{
 				"name": "Energy Recharge South",
-				"access_rules": [ "@room/Benergyrechargesouth" ],
+				"access_rules": [ "" ],
 				"children": [
 				{
 					"name": "Energy Recharge South Missile Pack",
@@ -1304,7 +1323,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1313,7 +1334,7 @@
 			},
 			{
 				"name": "Flash Shift Room",
-				"access_rules": [ "@room/Bflashshiftroom" ],
+				"access_rules": [ "" ],
 				"children": [
 				{
 					"name": "Flash Shift",
@@ -1334,7 +1355,10 @@
 						"name": "Flash Shift",
 						"chest_unopened_img": "images/flash.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"morph, grapple",
+						"morph, magnet",
+						],
 						"item_count": 1
 					}
 					]
@@ -1364,7 +1388,10 @@
 						"name": "Gravity Suit",
 						"chest_unopened_img": "images/gravity.png",
 						"capture_item": true,
-						"access_rules": [ "@room/Bgravitysuitroom" ],
+						"access_rules": [ 
+						"morph, grapple, diffusion",
+						"morph, grapple, wave"
+						],
 						"item_count": 1
 					}
 					]
@@ -1388,7 +1415,9 @@
 						"name": "Power Bomb Tank",
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
-						"access_rules": [ "@room/Bgravitysuitroomaccess, gravity, speed, morph, pbomb" ],
+						"access_rules": [ 
+						"gravity, speed, morph, pbomb" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1397,7 +1426,7 @@
 			},
 			{
 				"name": "Gravity Suit Tower",
-				"access_rules": [ "@room/Bgravitysuittower" ],
+				"access_rules": [ "" ],
 				"children": [
 				{
 					"name": "Gravity Suit Tower Missile",
@@ -1418,7 +1447,10 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"@tech/ibj, screw",
+						"screw, space"
+						],
 						"item_count": 1
 					}
 					]
@@ -1442,7 +1474,9 @@
 						"name": "Missile+ Pack",
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
-						"access_rules": [ "screw" ],
+						"access_rules": [ 
+						"screw" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1472,7 +1506,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"gravity, speed, morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1496,7 +1532,9 @@
 						"name": "Missile+ Pack",
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1526,7 +1564,10 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"morph, grapple",
+						"morph, @move/advwall"
+						],
 						"item_count": 1
 					}
 					]
@@ -1550,7 +1591,11 @@
 						"name": "Energy Tank",
 						"chest_unopened_img": "images/energytank.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"morph, speed",
+						"morph, flash",
+						"morph, spin"
+						],
 						"item_count": 1
 					}
 					]
@@ -1580,7 +1625,9 @@
 						"name": "Energy Tank",
 						"chest_unopened_img": "images/energytank.png",
 						"capture_item": true,
-						"access_rules": [ "storm" ],
+						"access_rules": [ 
+						"storm" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1610,7 +1657,9 @@
 						"name": "Missile+ Pack",
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1640,7 +1689,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "screw" ],
+						"access_rules": [ 
+						"screw" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1670,7 +1721,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1700,7 +1753,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1742,7 +1797,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "screw" ],
+						"access_rules": [ 
+						"screw" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1773,7 +1830,9 @@
 						"name": "Reward",
 						"chest_unopened_img": "images/dna.png",
 						"capture_item": true,
-						"access_rules": [""],
+						"access_rules": [
+						"thex, @tech/chute"
+						],
 						"item_count": 1
 					},
 					{
@@ -1781,7 +1840,9 @@
 						"chest_unopened_img": "images/z57.png",
 						"capture_item": false,
 						"hosted_item": "z57",
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"thex, @tech/chute" 
+						],
 						"item_count": 0
 					}
 					]
@@ -1811,7 +1872,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "speed" ],
+						"access_rules": [ 
+						"speed"
+						],
 						"item_count": 1
 					}
 					]
@@ -1841,7 +1904,11 @@
 						"name": "Diffusion Beam",
 						"chest_unopened_img": "images/diffusion.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"kraid, grapple",
+						"kraid, magnet",
+						"wave"
+						],
 						"item_count": 1
 					}
 					]
@@ -1865,7 +1932,9 @@
 						"name": "Under Kraid Power Bomb Tank",
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
-						"access_rules": [ "bomb, grapple, [gravity]" ],
+						"access_rules": [ 
+						"bomb, grapple, [gravity]" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1895,7 +1964,10 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "speed" ],
+						"access_rules": [ 
+						"varia, @move/advwall, wide, @tech/laybomb",
+						"{varia, morph, @move/advwall, wave}",
+						],
 						"item_count": 1
 					}
 					]
@@ -1904,7 +1976,7 @@
 			},
 			{
 				"name": "E.M.M.I.-03MB",
-				"access_rules": [ "wide" ],
+				"access_rules": [ "" ],
 				"children": [
 				{
 					"name": "Green EMMI",
@@ -1926,7 +1998,9 @@
 						"chest_unopened_img": "images/emmi3.png",
 						"capture_item": true,
 						"hosted_item": "emmi3",
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"wide" 
+						],
 						"item_count": 0
 					}
 					]
@@ -1956,7 +2030,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"morph"
+						],
 						"item_count": 1
 					}
 					]
@@ -1986,7 +2062,10 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"morph, spin",
+						"morph, magnet"
+						],
 						"item_count": 1
 					}
 					]
@@ -2016,7 +2095,9 @@
 						"name": "Power Bomb Tank",
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
-						"access_rules": [ "morph, speed, pbomb, emmi3" ],
+						"access_rules": [ 
+						"morph, speed, pbomb, emmi3" 
+						],
 						"item_count": 1
 					}
 					]
@@ -2046,7 +2127,11 @@
 						"name": "Reward",
 						"chest_unopened_img": "images/dna.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"morph, varia, magnet, [diffusion]",
+						"morph, varia, magnet, [wave]",
+						"morph, varia, @tech/chute",
+						],
 						"item_count": 1
 					},
 					{
@@ -2054,7 +2139,11 @@
 						"chest_unopened_img": "images/kraid.png",
 						"capture_item": false,
 						"hosted_item": "kraid",
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"morph, varia, magnet",
+						"morph, varia, magnet",
+						"morph, varia, @tech/chute",
+						],
 						"item_count": 0
 					}
 					]
@@ -2084,7 +2173,9 @@
 						"name": "Missile Tank",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph, bomb" ],
+						"access_rules": [ 
+						"@tech/laybomb, varia, [gravity]"
+						],
 						"item_count": 1
 					}
 					]
@@ -2114,7 +2205,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"charge" 
+						],
 						"item_count": 1
 					}
 					]
@@ -2144,7 +2237,9 @@
 						"name": "Missile+ Pack",
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"morph"
+						],
 						"item_count": 1
 					}
 					]
@@ -2174,7 +2269,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"varia, @move/advwall, @tech/laybomb" 
+						],
 						"item_count": 1
 					}
 					]
@@ -2204,7 +2301,9 @@
 						"name": "Power Bomb Tank",
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"grapple, magnet, @tech/laybomb"
+						],
 						"item_count": 1
 					}
 					]
@@ -2234,7 +2333,11 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph, diffusion", "morph, wave", "morph, [gravity]" ],
+						"access_rules": [ 
+						"morph, diffusion", 
+						"morph, wave", 
+						"morph, [gravity]"
+						],
 						"item_count": 1
 					}
 					]
@@ -2264,7 +2367,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"spin, morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -2288,7 +2393,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "speed, [gravity]" ],
+						"access_rules": [ 
+						"speed, [gravity]"
+						],
 						"item_count": 1
 					}
 					]
@@ -2318,7 +2425,9 @@
 						"name": "Energy Part",
 						"chest_unopened_img": "/images/energypart.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"" 
+						],
 						"item_count": 1
 					}
 					]
@@ -2342,7 +2451,10 @@
 						"name": "Energy Tank",
 						"chest_unopened_img": "/images/energytank.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"varia, @tech/advwall, morph",
+						"magnet"
+						],
 						"item_count": 1
 					}
 					]
@@ -2373,7 +2485,9 @@
 						"name": "Missile Tank",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"morph"
+						],
 						"item_count": 1
 					}
 					]
@@ -2403,7 +2517,9 @@
 						"name": "Energy Part",
 						"chest_unopened_img":, "/images/energypart.png":,
 						"capture_item": true,
-						"access_rules": [ "speed, grapple" ],
+						"access_rules": [ 
+						"speed, grapple" 
+						],
 						"item_count": 1
 					}
 					]
@@ -2411,7 +2527,7 @@
 				]
 			},
 			{
-				"name": "Z-57 Heat Room East (Left)",
+				"name": "Z-57 Heat Room East (Right)",
 				"access_rules": [ "" ],
 				"children": [
 				{
@@ -2433,7 +2549,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"[varia]"
+						],
 						"item_count": 1
 					}
 					]
@@ -2441,7 +2559,7 @@
 				]
 			},
 			{
-				"name": "Z-57 Heat Room West (Right)",
+				"name": "Z-57 Heat Room West (Left)",
 				"access_rules": [ "" ],
 				"children": [
 				{
@@ -2463,7 +2581,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"morph"
+						],
 						"item_count": 1
 					}
 					]
@@ -2505,7 +2625,12 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"morph, @tech/ibj",
+						"morph, grapple",
+						"morph, spin, flash",
+						"morph, space"
+						],
 						"item_count": 1
 					}
 					]
@@ -2535,7 +2660,9 @@
 						"name": "Bomb",
 						"chest_unopened_img": "/images/bomb.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"morph",						
+						],
 						"item_count": 1
 					}
 					]
@@ -2589,7 +2716,9 @@
 						"name": "Energy Part",
 						"chest_unopened_img": "/images/energypart.png",
 						"capture_item": true,
-						"access_rules": [ "speed, morph" ],
+						"access_rules": [ 
+						"speed, morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -2619,7 +2748,10 @@
 						"name": "Missile Tank",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "laybomb, speed", "cross" ],
+						"access_rules": [ 
+						"@tech/laybomb, speed", 
+						"cross" 
+						],
 						"item_count": 1
 					}
 					]
@@ -2650,7 +2782,9 @@
 						"chest_unopened_img": "images/emmi4.png",
 						"capture_item": true,
 						"hosted_item": "emmi4",
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"gravity, charge, morph" 
+						],
 						"item_count": 0
 					}
 					]
@@ -2681,7 +2815,10 @@
 						"name": "Energy Part",
 						"chest_unopened_img": "/images/energypart.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"morph, charge, speed, [varia]",
+						"morph, wide, [varia]",
+						],
 						"item_count": 1
 					}
 					]
@@ -2711,7 +2848,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "grapple, morph, [varia]" ],
+						"access_rules": [ 
+						"grapple, morph, [varia]" 
+						],
 						"item_count": 1
 					}
 					]
@@ -2735,7 +2874,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "speed, [gravity]" ],
+						"access_rules": [ 
+						"speed, [gravity]" 
+						],
 						"item_count": 1
 					}
 					]
@@ -2765,7 +2906,9 @@
 						"name": "Power Bomb Tank",
 						"chest_unopened_img": "/images/pbombtank.png",
 						"capture_item": true,
-						"access_rules": [ "morph, pbomb" ],
+						"access_rules": [ 
+						"morph, pbomb"
+						],
 						"item_count": 1
 					}
 					]
@@ -2795,7 +2938,9 @@
 						"name": "Missile Tank",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "speed, morph" ],
+						"access_rules": [ 
+						"speed, morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -2825,7 +2970,9 @@
 						"name": "Energy Part",
 						"chest_unopened_img": "/images/energypart.png",
 						"capture_item": true,
-						"access_rules": [ "speed, [gravity]" ],
+						"access_rules": [ 
+						"speed, [gravity]" 
+						],
 						"item_count": 1
 					}
 					]
@@ -2855,8 +3002,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "diffusion",
-										"[gravity], speed" ],
+						"access_rules": [ 
+						"diffusion, [gravity]", 
+						],
 						"item_count": 1
 					}
 					]
@@ -2880,7 +3028,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"speed, screw, morph, [gravity]"
+						],
 						"item_count": 1
 					}
 					]
@@ -2910,7 +3060,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -2940,7 +3092,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph, laybomb" ],
+						"access_rules": [ 
+						"morph, laybomb" 
+						],
 						"item_count": 1
 					}
 					]
@@ -2970,7 +3124,9 @@
 						"name": "Energy Tank",
 						"chest_unopened_img": "images/energytank.png",						
 						"capture_item": true,
-						"access_rules": [ "speed" ],
+						"access_rules": [ 
+						"speed" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3000,7 +3156,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"speed" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3009,7 +3167,7 @@
 			},
 			{
 				"name": "Wide Beam Room",
-				"access_rules": [ "Wide Beam" ],
+				"access_rules": [ "" ],
 				"children": [
 				{
 					"name": "Wide Beam Room",
@@ -3030,7 +3188,9 @@
 						"name": "Wide Beam",
 						"chest_unopened_img": "images/wide.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3039,7 +3199,7 @@
 			},			
 			{
 				"name": "Lake Puzzle Room",
-				"access_rules": [ "Wide Beam" ],
+				"access_rules": [ "" ],
 				"children": [
 				{
 					"name": "Lake Puzzle Room",
@@ -3060,7 +3220,9 @@
 						"name": "Power Bomb Tank",
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"storm, cross, grapple" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3069,7 +3231,7 @@
 			},			
 			{
 				"name": "Storm Missile Gate",
-				"access_rules": [ "Wide Beam" ],
+				"access_rules": [ "" ],
 				"children": [
 				{
 					"name": "Storm Missile Gate",
@@ -3090,7 +3252,9 @@
 						"name": "Missile+ Pack",
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"speed" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3120,7 +3284,8 @@
 						"name": "Power Bomb Tank",
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"wide, charge, [varia], grapple, morph" ],
 						"item_count": 1
 					}
 					]
@@ -3150,7 +3315,9 @@
 						"name": "Energy Part",
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
-						"access_rules": [ "morph, laybomb" ],
+						"access_rules": [ 
+						"morph, laybomb" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3193,7 +3360,7 @@
 						"chest_unopened_img": "images/energytank.png",
 						"capture_item": true,
 						"access_rules": [ 
-							"plasma, @tech/laybomb" ],
+							"@area/ghatraelu, plasma" ],
 						"item_count": 1
 					}
 					]
@@ -3224,7 +3391,7 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
-							"@tech/laybomb, speed" ],
+							"@area/ghatraelu, speed" ],
 						"item_count": 1
 					}
 					]
@@ -3255,8 +3422,8 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
-							"plasma, morph, @tech/ibj, pbomb",
-							"plasma, morph, space, pbomb" ],
+							"@area/ghatraelu, plasma, pbomb",
+							"{@area/ghatraelu, plasma}" ],
 						"item_count": 1
 					}
 					]
@@ -3287,9 +3454,7 @@
 						"chest_unopened_img": "images/plasma.png",
 						"capture_item": true,
 						"access_rules": [ 
-							"morph, bomb",
-							"morph, cross",
-							"morph, plasma" ],
+							"@area/ghatraelu," ],
 						"item_count": 1
 					}
 					]
@@ -3320,7 +3485,7 @@
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
 						"access_rules": [ 
-							"plasma, @tech/laybomb" ],
+							"@area/ghatraelu, plasma" ],
 						"item_count": 1
 					}
 					]
@@ -3362,7 +3527,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph, grapple, speed" ],
+						"access_rules": [ 
+						"morph, grapple, speed" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3393,7 +3560,9 @@
 						"chest_unopened_img": "images/emmi6.png",
 						"capture_item": true,
 						"hosted_item": "emmi6",
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"gravity, diffusion, @tech/chute, wide" 
+						],
 						"item_count": 0
 					}
 					]
@@ -3423,7 +3592,9 @@
 						"name": "Energy Part",
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
-						"access_rules": [ "morph, bomb, grapple" ],
+						"access_rules": [ 
+						"morph, bomb, grapple"
+						],
 						"item_count": 1
 					}
 					]
@@ -3453,7 +3624,9 @@
 						"name": "Reward",
 						"chest_unopened_img": "images/dna.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"gravity, morph", 
+						],
 						"item_count": 1
 					},
 					{
@@ -3461,7 +3634,9 @@
 						"chest_unopened_img": "images/escue.png",
 						"caputre_item": false,
 						"hosted_item": "escue",
-						"acces_rules": [ "" ],
+						"acces_rules": [ 
+						"gravity, morph",
+						],
 						"item_count": 0
 					}
 					]
@@ -3521,7 +3696,9 @@
 						"name": "Missile+ Pack",
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"morph, speed" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3551,7 +3728,9 @@
 						"name": "Energy Part",
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
-						"access_rules": [ "morph, bomb" ],
+						"access_rules": [ 
+						"morph, bomb" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3581,7 +3760,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"morph, @move/advwall" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3611,7 +3792,11 @@
 						"name": "Power Bomb Tank",
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"morph, pbomb, flash, @move/vert",
+						"morph, pbomb, @tech/ibj, speed",
+						"morph, pbomb, @tech/ibj, flash"
+						],
 						"item_count": 1
 					}
 					]
@@ -3642,7 +3827,10 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"morph, flash",
+						"morph, cross"
+						],
 						"item_count": 1
 					}
 					]
@@ -3696,7 +3884,9 @@
 						"name": "Missile+ Pack",
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
-						"access_rules": [ "speed, bomb" ],
+						"access_rules": [ 
+						"speed, bomb" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3720,7 +3910,9 @@
 						"name": "Space Jump",
 						"chest_unopened_img": "images/space.png",
 						"capture_item": true,
-						"access_rules": [ "storm" ],
+						"access_rules": [ 
+						"storm" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3744,7 +3936,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missile.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"space, @tech/laybomb",
+						],
 						"item_count": 1
 					}
 					]
@@ -3774,7 +3968,8 @@
 						"name": "Energy Part",
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
-						"access_rules": [ "speed" ],
+						"access_rules": [ 
+						"speed" ],
 						"item_count": 1
 					}
 					]
@@ -3804,7 +3999,9 @@
 						"name": "Energy Part",
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
-						"access_rules": [ "morph, bomb" ],
+						"access_rules": [ 
+						"morph, bomb" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3834,7 +4031,9 @@
 						"name": "Power Bomb Tank",
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
-						"access_rules": [ "morph, pbomb" ],
+						"access_rules": [ 
+						"morph, pbomb" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3875,7 +4074,16 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"@area/catoragha, charge, morph",
+						"@area/burgregha, screw, grapple, ice, @tech/laybomb, spin",
+						"@area/burgregha, screw, magnet, ice, @tech/laybomb, spin",
+						"@area/burgregha, screw, grapple, ice, @tech/laybomb, gravity",
+						"@area/burgregha, screw, magnet, ice, @tech/laybomb, gravity",
+						"@area/hantragha, grapple, screw, ice, @tech/laybomb",
+						"@area/burtragha, grapple, magnet, ice, morph",
+						"@area/burtragha, plasma, @tech/laybomb, ice, grapple, spin"
+						],
 						"item_count": 1
 					}
 					]
@@ -3906,7 +4114,20 @@
 						"chest_unopened_img": "images/emmi5.png",
 						"capture_item": true,
 						"hosted_item": "emmi5",
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"@area/burgregha, morph, pbomb, plasma, space",
+						"@area/burgregha, morph, pbomb, plasma, spin, ice",
+						"@area/burgregha, screw, @tech/laybomb, plasma, space",
+						"@area/burgregha, screw, @tech/laybomb, plasma, ice, spin",
+						"@area/hantragha, morph, ice, space, pbomb, plasma",
+						"@area/hantragha, grapple, screw, @tech/laybomb, plasma, space",
+						"@area/hantragha, grapple, screw, @tech/laybomb, plasma, ice, spin",
+						"@area/burtragha, grapple, magnet, plasma, @tech/ibj, [gravity]",
+						"@area/burtragha, grapple, magnet, plasma, gravity",
+						"@area/burtragha, grapple, magnet, ice, spin, @tech/ibj, [gravity]",
+						"@area/burtragha, grapple, magnet, ice, spin, gravity",
+						"@area/burtragha, plasma, space, @tech/laybomb",
+						],
 						"item_count": 0
 					}
 					]
@@ -3936,7 +4157,19 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"@area/burgregha, screw, spin, grapple, speed, thex, golzuna", 
+						"@area/burgregha, screw, spin, grapple, speed, thex, golzuna dna",
+						"@area/burtragha, screw, spin, magnet, speed, thex, golzuna",
+						"@area/burtragha, screw, spin, magnet, speed, thex, golzuna dna",
+						"@area/burtragha, screw, space, grapple, thex, golzuna",
+						"@area/burtragha, screw, space, grapple, thex, golzuna dna",
+						"@area/hantragha, @tech/laybomb",
+						"@area/burtragha, grapple, magnet, ice, spin, screw, speed, thex, golzuna",
+						"@area/burtragha, grapple, magnet, ice, spin, screw, speed, thex, golzuna dna",
+						"@area/burtragra, grapple, magnet, plasma, spin, morph, pbomb, screw, speed, thex, golzuna",
+						"@area/burtragra, grapple, magnet, plasma, spin, morph, pbomb, screw, speed, thex, golzuna dna"
+						],
 						"item_count": 1
 					}
 					]
@@ -3966,7 +4199,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"grapple" 
+						],
 						"item_count": 1
 					}
 					]
@@ -3996,7 +4231,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"speed" 
+						],
 						"item_count": 1
 					}
 					]
@@ -4026,7 +4263,13 @@
 						"name": "Reward",
 						"chest_unopened_img": "images/dna.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"@area/hantragha, morph, thex",
+						"@area/burgregha, spin, screw, grapple, speed, thex",
+						"@area/burgregha, gravity, screw, grapple, speed, thex",
+						"@tech/laybomb, ice, screw, grapple, space, thex",
+						"@tech/laybomb, ice, screw, grapple, speed, thex",
+						],
 						"item_count": 1
 					},
 					{
@@ -4034,7 +4277,13 @@
 						"chest_unopened_img": "images/golzuna.png",
 						"capture_item": false,
 						"hosted_item": "golzuna",
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"@area/hantragha, morph, thex",
+						"@area/burgregha, spin, screw, grapple, speed, thex",
+						"@area/burgregha, gravity, screw, grapple, speed, thex",
+						"@tech/laybomb, ice, screw, grapple, space, thex",
+						"@tech/laybomb, ice, screw, grapple, speed, thex",
+						],
 						"item_count": 0
 					}
 					]
@@ -4066,7 +4315,8 @@
 						"capture_item": true,
 						"access_rules": [ 
 							"speed, morph, space",
-							"speed, morph, bombjump" ],
+							"speed, morph, @tech/ibj" 
+							],
 						"item_count": 1
 					}
 					]
@@ -4090,7 +4340,11 @@
 						"name": "Energy Part",
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"@area/hantragha, morph",
+						"tech/laybomb, ice, screw, grapple, speed",
+						"tech/laybomb, ice, screw, grapple, space"
+						],
 						"item_count": 1
 					}
 					]
@@ -4120,7 +4374,10 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"plasma, grapple",
+						"grapple, magnet, @tech/laybomb"
+						],
 						"item_count": 1
 					}
 					]
@@ -4150,7 +4407,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"grapple, magnet, plasma, gravity"
+						],
 						"item_count": 1
 					}
 					]
@@ -4180,7 +4439,10 @@
 						"name": "Pulse Radar",
 						"chest_unopened_img": "images/pulse.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"charge, morph",
+						"grapple, magnet, plasma, @tech/ibj, [gravity], ice",
+						],
 						"item_count": 1
 					}
 					]
@@ -4210,7 +4472,10 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"grapple, speed",
+						"grapple, gravity"
+						],
 						"item_count": 1
 					}
 					]
@@ -4219,7 +4484,7 @@
 			},
 			{
 				"name": "Spin Boost Room",
-				"access_rules": [ "morph, laybomb" ],
+				"access_rules": [ "" ],
 				"children": [
 				{
 					"name": "Spin Boost Room",
@@ -4240,7 +4505,9 @@
 						"name": "Spin Boost",
 						"chest_unopened_img": "images/Progressive Jump 90x90.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"@tech/chute"
+						],
 						"item_count": 1
 					}
 					]
@@ -4270,7 +4537,9 @@
 						"name": "Energy Part",
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"spin, ice, grapple, morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -4300,7 +4569,9 @@
 						"name": "Energy Tank",
 						"chest_unopened_img": "images/energytank.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"spin, ice"
+						],
 						"item_count": 1
 					}
 					]
@@ -4330,7 +4601,9 @@
 						"name": "Power Bomb Tank",
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"ice, space",
+						],
 						"item_count": 1
 					}
 					]
@@ -4360,7 +4633,9 @@
 						"name": "Super Missile",
 						"chest_unopened_img": "images/supers.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"grapple, magnet, @tech/chute" 
+						],
 						"item_count": 1
 					}
 					]
@@ -4390,7 +4665,9 @@
 						"name": "Missile+ Pack",
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -4420,7 +4697,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"bomb, cross"
+						],
 						"item_count": 1
 					}
 					]
@@ -4450,7 +4729,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"spin, storm, morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -4493,8 +4774,12 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"caputre_item": true,
 						"access_rules": [
-						"screw, @tech/laybomb",
-						"grapple, @tech/laybomb" ],
+						"@fertrahan, screw, @tech/laybomb",
+						"@area/ghatrahan, grapple, @tech/laybomb",
+					// Transport Shuffle Logic
+						"@area/itotranhan, screw, pbomb, morph, grapple",
+						"@area/itotranhan, grapple, morph, speed, pbomb" 
+					],
 						"item_count": 1
 					}
 					]
@@ -4526,8 +4811,12 @@
 						"capture_item": true,
 						"hosted_item": "emmi7",
 						"access_rules": [ 
-							"@tech/laybomb, wave",
-							"screw, morph, wave" ],
+							"@area/fertrahan, screw, wave",
+							"@area/ghatrahan, @tech/laybomb, wave",
+							//Transport Shuffle Logic
+							"@area/itotranhan, speed, pbomb, morph, wave",
+							"@area/itotranhan, screw, pbomb, morph, wave"
+						],
 						"item_count": 0
 					}
 					]
@@ -4558,7 +4847,12 @@
 						"chest_unopened_img": "images/pbombtank.png",
 						"caputre_item": true,
 						"access_rules": [ 
-							"wave, @tech/laybomb, speed" ],
+							"@area/fertrahan, screw, @tech/laybomb, wave, speed",
+							"@area/ghatrahan, @tech/laybomb, wave, speed",
+							//Transport Shuffle Logic
+							"@area/itotranhan, speed, pbomb, morph, wave",
+							"@area/itotranhan, screw, morph, pbomb, wave"
+						],
 						"item_count": 1
 					}
 					]
@@ -4589,8 +4883,11 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"caputre_item": true,
 						"access_rules": [ 
-						"morph, pbomb, speed",
-						"morph, pbomb, screw, space" ],
+							"@area/fertrahan, morph, pbomb, space, screw, wave",
+							"@area/ghatrahan, morph, pbomb, speed, wave",
+							//Transport Shuffle Logic
+							"@area/itotranhan",
+						],
 						"item_count": 1
 					}
 					]
