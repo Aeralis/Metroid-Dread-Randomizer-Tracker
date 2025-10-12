@@ -1,0 +1,30 @@
+﻿{
+  "tracker_broadcast": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "6,1",
+            "h_alignment": "left",
+            "item_size": 48,
+            "rows": [
+					[ "charge", "wide", "diffusion", "plasma", "wave", "grapple" ],
+					[ "super", "ice", "storm", "cloak", "flash", "pulse" ],
+					[ "morph", "bomb", "cross", "pbomb", "varia", "gravity" ],
+					[ "magnet", "speed", "spin", "space", "screw", "" ],
+					[ "corpius", "kraid", "drogyga", "escue", "z57", "golzuna" ],
+					[ "emmi2", "emmi3", "emmi4", "emmi5", "emmi6", "emmi7" ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

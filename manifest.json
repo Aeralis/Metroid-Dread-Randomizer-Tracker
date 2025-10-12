@@ -1,0 +1,18 @@
+﻿{
+	"name": "Metroid Dread Randomizer",
+	"game_name": "Metroid Dread Randomizer",
+	"package_version": "0.1.0",
+	"package_uid": "dread_tyraelundone",
+	"author": "TyraelUndone"
+//	"variants": 
+//	{
+//		"standard": 
+//		{
+//			"display_name": "Map Tracker"
+//		},
+//		"v_itemsonly": 
+//		{
+//			"display_name": "Items Only"
+//		}
+//	}
+}

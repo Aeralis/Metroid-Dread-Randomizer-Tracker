@@ -1,0 +1,471 @@
+[
+	//Lava Pumps
+	{
+//		"name": "Lava Pumps",
+//		"type": "progressive",
+//		"allow_disabled": "false",
+//		"loop": "true",
+//		"stages": [
+//		{
+//			"name": "Lava Pumps Yes",
+//			"img": "images/pumps_yes.png",
+//			"inherit_codes": "false",
+//			"codes": "lavapumpsyes,pumpsyes"
+//		},
+//		{
+//			"name": "Lava Pumps No",
+//			"img": "images/pumps_no.png",
+//			"inherit_codes": "false",
+//			"codes": "lavapumpsno,pumpsno"
+//		}
+//		]
+		"name": "Artaria Thermal Device",
+		"type": "toggle",
+		"loop": "false",
+		"img": "images/interactive.png",
+		"codes": "artarialavapump"
+	},
+	
+	//Tracker Items
+	{
+		"name": "Charge Beam",
+		"type": "toggle",
+//		"type": "progressive_toggle",
+//		"stages": [
+//		{
+//			"img": "images/charge.png",
+//			"codes": "charge",
+//			"secondary_codes": "none"
+//		},
+//		{
+//			"img": "images/chargeWbeam.png",
+//			"codes": "charge",
+//			"secondary_codes": "none"
+//		},
+//		{
+//			"img": "images/chargeWcharge.png"
+//			"codes": "charge",
+//			"secondary_codes": "chargerequired"
+//		},
+//		{
+//			"img": "images/chargeWplasma.png",
+//			"codes": "charge",
+//			"secondary_codes": "plasmarequired"
+//		},
+//		{
+//			"img": "images/chargeWwave.png",
+//			"codes": "charge",
+//			"secondary_codes": "waverequired"
+//		},
+//		{
+//			"img": "images/chargeWmissile.png",
+//			"codes": "charge",
+//			"secondary_codes": "none"
+//		},
+//		{
+//			"img": "images/chargeWsuper.png",
+//			"codes": "charge",
+//			"secondary_codes": "superrequired"
+//		},
+//		{
+//			"img": "images/chargeWice.png",
+//			"codes": "charge",
+//			"secondary_codes": "icerequired"
+//		},
+//		{
+//			"img": "images/chargeWstorm.png",
+//			"codes": "charge",
+//			"secondary_codes": "stormrequired"
+//		},
+//		{
+//			"img": "images/chargeWbomb.png",
+//			"codes": "charge",
+//			"secondary_codes": "bombrequired"
+//		},
+//		{
+//			"img": "images/chargeWcross.png",
+//			"codes": "charge",
+//			"secondary_codes": "crossrequired"
+//		},
+//		{
+//			"img": "images/chargeWpbomb.png",
+//			"codes": "charge",
+//			"secondary_codes": "pbombrequired"
+//		},
+//		{
+//			"img": "images/chargeWgrapple.png",
+//			"codes": "charge",
+//			"secondary_codes": "grapplerequired"
+//		}
+		"loop": "true",
+		"img": "images/charge.png",
+		"codes": "charge"
+	},
+	{
+		"name": "Wide Beam",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/wide.png",
+		"codes": "wide"
+	},
+	{
+		"name": "Diffusion Beam",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/diffusion.png",
+		"codes": "diffusion"
+	},
+	{
+		"name": "Grapple Beam",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/grapple.png",
+		"codes": "grapple"
+	},
+	{
+		"name": "Plasma Beam",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/plasma.png",
+		"codes": "plasma"
+	},
+	{
+		"name": "Wave Beam",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/wave.png",
+		"codes": "wave,diffusion"
+	},
+	{
+		"name": "Super Missile",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/supers.png",
+		"codes": "super"
+	},
+	{
+		"name": "Ice Missile",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/ice.png",
+		"codes": "ice"
+	},
+	{
+		"name": "Storm Missile",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/storm.png",
+		"codes": "storm"
+	},
+	{
+		"name": "Phantom Cloak",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/cloak.png",
+		"codes": "cloak"
+	},
+	{
+		"name": "Flash Shift",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/flash.png",
+		"codes": "flash"
+	},
+	{
+		"name": "Pulse Radar",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/pulse.png",
+		"codes": "pulse"
+	},
+	{
+		"name": "Varia Suit",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/varia.png",
+		"codes": "varia"
+	},
+	{
+		"name": "Gravity Suit",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/gravity.png",
+		"codes": "gravity"
+	},
+	{
+		"name": "Morph Ball",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/morph.png",
+		"codes": "morph"
+	},
+	{
+		"name": "Bomb",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bomb.png",
+		"codes": "bomb"
+	},
+	{
+		"name": "Cross Bomb",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/cross.png",
+		"codes": "cross"
+	},
+	{
+		"name": "Power Bomb",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/pbomb.png",
+		"codes": "pbomb"
+	},
+	{
+		"name": "Spider Magnet",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/magnet.png",
+		"codes": "magnet"
+	},
+	{
+		"name": "Speed Booster",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/speed.png",
+		"codes": "speed"
+	},
+	{
+		"name": "Spin Boost",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/spin.png",
+		"codes": "spin"
+	},
+	{
+		"name": "Space Jump",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/space.png",
+		"codes": "space, spin"
+	},
+	{
+		"name": "Screw Attack",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/screw.png",
+		"codes": "screw"
+	},
+	{
+		"name": "X Released",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/x.png",
+		"codes": "thex"
+	},
+	
+	//Tracker Bosses
+	{
+		"name": "Corpius",
+		"capturable": "false",
+		"type": "progressive_toggle",
+		"loop": "true",
+		"stages": [
+		{
+			"img": "images/corpius.png",
+			"codes": "corpius"
+		},
+		{
+			"img": "images/corpiusdna.png",
+			"codes": "corpius, corpius dna"
+		}
+		]
+	},
+	{
+		"name": "Kraid",
+		"capturable": "false",
+		"type": "progressive_toggle",
+		"loop": "true",
+		"stages": [
+		{
+			"img": "images/kraid.png",
+			"codes": "kraid"
+		},
+		{
+			"img": "images/kraiddna.png",
+			"codes": "kraid, kraid dna"
+		}
+		]
+	},
+	{
+		"name": "Drogyga",
+		"capturable": "false",
+		"type": "progressive_toggle",
+		"loop": "true",
+		"stages": [
+		{
+			"img": "images/drogyga.png",
+			"codes": "drogyga"
+		},
+		{
+			"img": "images/drogygadna.png",
+			"codes": "drogyga, drogyga dna"
+		}
+		]
+	},
+	{
+		"name": "Escue",
+		"capturable": "false",
+		"type": "progressive_toggle",
+		"loop": "true",
+		"stages": [
+		{
+			"img": "images/escue.png",
+			"codes": "escue"
+		},
+		{
+			"img": "images/escuedna.png",
+			"codes": "escue, escue dna"
+		}
+		]
+	},
+	{
+		"name": "Experiment Z-57",
+		"capturable": "false",
+		"type": "progressive_toggle",
+		"loop": "true",
+		"stages": [
+		{
+			"img": "images/z57.png",
+			"codes": "z57"
+		},
+		{
+			"img": "images/z57dna.png",
+			"codes": "z57, z57 dna"
+		}
+		]
+	},
+	{
+		"name": "Golzuna",
+		"capturable": "false",
+		"type": "progressive_toggle",
+		"loop": "true",
+		"stages": [
+		{
+			"img": "images/golzuna.png",
+			"codes": "golzuna"
+		},
+		{
+			"img": "images/dna.png",
+			"codes": "golzuna, golzuna dna"
+		}
+		]
+	},
+	{
+		"name": "E.M.M.I.-02SM",
+		"capturable": "false",
+		"type": "progressive_toggle",
+		"loop": "true",
+		"stages": [
+		{
+			"img": "images/emmi2.png",
+			"codes": "emmi2"
+		},
+		{
+			"img": "images/emmi2dna.png",
+			"codes": "emmi2, emmi2 dna"
+		}
+		]
+	},
+	{
+		"name": "E.M.M.I.-03MB",
+		"capturable": "false",
+		"type": "progressive_toggle",
+		"loop": "true",
+		"stages": [
+		{
+			"img": "images/emmi3.png",
+			"codes": "emmi3"
+		},
+		{
+			"img": "images/emmi3dna.png",
+			"codes": "emmi3, emmi3 dna"
+		}
+		]
+	},
+	{
+		"name": "E.M.M.I.-04SB",
+		"capturable": "false",
+		"type": "progressive_toggle",
+		"loop": "true",
+		"stages": [
+		{
+			"img": "images/emmi4.png",
+			"codes": "emmi4"
+		},
+		{
+			"img": "images/emmi4dna.png",
+			"codes": "emmi4, emmi4 dna"
+		}
+		]
+	},
+	{
+		"name": "E.M.M.I.-05IM",
+		"capturable": "false",
+		"type": "progressive_toggle",
+		"loop": "true",
+		"stages": [
+		{
+			"img": "images/emmi5.png",
+			"codes": "emmi5"
+		},
+		{
+			"img": "images/emmi5dna.png",
+			"codes": "emmi5, emmi5 dna"
+		}
+		]
+	},
+	{
+		"name": "E.M.M.I.-06WB",
+		"capturable": "false",
+		"type": "progressive_toggle",
+		"loop": "true",
+		"stages": [
+		{
+			"img": "images/emmi6.png",
+			"codes": "emmi6"
+		},
+		{
+			"img": "images/emmi6dna.png",
+			"codes": "emmi6, emmi6 dna"
+		}
+		]
+	},
+	{
+		"name": "E.M.M.I.-07PB",
+		"capturable": "false",
+		"type": "progressive_toggle",
+		"loop": "true",
+		"stages": [
+		{
+			"img": "images/emmi7.png",
+			"codes": "emmi7"
+		},
+		{
+			"img": "images/dna.png",
+			"codes": "emmi7, emmi7 dna"
+		}
+		]
+	}
+	
+//	 Starting Points
+//	{
+//		"name": "Starting Point",
+//		"type": "progressive",
+//		"allow_disabled": false,
+//		"stages": [
+//		{
+//			"codes": "startingpoint:Artariaintroroom"
+//		}
+//		]
+//	}
+]

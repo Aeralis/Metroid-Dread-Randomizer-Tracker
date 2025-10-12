@@ -1,0 +1,132 @@
+[
+	// Movement
+	{
+		"name": "move",
+		"sections": [
+		{
+			"name": "advwall",
+			"access_rules": [
+				"spin",
+				"flash" ],
+			"item_count": 1
+		},
+		{
+			"name": "hori",
+			"access_rules": [
+				"flash",
+				"speed" ],
+			"item_count": 1
+		},
+		{
+			"name": "vert",
+			"access_rules": [
+				"space",
+				"morph, cross",
+				"morph, bomb, [cross]",
+				"speed" ],
+			"item_count": 1
+		}
+		]
+	},
+	// Techniques
+	{
+		"name": "tech",
+		"sections": [
+		{
+			"name": "laybomb",
+			"access_rules": [
+				"morph, bomb",
+				"morph, cross",
+				"morph, pbomb" ],
+			"item_count": 1
+		},
+		{
+			"name": "ibj",
+			"access_rules": [
+				"morph, bomb, [cross]",
+				"morph, cross" ],
+			"item_count": 1
+		},
+		{
+			"name": "wideblock",
+			"access_rules": [
+				"charge, wide",
+				"charge, wave, [wide]",
+				"charge, plasma, [wide]" ],
+			"item_count": 1
+		}
+		]
+	},
+	
+	// Door Locks
+	{
+		"name": "lock",
+		"sections": [
+		{
+			"name": "beamdoor",
+			"access_rules": [ "" ],
+			"item_count": 1
+		},
+		{
+			"name": "chargedoor",
+			"access_rules": [ "charge" ],
+			"item_count": 1
+		},
+		{
+			"name": "plasmadoor",
+			"access_rules": [ "plasma" ],
+			"item_count": 1
+		},
+		{
+			"name": "wavedoor",
+			"access_rules": [ "wave" ],
+			"item_count": 1
+		},
+		{
+			"name": "missiledoor",
+			"access_rules": [ "" ],
+			"item_count": 1
+		},
+		{
+			"name": "superdoor",
+			"access_rules": [ "super" ],
+			"item_count": 1
+		},
+		{
+			"name": "icedoor",
+			"access_rules": [ "ice" ],
+			"item_count": 1
+		},
+		{
+			"name": "stormdoor",
+			"access_rules": [ "storm" ],
+			"item_count": 1
+		},
+		{
+			"name": "bombdoor",
+			"access_rules": [ "morph, bomb" ],
+			"item_count": 1
+		},
+		{
+			"name": "crossdoor",
+			"access_rules": [ "morph, cross" ],
+			"item_count": 1
+		},
+		{
+			"name": "pbombdoor",
+			"access_rules": [ "morph, pbomb" ],
+			"item_count": 1
+		},
+		{
+			"name": "grappledoor",
+			"access_rules": [ "grapple" ],
+			"item_count": 1
+		},
+		{
+			"name": "cloakdoor",
+			"access_rules": [ "cloak" ],
+			"item_count": 1
+		}
+		]
+	}
+]

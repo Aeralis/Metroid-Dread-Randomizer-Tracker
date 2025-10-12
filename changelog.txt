@@ -1,0 +1,64 @@
+v1.1.0f
+	Updates from Fayte. 
+	-Artaria names & icon updatse.
+	-Burenia names & icon updates.
+	-Cataris names & icon updates.
+	-Dairon names & icon updates.
+	-Elun names & icons updates.
+	-Elun logic updated.
+	-Ghavoran names & icon updates.
+	-Hanubia locations, names & icon implementation.
+	-Hanubia logic implemented.
+	-Linked Boss toggles to checks.
+	
+	-Made all EMMI item count: "0"
+	
+	Pending
+	-All new items need full map setup, placeholders set in code
+	-Hanubia items logic
+	-All new items logic
+	-Tyr to review code
+	
+v1.1.0
+	Complete overhaul due to substantial logic conflicts.
+	Value still going up, and without having manual workarounds.
+	
+	Accomplishments:
+	- Artaria is finished AGAIN.
+	- Other locations information is still valid, but each location needs editing.
+	- Added trackable "X Released".
+	
+	Upcoming:
+	- Still need to reorder tracker icons into something which feels nice.
+	- Trackable Silent Robe? This only "grants access" to upper Burenia without transport.
+	- Lava Pumps being put in, but not yet used for tracking purposes. Toggle?
+	
+v0.2.0
+	First major update, still not ready for public release.
+	Happy to say the tracker is now more of a value than a hindrance.
+	
+	Finished:
+	- All Artaria locations and logic. It's good to go.
+	- All Burenia locations.
+	- Most Cataris locations.
+	- Most Dairon locations.
+	- All Elun locations.
+	- All Ferenia locations.
+	- Some Ghavoran locations.
+	- No Hanubia locations. RIP
+	- Itorash is 100% done. Kappa
+	
+	Upcoming:
+	- Item tracker icons for X, Silent Robe(?), right-click options for DNA on bosses.
+	- Bosses should start lit up and darken when checked.
+	- Continue plugging in all locations and logic.
+	
+	Not being worked on:
+	- Lava Pumps/Power Stations/Blobs have all been completely neglected, probably forever.
+
+v0.1.0:
+	#Initial release
+	- Considering proper implementation of lava pumps. Probably a toggle: either they're a check, or they're auto-checked.
+	- Map tracker is priority.
+	- No intention of making an auto-tracker.
+	- Item tracker will come shortly after map tracker is complete.

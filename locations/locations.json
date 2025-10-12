@@ -1,0 +1,4604 @@
+
+[
+	//  Artaria
+	{
+        "name": "Artaria",
+		"chest_opened_img": "images/item_sphere.png",
+        "children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Arbitrary Enky Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Arbitrary Enky Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3892,
+						"y": 3772
+					},
+					{
+						"map": "artaria",
+						"x": 1686,
+						"y": 399
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Charge Beam Access",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Charge Beam Access",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3167,
+						"y": 4330
+					},
+					{
+						"map": "artaria",
+						"x": 971,
+						"y": 958
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"morph, pbomb",
+							"[gravity], speed, @tech/laybomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Charge Beam Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Charge Beam Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3085,
+						"y": 4358
+					},
+					{
+						"map": "artaria",
+						"x": 868,
+						"y": 988
+					}
+					],
+					"sections": [
+					{
+						"name": "Charge Beam",
+						"chest_unopened_img": "images/charge.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Charge Tutorial",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Charge Tutorial",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3833,
+						"y": 4358
+					},
+					{
+						"map": "artaria",
+						"x": 1626,
+						"y": 984
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Tank",
+						"chest_unopened_img": "images/energytank.png",
+						"capture_item": false,
+						"access_rules": [ "charge" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Corpius Arena",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Corpius Arena",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4354,
+						"y": 3934
+					},
+					{
+						"map": "artaria",
+						"x": 2142,
+						"y": 568
+					}
+					],
+					"sections": [
+					{
+						"name": "Reward",
+						"chest_unopened_img": "images/dna.png",
+						"capture_item": true,
+						"access_rules": [
+							"magnet",
+							"[space], [diffusion]" ],
+						"item_count": 1
+					},
+					{
+						"name": "Defeat Corpius",
+						"chest_unopened_img": "images/corpius.png",
+						"capture_item": false,
+						"hosted_item": "corpius",
+						"access_rules": [ 
+							"magnet",
+							"[space], [diffusion]" ],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "David Jaffe Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "David Jaffe Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4108,
+						"y": 3803
+					},
+					{
+						"map": "artaria",
+						"x": 1899,
+						"y": 431
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": false,
+						"access_rules": [ 
+							"charge",
+							"cloak, morph, speed" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "E.M.M.I.-02SM",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "E.M.M.I.-02SM",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3886,
+						"y": 4132
+					},
+					{
+						"map": "artaria",
+						"x": 1679,
+						"y": 760
+					}
+					],
+					"sections": [
+					{
+						"name": "Defeat White EMMI",
+						"chest_unopened_img": "images/emmi.png",
+						"capture_item": true,
+						"hosted_item": "emmi2",
+						"access_rules": [ "charge" ],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "East Lava Missile Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "East Lava Missile Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4384,
+						"y": 3804
+					},
+					{
+						"map": "artaria",
+						"x": 2169,
+						"y": 434
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"charge, gravity",
+							"charge, [varia], magnet",
+							"charge, [varia], space",
+							"charge, [varia], speed",
+							"charge, [varia], grapple", 
+							"{charge}",
+							"cloak, gravity",
+							"cloak, [varia], magnet",
+							"cloak, [varia], space",
+							"cloak, [varia], speed",
+							"cloak, [varia], grapple",
+							"{cloak}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "EMMI Zone Exit North",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "EMMI Zone Exit North",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3549,
+						"y": 3784
+					},
+					{
+						"map": "artaria",
+						"x": 1342,
+						"y": 413
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "speed" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "EMMI Zone Exit Northwest",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "EMMI Zone Exit Northwest",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3211,
+						"y": 3877
+					},
+					{
+						"map": "artaria",
+						"x": 1006,
+						"y": 502
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph, speed" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "EMMI Zone First Entrance",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "EMMI Zone First Entrance",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3780,
+						"y": 3954
+					},
+					{
+						"map": "artaria",
+						"x": 1570,
+						"y": 582
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"[]",
+							"@move/advwall",
+							"@move/vert",
+							"grapple", 
+							"magnet" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "EMMI Zone Hub",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "EMMI Zone Hub",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3325,
+						"y": 3855
+					},
+					{
+						"map": "artaria",
+						"x": 1115,
+						"y": 481
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"morph, flash",
+							"morph, grapple",
+							"morph, magnet",
+							"morph, @move/vert" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "EMMI Zone Spinner",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "EMMI Zone Spinner",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3526,
+						"y": 4039
+					},
+					{
+						"map": "artaria",
+						"x": 1317,
+						"y": 668
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"charge, grapple",
+							"{charge}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Energy Recharge Station South",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Energy Recharge Station South",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3246,
+						"y": 4238
+					},
+					{
+						"map": "artaria",
+						"x": 1039,
+						"y": 868
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"flash",
+							"spin",
+							"magnet",
+							"speed",
+							"@move/vert",
+							"grapple" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Freezer",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Freezer",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2659,
+						"y": 4089
+					},
+					{
+						"map": "artaria",
+						"x": 449,
+						"y": 716
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "[gravity]" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Grapple Beam Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Grapple Beam Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3888,
+						"y": 3691
+					},
+					{
+						"map": "artaria",
+						"x": 1686,
+						"y": 315
+					}
+					],
+					"sections": [
+					{
+						"name": "Grapple Beam",
+						"chest_unopened_img": "images/grapple.png",
+						"capture_item": true,
+						"access_rules": [ "speed" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Hot Cataris Shortcut",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Hot Cataris Shortcut",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4752,
+						"y": 3767
+					},
+					{
+						"map": "artaria",
+						"x": 2543,
+						"y": 393
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"charge, spin, [varia]",
+							"charge, morph, magnet, [varia]",
+							"charge, @move/vert, [varia]",
+							"charge, @move/advwall, [varia]",
+							"cloak, spin, [varia]",
+							"cloak, morph, magnet, [varia]",
+							"cloak, @move/vert, [varia]",
+							"cloak, @move/advwall, [varia]" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Invisible Corpius Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Invisible Corpius Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4159,
+						"y": 3836
+					},
+					{
+						"map": "artaria",
+						"x": 1946,
+						"y": 466
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": false,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Melee Tutorial Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Melee Tutorial Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3987,
+						"y": 4085
+					},
+					{
+						"map": "artaria",
+						"x": 1780,
+						"y": 713
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack 1",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"@move/vert",
+							"speed", 
+							"charge, @tech/laybomb",
+							"{}" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Melee Tutorial Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4114,
+						"y": 4025
+					},
+					{
+						"map": "artaria",
+						"x": 1902,
+						"y": 653
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack 2",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": false,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Proto EMMI Introduction",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Proto EMMI Introduction",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4222,
+						"y": 4004
+					},
+					{
+						"map": "artaria",
+						"x": 2011,
+						"y": 632
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"@tech/laybomb, @move/hori",
+							"@tech/laybomb, spin",
+							"{morph, pbomb}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Screw Attack Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Screw Attack Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2531,
+						"y": 4065
+					},
+					{
+						"map": "artaria",
+						"x": 323,
+						"y": 702
+					}
+					],
+					"sections": [
+					{
+						"name": "Screw Attack",
+						"chest_unopened_img": "images/screw.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"[gravity], grapple, @tech/laybomb, diffusion, morph, bomb, [cross]",
+							"gravity, grapple, @tech/laybomb, [diffusion], spin",
+							"gravity, grapple, @tech/laybomb, [diffusion], @move/vert",
+							"wave, plasma" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Screw Attack Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2510,
+						"y": 4022
+					},
+					{
+						"map": "artaria",
+						"x": 306,
+						"y": 647
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Top",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"[gravity], grapple, @tech/laybomb, diffusion, morph, bomb, [cross], screw", 
+							" gravity, grapple, @tech/laybomb, [diffusion], spin, screw",
+							"gravity, grapple, @tech/laybomb, [diffusion], @move/vert, screw",
+							"wave, plasma, screw" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Screw Attack Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2504,
+						"y": 4139
+					},
+					{
+						"map": "artaria",
+						"x": 292,
+						"y": 765
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Underwater",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"grapple, @tech/laybomb, diffusion, [gravity]",
+							"grapple, @tech/laybomb, [diffusion], gravity",
+							"wave, plasma, morph, screw" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Shutter Platform Puzzle",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Shutter Platform Puzzle",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2735,
+						"y": 3505
+					},
+					{
+						"map": "artaria",
+						"x": 528,
+						"y": 132
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Tank",
+						"chest_unopened_img": "images/energytank.png",
+						"capture_item": true,
+						"access_rules": [ "charge, grapple, speed, @tech/laybomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Speed Hallway",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Speed Hallway",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2875,
+						"y": 4260
+					},
+					{
+						"map": "artaria",
+						"x": 667,
+						"y": 885
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"[gravity]",
+							"@tech/laybomb, pbomb, speed" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Speed Hallway",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3029,
+						"y": 4251
+					},
+					{
+						"map": "artaria",
+						"x": 815,
+						"y": 877
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile+ Pack",
+						"chest_unopened_img": "images/missile+pack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"[gravity], speed",
+							"@tech/laybomb, pbomb, speed" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Teleport to Cataris",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Cataris Teleport",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3007,
+						"y": 3919
+					},
+					{
+						"map": "artaria",
+						"x": 798,
+						"y": 541
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Underwater",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Cataris Teleport",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2949,
+						"y": 3738
+					},
+					{
+						"map": "artaria",
+						"x": 743,
+						"y": 362
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Supers-locked",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "charge, super, @tech/laybomb" ],
+						"item_count": 1
+					}
+					]
+				},
+				]
+			},
+			{
+				"name": "Thermal Device",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Thermal Device",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4338,
+						"y": 3869
+					},
+					{
+						"map": "artaria",
+						"x": 2123,
+						"y": 498
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": false,
+						"access_rules": [ 
+							"charge",
+							"cloak" ],
+						"item_count": 1
+					},
+					{
+						"name": "Lava Pump",
+						"chest_unopened_img": "images/interactive.png",
+						"capture_item": false,
+						"hosted_item": "artarialavapump",
+						"access_rules": [ 
+							"charge",
+							"cloak" ],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Transport to Burenia",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Burenia Transport",
+					"chest_unopened_img": "images/missilepack.png",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2238,
+						"y": 4020
+					},
+					{
+						"map": "artaria",
+						"x": 27,
+						"y": 649
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": false,
+						"access_rules": [ 
+							"[gravity], grapple, @tech/laybomb, diffusion, morph, bomb, [cross], screw", 
+							" gravity, grapple, @tech/laybomb, [diffusion], spin, screw",
+							"gravity, grapple, @tech/laybomb, [diffusion], @move/vert, screw",
+							"wave, plasma, screw" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Varia Suit Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Varia Suit Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3010,
+						"y": 3483
+					},
+					{
+						"map": "artaria",
+						"x": 793,
+						"y": 104
+					}
+					],
+					"sections": [
+					{
+						"name": "Varia Suit",
+						"chest_unopened_img": "images/varia.png",
+						"capture_item": true,
+						"access_rules": [ "charge, morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Varia Suit Tutorial North",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Varia Suit Tutorial North",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3132,
+						"y": 3576
+					},
+					{
+						"map": "artaria",
+						"x": 923,
+						"y": 204
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile+ Pack",
+						"chest_unopened_img": "images/missile+pack.png",
+						"capture_item": true,
+						"access_rules": [ "charge, morph, varia, [gravity]" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Waterfall",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Waterfall",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2763,
+						"y": 3875
+					},
+					{
+						"map": "artaria",
+						"x": 558,
+						"y": 502
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Waterfall",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2803,
+						"y": 3949
+					},
+					{
+						"map": "artaria",
+						"x": 595,
+						"y": 578
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	},
+	// Burenia
+	{
+		"name": "Burenia",
+		"chest_opened_img": "images/item_sphere.png",
+		"children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Burenia Hub to Dairon",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Hub to Dairon Energy Part",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1274,
+						"y": 3289
+					},
+					{
+						"map": "burenia",
+						"x": 587,
+						"y": 542
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Hub to Dairon Missile",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1212,
+						"y": 3515
+					},
+					{
+						"map": "burenia",
+						"x": 528,
+						"y": 765
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Drogyga Arena",
+				"access_rules": [ "@room/Bdrogygaarena" ],
+				"children": [
+				{
+					"name": "Drogyga Arena",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1109,
+						"y": 2992
+					},
+					{
+						"map": "burenia",
+						"x": 423,
+						"y": 239
+					}
+					],
+					"sections": [
+					{
+						"name": "Reward",
+						"chest_unopened_img": "images/dna.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"gravity, space",
+							"grapple, flash",
+							"grapple, magnet",
+							"grapple, space" ],
+						"item_count": 1
+					},
+					{
+						"name": "Defeat Drogyga",
+						"chest_unopened_img": "images/drogyga.png",
+						"capture_item": false,
+						"hosted_item": "drogyga",
+						"access_rules": [
+							"gravity, space",
+							"grapple, flash",
+							"grapple, magnet",
+							"grapple, space" ],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Early Gravity Speedboost Room 1",
+				"access_rules": [ "@room/Bearlygravityspeedboostroom1" ],
+				"children": [
+				{
+					"name": "Early Gravity Speedboost Energy Part",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1296,
+						"y": 3703
+					},
+					{
+						"map": "burenia",
+						"x": 607,
+						"y": 955
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "/images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ "ice" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Early Gravity Speedboost Missile+",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1289,
+						"y": 3854
+					},
+					{
+						"map": "burenia",
+						"x": 599,
+						"y": 1105
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile+ Pack",
+						"chest_unopened_img": "images/missile+pack.png",
+						"capture_item": true,
+						"access_rules": [ "ice, speed" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Energy Recharge South",
+				"access_rules": [ "@room/Benergyrechargesouth" ],
+				"children": [
+				{
+					"name": "Energy Recharge South Missile Pack",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 903,
+						"y": 3716
+					},
+					{
+						"map": "burenia",
+						"x": 213,
+						"y": 969
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Flash Shift Room",
+				"access_rules": [ "@room/Bflashshiftroom" ],
+				"children": [
+				{
+					"name": "Flash Shift",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1149,
+						"y": 3517
+					},
+					{
+						"map": "burenia",
+						"x": 458,
+						"y": 770
+					}
+					],
+					"sections": [
+					{
+						"name": "Flash Shift",
+						"chest_unopened_img": "images/flash.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Gravity Suit Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Gravity Suit",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1290,
+						"y": 3948
+					},
+					{
+						"map": "burenia",
+						"x": 588,
+						"y": 1194
+					}
+					],
+					"sections": [
+					{
+						"name": "Gravity Suit",
+						"chest_unopened_img": "images/gravity.png",
+						"capture_item": true,
+						"access_rules": [ "@room/Bgravitysuitroom" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Gravity Suit Power Bomb",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1300,
+						"y": 4021
+					},
+					{
+						"map": "burenia",
+						"x": 615,
+						"y": 1272
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ "@room/Bgravitysuitroomaccess, gravity, speed, morph, pbomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Gravity Suit Tower",
+				"access_rules": [ "@room/Bgravitysuittower" ],
+				"children": [
+				{
+					"name": "Gravity Suit Tower Missile",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1246,
+						"y": 3602
+					},
+					{
+						"map": "burenia",
+						"x": 559,
+						"y": 851
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Gravity Suit Tower Missile+",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1424,
+						"y": 3812
+					},
+					{
+						"map": "burenia",
+						"x": 735,
+						"y": 1063
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile+ Pack",
+						"chest_unopened_img": "images/missile+pack.png",
+						"capture_item": true,
+						"access_rules": [ "screw" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Main Hub Tower Middle",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Main Hub Tower Middle Missile",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 998,
+						"y": 3632
+					},
+					{
+						"map": "burenia",
+						"x": 311,
+						"y": 876
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Main Hub Tower Middle Missile+",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 952,
+						"y": 3717
+					},
+					{
+						"map": "burenia",
+						"x": 265,
+						"y": 969
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile+ Pack",
+						"chest_unopened_img": "images/missile+pack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Main Hub Tower Top",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Main Hub Tower Top Missile",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1066,
+						"y": 3324
+					},
+					{
+						"map": "burenia",
+						"x": 378,
+						"y": 578
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Main Hub Tower Top Energy Tank",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1062,
+						"y": 3450
+					},
+					{
+						"map": "burenia",
+						"x": 374,
+						"y": 699
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Tank",
+						"chest_unopened_img": "images/energytank.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Storm Missile Gate Room",
+				"access_rules": [ "@room/Bstormmissilegateroom" ],
+				"children": [
+				{
+					"name": "Storm Missile Gate Energy Tank",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1109,
+						"y": 3901
+					},
+					{
+						"map": "burenia",
+						"x": 418,
+						"y": 1155
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Tank",
+						"chest_unopened_img": "images/energytank.png",
+						"capture_item": true,
+						"access_rules": [ "storm" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Teleport to Ferenia",
+				"access_rules": [ "@room/Bteleporttoferenia" ],
+				"children": [
+				{
+					"name": "Ferenia Teleport Missile+",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 827,
+						"y": 3106
+					},
+					{
+						"map": "burenia",
+						"x": 142,
+						"y": 356
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile+ Pack",
+						"chest_unopened_img": "images/missile+pack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Transport to Artaria",
+				"access_rules": [ "@room/BtransporttoArtaria" ],
+				"children": [
+				{
+					"name": "Artaria Transport Missile",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1659,
+						"y": 3797
+					},
+					{
+						"map": "burenia",
+						"x": 970,
+						"y": 1052
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "screw" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Underneath Drogyga",
+				"access_rules": [ "@room/Bunderneathdrogyga" ],
+				"children": [
+				{
+					"name": "Underneath Drogyga",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1171,
+						"y": 3089
+					},
+					{
+						"map": "burenia",
+						"x": 482,
+						"y": 342
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Upper Burenia Hub",
+				"access_rules": [ "@room/Bupperbureniahub" ],
+				"children": [
+				{
+					"name": "Upper Burenia Missile Pack",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1107,
+						"y": 3147
+					},
+					{
+						"map": "burenia",
+						"x": 414,
+						"y": 401
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	},
+	// Cataris
+	{
+		"name": "Cataris",
+		"chest_opened_img": "images/item_sphere.png",
+		"children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Above Z-57 Fight",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Above Z-57 Missile Pack",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4858,
+						"y": 3385
+					},
+					{
+						"map": "cataris",
+						"x": 996,
+						"y": 721
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "screw" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Z-57 Arena",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Z-57 Arena",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 4860,
+				//		"y": 3400
+				//	},
+					{
+						"map": "cataris",
+						"x": 1050,
+						"y": 790
+						
+					}
+					],
+					"sections": [
+					{
+						"name": "Reward",
+						"chest_unopened_img": "images/dna.png",
+						"capture_item": true,
+						"access_rules": [""],
+						"item_count": 1
+					},
+					{
+						"name": "Defeat Z-57",
+						"chest_unopened_img": "images/z57.png",
+						"capture_item": false,
+						"hosted_item": "z57",
+						"access_rules": [ "" ],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Dairon Transport Access",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Dairon Transport Missile Pack",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4946,
+						"y": 2705
+					},
+					{
+						"map": "cataris",
+						"x": 1091,
+						"y": 41
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "speed" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Diffusion Beam Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Diffusion Beam",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4283,
+						"y": 3393
+					},
+					{
+						"map": "cataris",
+						"x": 415,
+						"y": 720
+					}
+					],
+					"sections": [
+					{
+						"name": "Diffusion Beam",
+						"chest_unopened_img": "images/diffusion.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Under Kraid",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4320,
+						"y": 3415
+					},
+					{
+						"map": "cataris",
+						"x": 461,
+						"y": 746
+					}
+					],
+					"sections": [
+					{
+						"name": "Under Kraid Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ "bomb, grapple, [gravity]" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},			
+			{
+				"name": "Double Obsydomithon Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Double Obsydomithon Room",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 4946,
+				//		"y": 2705
+				//	},
+					{
+						"map": "cataris",
+						"x": 1422,
+						"y": 165
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "speed" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "E.M.M.I.-03MB",
+				"access_rules": [ "wide" ],
+				"children": [
+				{
+					"name": "Green EMMI",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4416,
+						"y": 2878
+					},
+					{
+						"map": "cataris",
+						"x": 556,
+						"y": 216
+					}
+					],
+					"sections": [
+					{
+						"name": "Defeat Green EMMI",
+						"chest_unopened_img": "images/emmi3.png",
+						"capture_item": true,
+						"hosted_item": "emmi3",
+						"access_rules": [ "" ],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "EMMI Zone Exits West",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "EMMI Zone Exits West",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4352,
+						"y": 3019
+					},
+					{
+						"map": "cataris",
+						"x": 491,
+						"y": 353
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "EMMI Zone Hidden Missile Room",
+				"access_rules": [ "morph" ],
+				"children": [
+				{
+					"name": "EMMI Zone Hidden Missile Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 5014,
+						"y": 3019
+					},
+					{
+						"map": "cataris",
+						"x": 1160,
+						"y": 354
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "EMMI Zone Item Tunnel",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Power Bomb EMMI Tunnel",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4567,
+						"y": 3065
+					},
+					{
+						"map": "cataris",
+						"x": 707,
+						"y": 401
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ "morph, speed, pbomb, emmi3" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Kraid Arena",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Kraid Arena",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4134,
+						"y": 3394
+					},
+					{
+						"map": "cataris",
+						"x": 264,
+						"y": 732
+					}
+					],
+					"sections": [
+					{
+						"name": "Reward",
+						"chest_unopened_img": "images/dna.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					},
+					{
+						"name": "Defeat Kraid",
+						"chest_unopened_img": "images/kraid.png",
+						"capture_item": false,
+						"hosted_item": "kraid",
+						"access_rules": [ "" ],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Kraid Eyedoor Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Kraid Eyedoor Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4254,
+						"y": 3326
+					},
+					{
+						"map": "cataris",
+						"x": 398,
+						"y": 656
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Tank",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph, bomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Lava Button East Access",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Lava Button East Access",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 5472,
+						"y": 3064
+					},
+					{
+						"map": "cataris",
+						"x": 1610,
+						"y": 397
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Teleport to Artaria (Red)",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Artaria Red Teleport Missile+",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4058,
+						"y": 3128
+					},
+					{
+						"map": "cataris",
+						"x": 198,
+						"y": 460
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile+ Pack",
+						"chest_unopened_img": "images/missile+pack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Teleport to Artaria (Blue)",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Teleport to Artaria (Blue) Missile Pack",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 5597,
+						"y": 2944
+					},
+					{
+						"map": "cataris",
+						"x": 1736,
+						"y": 277
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Teleport to Artaria (Blue)",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Teleport to Artaria (Blue) Power Bomb Tank",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 5597,
+						"y": 2944
+					},
+					{
+						"map": "cataris",
+						"x": 1550,
+						"y": 165
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Teleport to Dairon",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Teleport to Dairon Missile Pack",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4381,
+						"y": 3190
+					},
+					{
+						"map": "cataris",
+						"x": 522,
+						"y": 522
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph, diffusion", "morph, wave", "morph, [gravity]" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Teleport to Ghavoran",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Teleport to Ghavoran Top",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4178,
+						"y": 2936
+					},
+					{
+						"map": "cataris",
+						"x": 318,
+						"y": 268
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Teleport to Ghavoran Bottom",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4238,
+						"y": 3072
+					},
+					{
+						"map": "cataris",
+						"x": 375,
+						"y": 405
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "speed, [gravity]" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Thermal Device Room North",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Thermal Device North (Left)",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 5056,
+						"y": 2883
+					},
+					{
+						"map": "cataris",
+						"x": 1195,
+						"y": 219
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "/images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Thermal Device North (Right)",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 5102,
+						"y": 2865
+					},
+					{
+						"map": "cataris",
+						"x": 1239,
+						"y": 201
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Tank",
+						"chest_unopened_img": "/images/energytank.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				},
+
+				]
+			},
+			{
+				"name": "Transport to Artaria - Thermal Device",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Transport To Artaria",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 5208,
+						"y": 3450
+					},
+					{
+						"map": "cataris",
+						"x": 1347,
+						"y": 786
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Tank",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Underlava Puzzle Room 2",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Underlava Puzzle Room 2",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4690,
+						"y": 3368
+					},
+					{
+						"map": "cataris",
+						"x": 833,
+						"y": 697
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img":, "/images/energypart.png":,
+						"capture_item": true,
+						"access_rules": [ "speed, grapple" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Z-57 Heat Room East (Left)",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Z-57 Heat Room East",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 5133,
+						"y": 3252
+					},
+					{
+						"map": "cataris",
+						"x": 1273,
+						"y": 590
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Z-57 Heat Room West (Right)",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Z-57 Heat Room West",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4740,
+						"y": 3224
+					},
+					{
+						"map": "cataris",
+						"x": 881,
+						"y": 557
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	},
+	// Dairon
+	{
+		"name": "Dairon",
+		"chest_opened_img": "images/item_sphere.png",
+		"children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Big Hub",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Big Hub Missile Pack",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3432,
+						"y": 2852
+					},
+					{
+						"map": "dairon",
+						"x": 1920,
+						"y": 300
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Bomb Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Bomb",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2726,
+						"y": 2718
+					},
+					{
+						"map": "dairon",
+						"x": 1220,
+						"y": 175
+					}
+					],
+					"sections": [
+					{
+						"name": "Bomb",
+						"chest_unopened_img": "/images/bomb.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Bomb Missile",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2742,
+						"y": 2751
+					},
+					{
+						"map": "dairon",
+						"x": 1227,
+						"y": 204
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph, laybomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Central Unit Access",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Central Unit Access Energy Part",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2324,
+						"y": 3296
+					},
+					{
+						"map": "dairon",
+						"x": 810,
+						"y": 748
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "/images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ "speed, morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Cross Bomb Puzzle Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Cross Bomb Puzzle Item",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2778,
+						"y": 2844
+					},
+					{
+						"map": "dairon",
+						"x": 1264,
+						"y": 295
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Tank",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "laybomb, speed", "cross" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "E.M.M.I.-04SB",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Yellow EMMI",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2402,
+						"y": 3259
+					},
+					{
+						"map": "dairon",
+						"x": 889,
+						"y": 713
+					}
+					],
+					"sections": [
+					{
+						"name": "Defeat Yellow EMMI",
+						"chest_unopened_img": "images/emmi4.png",
+						"capture_item": true,
+						"hosted_item": "emmi4",
+						"access_rules": [ "" ],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Early Grapple Access",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Early Grapple Access",
+					"chest_unopened_img": "images/ .png",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3152,
+						"y": 3078
+					},
+					{
+						"map": "dairon",
+						"x": 1637,
+						"y": 525
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "/images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Early Grapple Room Missile",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Early Grapple Missile",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3336,
+						"y": 3064
+					},
+					{
+						"map": "dairon",
+						"x": 1822,
+						"y": 514
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "grapple, morph, [varia]" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Early Grapple Speedboost",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3469,
+						"y": 3138
+					},
+					{
+						"map": "dairon",
+						"x": 1945,
+						"y": 587
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "speed, [gravity]" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "EMMI Zone Exit North",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "EMMI Zone Exit North",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2892,
+						"y": 2804
+					},
+					{
+						"map": "dairon",
+						"x": 1377,
+						"y": 254
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "/images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ "morph, pbomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "EMMI Zone Exit Northwest",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "EMMI Zone Exit Northwest",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2502,
+						"y": 3033
+					},
+					{
+						"map": "dairon",
+						"x": 992,
+						"y": 480
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Tank",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "speed, morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Energy Recharge Station West",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Energy Recharge Station West",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2286,
+						"y": 2722
+					},
+					{
+						"map": "dairon",
+						"x": 770,
+						"y": 174
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "/images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ "speed, [gravity]" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Freezer",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Freezer Upper",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2339,
+						"y": 2808
+					},
+					{
+						"map": "dairon",
+						"x": 825,
+						"y": 256
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "diffusion",
+										"[gravity], speed" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Freezer Lower",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2339,
+						"y": 2900
+					},
+					{
+						"map": "dairon",
+						"x": 835,
+						"y": 380
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Hidden Grapple Shortcut Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Hidden Grapple Shortcut Missile",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2306,
+						"y": 3069
+					},
+					{
+						"map": "dairon",
+						"x": 801,
+						"y": 521
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Save Station West Tunnels",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Save Station West Missile",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2239,
+						"y": 3064
+					},
+					{
+						"map": "dairon",
+						"x": 723,
+						"y": 514
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph, laybomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Shinespark Tutorial",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Shinespark Tutorial",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2744,
+						"y": 2944
+					},
+					{
+						"map": "dairon",
+						"x": 1232,
+						"y": 393
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Tank",
+						"chest_unopened_img": "images/energytank.png",						
+						"capture_item": true,
+						"access_rules": [ "speed" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Teleport to Artaria",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Teleport to Artaria",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3714,
+						"y": 2700
+					},
+					{
+						"map": "dairon",
+						"x": 2200,
+						"y": 149
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Wide Beam Room",
+				"access_rules": [ "Wide Beam" ],
+				"children": [
+				{
+					"name": "Wide Beam Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3176,
+						"y": 2908
+					},
+					{
+						"map": "dairon",
+						"x": 1666,
+						"y": 358
+					}
+					],
+					"sections": [
+					{
+						"name": "Wide Beam",
+						"chest_unopened_img": "images/wide.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},			
+			{
+				"name": "Lake Puzzle Room",
+				"access_rules": [ "Wide Beam" ],
+				"children": [
+				{
+					"name": "Lake Puzzle Room",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 3176,
+				//		"y": 2908
+				//	},
+					{
+						"map": "dairon",
+						"x": 1235,
+						"y": 635
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},			
+			{
+				"name": "Storm Missile Gate",
+				"access_rules": [ "Wide Beam" ],
+				"children": [
+				{
+					"name": "Storm Missile Gate",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 3176,
+				//		"y": 2908
+				//	},
+					{
+						"map": "dairon",
+						"x": 1010,
+						"y": 623
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile+ Pack",
+						"chest_unopened_img": "images/missile+pack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},			
+			{
+				"name": "Transport to Artaria",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Transport to Artaria",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 3176,
+				//		"y": 2908
+				//	},
+					{
+						"map": "dairon",
+						"x": 1990,
+						"y": 520
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Yellow EMMI Introduction",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Yellow EMMI Introduction",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3028,
+						"y": 2804
+					},
+					{
+						"map": "dairon",
+						"x": 1513,
+						"y": 252
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ "morph, laybomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	},
+	// Elun
+	{
+		"name": "Elun",
+		"chest_opened_img": "images/item_sphere.png",
+		"children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Ammo Recharge Station",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Ammo Recharge Station",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2455,
+						"y": 2226
+					},
+					{
+						"map": "elun",
+						"x": 1070,
+						"y": 74
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Tank",
+						"chest_unopened_img": "images/energytank.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"plasma, @tech/laybomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Fan Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Fan Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2624,
+						"y": 2384
+					},
+					{
+						"map": "elun",
+						"x": 1244,
+						"y": 233
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"@tech/laybomb, speed" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Horizontal Bomb Maze",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Horizontal Bomb Maze",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2658,
+						"y": 2163
+					},
+					{
+						"map": "elun",
+						"x": 1272,
+						"y": 12
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"plasma, morph, @tech/ibj, pbomb",
+							"plasma, morph, space, pbomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Plasma Beam Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Plasma Beam Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2563,
+						"y": 2379
+					},
+					{
+						"map": "elun",
+						"x": 1191,
+						"y": 225
+					}
+					],
+					"sections": [
+					{
+						"name": "Plasma Beam",
+						"chest_unopened_img": "images/plasma.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"morph, bomb",
+							"morph, cross",
+							"morph, plasma" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Vertical Bomb Maze",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Vertical Bomb Maze",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2741,
+						"y": 2282
+					},
+					{
+						"map": "elun",
+						"x": 1360,
+						"y": 133
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"plasma, @tech/laybomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	},
+	// Ferenia
+	{
+		"name": "Ferenia",
+		"chest_opened_img": "images/item_sphere.png",
+		"children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Cold Room (Storm Missile Gate)",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Cold Room (Storm Missile Gate)",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3713,
+						"y": 2066
+					},
+					{
+						"map": "ferenia",
+						"x": 1438,
+						"y": 303
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph, grapple, speed" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "E.M.M.I.-06WB",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Purple EMMI",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4240,
+						"y": 1980
+					},
+					{
+						"map": "ferenia",
+						"x": 1964,
+						"y": 217
+					}
+					],
+					"sections": [
+					{
+						"name": "Defeat Purple EMMI",
+						"chest_unopened_img": "images/emmi6.png",
+						"capture_item": true,
+						"hosted_item": "emmi6",
+						"access_rules": [ "" ],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Energy Recharge Station Secret",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Energy Recharge Station Secret",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3625,
+						"y": 2116
+					},
+					{
+						"map": "ferenia",
+						"x": 1352,
+						"y": 353
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ "morph, bomb, grapple" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Escue Arena",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Escue Arena",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4054,
+						"y": 2363
+					},
+					{
+						"map": "ferenia",
+						"x": 1776,
+						"y": 599
+					}
+					],
+					"sections": [
+					{
+						"name": "Reward",
+						"chest_unopened_img": "images/dna.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					},
+					{
+						"name": "Defeat Escue",
+						"chest_unopened_img": "images/escue.png",
+						"caputre_item": false,
+						"hosted_item": "escue",
+						"acces_rules": [ "" ],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Escue Eyedoor Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Escue Eyedoor Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4164,
+						"y": 2268
+					},
+					{
+						"map": "ferenia",
+						"x": 1890,
+						"y": 503
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Fan Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Fan Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3112,
+						"y": 2434
+					},
+					{
+						"map": "ferenia",
+						"x": 837,
+						"y": 672
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile+ Pack",
+						"chest_unopened_img": "images/missile+pack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Path to Escue",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Path to Escue",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 4042,
+						"y": 2321
+					},
+					{
+						"map": "ferenia",
+						"x": 1775,
+						"y": 552
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ "morph, bomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Pitfall Puzzle Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Pitfall Puzzle Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2883,
+						"y": 2095
+					},
+					{
+						"map": "ferenia",
+						"x": 607,
+						"y": 329
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Purple EMMI Introduction",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Purple EMMI Introduction",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3348,
+						"y": 2401
+					},
+					{
+						"map": "ferenia",
+						"x": 1071,
+						"y": 635
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Separate Tunnels Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Separate Tunnels Left",
+					"chest_unopened_img": "images/.png",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2986,
+						"y": 2203
+					},
+					{
+						"map": "ferenia",
+						"x": 713,
+						"y": 438
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Separate Tunnels Right",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3046,
+						"y": 2213
+					},
+					{
+						"map": "ferenia",
+						"x": 771,
+						"y": 450
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Space Jump Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Space Jump Top",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2995,
+						"y": 1969
+					},
+					{
+						"map": "ferenia",
+						"x": 720,
+						"y": 204
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile+ Pack",
+						"chest_unopened_img": "images/missile+pack.png",
+						"capture_item": true,
+						"access_rules": [ "speed, bomb" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Space Jump",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3057,
+						"y": 2066
+					},
+					{
+						"map": "ferenia",
+						"x": 780,
+						"y": 302
+					}
+					],
+					"sections": [
+					{
+						"name": "Space Jump",
+						"chest_unopened_img": "images/space.png",
+						"capture_item": true,
+						"access_rules": [ "storm" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Space Jump Bottom",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3095,
+						"y": 2098
+					},
+					{
+						"map": "ferenia",
+						"x": 820,
+						"y": 330
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missile.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Speedboost Slopes Maze",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Speedboost Slopes Maze",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2877,
+						"y": 2278
+					},
+					{
+						"map": "ferenia",
+						"x": 602,
+						"y": 512
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ "speed" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Total Recharge Station",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Total Recharge Station",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3599,
+						"y": 2466
+					},
+					{
+						"map": "ferenia",
+						"x": 1324,
+						"y": 701
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ "morph, bomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Twin Robot Arena",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Twin Robot Arean",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3348,
+						"y": 2084
+					},
+					{
+						"map": "ferenia",
+						"x": 1074,
+						"y": 317
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ "morph, pbomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	},
+	// Ghavoran
+	{
+		"name": "Ghavoran",
+		"children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Above Pulse Radar",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Above Pulse Radar",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1206,
+						"y": 1857
+					},
+					{
+						"map": "ghavoran",
+						"x": 865,
+						"y": 91
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "E.M.M.I.-05IM",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "E.M.M.I.-05IM",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 3886,
+				//		"y": 4132
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 340,
+						"y": 195
+					}
+					],
+					"sections": [
+					{
+						"name": "Defeat Blue EMMI",
+						"chest_unopened_img": "images/emmi5.png",
+						"capture_item": true,
+						"hosted_item": "emmi5",
+						"access_rules": [ "" ],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Cross Bomb Tutorial",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Cross Bomb Tutorial",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 1240,
+						"y": 160
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Diaron Transport Access",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Diaron Transport Access",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 725,
+						"y": 635
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Elun Transport Missile",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Elun Transport Missile",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 650,
+						"y": 500
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Golzuna Arena",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Golzuna Arena",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 4354,
+				//		"y": 3934
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 1070,
+						"y": 155
+					}
+					],
+					"sections": [
+					{
+						"name": "Reward",
+						"chest_unopened_img": "images/dna.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					},
+					{
+						"name": "Defeat Golzuna",
+						"chest_unopened_img": "images/golzuna.png",
+						"capture_item": false,
+						"hosted_item": "golzuna",
+						"access_rules": [ "" ],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Golzuna Tower",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Golzuna Tower Top",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1269,
+						"y": 1812
+					},
+					{
+						"map": "ghavoran",
+						"x": 930,
+						"y": 49
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"speed, morph, space",
+							"speed, morph, bombjump" ],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Golzuna Tower Bottom",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1258,
+						"y": 1959
+					},
+					{
+						"map": "ghavoran",
+						"x": 920,
+						"y": 197
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Burenia Entrance Left",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Burenia Entrance Left",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 200,
+						"y": 610
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Map Station Access Secret",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Map Station Access Secret",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 640,
+						"y": 415
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Pulse Radar Room",
+				"access_rules": [ "morph" ],
+				"children": [
+				{
+					"name": "Pulse Radar Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1164,
+						"y": 1910
+					},
+					{
+						"map": "ghavoran",
+						"x": 829,
+						"y": 152
+					}
+					],
+					"sections": [
+					{
+						"name": "Pulse Radar",
+						"chest_unopened_img": "images/pulse.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Burenia Entrance Right",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Burenia Entrance Right",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 350,
+						"y": 670
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Spin Boost Room",
+				"access_rules": [ "morph, laybomb" ],
+				"children": [
+				{
+					"name": "Spin Boost Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1150,
+						"y": 2120
+					},
+					{
+						"map": "ghavoran",
+						"x": 806,
+						"y": 349
+					}
+					],
+					"sections": [
+					{
+						"name": "Spin Boost",
+						"chest_unopened_img": "images/Progressive Jump 90x90.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Spin Boost Tower Lower",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Spin Boost Tower Lower",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 665,
+						"y": 350
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Spin Boost Tower Middle",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Spin Boost Tower Middle",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 775,
+						"y": 175
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Tank",
+						"chest_unopened_img": "images/energytank.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Spin Boost Tower Top",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Spin Boost Tower Top",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 745,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Super Missile Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Super Missile Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 836,
+						"y": 2413
+					},
+					{
+						"map": "ghavoran",
+						"x": 493,
+						"y": 651
+					}
+					],
+					"sections": [
+					{
+						"name": "Super Missile",
+						"chest_unopened_img": "images/supers.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Super Missile Room Access",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Super Missile Room Access",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 914,
+						"y": 2333
+					},
+					{
+						"map": "ghavoran",
+						"x": 573,
+						"y": 571
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile+ Pack",
+						"chest_unopened_img": "images/missile+pack.png",
+						"capture_item": true,
+						"access_rules": [ "morph" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Teleport to Burenia Missile",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Teleport to Burenia Missile",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 990,
+						"y": 272
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Total Recharge Station North",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Total Recharge Station North",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 1010,
+						"y": 282
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	},
+	// Hanubia
+	{
+		"name": "Hanubia",
+		"chest_opened_img": "images/item_sphere.png",
+		"children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Ferenia Shortcut",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Ferenia Shortcut",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": PENDING,
+				//		"y": PENDING
+				//	},
+					{
+						"map": "hanubia",
+						"x": 860,
+						"y": 425
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"caputre_item": true,
+						"access_rules": [
+						"screw, @tech/laybomb",
+						"grapple, @tech/laybomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Orange EMMI Introduction",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Orange EMMI Introduction",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": PENDING,
+				//		"y": PENDING
+				//	},
+					{
+						"map": "hanubia",
+						"x": 1250,
+						"y": 425
+					}
+					],
+					"sections":[
+					{
+						"name": "Defeat Orange EMMI",
+						"chest_unopened_img": "images/emmi7.png",
+						"capture_item": true,
+						"hosted_item": "emmi7",
+						"access_rules": [ 
+							"@tech/laybomb, wave",
+							"screw, morph, wave" ],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Speedboost Puzzle Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Speedboost Puzzle Room",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": PENDING,
+				//		"y": PENDING
+				//	},
+					{
+						"map": "hanubia",
+						"x": 1000,
+						"y": 345
+					}
+					],
+					"sections": [
+					{
+						"name": "Powerbomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"caputre_item": true,
+						"access_rules": [ 
+							"wave, @tech/laybomb, speed" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Total Recharge Station North",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Total Recharge Station North",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": PENDING,
+				//		"y": PENDING
+				//	},
+					{
+						"map": "hanubia",
+						"x": 970,
+						"y": 240
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"caputre_item": true,
+						"access_rules": [ 
+						"morph, pbomb, speed",
+						"morph, pbomb, screw, space" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	}
+]
