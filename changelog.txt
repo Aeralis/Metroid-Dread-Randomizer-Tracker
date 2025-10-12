@@ -4,20 +4,22 @@ v1.1.0f
 	-Burenia names & icon updates.
 	-Cataris names & icon updates.
 	-Dairon names & icon updates.
-	-Elun names & icons updates.
-	-Elun logic updated.
+	-Ferenia names & icon updates.
 	-Ghavoran names & icon updates.
-	-Hanubia locations, names & icon implementation.
-	-Hanubia logic implemented.
-	-Linked Boss toggles to checks.
 	
+	-Linked Boss toggles to checks.
+	-All items have a base logic.
 	-Made all EMMI item count: "0"
 	
-	Pending
-	-All new items need full map setup, placeholders set in code
-	-Hanubia items logic
-	-All new items logic
+	Finished:
+	-Elun, items & area logic.
+	-Hanuba, itesm & area logic.
+	
+	Upcoming
+	-Hanubia Full Map Items
+	-Elun Full Man Items
 	-Tyr to review code
+	-How do we want to do Hanubia Logic w/ Itorash entrance. Only matters in Transport shuffle.
 	
 v1.1.0
 	Complete overhaul due to substantial logic conflicts.
