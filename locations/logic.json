@@ -48,11 +48,311 @@
 			"item_count": 1
 		},
 		{
+			"name": "chute",
+			"access_rules": [
+				"morph, bomb",
+				"morph, cross" ],
+			"item_count": 1
+		},
+		{
 			"name": "wideblock",
 			"access_rules": [
 				"charge, wide",
 				"charge, wave, [wide]",
 				"charge, plasma, [wide]" ],
+			"item_count": 1
+		}
+		]
+	},
+	
+	// Area Access
+	{
+		"name": "area",
+		"sections": [
+		// Artaria - Transport to Burenia
+		{
+			"name": "arttrabur",
+			"access_rules": [
+				""	],
+			"item_count": 1
+		},
+		{
+			"name": "burtraart",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Artaria - Transport to Cataris
+		{
+			"name": "arttracat",
+			"access_rules": [
+				""	],
+			"item_count": 1
+		},
+		{
+			"name": "cattraart",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Artaria - Transport to Dairon
+		{
+			"name": "arttradai",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "daitraart",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Burenia - Lower Transport to Dairon
+		{
+			"name": "burlowdai",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "dailowbur",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Burenia - Transport to Ghavoran
+		{
+			"name": "burtragha",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "ghatrabur",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Burenia - Upper Transport to Dairon
+		{
+			"name": "buruppdai",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "daiuppbur",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Cataris - Transport to Dairon
+		{
+			"name": "cattradai",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "daitracat",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Dairon - East Transport to Ferenia
+		{
+			"name": "daieasfer",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "fereasdai",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Dairon - Transport to Ghavoran
+		{
+			"name": "daitragha",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "ghatradai",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Dairon - West Transport to Ferenia
+		{
+			"name": "daiwesfer",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "ferwesdai",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Elun - Transport to Ghavoran
+		{
+			"name": "elutragha",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "ghatraelu",
+			"access_rules": [ 
+				"" ],
+			"item_count": 1
+		},
+		// Ferenia - Transport to Ghavoran
+		{
+			"name": "fertragha",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "ghatrafer",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Ferenia - Transport to Hanubia
+		{
+			"name": "fertrahan",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "hantrafer",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Ghavoran - Transport to Hanubia
+		{
+			"name": "ghatrahan",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "hantragha",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Hanubia - Transport to Itorash
+		{
+			"name": "hantraito",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "itotrahan",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Artaria  - Red Teleport to Cataris
+		{
+			"name": "artredcat",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "catredart",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Artaria - Yellow Teleport to Dairon
+		{
+			"name": "artyeldai",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "daiyelart",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Artaria - Blue Teleport to Cataris
+		{
+			"name": "artblucat",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "catbluart",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Cataris - Purple Teleport to Dairon
+		{
+			"name": "catpurdai",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "daipurcat",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Cataris - Orange Teleport to Ghavoran
+		{
+			"name": "catoragha",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "ghaoracat",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Ghavoran - Green Teleport to Burenia
+		{
+			"name": "ghagrebur",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "burgregha",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		// Burenia - Cyan Teleport to Ferenia
+		{
+			"name": "burcyafer",
+			"access_rules": [
+				"" ],
+			"item_count": 1
+		},
+		{
+			"name": "fercyabur",
+			"access_rules": [
+				"" ],
 			"item_count": 1
 		}
 		]
