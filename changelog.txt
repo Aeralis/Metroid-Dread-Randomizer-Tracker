@@ -7,6 +7,10 @@ v1.1.0f
 	-Ferenia names & icon updates.
 	-Ghavoran names & icon updates.
 	
+	In progress
+	-Artaria locations area logic.
+	-Cataris minor logic updates.
+	
 	-Linked Boss toggles to checks.
 	-All items have a base logic.
 	-Made all EMMI item count: "0"
