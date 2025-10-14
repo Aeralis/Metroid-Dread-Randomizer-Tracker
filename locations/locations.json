@@ -32,7 +32,20 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
-							"morph" 
+//							Artaria Start							
+							"{}",
+							"morph",
+//							Transport Shuffle							
+							"@area/daitraart, speed, {}",
+							"@area/daitraart, speed, morph",
+							"@area/cattraart, {}",
+							"@area/cattraart, morph",
+							"@area/catredart, gravity, spin, {}",
+							"@area/catredart, charge, {}",
+							"@area/catredart, morph",
+							"@area/burtraart, screw, morph, bomb, diffusion, grapple, [gravity]",
+							"@area/burtraart, screw, morph, bomb, wave, grapple, [gravity]",
+							"@area/burtraart, screw, space, morph, plasma",
 							],
 						"item_count": 1
 					}
@@ -64,7 +77,15 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
-							"morph, pbomb"
+//							Artaria Start
+							"morph, pbomb",
+//							Transport Shuffle
+							"@area/daitraart, speed, morph, pbomb",
+							"@area/cattraart, morph, pbomb",
+							"@area/catredart, morph, pbomb",
+							"@area/burtraart, screw, morph, bomb, pbomb, diffusion, grapple, [gravity]",
+							"@area/burtraart, screw, morph, bomb, pbomb, wave, grapple, [gravity]",
+							"@area/burtraart, screw, space, morph, pbomb, plasma",
 						],
 						"item_count": 1
 					}
@@ -96,7 +117,15 @@
 						"chest_unopened_img": "images/charge.png",
 						"capture_item": true,
 						"access_rules": [ 
-							""
+//							Artaria Start
+							"",
+//							Transport Shuffle
+							"@area/daitraart, speed",
+							"@area/cattraart",
+							"@area/catredart",
+							"@area/burtraart, screw, morph, bomb, diffusion, grapple, [gravity]",
+							"@area/burtraart, screw, morph, bomb, wave, grapple, [gravity]",
+							"@area/burtraart, screw, space, morph, plasma",
 							],
 						"item_count": 1
 					}
@@ -128,7 +157,15 @@
 						"chest_unopened_img": "images/energytank.png",
 						"capture_item": false,
 						"access_rules": [ 
-							"charge" 
+//							Artaria Start							
+							"charge",
+//							Transport Shuffle
+							"@area/daitraart, speed, charge",
+							"@area/cattraart, charge",
+							"@area/catredart, charge",
+							"@area/burtraart, screw, morph, bomb, diffusion, grapple, [gravity], charge",
+							"@area/burtraart, screw, morph, bomb, wave, grapple, [gravity], charge",
+							"@area/burtraart, screw, space, morph, plasma, charge",
 							],
 						"item_count": 1
 					}
@@ -160,8 +197,22 @@
 						"chest_unopened_img": "images/dna.png",
 						"capture_item": true,
 						"access_rules": [
+//							Artaria Start
 							"magnet",
-							"[space], [diffusion]" 
+							"[space], [diffusion]",
+//							Transport Shuffle
+							"@area/daitraart, speed, magnet",
+							"@area/daitraart, speed, [space], [diffusion]",
+							"@area/cattraart, magnet",
+							"@area/cattraart, [space], [diffusion]",
+							"@area/catredart, magnet",
+							"@area/catredart, [space], [diffusion]",
+							"@area/burtraart, screw, morph, bomb, diffusion, grapple, [gravity], magnet",
+							"@area/burtraart, screw, morph, bomb, diffusion, grapple, [gravity], [space]",
+							"@area/burtraart, screw, morph, bomb, wave, grapple, [gravity], [diffusion], space]",
+							"@area/burtraart, screw, morph, bomb, wave, grapple, [gravity], magnet",
+							"@area/burtraart, screw, space, morph, plasma, magnet",
+							"@area/burtraart, screw, space, morph, plasma, [space], [diffusion]",
 							],
 						"item_count": 1
 					},
@@ -171,8 +222,22 @@
 						"capture_item": false,
 						"hosted_item": "corpius",
 						"access_rules": [ 
+//							Artaria Start
 							"magnet",
-							"[space], [diffusion]"
+							"[space], [diffusion]",
+//							Transport Shuffle
+							"@area/daitraart, speed, magnet",
+							"@area/daitraart, speed, [space], [diffusion]",
+							"@area/cattraart, magnet",
+							"@area/cattraart, [space], [diffusion]",
+							"@area/catredart, magnet",
+							"@area/catredart, [space], [diffusion]",
+							"@area/burtraart, screw, morph, bomb, diffusion, grapple, [gravity], magnet",
+							"@area/burtraart, screw, morph, bomb, diffusion, grapple, [gravity], [space]",
+							"@area/burtraart, screw, morph, bomb, wave, grapple, [gravity], [diffusion], space]",
+							"@area/burtraart, screw, morph, bomb, wave, grapple, [gravity], magnet",
+							"@area/burtraart, screw, space, morph, plasma, magnet",
+							"@area/burtraart, screw, space, morph, plasma, [diffusion]",
 							],
 						"item_count": 0
 					}
@@ -204,8 +269,20 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": false,
 						"access_rules": [ 
+//							Artaria Start
 							"charge",
-							"cloak, morph, speed" 
+							"cloak, morph, speed",
+//							Transport Shuffle
+							"@area/daitraart, speed, charge",
+							"@area/daitraart, speed, cloak, morph",
+//							Removed until Area Logic for CatTraArt completed.
+//							"@area/cattraart",
+							"@area/burtraart, screw, morph, bomb, diffusion, grapple, [gravity], charge",
+							"@area/burtraart, screw, morph, bomb, diffusion, grapple, [gravity], cloak, speed",
+							"@area/burtraart, screw, morph, bomb, wave, grapple, [gravity] charge",
+							"@area/burtraart, screw, morph, bomb, wave, grapple, [gravity], cloak, morph, speed",
+							"@area/burtraart, screw, space, morph, plasma, charge",
+							"@area/burtraart, screw, space, morph, plasma, cloak, speed",
 							],
 						"item_count": 1
 					}
@@ -238,7 +315,15 @@
 						"capture_item": true,
 						"hosted_item": "emmi2",
 						"access_rules": [ 
-						"charge" 
+//						Artaria Start						
+						"charge",
+//						Transport Shuffle
+						"@area/daitraart, speed, charge",
+						"@area/cattraart, charge",
+						"@area/catredart, charge",
+						"@area/burtraart, screw, morph, bomb, diffusion, grapple, [gravity], charge",
+						"@area/burtraart, screw, morph, bomb, wave, grapple, [gravity], charge",
+						"@area/burtraart, screw, space, morph, plasma, charge",
 						],
 						"item_count": 0
 					}
@@ -270,6 +355,7 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
+//							Artaria Start							
 							"charge, gravity",
 							"charge, [varia], magnet",
 							"charge, [varia], space",
@@ -281,7 +367,13 @@
 							"cloak, [varia], space",
 							"cloak, [varia], speed",
 							"cloak, [varia], grapple",
-							"{cloak}" ],
+							"{cloak}",
+//							Transport Shuffle
+							"@area/daitraart, speed, charge, gravity",
+							"@area/daitraart, speed, charge, [varia]",
+							"@area/daitraart, speed, cloak, gravity",
+							"@area/daitraart, speed, cloak, [varia]",
+							],
 						"item_count": 1
 					}
 					]
@@ -311,7 +403,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "speed" ],
+						"access_rules": [ 
+						"speed" 
+						],
 						"item_count": 1
 					}
 					]
@@ -341,7 +435,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph, speed" ],
+						"access_rules": [ 
+						"morph, speed" 
+						],
 						"item_count": 1
 					}
 					]
@@ -407,6 +503,7 @@
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
 						"access_rules": [ 
+							"{}",
 							"morph, flash",
 							"morph, grapple",
 							"morph, magnet",
@@ -473,6 +570,7 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
+							"{}",
 							"flash",
 							"spin",
 							"magnet",
@@ -569,6 +667,7 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
+							"{charge}",
 							"charge, spin, [varia]",
 							"charge, morph, magnet, [varia]",
 							"charge, @move/vert, [varia]",
@@ -640,7 +739,8 @@
 							"@move/vert",
 							"speed", 
 							"charge, @tech/laybomb",
-							"{}" ],
+							"{}"
+							],
 						"item_count": 1
 					}
 					]
@@ -664,7 +764,9 @@
 						"name": "Missile Pack 2",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": false,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"" 
+						],
 						"item_count": 1
 					}
 					]
@@ -697,7 +799,8 @@
 						"access_rules": [ 
 							"@tech/laybomb, @move/hori",
 							"@tech/laybomb, spin",
-							"{morph, pbomb}" ],
+							"{morph, pbomb}" 
+							],
 						"item_count": 1
 					}
 					]
@@ -731,7 +834,8 @@
 							"[gravity], grapple, @tech/laybomb, diffusion, morph, bomb, [cross]",
 							"gravity, grapple, @tech/laybomb, [diffusion], spin",
 							"gravity, grapple, @tech/laybomb, [diffusion], @move/vert",
-							"wave, plasma" ],
+							"wave, plasma" 
+							],
 						"item_count": 1
 					}
 					]
@@ -759,7 +863,8 @@
 							"[gravity], grapple, @tech/laybomb, diffusion, morph, bomb, [cross], screw", 
 							" gravity, grapple, @tech/laybomb, [diffusion], spin, screw",
 							"gravity, grapple, @tech/laybomb, [diffusion], @move/vert, screw",
-							"wave, plasma, screw" ],
+							"wave, plasma, screw" 
+							],
 						"item_count": 1
 					}
 					]
@@ -786,7 +891,8 @@
 						"access_rules": [ 
 							"grapple, @tech/laybomb, diffusion, [gravity]",
 							"grapple, @tech/laybomb, [diffusion], gravity",
-							"wave, plasma, morph, screw" ],
+							"wave, plasma, morph, screw" 
+							],
 						"item_count": 1
 					}
 					]
@@ -816,7 +922,9 @@
 						"name": "Energy Tank",
 						"chest_unopened_img": "images/energytank.png",
 						"capture_item": true,
-						"access_rules": [ "charge, grapple, speed, @tech/laybomb" ],
+						"access_rules": [ 
+						"charge, grapple, speed, @tech/laybomb"
+						],
 						"item_count": 1
 					}
 					]
@@ -848,7 +956,8 @@
 						"capture_item": true,
 						"access_rules": [ 
 							"[gravity]",
-							"@tech/laybomb, pbomb, speed" ],
+							"@tech/laybomb, pbomb, speed" 
+							],
 						"item_count": 1
 					}
 					]
@@ -874,7 +983,8 @@
 						"capture_item": true,
 						"access_rules": [ 
 							"[gravity], speed",
-							"@tech/laybomb, pbomb, speed" ],
+							"@tech/laybomb, pbomb, speed" 
+							],
 						"item_count": 1
 					}
 					]
@@ -904,7 +1014,10 @@
 						"name": "Missile Underwater",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"{}",
+						"morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -928,7 +1041,11 @@
 						"name": "Missile Supers-locked",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "charge, super, @tech/laybomb" ],
+						"access_rules": [ 
+						"charge, super, @tech/laybomb", 
+						"{morph, charge}",
+						],
+						
 						"item_count": 1
 					}
 					]
@@ -960,7 +1077,8 @@
 						"capture_item": false,
 						"access_rules": [ 
 							"charge",
-							"cloak" ],
+							"cloak" 
+							],
 						"item_count": 1
 					},
 					{
@@ -970,7 +1088,8 @@
 						"hosted_item": "artarialavapump",
 						"access_rules": [ 
 							"charge",
-							"cloak" ],
+							"cloak" 
+							],
 						"item_count": 0
 					}
 					]
@@ -1005,7 +1124,8 @@
 							"[gravity], grapple, @tech/laybomb, diffusion, morph, bomb, [cross], screw", 
 							" gravity, grapple, @tech/laybomb, [diffusion], spin, screw",
 							"gravity, grapple, @tech/laybomb, [diffusion], @move/vert, screw",
-							"wave, plasma, screw" ],
+							"wave, plasma, screw" 
+							],
 						"item_count": 1
 					}
 					]
@@ -1035,7 +1155,9 @@
 						"name": "Varia Suit",
 						"chest_unopened_img": "images/varia.png",
 						"capture_item": true,
-						"access_rules": [ "charge, morph" ],
+						"access_rules": [ 
+						"charge, morph" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1065,7 +1187,9 @@
 						"name": "Missile+ Pack",
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
-						"access_rules": [ "charge, morph, varia, [gravity]" ],
+						"access_rules": [ 
+						"charge, morph, varia, [gravity]" 
+						],
 						"item_count": 1
 					}
 					]
@@ -1095,7 +1219,10 @@
 						"name": "Energy Part",
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+						"{}",
+						"morph",
+						],
 						"item_count": 1
 					}
 					]
@@ -1119,7 +1246,9 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+						"",
+						],
 						"item_count": 1
 					}
 					]
@@ -2206,7 +2335,14 @@
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"charge" 
+						"@area/arttracat, charge, [varia]",
+						"@area/arttracat, charge, cloak",
+						"@area/artredcat, charge, [varia]",
+						"@area/artredcat, charge, cloak",
+						"@area/daitracat, wide, charge, [varia]",
+						"@area/daitracat, wide, charge, cloak",
+						"@area/artblucat, varia, morph, pbomb, charge",
+						"@area/artblucat, gravity, morph",
 						],
 						"item_count": 1
 					}
@@ -2302,7 +2438,7 @@
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"grapple, magnet, @tech/laybomb"
+						"grapple, magnet, varia, @tech/laybomb"
 						],
 						"item_count": 1
 					}
@@ -2368,7 +2504,7 @@
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"spin, morph" 
+						"spin, morph, [varia]"
 						],
 						"item_count": 1
 					}
@@ -4776,9 +4912,9 @@
 						"access_rules": [
 						"@fertrahan, screw, @tech/laybomb",
 						"@area/ghatrahan, grapple, @tech/laybomb",
-					// Transport Shuffle Logic
-						"@area/itotranhan, screw, pbomb, morph, grapple",
-						"@area/itotranhan, grapple, morph, speed, pbomb" 
+//					 	Transport Shuffle Logic
+//						"@area/itotranhan, screw, pbomb, morph, grapple",
+//						"@area/itotranhan, grapple, morph, speed, pbomb" 
 					],
 						"item_count": 1
 					}
@@ -4813,9 +4949,9 @@
 						"access_rules": [ 
 							"@area/fertrahan, screw, wave",
 							"@area/ghatrahan, @tech/laybomb, wave",
-							//Transport Shuffle Logic
-							"@area/itotranhan, speed, pbomb, morph, wave",
-							"@area/itotranhan, screw, pbomb, morph, wave"
+//							Transport Shuffle Logic
+//							"@area/itotranhan, speed, pbomb, morph, wave",
+//							"@area/itotranhan, screw, pbomb, morph, wave"
 						],
 						"item_count": 0
 					}
@@ -4849,9 +4985,9 @@
 						"access_rules": [ 
 							"@area/fertrahan, screw, @tech/laybomb, wave, speed",
 							"@area/ghatrahan, @tech/laybomb, wave, speed",
-							//Transport Shuffle Logic
-							"@area/itotranhan, speed, pbomb, morph, wave",
-							"@area/itotranhan, screw, morph, pbomb, wave"
+//							Transport Shuffle Logic
+//							"@area/itotranhan, speed, pbomb, morph, wave",
+//							"@area/itotranhan, screw, morph, pbomb, wave"
 						],
 						"item_count": 1
 					}
@@ -4885,8 +5021,8 @@
 						"access_rules": [ 
 							"@area/fertrahan, morph, pbomb, space, screw, wave",
 							"@area/ghatrahan, morph, pbomb, speed, wave",
-							//Transport Shuffle Logic
-							"@area/itotranhan",
+//							Transport Shuffle Logic
+//							"@area/itotranhan",
 						],
 						"item_count": 1
 					}
