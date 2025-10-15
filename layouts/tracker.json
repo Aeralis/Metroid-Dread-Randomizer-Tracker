@@ -7,7 +7,7 @@
 		"rows": [
 			[ "charge", "diffusion", "wide", "super", "ice", "storm" ],
 			[ "plasma", "wave", "grapple", "cloak", "flash", "pulse" ],
-			[ "morph", "bomb", "cross", "pbomb", "varia", "grapple" ],
+			[ "morph", "bomb", "cross", "pbomb", "varia", "gravity" ],
 			[ "magnet", "speed", "spin", "space", "screw", "thex" ],
 			[ "corpius", "kraid", "drogyga", "escue", "z57", "golzuna" ],
 			[ "emmi2", "emmi3", "emmi4", "emmi5", "emmi6", "emmi7" ]
@@ -311,4 +311,5 @@
 			]
 		}
 	}
+
 }
