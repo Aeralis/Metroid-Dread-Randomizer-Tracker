@@ -263,6 +263,33 @@
 		"codes": "thex"
 	},
 	
+	// Incremental Items
+	{
+		"name": "Energy",
+		"type": "consumable",
+		"img": "images/energyhud.png",
+		"min_quantity": 99,
+		"max_quantity": 1299,
+		"increment": 25,
+		"codes": "energyhud"
+	},
+	{
+		"name": "Missiles",
+		"type": "consumable",
+		"img": "images/missilehud.png",
+		"min_quantity": 15,
+		"max_quantity": 275,
+		"codes": "missilehud"
+	},
+	{
+		"name": "Power Bombs",
+		"type": "consumable",
+		"img": "images/pbombhud.png",
+		"min_quantity": 2,
+		"max_quantity": 15,
+		"codes": "pbombhub"
+	},
+	
 	//Tracker Bosses
 	{
 		"name": "Corpius",
@@ -355,7 +382,7 @@
 			"codes": "golzuna"
 		},
 		{
-			"img": "images/dna.png",
+			"img": "images/golzunadna.png",
 			"codes": "golzuna, golzuna dna"
 		}
 		]
@@ -451,7 +478,7 @@
 			"codes": "emmi7"
 		},
 		{
-			"img": "images/dna.png",
+			"img": "images/emmi7dna.png",
 			"codes": "emmi7, emmi7 dna"
 		}
 		]
