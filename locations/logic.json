@@ -73,7 +73,10 @@
 		{
 			"name": "arttrabur",
 			"access_rules": [
-				""	],
+			// From Intro Room to Burenia Transport
+				"wave, plasma, screw",
+				"[gravity], grapple, @tech/laybomb, diffusion, bomb, space, screw",
+				"gravity, grapple, @tech/laybomb, [diffusion], screw" ],
 			"item_count": 1
 		},
 		{
@@ -86,7 +89,9 @@
 		{
 			"name": "arttracat",
 			"access_rules": [
-				""	],
+			// From Intro Room to Cataris Transport
+				"cloak",
+				"charge, [varia]" ],
 			"item_count": 1
 		},
 		{
@@ -99,7 +104,8 @@
 		{
 			"name": "arttradai",
 			"access_rules": [
-				"" ],
+			// From Intro Room to Dairon Transport
+				"speed" ],
 			"item_count": 1
 		},
 		{
@@ -268,7 +274,8 @@
 		{
 			"name": "artredcat",
 			"access_rules": [
-				"" ],
+			// From Intro Room to Cataris Teleport
+				"morph" ],
 			"item_count": 1
 		},
 		{
@@ -281,7 +288,8 @@
 		{
 			"name": "artyeldai",
 			"access_rules": [
-				"" ],
+			// From Intro Room to Dairon Teleport
+				"wide, wave" ],
 			"item_count": 1
 		},
 		{

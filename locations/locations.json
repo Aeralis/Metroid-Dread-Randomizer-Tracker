@@ -2374,8 +2374,7 @@
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"morph"
-						],
+							"@area/artredcat, morph" ],
 						"item_count": 1
 					}
 					]
@@ -2622,8 +2621,8 @@
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"morph"
-						],
+							"@area/arttracat, morph",
+							"{@area/arttracat}" ],
 						"item_count": 1
 					}
 					]
