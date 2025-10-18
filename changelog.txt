@@ -1,6 +1,10 @@
+v1.1.1t
+	Area Access logic is implemented but incomplete.
+	Starting Point tracking is implemented but not incomplete.
+
 v1.1.0f
 	Updates from Fayte. 
-	-Artaria names & icon updatse.
+	-Artaria names & icon updates.
 	-Burenia names & icon updates.
 	-Cataris names & icon updates.
 	-Dairon names & icon updates.
@@ -17,7 +21,7 @@ v1.1.0f
 	
 	Finished:
 	-Elun, items & area logic.
-	-Hanuba, itesm & area logic.
+	-Hanubia, itesm & area logic.
 	
 	Upcoming
 	-Hanubia Full Map Items

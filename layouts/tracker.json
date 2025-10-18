@@ -17,8 +17,38 @@
 	{
 		"type": "array",
 		"orientation": "vertical",
-		"v_alignment": "top",
+		"v_alignment": "bottom",
 		"margin": "0,0", 
+		"content": [
+		{
+			"type": "itemgrid",
+			"item_margin": "1,2",
+			"item_width": "100",
+			"item_height": "60",
+			"h_alignment": "left",
+			"rows": [
+				[ "energyhud", "missilehud" ]
+//				[ "pbombhub" ]
+			]
+		},
+		{
+			"type": "itemgrid",
+			"item_margin": "1,2",
+			"item_width": "200",
+			"item_height": "60",
+			"h_alignment": "left",
+			"rows": [
+				[ "spartintroroom" ]
+			]
+		}
+		]
+	},
+	"startingpoint":
+	{
+		"type": "array",
+		"orientation": "vertical",
+		"v_alignment": "top",
+		"margin": "0,0",
 		"content": [
 		{
 			"type": "itemgrid",
@@ -27,11 +57,9 @@
 			"item_height": "45",
 			"h_alignment": "left",
 			"rows": [
-				[ "energyhud" ],
-				[ "missilehud" ],
-				[ "pbombhub" ]
+				[ "spartintroroom" ]
 			]
-		},
+		}
 		]
 	},
 	"tracker_capture_item": 
@@ -210,7 +238,11 @@
 							},
 							{
 								"type": "layout",
-								"key": "consumables",
+								"key": "consumables"
+							},
+							{
+								"type": "layout",
+								"key": "startingpoint"
 							}
 							]
 						}
@@ -311,5 +343,4 @@
 			]
 		}
 	}
-
 }

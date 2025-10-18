@@ -290,6 +290,23 @@
 		"codes": "pbombhub"
 	},
 	
+	// Starting Points
+	{
+		"name": "Starting Point",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/start/art_intro_room.png",
+			"codes": "spartintroroom"
+		},
+		{
+			"img": "images/start/art_map_station.png",
+			"codes": "spartmapstation"
+		}
+		]
+	},
+	
 	//Tracker Bosses
 	{
 		"name": "Corpius",
