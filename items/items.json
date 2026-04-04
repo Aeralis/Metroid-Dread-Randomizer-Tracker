@@ -1,29 +1,60 @@
 [
-	//Lava Pumps
+	//Interactive Devices
 	{
-//		"name": "Lava Pumps",
-//		"type": "progressive",
-//		"allow_disabled": "false",
-//		"loop": "true",
-//		"stages": [
-//		{
-//			"name": "Lava Pumps Yes",
-//			"img": "images/pumps_yes.png",
-//			"inherit_codes": "false",
-//			"codes": "lavapumpsyes,pumpsyes"
-//		},
-//		{
-//			"name": "Lava Pumps No",
-//			"img": "images/pumps_no.png",
-//			"inherit_codes": "false",
-//			"codes": "lavapumpsno,pumpsno"
-//		}
-//		]
 		"name": "Artaria Thermal Device",
 		"type": "toggle",
 		"loop": "false",
 		"img": "images/interactive.png",
-		"codes": "artarialavapump"
+		"codes": "apump"
+	},
+	{
+		"name": "Cataris Thermal Device South",
+		"type": "toggle",
+		"loop": "false",
+		"img": "images/interactive.png",
+		"codes": "cpumps"
+	},
+	{
+		"name": "Cataris Thermal Device West",
+		"type": "toggle",
+		"loop": "false",
+		"img": "images/interactive.png",
+		"codes": "cpumpw"
+	},
+	{
+		"name": "Cataris Thermal Device East",
+		"type": "toggle",
+		"loop": "false",
+		"img": "images/interactive.png",
+		"codes": "cpumpe"
+	},
+	{
+		"name": "Cataris Thermal Device North",
+		"type": "toggle",
+		"loop": "false",
+		"img": "images/interactive.png",
+		"codes": "cpumpn"
+	},
+	{
+		"name": "Varia Lock",
+		"type": "toggle",
+		"loop": "false",
+		"img": "images/interactive.png",
+		"codes": "vlock"
+	},
+	{
+		"name": "Dairon Freezer Power",
+		"type": "toggle",
+		"loop": "false",
+		"img": "images/interactive.png",
+		"codes": "dfpower"
+	},
+	{
+		"name": "Dairon Main Power",
+		"type": "toggle",
+		"loop": "false",
+		"img": "images/interactive.png",
+		"codes": "dmpower"
 	},
 	
 	//Tracker Items
@@ -287,25 +318,9 @@
 		"img": "images/pbombhud.png",
 		"min_quantity": 2,
 		"max_quantity": 15,
-		"codes": "pbombhub"
+		"codes": "pbombhud"
 	},
 	
-	// Starting Points
-	{
-		"name": "Starting Point",
-		"type": "progressive",
-		"allow_disabled": false,
-		"stages": [
-		{
-			"img": "images/start/art_intro_room.png",
-			"codes": "spartintroroom"
-		},
-		{
-			"img": "images/start/art_map_station.png",
-			"codes": "spartmapstation"
-		}
-		]
-	},
 	
 	//Tracker Bosses
 	{
@@ -499,17 +514,49 @@
 			"codes": "emmi7, emmi7 dna"
 		}
 		]
-	}
-	
-//	 Starting Points
-//	{
-//		"name": "Starting Point",
-//		"type": "progressive",
-//		"allow_disabled": false,
-//		"stages": [
-//		{
-//			"codes": "startingpoint:Artariaintroroom"
-//		}
-//		]
-//	}
+	},
+
+	//Dangerous Actions
+	{
+		"name": "Charge Beam Escape",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/charge.png",
+		"codes": "chadaction"
+	},
+	{
+		"name": "Grapple Beam Escape",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/grapple.png",
+		"codes": "gradaction"
+	},
+	{
+		"name": "Freezer Area",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/morph.png",
+		"codes": "fredaction"
+	},
+	{
+		"name": "Quiet Robe Escape Station",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/wide.png",
+		"codes": "quidaction1"
+	},
+	{
+		"name": "Quiet Robe Escape Emmi",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/wide.png",
+		"codes": "quidaction2"
+	},	
+	{
+		"name": "Quiet Robe Escape Fan",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/wide.png",
+		"codes": "quidaction3"
+	},
 ]
