@@ -72,11 +72,8 @@
 		// Artaria - Transport to Burenia
 		{
 			"name": "arttrabur",
-			"access_rules": [
-			// From Intro Room to Burenia Transport
-				"wave, plasma, screw",
-				"[gravity], grapple, @tech/laybomb, diffusion, bomb, space, screw",
-				"gravity, grapple, @tech/laybomb, [diffusion], screw" ],
+			"access_rules": [ 
+				""	],
 			"item_count": 1
 		},
 		{
@@ -89,23 +86,93 @@
 		{
 			"name": "arttracat",
 			"access_rules": [
-			// From Intro Room to Cataris Transport
-				"cloak",
-				"charge, [varia]" ],
+//							Start Not Shuffled
+//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
+							"noentrance, @lock/cloakdoor, spin",
+							"noentrance, @lock/cloakdoor, morph",
+							"noentrance, @lock/cloakdoor, magent",
+							"noentrance, @lock/chargedoor, speed, [varia]",
+							"noentrance, @lock/chargedoor, @tech/vert, [varia]",
+							"noentrance, @lock/chargedoor, spin, [varia"
+//							Artaria Intro Room		
+//							"aintro, [DoorRestrictions], [ItemRestrictions]",
+							"noentrance, @lock/cloakdoor",
+							"noentrance, @lock/chargedoor, [varia]"
+//							Artaria Map Room
+//							"amap, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria Navigation North
+//							"anavn, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria Save East
+//							"asave, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria Save North
+//							"asavn, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria Save South
+//							"asavs, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria Save West
+//							"asavw, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Transport to Artaria
+//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris Transport to Artaria
+//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris Red Teleport to Artaria
+//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris Blue Teleport to Artaria
+//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
+//							Diaron Yellow Teleport to Artaria
+//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Transport to artaria
+//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",			
+				],
 			"item_count": 1
 		},
 		{
 			"name": "cattraart",
 			"access_rules": [
-				"" ],
+			//No Entrance
+			"$novlock, noentrance, morph",
+			"noentrance, vlock"
+			],
 			"item_count": 1
 		},
 		// Artaria - Transport to Dairon
 		{
 			"name": "arttradai",
 			"access_rules": [
-			// From Intro Room to Dairon Transport
-				"speed" ],
+//							Start Not Shuffled
+//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
+							"noentrance, speed, [spin]",
+							"noentrance, speed, [magnet]",
+							"noentrance, speed, [grapple]",
+//							Artaria Intro Room		
+//							"aintro, [DoorRestrictions], [ItemRestrictions]",
+							"aintro, speed, [spin]",
+							"aintro, speed, [magnet]",
+							"aintro, speed, [grapple]"
+//							Artaria Map Room
+//							"amap, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria Navigation North
+//							"anavn, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria Save East
+//							"asave, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria Save North
+//							"asavn, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria Save South
+//							"asavs, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria Save West
+//							"asavw, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Transport to Artaria
+//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris Transport to Artaria
+//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris Red Teleport to Artaria
+//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris Blue Teleport to Artaria
+//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
+//							Diaron Yellow Teleport to Artaria
+//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Transport to artaria
+//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+				],
 			"item_count": 1
 		},
 		{
@@ -157,7 +224,29 @@
 		{
 			"name": "cattradai",
 			"access_rules": [
-				"" ],
+//				Cataris Map Station
+//				"cmap, [DoorRestrictions], [ItemRestrictions]",
+//				Cataris Navigation Station Northwest
+//				"cnavn, [DoorRestrictions], [ItemRestrictions]",
+//				Cataris Navigation Station Southeast
+//				"cnavs, [DoorRestrictions], [ItemRestrictions]",
+//				Cataris Save Station East
+//				"csave, [DoorRestrictions], [ItemRestrictions]",
+//				Cataris Save Station West
+//				"csavw, [DoorRestrictions], [ItemRestrictions]",
+//				Artaria - Transport to Cataris
+//				"arttracat, [DoorRestrictions], [ItemRestrictions]",
+//				Dairon - Transport to Cataris
+// 				"daitracat, [DoorRestrictions], [ItemRestrictions]",
+//				Artaria - Red Teleport to Cataris
+//				"artredcat, [DoorRestrictions], [ItemRestrictions]",
+//				Artaria - Blue Teleport to Cataris
+//				"artblucat, [DoorRestrictions], [ItemRestrictions]",
+//				Dairon - Purple Teleport to Cataris
+//				"daipurcat, [DoorRestrictions], [ItemRestrictions]",
+//				Ghavoran - Orange Teleport to Cataris
+//				"ghaoracat, [DoorRestrictions], [ItemRestrictions]"
+				],
 			"item_count": 1
 		},
 		{
@@ -215,7 +304,7 @@
 		{
 			"name": "ghatraelu",
 			"access_rules": [ 
-				"" ],
+				"grapple, magnet, super, @tech/chute" ],
 			"item_count": 1
 		},
 		// Ferenia - Transport to Ghavoran
@@ -235,7 +324,15 @@
 		{
 			"name": "fertrahan",
 			"access_rules": [
-				"" ],
+				//Ghavoran Entrance
+				"gravity, screw, wave",
+				//Dairon DNA Entrance
+				"gravity, plasma, screw, wave",
+				//Dairon EMMI Intro Entrance
+				"morph, flash, speed, gravity, plasma, screw, wave",
+				//Cyan Teleport Entrance
+				"morph, pbomb, gravity, screw, wave"
+				],
 			"item_count": 1
 		},
 		{
@@ -248,20 +345,29 @@
 		{
 			"name": "ghatrahan",
 			"access_rules": [
-				"" ],
+				""
+				],
 			"item_count": 1
 		},
 		{
 			"name": "hantragha",
 			"access_rules": [
-				"" ],
+				//Ferenia Entrance
+				"Screw, @tech/laybomb",
+				//Itorash Entrance
+				"screw, morph, pbomb",
+				"speed, morph, pbmob" 
+				],
 			"item_count": 1
 		},
 		// Hanubia - Transport to Itorash
 		{
 			"name": "hantraito",
 			"access_rules": [
-				"" ],
+				"morph, pbomb, speed, wave",
+				"morph, pbomb, space, screw, wave",
+				"pbomb, @tech/ibj, screw, wave"
+				],
 			"item_count": 1
 		},
 		{
@@ -274,8 +380,7 @@
 		{
 			"name": "artredcat",
 			"access_rules": [
-			// From Intro Room to Cataris Teleport
-				"morph" ],
+				"" ],
 			"item_count": 1
 		},
 		{
@@ -288,8 +393,7 @@
 		{
 			"name": "artyeldai",
 			"access_rules": [
-			// From Intro Room to Dairon Teleport
-				"wide, wave" ],
+				"" ],
 			"item_count": 1
 		},
 		{

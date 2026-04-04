@@ -1,0 +1,887 @@
+[
+	// Dairon
+	{
+		"name": "Dairon",
+		"chest_opened_img": "images/item_sphere.png",
+		"children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Big Hub",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Big Hub Missile Pack",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3432,
+						"y": 2852
+					},
+					{
+						"map": "dairon",
+						"x": 1920,
+						"y": 300
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"morph, @tech/ibj",
+						"morph, grapple",
+						"morph, spin, flash",
+						"morph, space"
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Bomb Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Bomb",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2726,
+						"y": 2718
+					},
+					{
+						"map": "dairon",
+						"x": 1220,
+						"y": 175
+					}
+					],
+					"sections": [
+					{
+						"name": "Bomb",
+						"chest_unopened_img": "/images/bomb.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"morph",						
+						],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Bomb Missile",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2742,
+						"y": 2751
+					},
+					{
+						"map": "dairon",
+						"x": 1227,
+						"y": 204
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ "morph, laybomb" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Central Unit Access",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Central Unit Access Energy Part",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2324,
+						"y": 3296
+					},
+					{
+						"map": "dairon",
+						"x": 810,
+						"y": 748
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "/images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"speed, morph" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Cross Bomb Puzzle Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Cross Bomb Puzzle Item",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2778,
+						"y": 2844
+					},
+					{
+						"map": "dairon",
+						"x": 1264,
+						"y": 295
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Tank",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"@tech/laybomb, speed", 
+						"cross" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "E.M.M.I.-04SB",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Yellow EMMI",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2402,
+						"y": 3259
+					},
+					{
+						"map": "dairon",
+						"x": 889,
+						"y": 713
+					}
+					],
+					"sections": [
+					{
+						"name": "Defeat Yellow EMMI",
+						"chest_unopened_img": "images/emmi4.png",
+						"capture_item": true,
+						"hosted_item": "emmi4",
+						"access_rules": [ 
+						"gravity, charge, morph" 
+						],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Early Grapple Access",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Early Grapple Access",
+					"chest_unopened_img": "images/ .png",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3152,
+						"y": 3078
+					},
+					{
+						"map": "dairon",
+						"x": 1637,
+						"y": 525
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "/images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"morph, charge, speed, [varia]",
+						"morph, wide, [varia]",
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Early Grapple Room Missile",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Early Grapple Missile",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3336,
+						"y": 3064
+					},
+					{
+						"map": "dairon",
+						"x": 1822,
+						"y": 514
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"grapple, morph, [varia]" 
+						],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Early Grapple Speedboost",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3469,
+						"y": 3138
+					},
+					{
+						"map": "dairon",
+						"x": 1945,
+						"y": 587
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"speed, [gravity]" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "EMMI Zone Exit North",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "EMMI Zone Exit North",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2892,
+						"y": 2804
+					},
+					{
+						"map": "dairon",
+						"x": 1377,
+						"y": 254
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "/images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"morph, pbomb"
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "EMMI Zone Exit Northwest",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "EMMI Zone Exit Northwest",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2502,
+						"y": 3033
+					},
+					{
+						"map": "dairon",
+						"x": 992,
+						"y": 480
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Tank",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"speed, morph" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Energy Recharge Station West",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Energy Recharge Station West",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2286,
+						"y": 2722
+					},
+					{
+						"map": "dairon",
+						"x": 770,
+						"y": 174
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "/images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"speed, [gravity]" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Freezer",
+				"access_rules": [ 
+//				"dfpower, [gravity]",
+//				"$nodfpower"
+				],
+				"children": [
+				{
+					"name": "Freezer Upper",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2339,
+						"y": 2808
+					},
+					{
+						"map": "dairon",
+						"x": 825,
+						"y": 256
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"diffusion, [gravity]", 
+						],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Freezer Lower",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2339,
+						"y": 2900
+					},
+					{
+						"map": "dairon",
+						"x": 835,
+						"y": 380
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+//							Dairon Map Station
+//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station North
+//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station South
+//							"dnavs, [DoorRestrictions, [ItemRestrictions]",
+//							Dairon Save Station East
+//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Save Station West
+//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Dairon
+//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+							"@area/arttradai, @tech/wideblock, speed, morph, screw, [gravity]",
+							"@area/arttradai, spin, speed, morph, screw, [gravity]",
+//							Burenia - Lower Transport to Dairon
+//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Upper Transport to Dairon
+//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Transport to Dairon
+//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - East Transport to Dairon
+//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Dairon
+//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+							"ghatradai, morph, speed, screw, [gravity]"
+//							Ferenia - West Transport to Dairon
+//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Yellow Teleport to Dairon
+//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Purple Teleport to Dairon
+//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Hidden Grapple Shortcut Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Hidden Grapple Shortcut Missile",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2306,
+						"y": 3069
+					},
+					{
+						"map": "dairon",
+						"x": 801,
+						"y": 521
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "/images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"morph" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Save Station West Tunnels",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Save Station West Missile",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2239,
+						"y": 3064
+					},
+					{
+						"map": "dairon",
+						"x": 723,
+						"y": 514
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"@tech/chute"
+//							Dairon Map Station
+//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station North
+//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station South
+//							"dnavs, [DoorRestrictions, [ItemRestrictions]",
+//							Dairon Save Station East
+//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Save Station West
+//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Dairon
+//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Lower Transport to Dairon
+//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Upper Transport to Dairon
+//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Transport to Dairon
+//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - East Transport to Dairon
+//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Dairon
+//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - West Transport to Dairon
+//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Yellow Teleport to Dairon
+//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Purple Teleport to Dairon
+//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Shinespark Tutorial",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Shinespark Tutorial",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2744,
+						"y": 2944
+					},
+					{
+						"map": "dairon",
+						"x": 1232,
+						"y": 393
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Tank",
+						"chest_unopened_img": "images/energytank.png",						
+						"capture_item": true,
+						"access_rules": [ 
+						"speed" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Teleport to Artaria",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Teleport to Artaria",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3714,
+						"y": 2700
+					},
+					{
+						"map": "dairon",
+						"x": 2200,
+						"y": 149
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+//						Dairon Map Station
+//						"dmap", [DoorRestrictions], [ItemRestrictions]",
+//						Dairon Navigation Station North
+//						"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//						Dairon Navigation Station South
+//						"dnavs, [DoorRestrictions, [ItemRestrictions]",
+//						Dairon Save Station East
+//						"dsave, [DoorRestrictions], [ItemRestrictions]",
+//						Dairon Save Station West
+//						"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//						Artaria - Transport to Dairon
+//						"arttradai, [DoorRestrictions], [ItemRestrictions]",
+//						Burenia - Lower Transport to Dairon
+//						"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//						Burenia - Upper Transport to Dairon
+//						"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//						Cataris - Transport to Dairon
+//						"cattradai, [DoorRestrictions], [ItemRestrictions]",
+						"cattradai, speed"
+//						Ferenia - East Transport to Dairon
+//						"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//						Ghavoran - Transport to Dairon
+//						"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//						Ferenia - West Transport to Dairon
+//						"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//						Artaria - Yellow Teleport to Dairon
+//						"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//						Cataris - Purple Teleport to Dairon
+//						"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Wide Beam Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Wide Beam Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3176,
+						"y": 2908
+					},
+					{
+						"map": "dairon",
+						"x": 1666,
+						"y": 358
+					}
+					],
+					"sections": [
+					{
+						"name": "Wide Beam",
+						"chest_unopened_img": "images/wide.png",
+						"capture_item": true,
+						"access_rules": [ 
+//							Dairon Map Station
+//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station North
+//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station South
+//							"dnavs, [DoorRestrictions, [ItemRestrictions]",
+//							Dairon Save Station East
+//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Save Station West
+//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Dairon
+//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Lower Transport to Dairon
+//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Upper Transport to Dairon
+//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Transport to Dairon
+//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - East Transport to Dairon
+//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Dairon
+//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - West Transport to Dairon
+//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Yellow Teleport to Dairon
+//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Purple Teleport to Dairon
+//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+							"@area/catpurdai, diffusion"
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},			
+			{
+				"name": "Lake Puzzle Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Lake Puzzle Room",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 3176,
+				//		"y": 2908
+				//	},
+					{
+						"map": "dairon",
+						"x": 1235,
+						"y": 635
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"storm, cross, grapple" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},			
+			{
+				"name": "Storm Missile Gate",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Storm Missile Gate",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 3176,
+				//		"y": 2908
+				//	},
+					{
+						"map": "dairon",
+						"x": 1010,
+						"y": 623
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile+ Pack",
+						"chest_unopened_img": "images/missile+pack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"speed" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},			
+			{
+				"name": "Transport to Artaria",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Transport to Artaria",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3555,
+						"y": 3050
+					},
+					{
+						"map": "dairon",
+						"x": 1990,
+						"y": 520
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"wide, charge, [varia], grapple, morph",
+//							Dairon Map Station
+//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station North
+//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station South
+//							"dnavs, [DoorRestrictions, [ItemRestrictions]",
+//							Dairon Save Station East
+//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Save Station West
+//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Dairon
+//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/arttradai, grapple}",
+							"{@area/arttradai, spin}",
+							"@area/arttradai, @tech/vert, morph, [varia]",
+							"@area/arttradai, spin, morph, [varia]",
+							"@area/arttardai, grapple, morph, [varia]"
+//							Burenia - Lower Transport to Dairon
+//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Upper Transport to Dairon
+//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Transport to Dairon
+//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - East Transport to Dairon
+//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Dairon
+//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - West Transport to Dairon
+//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Yellow Teleport to Dairon
+//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Purple Teleport to Dairon
+//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Yellow EMMI Introduction",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Yellow EMMI Introduction",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3028,
+						"y": 2804
+					},
+					{
+						"map": "dairon",
+						"x": 1513,
+						"y": 252
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"morph, laybomb" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	}
+]

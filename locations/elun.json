@@ -1,0 +1,207 @@
+[
+	// Elun
+	{
+		"name": "Elun",
+		"chest_opened_img": "images/item_sphere.png",
+		"children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Ammo Recharge Station",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Ammo Recharge Station",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2455,
+						"y": 2226
+					},
+					{
+						"map": "elun",
+						"x": 1070,
+						"y": 74
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Tank",
+						"chest_unopened_img": "images/energytank.png",
+						"capture_item": true,
+						"access_rules": [ 
+//							Elun Save Station
+//							"esave, [DoorRestrictions], [ItemRestrictions]",
+							"{esave, @lock/plasmadoor}",
+							"esave, @lock/plasmadoor, morph",
+//							Ghavoran - Transport to Elun
+//							"ghatraelu, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/ghatraelu, @lock/plasmadoor}",
+							"@area/ghatraelu, @lock/plasmadoor, morph"
+							],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Fan Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Fan Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2624,
+						"y": 2384
+					},
+					{
+						"map": "elun",
+						"x": 1244,
+						"y": 233
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+//							Elun Save Station
+//							"esave, [DoorRestrictions], [ItemRestrictions]",
+							"esave, @lock/plasmadoor, speed",
+							"esave, @tech/chute, speed",
+//							Ghavoran - Transport to Elun
+//							"ghatraelu, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatraelu, @lock/plasmadoor, speed",
+							"@area/ghatraelu, @tech/chute, speed"
+							],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Horizontal Bomb Maze",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Horizontal Bomb Maze",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2658,
+						"y": 2163
+					},
+					{
+						"map": "elun",
+						"x": 1272,
+						"y": 12
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+//							Elun Save Station
+//							"esave, [DoorRestrictions], [ItemRestrictions]",
+							"{esave, @tech/laybomb, plasma}",
+							"esave, plasma, @tech/laybomb, pbomb",
+//							Ghavoran - Transport to Elun
+//							"ghatraelu, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/ghatraelu, @tech/laybomb, plasma}",
+							"@area/ghatraelu, plasma, @tech/laybomb, pbomb"
+							],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Plasma Beam Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Plasma Beam Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2563,
+						"y": 2379
+					},
+					{
+						"map": "elun",
+						"x": 1191,
+						"y": 225
+					}
+					],
+					"sections": [
+					{
+						"name": "Plasma Beam",
+						"chest_unopened_img": "images/plasma.png",
+						"capture_item": true,
+						"access_rules": [ 
+//							Elun Save Station
+//							"esave, [DoorRestrictions], [ItemRestrictions]",
+							"esave, @lock/missiledoor, @tech/chute",
+							"esave, @lock/plasmadoor, morph",
+//							Ghavoran - Transport to Elun
+//							"ghatraelu, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatraelu, @lock/missiledoor, @tech/chute",
+							"@area/ghatraelu, @lock/plasmadoor, morph"
+							],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Vertical Bomb Maze",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Vertical Bomb Maze",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 2741,
+						"y": 2282
+					},
+					{
+						"map": "elun",
+						"x": 1360,
+						"y": 133
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ 
+//							Elun Save Station
+//							"esave, [DoorRestrictions], [ItemRestrictions]",
+							"esave, @lock/plasmadoor, @tech/chute",
+//							Ghavoran - Transport to Elun
+//							"ghatraelu, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatraelu, @lock/plasmadoor, @tech/chute"
+							],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	}
+]
