@@ -1,0 +1,700 @@
+[
+	// Ghavoran
+	{
+		"name": "Ghavoran",
+		"children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Above Pulse Radar",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Above Pulse Radar",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1206,
+						"y": 1857
+					},
+					{
+						"map": "ghavoran",
+						"x": 865,
+						"y": 91
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"@area/catoragha, charge, morph",
+						"@area/burgregha, screw, grapple, ice, @tech/laybomb, spin",
+						"@area/burgregha, screw, magnet, ice, @tech/laybomb, spin",
+						"@area/burgregha, screw, grapple, ice, @tech/laybomb, gravity",
+						"@area/burgregha, screw, magnet, ice, @tech/laybomb, gravity",
+						"@area/hantragha, grapple, screw, ice, @tech/laybomb",
+						"@area/burtragha, grapple, magnet, ice, morph",
+						"@area/burtragha, plasma, @tech/laybomb, ice, grapple, spin"
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "E.M.M.I.-05IM",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "E.M.M.I.-05IM",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 3886,
+				//		"y": 4132
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 340,
+						"y": 195
+					}
+					],
+					"sections": [
+					{
+						"name": "Defeat Blue EMMI",
+						"chest_unopened_img": "images/emmi5.png",
+						"capture_item": true,
+						"hosted_item": "emmi5",
+						"access_rules": [ 
+						"@area/burgregha, morph, pbomb, plasma, space",
+						"@area/burgregha, morph, pbomb, plasma, spin, ice",
+						"@area/burgregha, screw, @tech/laybomb, plasma, space",
+						"@area/burgregha, screw, @tech/laybomb, plasma, ice, spin",
+						"@area/hantragha, morph, ice, space, pbomb, plasma",
+						"@area/hantragha, grapple, screw, @tech/laybomb, plasma, space",
+						"@area/hantragha, grapple, screw, @tech/laybomb, plasma, ice, spin",
+						"@area/burtragha, grapple, magnet, plasma, @tech/ibj, [gravity]",
+						"@area/burtragha, grapple, magnet, plasma, gravity",
+						"@area/burtragha, grapple, magnet, ice, spin, @tech/ibj, [gravity]",
+						"@area/burtragha, grapple, magnet, ice, spin, gravity",
+						"@area/burtragha, plasma, space, @tech/laybomb",
+						],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Cross Bomb Tutorial",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Cross Bomb Tutorial",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 1240,
+						"y": 160
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"@area/burgregha, screw, spin, grapple, speed, thex, golzuna", 
+						"@area/burgregha, screw, spin, grapple, speed, thex, golzuna dna",
+						"@area/burtragha, screw, spin, magnet, speed, thex, golzuna",
+						"@area/burtragha, screw, spin, magnet, speed, thex, golzuna dna",
+						"@area/burtragha, screw, space, grapple, thex, golzuna",
+						"@area/burtragha, screw, space, grapple, thex, golzuna dna",
+						"@area/hantragha, @tech/laybomb",
+						"@area/burtragha, grapple, magnet, ice, spin, screw, speed, thex, golzuna",
+						"@area/burtragha, grapple, magnet, ice, spin, screw, speed, thex, golzuna dna",
+						"@area/burtragra, grapple, magnet, plasma, spin, morph, pbomb, screw, speed, thex, golzuna",
+						"@area/burtragra, grapple, magnet, plasma, spin, morph, pbomb, screw, speed, thex, golzuna dna"
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Diaron Transport Access",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Diaron Transport Access",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 725,
+						"y": 635
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"grapple" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Elun Transport Missile",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Elun Transport Missile",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 650,
+						"y": 500
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"speed" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Golzuna Arena",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Golzuna Arena",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 4354,
+				//		"y": 3934
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 1070,
+						"y": 155
+					}
+					],
+					"sections": [
+					{
+						"name": "Reward",
+						"chest_unopened_img": "images/dna.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"@area/hantragha, morph, thex",
+						"@area/burgregha, spin, screw, grapple, speed, thex",
+						"@area/burgregha, gravity, screw, grapple, speed, thex",
+						"@tech/laybomb, ice, screw, grapple, space, thex",
+						"@tech/laybomb, ice, screw, grapple, speed, thex",
+						],
+						"item_count": 1
+					},
+					{
+						"name": "Defeat Golzuna",
+						"chest_unopened_img": "images/golzuna.png",
+						"capture_item": false,
+						"hosted_item": "golzuna",
+						"access_rules": [ 
+						"@area/hantragha, morph, thex",
+						"@area/burgregha, spin, screw, grapple, speed, thex",
+						"@area/burgregha, gravity, screw, grapple, speed, thex",
+						"@tech/laybomb, ice, screw, grapple, space, thex",
+						"@tech/laybomb, ice, screw, grapple, speed, thex",
+						],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Golzuna Tower",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Golzuna Tower Top",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1269,
+						"y": 1812
+					},
+					{
+						"map": "ghavoran",
+						"x": 930,
+						"y": 49
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+							"speed, morph, space",
+							"speed, morph, @tech/ibj" 
+							],
+						"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Golzuna Tower Bottom",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1258,
+						"y": 1959
+					},
+					{
+						"map": "ghavoran",
+						"x": 920,
+						"y": 197
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"@area/hantragha, morph",
+						"tech/laybomb, ice, screw, grapple, speed",
+						"tech/laybomb, ice, screw, grapple, space"
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Burenia Entrance Left",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Burenia Entrance Left",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 200,
+						"y": 610
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"plasma, grapple",
+						"grapple, magnet, @tech/laybomb"
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Map Station Access Secret",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Map Station Access Secret",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 640,
+						"y": 415
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"grapple, magnet, plasma, gravity"
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Pulse Radar Room",
+				"access_rules": [ "morph" ],
+				"children": [
+				{
+					"name": "Pulse Radar Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1164,
+						"y": 1910
+					},
+					{
+						"map": "ghavoran",
+						"x": 829,
+						"y": 152
+					}
+					],
+					"sections": [
+					{
+						"name": "Pulse Radar",
+						"chest_unopened_img": "images/pulse.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"charge, morph",
+						"grapple, magnet, plasma, @tech/ibj, [gravity], ice",
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Burenia Entrance Right",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Burenia Entrance Right",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 350,
+						"y": 670
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"grapple, speed",
+						"grapple, gravity"
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Spin Boost Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Spin Boost Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 1150,
+						"y": 2120
+					},
+					{
+						"map": "ghavoran",
+						"x": 806,
+						"y": 349
+					}
+					],
+					"sections": [
+					{
+						"name": "Spin Boost",
+						"chest_unopened_img": "images/Progressive Jump 90x90.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"@tech/chute"
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Spin Boost Tower Lower",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Spin Boost Tower Lower",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 665,
+						"y": 350
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Part",
+						"chest_unopened_img": "images/energypart.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"spin, ice, grapple, morph" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Spin Boost Tower Middle",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Spin Boost Tower Middle",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 775,
+						"y": 175
+					}
+					],
+					"sections": [
+					{
+						"name": "Energy Tank",
+						"chest_unopened_img": "images/energytank.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"spin, ice"
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Spin Boost Tower Top",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Spin Boost Tower Top",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 745,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Power Bomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"ice, space",
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Super Missile Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Super Missile Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 836,
+						"y": 2413
+					},
+					{
+						"map": "ghavoran",
+						"x": 493,
+						"y": 651
+					}
+					],
+					"sections": [
+					{
+						"name": "Super Missile",
+						"chest_unopened_img": "images/supers.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"grapple, magnet, @tech/chute" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Super Missile Room Access",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Super Missile Room Access",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 914,
+						"y": 2333
+					},
+					{
+						"map": "ghavoran",
+						"x": 573,
+						"y": 571
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile+ Pack",
+						"chest_unopened_img": "images/missile+pack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"morph" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Teleport to Burenia Missile",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Teleport to Burenia Missile",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 990,
+						"y": 272
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"bomb, cross"
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Total Recharge Station North",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Total Recharge Station North",
+					"map_locations": [
+				//	{
+				//		"map": "fullmap",
+				//		"x": 1206,
+				//		"y": 1857
+				//	},
+					{
+						"map": "ghavoran",
+						"x": 1010,
+						"y": 282
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"capture_item": true,
+						"access_rules": [ 
+						"spin, storm, morph" 
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	}
+]

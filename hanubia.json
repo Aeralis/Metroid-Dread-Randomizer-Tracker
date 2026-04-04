@@ -1,0 +1,219 @@
+[
+	// Hanubia
+	{
+		"name": "Hanubia",
+		"chest_opened_img": "images/item_sphere.png",
+		"children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Ferenia Shortcut",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Ferenia Shortcut",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3535,
+						"y": 1545
+					},
+					{
+						"map": "hanubia",
+						"x": 860,
+						"y": 425
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"caputre_item": true,
+						"access_rules": [
+//							Hanubia Navigation Station
+//							"hnav, [DoorRestrictions], [ItemRestrictions]",
+							"hnav, @tech/laybomb, grapple",
+//							Ferenia - Transport to Hanubia
+//							"@area/fertrahan, [DoorRestrictions], [ItemRestrictions]",
+							"@area/fertrahan, grapple, screw, @tech/laybomb",
+//							Ghavoran - Transport to Hanubia
+//							"@area/ghatrahan, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatrahan, @tech/laybomb, grapple",
+//							Itorash - Transport to Hanubia
+//							"itotrahan, [DoorRestrictions], [ItemRestrictions]",
+							"itotrahan, @tech/laybomb, speed, pbomb",
+							"itotrahan, @tech/laybomb, screw, pbomb"
+					],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Orange EMMI Introduction",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Orange EMMI Introduction",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3940,
+						"y": 1545
+					},
+					{
+						"map": "hanubia",
+						"x": 1250,
+						"y": 425
+					}
+					],
+					"sections":[
+					{
+						"name": "Reward",
+						"chest_unopened_img": "images/dna.png",
+						"capture_item": true,
+						"access_rules": [
+//							Hanubia Navigation Station
+//							"hnav, [DoorRestrictions], [ItemRestrictions]",
+							"hnav, @lock/wavedoor,@tech/laybomb",
+//							Ferenia - Transport to Hanubia
+//							"@area/fertrahan, [DoorRestrictions], [ItemRestrictions]",
+							"@area/fertrahan, @lock/wavedoor, screw, spin",
+							"@area/fertrahan, @lock/wavedoor, screw, morph, bomb, [cross]",
+//							Ghavoran - Transport to Hanubia
+//							"@area/ghatrahan, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatrahan, @lock/wavedoor, @tech/laybomb",
+//							Itorash - Transport to Hanubia
+//							"itotrahan, [DoorRestrictions], [ItemRestrictions]",
+							"itotrahan, @lock/wavedoor, screw, morph, pbomb",
+							"itotrahan, @lock/wavedoor, speed, morph, pbomb"
+							],
+						"item_count": 1
+					},
+					{
+						"name": "Defeat Orange EMMI",
+						"chest_unopened_img": "images/emmi7.png",
+						"capture_item": false,
+						"hosted_item": "emmi7",
+						"access_rules": [ 
+//							Hanubia Navigation Station
+//							"hnav, [DoorRestrictions], [ItemRestrictions]",
+							"hnav, @lock/wavedoor,@tech/laybomb",
+//							Ferenia - Transport to Hanubia
+//							"@area/fertrahan, [DoorRestrictions], [ItemRestrictions]",
+							"@area/fertrahan, @lock/wavedoor, screw, spin",
+							"@area/fertrahan, @lock/wavedoor, screw, morph, bomb, [cross]",
+//							Ghavoran - Transport to Hanubia
+//							"@area/ghatrahan, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatrahan, @lock/wavedoor, @tech/laybomb",
+//							Itorash - Transport to Hanubia
+//							"itotrahan, [DoorRestrictions], [ItemRestrictions]",
+							"itotrahan, @lock/wavedoor, screw, morph, pbomb",
+							"itotrahan, @lock/wavedoor, speed, morph, pbomb"
+						],
+						"item_count": 0
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Speedboost Puzzle Room",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Speedboost Puzzle Room",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3645,
+						"y": 1465
+					},
+					{
+						"map": "hanubia",
+						"x": 1000,
+						"y": 345
+					}
+					],
+					"sections": [
+					{
+						"name": "Powerbomb Tank",
+						"chest_unopened_img": "images/pbombtank.png",
+						"caputre_item": true,
+						"access_rules": [ 
+//							Hanubia Navigation Station
+//							"hnav, [DoorRestrictions], [ItemRestrictions]",
+							"hnav, @lock/wavedoor, @tech/laybomb, speed",
+//							Ferenia - Transport to Hanubia
+//							"@area/fertrahan, [DoorRestrictions], [ItemRestrictions]",
+							"@area/fertrahan, @lock/wavedoor, screw, spin",
+							"@area/fertrahan, @lock/wavedoor, screw, morph, bomb, [cross]",
+//							Ghavoran - Transport to Hanubia
+//							"@area/ghatrahan, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatrahan, @lock/wavedoor, @tech/laybomb, speed",
+//							Itorash - Transport to Hanubia
+//							"itotrahan, [DoorRestrictions], [ItemRestrictions]",
+							"itotrahan, @lock/wavedoor, morph, pbomb, speed"
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Total Recharge Station North",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Total Recharge Station North",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 3665,
+						"y": 1355
+					},
+					{
+						"map": "hanubia",
+						"x": 970,
+						"y": 240
+					}
+					],
+					"sections": [
+					{
+						"name": "Missile Pack",
+						"chest_unopened_img": "images/missilepack.png",
+						"caputre_item": true,
+						"access_rules": [ 
+//							Hanubia Navigation Station
+//							"hnav, [DoorRestrictions], [ItemRestrictions]",
+							"hnav, @lock/wavedoor, morph, pbomb, space, screw",
+							"hnav, @lock/wavedoor, morph, pbomb, speed",
+							"hnav, @lock/wavedoor, @tech/ibj, pbomb, screw",
+//							Ferenia - Transport to Hanubia
+//							"@area/fertrahan, [DoorRestrictions], [ItemRestrictions]",
+							"@area/fertrahan, @lock/wavedoor, @tech/laybomb, pbomb, space, screw",
+							"@area/fertrahan, @lock/wavedoor, @tech/laybomb, pbomb, speed, spin, screw",
+							"@area/fertrahan, @lock/wavedoor, @tech,ibj, pbomb, screw",
+//							Ghavoran - Transport to Hanubia
+//							"@area/ghatrahan, [DoorRestrictions], [ItemRestrictions]",
+							"noentrance, @lock/wavedoor, @tech/laybomb, pbomb, speed",
+							"noentrance, @lock/wavedoor, @tech/laybomb, pbomb, space, screw",
+							"noentrance, @lock/wavedoor, @tech/ibj, pbomb, screw",
+//							Itorash - Transport to Hanubia
+//							"itotrahan, [DoorRestrictions], [ItemRestrictions]",
+							"itotrahan, morph"
+						],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	}
+]
