@@ -66,7 +66,36 @@
 						"chest_unopened_img": "/images/bomb.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"morph",						
+//							Dairon Map Station
+//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station North
+//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station South
+//							"dnavs, [DoorRestrictions, [ItemRestrictions]",
+//							Dairon Save Station East
+//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Save Station West
+//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Dairon
+//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Lower Transport to Dairon
+//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Upper Transport to Dairon
+//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Transport to Dairon
+//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - East Transport to Dairon
+//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Dairon
+//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - West Transport to Dairon
+//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Yellow Teleport to Dairon
+//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Purple Teleport to Dairon
+//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+							"@area/catpurdai, diffusion, @tech/wideblock, speed, morph",
+							"@area/catpurdai, diffusion, @move/vert, speed, morph"
 						],
 						"item_count": 1
 					}
@@ -91,7 +120,41 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph, laybomb" ],
+						"access_rules": [ 
+//							Dairon Map Station
+//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station North
+//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+							"{dnavn, morph, pbomb}",
+//							Dairon Navigation Station South
+//							"dnavs, [DoorRestrictions, [ItemRestrictions]",
+//							Dairon Save Station East
+//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Save Station West
+//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Dairon
+//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Lower Transport to Dairon
+//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Upper Transport to Dairon
+//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Transport to Dairon
+//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - East Transport to Dairon
+//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Dairon
+//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - West Transport to Dairon
+//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Yellow Teleport to Dairon
+//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Purple Teleport to Dairon
+//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/catpurdai, diffusion, @tech/wideblock, speed, morph, pbomb}",
+							"{@area/catpurdai, diffusion, @move/vert, speed, morph, pbomb}",
+							"@area/catpurdai, diffusion, @tech/wideblock, speed, @tech/chute",
+							"@area/catpurdai, diffusion, @move/vert, speed, @tech/chute"
+						],
 						"item_count": 1
 					}
 					]
@@ -154,8 +217,41 @@
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"@tech/laybomb, speed", 
-						"cross" 
+//							Dairon Map Station
+//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station North
+//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station South
+//							"dnavs, [DoorRestrictions, [ItemRestrictions]",
+//							Dairon Save Station East
+//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Save Station West
+//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Dairon
+//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Lower Transport to Dairon
+//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Upper Transport to Dairon
+//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Transport to Dairon
+//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - East Transport to Dairon
+//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Dairon
+//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - West Transport to Dairon
+//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Yellow Teleport to Dairon
+//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Purple Teleport to Dairon
+//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/catpurdai, diffusion, @move/vert, speed}",
+							"{@area/catpurdai, diffusion, @tech/wideblock, speed}",
+							"@area/catpurdai, diffusion, @move/vert, speed, @tech/ibj",
+							"@area/catpurdai, diffusion, @move/vert, @tech/ibj",
+							"@area/catpurdai, diffusion, @tech/wideblock, speed, @tech/ibj",
+							"@area/catpurdai, diffusion, @tech/wideblock, @tech/ibj"
+							
 						],
 						"item_count": 1
 					}
@@ -280,7 +376,39 @@
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"speed, [gravity]" 
+
+//							Dairon Map Station
+//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station North
+//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station South
+//							"dnavs, [DoorRestrictions, [ItemRestrictions]",
+							"@area/dnavs, varia, morph, speed, [gravity]",
+//							Dairon Save Station East
+//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Save Station West
+//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Dairon
+//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Lower Transport to Dairon
+//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Upper Transport to Dairon
+//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Transport to Dairon
+//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - East Transport to Dairon
+//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Dairon
+//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - West Transport to Dairon
+//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Yellow Teleport to Dairon
+//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Purple Teleport to Dairon
+//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+							"@area/catpurdai, diffusion, @lock/widedoor, charge, varia, morph, speed, [gravity]",
+							"@area/catpurdai, diffusion, @tech/wideblock, varia, morph, speed, [gravity]",
+							"@area/catpurdai, diffusion, @move/vert, varia, morph, speed, [gravity]"
 						],
 						"item_count": 1
 					}
@@ -312,7 +440,38 @@
 						"chest_unopened_img": "/images/pbombtank.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"morph, pbomb"
+//							Dairon Map Station
+//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station North
+//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station South
+//							"dnavs, [DoorRestrictions, [ItemRestrictions]",
+//							Dairon Save Station East
+//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Save Station West
+//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Dairon
+//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Lower Transport to Dairon
+//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Upper Transport to Dairon
+//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Transport to Dairon
+//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - East Transport to Dairon
+//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Dairon
+//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - West Transport to Dairon
+//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Yellow Teleport to Dairon
+//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Purple Teleport to Dairon
+//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/catpurdai, diffusion, @move/vert, speed}",
+							"{@area/catpurdai, diffusion, @tech/wideblock, speed}",
+							"@area/catpurdai, diffusion, @move/vert, morph, pbomb",
+							"@area/catpurdai, diffusion, @tech/wideblock, speed, morph, pbomb"
 						],
 						"item_count": 1
 					}
@@ -376,7 +535,36 @@
 						"chest_unopened_img": "/images/energypart.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"speed, [gravity]" 
+//							Dairon Map Station
+//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station North
+//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station South
+//							"dnavs, [DoorRestrictions, [ItemRestrictions]",
+//							Dairon Save Station East
+//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Save Station West
+//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Dairon
+//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Lower Transport to Dairon
+//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Upper Transport to Dairon
+//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Transport to Dairon
+//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - East Transport to Dairon
+//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Dairon
+//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - West Transport to Dairon
+//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Yellow Teleport to Dairon
+//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Purple Teleport to Dairon
+//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+							"@area/catpurdai, diffusion, @tech/wideblock, speed, morph, [gravity]",
+							"@area/catpurdai, diffusion, @move/vert, speed, morph, [gravity]"
 						],
 						"item_count": 1
 					}
@@ -411,7 +599,36 @@
 						"chest_unopened_img": "/images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"diffusion, [gravity]", 
+//							Dairon Map Station
+//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station North
+//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station South
+//							"dnavs, [DoorRestrictions, [ItemRestrictions]",
+//							Dairon Save Station East
+//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Save Station West
+//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Dairon
+//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Lower Transport to Dairon
+//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Upper Transport to Dairon
+//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Transport to Dairon
+//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - East Transport to Dairon
+//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Dairon
+//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - West Transport to Dairon
+//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Yellow Teleport to Dairon
+//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Purple Teleport to Dairon
+//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+							"@area/catpurdai, diffusion, @move/vert, speed, morph, [gravity]",
+							"@area/catpurdai, diffusion, @tech/wideblock, speed, morph, [gravity]"
 						],
 						"item_count": 1
 					}
@@ -461,7 +678,7 @@
 //							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
 //							Ghavoran - Transport to Dairon
 //							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
-							"ghatradai, morph, speed, screw, [gravity]"
+							"@area/ghatradai, morph, speed, screw, [gravity]"
 //							Ferenia - West Transport to Dairon
 //							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria - Yellow Teleport to Dairon
@@ -591,7 +808,38 @@
 						"chest_unopened_img": "images/energytank.png",						
 						"capture_item": true,
 						"access_rules": [ 
-						"speed" 
+//							Dairon Map Station
+//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station North
+//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station South
+//							"dnavs, [DoorRestrictions, [ItemRestrictions]",
+//							Dairon Save Station East
+//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Save Station West
+//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Dairon
+//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Lower Transport to Dairon
+//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Upper Transport to Dairon
+//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Transport to Dairon
+//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - East Transport to Dairon
+//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Dairon
+//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - West Transport to Dairon
+//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Yellow Teleport to Dairon
+//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Purple Teleport to Dairon
+//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/catpurdai, diffusion, @tech/wideblock, speed}",
+							"{@area/catpurdai, diffusion, @move/vert, speed}",
+							"@area/catpurdai, diffusion, @tech/wideblock, speed",
+							"@area/catpurdai, diffusion, @move/vert, speed"
 						],
 						"item_count": 1
 					}
@@ -641,7 +889,8 @@
 //						"buruppdai, [DoorRestrictions], [ItemRestrictions]",
 //						Cataris - Transport to Dairon
 //						"cattradai, [DoorRestrictions], [ItemRestrictions]",
-						"cattradai, speed"
+						"{@area/cattradai}",
+						"@area/cattradai, speed"
 //						Ferenia - East Transport to Dairon
 //						"freeasdai, [DoorRestrictions], [ItemRestrictions]",
 //						Ghavoran - Transport to Dairon
@@ -701,6 +950,7 @@
 //							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Transport to Dairon
 //							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+							"@area/cattradai, magnet",
 //							Ferenia - East Transport to Dairon
 //							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
 //							Ghavoran - Transport to Dairon
@@ -775,7 +1025,38 @@
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"speed" 
+//							Dairon Map Station
+//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station North
+//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station South
+//							"dnavs, [DoorRestrictions, [ItemRestrictions]",
+//							Dairon Save Station East
+//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Save Station West
+//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Dairon
+//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Lower Transport to Dairon
+//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Upper Transport to Dairon
+//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Transport to Dairon
+//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - East Transport to Dairon
+//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Dairon
+//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - West Transport to Dairon
+//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Yellow Teleport to Dairon
+//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Purple Teleport to Dairon
+//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/catpurdai, diffusion, @tech/wideblock, speed}",
+							"{@area/catpurdai, diffusion, @move/vert, speed}",
+							"@area/catpurdai, diffusion, @tech/wideblock, speed, @tech/laybomb",
+							"@area/catpurdai, diffusion, @move/vert, speed, @tech/laybomb"
 						],
 						"item_count": 1
 					}
@@ -807,7 +1088,6 @@
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
 						"access_rules": [ 
-							"wide, charge, [varia], grapple, morph",
 //							Dairon Map Station
 //							"dmap", [DoorRestrictions], [ItemRestrictions]",
 //							Dairon Navigation Station North
@@ -820,11 +1100,10 @@
 //							"dsavw, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria - Transport to Dairon
 //							"arttradai, [DoorRestrictions], [ItemRestrictions]",
-							"{@area/arttradai, grapple}",
-							"{@area/arttradai, spin}",
-							"@area/arttradai, @tech/vert, morph, [varia]",
+							"{@area/arttradai}",
+							"@area/arttradai, @move/vert, morph, [varia]",
 							"@area/arttradai, spin, morph, [varia]",
-							"@area/arttardai, grapple, morph, [varia]"
+							"@area/arttardai, grapple, morph, [varia]",
 //							Burenia - Lower Transport to Dairon
 //							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
 //							Burenia - Upper Transport to Dairon
@@ -841,6 +1120,14 @@
 //							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Purple Teleport to Dairon
 //							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+							"@area/catpurdai, diffusion, @tech/wideblock, speed, charge, grapple, morph, [varia]",
+							"@area/catpurdai, diffusion, @tech/wideblock, speed, charge, spin, morph, [varia]",
+							"@area/catpurdai, diffusion, @move/vert, speed, charge, spin, morph, [varia]",
+							"@area/catpurdai, diffusion, @move/vert, speed, charge, grapple, morph",
+							"@area/catpurdai, diffusion, charge, wide, grapple, morph",
+							"@area/catpurdai, dffusion, charge, wide, @move/vert, morph, [varia]",
+							"@area/catpurdai, diffusion, charge, wide, spin, morph, [varia]",
+							"@area/catpurdai, diffusion, cahrge, wide, @move/vert, morph, [varia]"
 						],
 						"item_count": 1
 					}
@@ -872,7 +1159,36 @@
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"morph, laybomb" 
+//							Dairon Map Station
+//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station North
+//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Navigation Station South
+//							"dnavs, [DoorRestrictions, [ItemRestrictions]",
+//							Dairon Save Station East
+//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon Save Station West
+//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Dairon
+//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Lower Transport to Dairon
+//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Upper Transport to Dairon
+//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Transport to Dairon
+//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - East Transport to Dairon
+//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Dairon
+//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - West Transport to Dairon
+//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Yellow Teleport to Dairon
+//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Purple Teleport to Dairon
+//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+							"@area/catpurdai, diffusion, @tech/wideblock, speed, @tech/laybomb",
+							"@area/catpurdai, diffusion, @move/vert, speed, @tech/laybomb"
 						],
 						"item_count": 1
 					}

@@ -362,9 +362,29 @@
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"morph, pbomb, flash, @move/vert",
-						"morph, pbomb, @tech/ibj, speed",
-						"morph, pbomb, @tech/ibj, flash"
+							"morph, pbomb, flash, @move/vert",
+//							Ferenia Map Station
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Navigation Station
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station North
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station Southeast
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - East Transport to Ferenia
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/daieasfer, @tech/ibj, @tech/shutter}",
+							"{@area/daieasfer, @move/vert}",
+							"@area/daieasfer, @tech/ibj, morph, pbomb, @tech/shutter",
+							"@aera/daieasfer, @move/vert, morph, pbomb"
+//							Dairon - West Transport to Ferenia
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Ferenia
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Hanubia - Transport to Ferenia
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Cyan Telepor to Ferenia
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",						
 						],
 						"item_count": 1
 					},
@@ -374,7 +394,28 @@
 						"capture_item": false,
 						"hosted_item": "quidaction2",
 						"access_rules": [ 
-						"@tech/wideblock",
+//							Ferenia Map Station
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Navigation Station
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station North
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station Southeast
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - East Transport to Ferenia
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/daieasfer, @tech/ibj, @tech/shutter}",
+							"{@area/daieasfer, @move/vert}",
+							"@area/daieasfer, @tech/ibj, morph, pbomb, @tech/shutter, @tech/wideblock",
+							"@aera/daieasfer, @move/vert, morph, pbomb, @tech/wideblock"
+//							Dairon - West Transport to Ferenia
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Ferenia
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Hanubia - Transport to Ferenia
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Cyan Telepor to Ferenia
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",	
 							],
 						"item_count": 0
 					}
@@ -548,7 +589,26 @@
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"speed" ],
+//							Ferenia Map Station
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Navigation Station
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station North
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station Southeast
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - East Transport to Ferenia
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - West Transport to Ferenia
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Ferenia
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatrafer, diffusion, charge, magnet, space, @tech/laybomb, speed"
+//							Hanubia - Transport to Ferenia
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Cyan Telepor to Ferenia
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",
+						],
 						"item_count": 1
 					}
 					]
@@ -579,7 +639,7 @@
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
 						"access_rules": [ 
-							"morph, bomb",
+							"@tech/laybomb",
 //							Ferenia Map Station
 //							"fmap, [DoorRestrictions], [ItemRestrictions]",
 //							Ferenia Navigation Station
@@ -607,7 +667,7 @@
 						"capture_item": false,
 						"hosted_item": "quidaction1",
 						"access_rules": [ 
-						"@tech/wideblock",
+						"@tech/wideblock, @tech/laybomb",
 							],
 						"item_count": 0
 					}

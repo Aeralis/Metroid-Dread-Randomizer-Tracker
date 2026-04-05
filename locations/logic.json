@@ -61,6 +61,15 @@
 				"charge, wave, [wide]",
 				"charge, plasma, [wide]" ],
 			"item_count": 1
+		},
+		{
+			"name": "shutter",
+			"access_rules": [
+				"flash",
+				"speed",
+				"morph, bomb" 
+				],
+			"item_count": 1			
 		}
 		]
 	},
@@ -91,13 +100,13 @@
 							"noentrance, @lock/cloakdoor, spin",
 							"noentrance, @lock/cloakdoor, morph",
 							"noentrance, @lock/cloakdoor, magent",
-							"noentrance, @lock/chargedoor, speed, [varia]",
-							"noentrance, @lock/chargedoor, @tech/vert, [varia]",
-							"noentrance, @lock/chargedoor, spin, [varia"
+							"noentrance, charge, speed, [varia]",
+							"noentrance, charge, @tech/vert, [varia]",
+							"noentrance, charge, spin, [varia]",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
 							"noentrance, @lock/cloakdoor",
-							"noentrance, @lock/chargedoor, [varia]"
+							"noentrance, charge, [varia]"
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Navigation North
@@ -185,13 +194,15 @@
 		{
 			"name": "burlowdai",
 			"access_rules": [
-				"" ],
+				"" ]
+				,
 			"item_count": 1
 		},
 		{
 			"name": "dailowbur",
 			"access_rules": [
-				"" ],
+				 ""
+				 ],
 			"item_count": 1
 		},
 		// Burenia - Transport to Ghavoran
@@ -217,13 +228,15 @@
 		{
 			"name": "daiuppbur",
 			"access_rules": [
-				"" ],
+				"morph" 
+				],
 			"item_count": 1
 		},
 		// Cataris - Transport to Dairon
 		{
 			"name": "cattradai",
 			"access_rules": [
+				""
 //				Cataris Map Station
 //				"cmap, [DoorRestrictions], [ItemRestrictions]",
 //				Cataris Navigation Station Northwest

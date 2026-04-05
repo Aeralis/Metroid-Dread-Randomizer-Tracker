@@ -41,11 +41,11 @@
 							"aintro, morph",
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
-							"{amap, @lock/missiledoor, @lock/chargedoor}",
+							"{amap, @lock/missiledoor, charge}",
 							"{amap, vlock, gravity, spin",
 							"{amap, spin, magnet}",
 							"{amap, space}",
-							"amap, @lock/missiledoor, @lock/chargedoor, morph",
+							"amap, @lock/missiledoor, charge, morph",
 							"amap, $novlock, morph, pbomb, spin",
 							"amap, vlock, gravity, spin, morph",
 							"amap, spin, magnet, morph",
@@ -110,19 +110,19 @@
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
 							"noentrance, @lock/missiledoor, morph, pbomb",
 							"noentrance, @tech/chute, speed, [gravity]",
-							"noentrance, @lock/chargedoor, morph, pbomb",
-							"noentrance, @lock/chargedoor, @tech/chute, speed, [gravity]",
+							"noentrance, charge, morph, pbomb",
+							"noentrance, charge, @tech/chute, speed, [gravity]",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
 							"aintro, @lock/missiledoor, morph, pbomb",
 							"aintro, @tech/chute, speed, [gravity]",
-							"aintro, @lock/chargedoor, morph, pbomb",
-							"aintro, @lock/chargedoor, @tech/chute, speed, [gravity]",
+							"aintro, charge, morph, pbomb",
+							"aintro, charge, @tech/chute, speed, [gravity]",
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
 							"amap, @lock/missiledoor, morph, pbomb",
 							"amap, [gravity], speed, @tech/laybomb",
-							"amap, @lock/chargedoor, morph, pbomb"
+							"amap, charge, morph, pbomb"
 //							Artaria Navigation North
 //							"anavn, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Save East
@@ -154,44 +154,8 @@
 			},
 			{
 				"name": "Charge Beam Room",
-				"access_rules": [
-//							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/missiledoor",
-							"noentrance, @lock/chargedoor",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/missiledoor",
-							"aintro, @lock/chargedoor",
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-							"amap, @lock/missiledoor",
-							"amap, @lock/chargedoor, morph",
-							"amap, @lock/chargedoor, spin, magnet",
-							"amap, @lock/chargedoor, space",
-							"amap, @lock/chargedoor, vlock, gravity, spin, cloak"
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+				"access_rules": [ 
+				"@lock/missiledoor" 
 				],
 				"children": [
 				{
@@ -222,7 +186,7 @@
 						"capture_item": false,
 						"hosted_item": "chadaction",
 						"access_rules": [ 
-						"@lock/chargedoor",
+						"charge",
 							],
 						"item_count": 0
 					}
@@ -256,18 +220,18 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/chargedoor",
+							"noentrance, charge",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/chargedoor",
+							"aintro, charge",
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
-							"amap, @lock/missiledoor, @lock/chargedoor",
-							"amap, @lock/chargedoor, morph",
-							"amap, @lock/chargedoor, spin, magnet",
-							"amap, @lock/chargedoor, space",
-							"amap, @lock/chargedoor, vlock, gravity, spin",
-							"amap, @lock/chargedoor, vlock, gravity, spin, apump"
+							"amap, @lock/missiledoor, charge",
+							"amap, charge, morph",
+							"amap, charge, spin, magnet",
+							"amap, charge, space",
+							"amap, charge, vlock, gravity, spin",
+							"amap, charge, vlock, gravity, spin, apump"
 //							Artaria Navigation North
 //							"anavn, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Save East
@@ -410,16 +374,16 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/chargedoor",
+							"noentrance, charge",
 							"noentrance, @lock/cloakdoor, morph, speed",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/chargedoor",
+							"aintro, charge",
 							"aintro, @lock/cloakdoor, morph, speed",
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
-							"amap, @lock/missiledoor, @lock/chargedoor",
-							"amap, @lock/chargedoor, gravity, spin",
+							"amap, @lock/missiledoor, charge",
+							"amap, charge, gravity, spin",
 //							Artaria Navigation North
 //							"anavn, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Save East
@@ -454,18 +418,18 @@
 				"access_rules": [
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/chargedoor, apump",
-							"noentrance, @lock/chargedoor, charge, wide",
+							"noentrance, charge, apump",
+							"noentrance, charge, charge, wide",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/chargedoor, apump",
-							"aintro, @lock/chargedoor, wide, charge",
+							"aintro, charge, apump",
+							"aintro, charge, wide, charge",
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
-							"amap, @lock/chargedoor, $novlock, apump, gravity, spin",
-							"amap, @lock/chargedoor, space",
-							"amap, @lock/chargedoor, spin, magnet",
-							"amap, @lock/chargedoor, wide, charge"
+							"amap, charge, $novlock, apump, gravity, spin",
+							"amap, charge, space",
+							"amap, charge, spin, magnet",
+							"amap, charge, wide, charge"
 //							Artaria Navigation North
 //							"anavn, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Save East
@@ -553,12 +517,12 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"{noentrance, @lock/chargedoor}",
-							"noentrance, @lock/chargedoor, gravity",
-							"noentrance, @lock/chargedoor, [varia], magnet",
-							"noentrance, @lock/chargedoor, [varia], space",
-							"noentrance, @lock/chargedoor, [varia], speed",
-							"noentrance, @lock/chargedoor, [varia], grapple",
+							"{noentrance, charge}",
+							"noentrance, charge, gravity",
+							"noentrance, charge, [varia], magnet",
+							"noentrance, charge, [varia], space",
+							"noentrance, charge, [varia], speed",
+							"noentrance, charge, [varia], grapple",
 							"{noentrance, @lock/cloakdoor}",
 							"noentrance, @lock/cloakdoor, gravity",
 							"noentrance, @lock/cloakdoor, [varia], magnet",
@@ -567,12 +531,12 @@
 							"noentrance, @lock/cloakdoor, [varia], grapple",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"{aintro, @lock/chargedoor}",
-							"aintro, @lock/chargedoor, gravity",
-							"aintro, @lock/chargedoor, [varia], magnet",
-							"aintro, @lock/chargedoor, [varia], space",
-							"aintro, @lock/chargedoor, [varia], speed",
-							"aintro, @lock/chargedoor, [varia], grapple",
+							"{aintro, charge}",
+							"aintro, charge, gravity",
+							"aintro, charge, [varia], magnet",
+							"aintro, charge, [varia], space",
+							"aintro, charge, [varia], speed",
+							"aintro, charge, [varia], grapple",
 							"{aintro, @lock/cloakdoor}",
 							"aintro, @lock/cloakdoor, gravity",
 							"aintro, @lock/cloakdoor, [varia], magnet",
@@ -581,8 +545,8 @@
 							"aintro, @lock/cloakdoor, [varia], grapple",
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
-							"{amap, @lock/chargedoor, @lock/missiledoor",
-							"{amap, @lock/chargedoor, gravity"
+							"{amap, charge, @lock/missiledoor",
+							"{amap, charge, gravity"
 //							Artaria Navigation North
 //							"anavn, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Save East
@@ -1169,22 +1133,22 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"{noentrance, @lock/chargedoor}",
-							"noentrance, @lock/chargedoor, spin, [varia]",
-							"noentrance, @lock/chargedoor, morph, magnet, [varia]",
-							"noentrance, @lock/chargedoor, @move/vert, [varia]",
-							"noentrance, @lock/chargedoor, @move/advwall, [varia]",
+							"{noentrance, charge}",
+							"noentrance, charge, spin, [varia]",
+							"noentrance, charge, morph, magnet, [varia]",
+							"noentrance, charge, @move/vert, [varia]",
+							"noentrance, charge, @move/advwall, [varia]",
 							"noentrance, @lock/cloakdoor, spin, [varia]",
 							"noentrance, @lock/cloakdoor, morph, magnet, [varia]",
 							"noentrance, @lock/cloakdoor, @move/vert, [varia]",
 							"noentrance, @lock/cloakdoor, @move/advwall, [varia]",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"{aintro, @lock/chargedoor}",
-							"aintro, @lock/chargedoor, spin, [varia]",
-							"aintro, @lock/chargedoor, morph, magnet, [varia]",
-							"aintro, @lock/chargedoor, @move/vert, [varia]",
-							"aintro, @lock/chargedoor, @move/advwall, [varia]",
+							"{aintro, charge}",
+							"aintro, charge, spin, [varia]",
+							"aintro, charge, morph, magnet, [varia]",
+							"aintro, charge, @move/vert, [varia]",
+							"aintro, charge, @move/advwall, [varia]",
 							"aintro, @lock/cloakdoor, spin, [varia]",
 							"aintro, @lock/cloakdoor, morph, magnet, [varia]",
 							"aintro, @lock/cloakdoor, @move/vert, [varia]",
@@ -1311,14 +1275,14 @@
 							"noentrance, @move/vert, morph",
 							"noentrance, speed, morph",
 							"noentrance, @tech/ibj",
-							"noentrance, @lock/chargedoor, @tech/laybomb",
+							"noentrance, charge, @tech/laybomb",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
 							"{aintro}",
 							"aintro, @move/vert, morph",
 							"aintro, speed, morph",
 							"aintro, @tech/ibj",
-							"aintro, @lock/chargedoor, @tech/laybomb"
+							"aintro, charge, @tech/laybomb"
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Navigation North
@@ -1500,10 +1464,12 @@
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
 							"noentrance, @lock/grappledoor, [gravity], diffusion, morph, bomb, space",
 							"noentrance, @lock/plasmadoor, wave, morph",
+							"noentrance, @lock/grappledoor, gravity, diffusion, @tech/ibj",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/grappledoor, [gravity], diffusion, morph, bomb space",
-							"aintro, @lock/plasmadoor, wave, morph"
+							"aintro, @lock/grappledoor, [gravity], diffusion, morph, bomb, space",
+							"aintro, @lock/plasmadoor, wave, morph",
+							"aintro, @lock/grappledoor, gravity, diffusion, @tech/ibj"
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Navigation North
@@ -1558,11 +1524,13 @@
 							"noentrance, @lock/grappledoor, [gravity], diffusion, morph, bomb, spin, screw",
 							"noentrance, @lock/plasmadoor, wave, screw, morph",
 							"noentrance, @lock/plasmadoor, @tech/chute, screw, morph",
+							"noentrance, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
 							"aintro, @lock/grappledoor, [gravity], diffusion, morph, bomb, spin, screw",
 							"aintro, @lock/plasmadoor, wave, screw, morph",
-							"aintro, @lock/plasmadoor, @tech/chute, screw, morph"
+							"aintro, @lock/plasmadoor, @tech/chute, screw, morph",
+							"aintro, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Navigation North
@@ -1677,10 +1645,10 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/chargedoor, grapple, @tech/laybomb, speed",
+							"noentrance, charge, grapple, @tech/laybomb, speed",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/chargedoor, grapple, @tech/laybomb, speed"
+							"aintro, charge, grapple, @tech/laybomb, speed"
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Navigation North
@@ -1916,13 +1884,13 @@
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
 							"{noentrance, morph, charge}",
-							"{noentrance, @lock/chargedoor, @lock/superdoor}",
-							"noentrance, @lock/chargedoor, @lock/superdoor, @tech/laybomb",
+							"{noentrance, charge, @lock/superdoor}",
+							"noentrance, charge, @lock/superdoor, @tech/laybomb",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"{aintro, @lock/chargedoor, @lock/superdoor}",
+							"{aintro, charge, @lock/superdoor}",
 							"{aintro, morph, charge}",
-							"aintro, @lock/chargedoor, @lock/superdoor, @tech/laybomb"
+							"aintro, charge, @lock/superdoor, @tech/laybomb"
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Navigation North
@@ -1981,10 +1949,10 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/chargedoor",
+							"noentrance, charge",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/chargedoor"
+							"aintro, charge"
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Navigation North
@@ -2020,10 +1988,10 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/chargedoor",
+							"noentrance, charge",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/chargedoor"
+							"noentrance, charge"
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Navigation North
@@ -2082,12 +2050,14 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/grappledoor, morph, bomb, diffusion, space, screw, [gravity]",
-							"noentrance, @lock/plasmadoor, wave, screw, morph",
+							"noentrance, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity]",
+							"noentrance, @lock/plasmadoor, @lock/missiledoor wave, screw, morph",
+							"noentrance, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/grappledoor, morph, bomb, diffusion, space, screw, [gravity]",
-							"aintro, @lock/plasmadoor, wave, screw, morph"
+							"aintro, @lock/grappledoor, @lock/missiledoor morph, bomb, diffusion, space, screw, [gravity]",
+							"aintro, @lock/plasmadoor, @lock/missiledoor, wave, screw, morph",
+							"aintro, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Navigation North
@@ -2147,10 +2117,10 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/chargedoor, @lock/missiledoor, morph",
+							"noentrance, charge, @lock/missiledoor, morph",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/chargedoor, @lock/missiledoor, morph"
+							"aintro, charge, @lock/missiledoor, morph"
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Navigation North
@@ -2209,10 +2179,10 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/chargedoor, @lock/missiledoor, morph, varia, [gravity]",
+							"noentrance, charge, @lock/missiledoor, morph, varia, [gravity]",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/chargedoor, @lock/missiledoor, morph, varia, [gravity]"
+							"aintro, charge, @lock/missiledoor, morph, varia, [gravity]"
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Navigation North
