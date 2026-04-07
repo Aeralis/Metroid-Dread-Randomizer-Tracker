@@ -57,9 +57,9 @@
 		{
 			"name": "wideblock",
 			"access_rules": [
-				"charge, wide",
-				"charge, wave, [wide]",
-				"charge, plasma, [wide]" ],
+				" charge,  wide",
+				" charge,  wave, [wide]",
+				" charge,  plasma, [wide]" ],
 			"item_count": 1
 		},
 		{
@@ -82,7 +82,73 @@
 		{
 			"name": "arttrabur",
 			"access_rules": [ 
-				""	],
+//				Start Not Shuffled
+//				"noentrance, [DoorRestrictions], [ItemRestrictions]",
+				"noentrance, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity]",
+				"noentrance, @lock/plasmadoor, @lock/missiledoor, wave, screw, morph",
+				"noentrance, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
+//				Artaria Intro Room		
+//				"aintro, [DoorRestrictions], [ItemRestrictions]",
+				"aintro, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity]",
+				"aintro, @lock/plasmadoor, @lock/missiledoor, wave, screw, morph",
+				"aintro, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
+//				Artaria Map Room
+//				"amap, [DoorRestrictions], [ItemRestrictions]",
+				"amap, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity]",
+				"amap, @lock/plasmadoor, @lock/missiledoor, wave, screw, morph",
+				"amap, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
+//				Artaria Navigation North
+//				"anavn, [DoorRestrictions], [ItemRestrictions]",
+				"asavn, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity]",
+				"asavn, @lock/plasmadoor, @lock/missiledoor, wave, screw, morph",
+				"asavn, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
+//				Artaria Save East
+//				"asave, [DoorRestrictions], [ItemRestrictions]",
+				"asave, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity], apump",
+				"asave, @lock/plasmadoor, @lock/missiledoor, wave, screw, morph, apump",
+				"asave, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw, apump",
+//				Artaria Save North
+//				"asavn, [DoorRestrictions], [ItemRestrictions]",
+				"asavn, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity], speed",
+				"asavn, @lock/plasmadoor, @lock/missiledoor, wave, screw, morph, speed",
+				"asavn, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw, speed",
+//				Artaria Save South
+//				"asavs, [DoorRestrictions], [ItemRestrictions]",
+				"asavs, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity]",
+				"asavs, @lock/plasmadoor, @lock/missiledoor, wave, screw, morph",
+				"asavs, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
+//				Artaria Save West
+//				"asavw, [DoorRestrictions], [ItemRestrictions]",
+				"asavw, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity]",
+				"asavw, @lock/plasmadoor, @lock/missiledoor, wave, screw, morph",
+				"asavw, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
+//				Dairon Transport to Artaria
+//				"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
+				"@area/daitraart, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity], speed",
+				"@area/daitraart, @lock/plasmadoor, @lock/missiledoor, wave, screw, morph, speed",
+				"@area/daitraart, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw, speed",
+//				Cataris Transport to Artaria
+//				"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
+				"@area/cattraart, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity], apump",
+				"@area/cattraart, @lock/plasmadoor, @lock/missiledoor, wave, screw, morph, apump",
+				"@area/cattraart, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw, apump",
+//				Cataris Red Teleport to Artaria
+//				"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
+				"@area/catredart, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity]",
+				"@area/catredart, @lock/plasmadoor, @lock/missiledoor, wave, screw, morph",
+				"@area/catredart, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
+//				Cataris Blue Teleport to Artaria
+//				"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
+				"@area/catbluart, @lock/missiledoor, @lock/plasmadoor, grapple, morph, screw, [gravity], bomb, space",
+				"@area/catbluart, @lock/missiledoor, @lock/plasmadoor, grapple, morph, screw, gravity",
+				"@area/catblueart, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw", 
+				"@area/catbluart, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity]",
+//				Diaron Yellow Teleport to Artaria
+//				"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
+				"@area/daiyelart, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity]",
+				"@area/daiyelart, @lock/plasmadoor, @lock/missiledoor, wave, screw, morph",
+				"@area/daiyelart, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
+				],
 			"item_count": 1
 		},
 		{
@@ -95,51 +161,184 @@
 		{
 			"name": "arttracat",
 			"access_rules": [
-//							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/cloakdoor, spin",
-							"noentrance, @lock/cloakdoor, morph",
-							"noentrance, @lock/cloakdoor, magent",
-							"noentrance, charge, speed, [varia]",
-							"noentrance, charge, @tech/vert, [varia]",
-							"noentrance, charge, spin, [varia]",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/cloakdoor",
-							"noentrance, charge, [varia]"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",			
+//				Start Not Shuffled
+//				"noentrance, [DoorRestrictions], [ItemRestrictions]",
+				"noentrance, charge, @lock/cloakdoor, magnet",
+				"noentrance, charge, @lock/cloakdoor, @move/vert",
+				"noentrance, charge, @lock/cloakdoor, @tech/advwall",
+				"noentrance, charge, [varia], morph",
+				"noentrance, charge, [varia], @move/vert",
+//				Artaria Intro Room		
+//				"aintro, [DoorRestrictions], [ItemRestrictions]",
+				"aintro, charge, @lock/cloakdoor, magnet",
+				"aintro, charge, @lock/cloakdoor, @move/vert",
+				"aintro, charge, @lock/cloakdoor, @tech/advwall",
+				"aintro, charge, [varia], morph",
+				"aintro, charge, [varia], @move/vert",
+//				Artaria Map Room
+//				"amap, [DoorRestrictions], [ItemRestrictions]",
+				"amap, charge, @lock/cloakdoor, magnet, morph",
+				"amap, charge, @lock/cloakdoor, @move/vert, morph",
+				"amap, charge, @lock/cloakdoor, @tech/advwall",
+				"amap, charge, [varia], morph",
+				"amap, charge, [varia], @move/vert, morph",
+				"amap, @lock/missiledoor, @lock/cloakdoor, charge, magnet",
+				"amap, @lock/missiledoor, @lock/cloakdoor, charge, @move/vert",
+				"amap, @lock/missiledoor, @lock/cloakdoor, @tech/advwall",
+				"amap, @lock/missiledoor, charge, [varia], morph",
+				"amap, @lock/missiledoor, charge, [varia], @move/vert",
+				"amap, charge, @lock/cloakdoor, magnet, @move/hori",
+				"amap, charge, @lock/cloakdoor, @move/vert",
+				"amap, charge, @lock/cloakdoor, @tech/advwall",
+				"amap, charge, [varia], morph, @move/hori, grapple",
+				"amap, charge, [varia], @tech/vert",
+//				Artaria Navigation North
+//				"anavn, [DoorRestrictions], [ItemRestrictions]",
+				"anavn, charge, @lock/cloakdoor, magnet",
+				"anavn, charge, @lock/cloakdoor, @move/vert",
+				"anavn, charge, @lock/cloakdoor, @tech/advwall",
+				"anavn, charge, [varia], morph",
+				"anavn, charge, [varia], @move/vert",
+//				Artaria Save East
+//				"asave, [DoorRestrictions], [ItemRestrictions]",
+				"asave, @lock/cloakdoor, magnet",
+				"asave, @lock/cloakdoor, @move/vert",
+				"asave, @lock/cloakdoor, @tech/advwall",
+				"asave, [varia], morph",
+				"asave, [varia], @move/vert",
+//				Artaria Save North
+//				"asavn, [DoorRestrictions], [ItemRestrictions]",
+				"anavn, charge, @lock/cloakdoor, magnet, speed",
+				"anavn, charge, [varia], morph, speed",
+//				Artaria Save South
+//				"asavs, [DoorRestrictions], [ItemRestrictions]",
+				"asavs, charge, @lock/cloakdoor, magnet",
+				"asavs, charge, @lock/cloakdoor, @move/vert",
+				"asavs, charge, @lock/cloakdoor, @tech/advwall",
+				"asavs, charge, [varia], morph",
+				"asavs, charge, [varia], @move/vert",
+//				Artaria Save West
+//				"asavw, [DoorRestrictions], [ItemRestrictions]",
+				"amap, charge, @lock/cloakdoor, magnet, morph",
+				"amap, charge, @lock/cloakdoor, @move/vert, morph",
+				"amap, charge, @lock/cloakdoor, @tech/advwall",
+				"amap, charge, [varia], morph",
+				"amap, charge, [varia], @move/vert, morph",
+				"amap, @lock/missiledoor, @lock/cloakdoor, charge, magnet",
+				"amap, @lock/missiledoor, @lock/cloakdoor, charge, @move/vert",
+				"amap, @lock/missiledoor, @lock/cloakdoor, @tech/advwall",
+				"amap, @lock/missiledoor, charge, [varia], morph",
+				"amap, @lock/missiledoor, charge, [varia], @move/vert",
+				"amap, charge, @lock/cloakdoor, magnet, @move/hori",
+				"amap, charge, @lock/cloakdoor, @move/vert",
+				"amap, charge, @lock/cloakdoor, @tech/advwall",
+				"amap, charge, [varia], morph, @move/hori, grapple",
+				"amap, charge, [varia], @tech/vert",
+//				Dairon Transport to Artaria
+//				"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
+				"anavn, charge, @lock/cloakdoor, magnet, speed",
+				"anavn, charge, [varia], morph, speed",
+//				Cataris Red Teleport to Artaria
+//				"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
+//				novlock
+				"@area/catredart, charge, @lock/cloakdoor, $novlock, magnet, morph",
+				"@area/catredart, charge, @lock/cloakdoor, $novlock, @move/vert, morph",
+				"@area/catredart, charge, @lock/cloakdoor, $novlock, @tech/advwall",
+				"@area/catredart, charge, $novlock, [varia], morph",
+				"@area/catredart, charge, $novlock, [varia], @move/vert, morph",
+				"@area/catredart, @lock/missiledoor, @lock/cloakdoor, $novlock, charge, magnet",
+				"@area/catredart, @lock/missiledoor, @lock/cloakdoor, $novlock, charge, @move/vert",
+				"@area/catredart, @lock/missiledoor, @lock/cloakdoor, $novlock, @tech/advwall",
+				"@area/catredart, @lock/missiledoor, charge, [varia], $novlock, morph",
+				"@area/catredart, @lock/missiledoor, charge, [varia], $novlock, @move/vert",
+				"@area/catredart, charge, @lock/cloakdoor, $novlock, magnet, @move/hori",
+				"@area/catredart, charge, @lock/cloakdoor, $novlock, @move/vert",
+				"@area/catredart, charge, @lock/cloakdoor, $novlock, @tech/advwall",
+				"@area/catredart, charge, $novlock, [varia], morph, @move/hori, grapple",
+				"@area/catredart, charge, $novlock, [varia], @tech/vert",
+//				vlock
+				"@area/catredart, charge, @lock/cloakdoor, vlock, magnet, @tech/laybomb",
+				"@area/catredart, charge, @lock/cloakdoor, vlock, @move/vert, @tech/laybomb",
+				"@area/catredart, charge, @lock/cloakdoor, vlock, @tech/advwall, @tech/laybomb",
+				"@area/catredart, charge, vlock, [varia], @tech/laybomb",
+				"@area/catredart, charge, vlock, [varia], @move/vert, @tech/laybomb",
+				"@area/catredart, @lock/missiledoor, @lock/cloakdoor, vlock, charge, magnet, @tech/laybomb",
+				"@area/catredart, @lock/missiledoor, @lock/cloakdoor, vlock, charge, @move/vert, @tech/laybomb",
+				"@area/catredart, @lock/missiledoor, @lock/cloakdoor, vlock, @tech/advwall, @tech/laybomb",
+				"@area/catredart, @lock/missiledoor, charge, [varia], vlock, @tech/laybomb",
+				"@area/catredart, @lock/missiledoor, charge, [varia], vlock, @move/vert, @tech/laybomb",
+				"@area/catredart, charge, @lock/cloakdoor, vlock, magnet, @move/hori, @tech/laybomb",
+				"@area/catredart, charge, @lock/cloakdoor, vlock, @move/vert, @tech/laybomb",
+				"@area/catredart, charge, @lock/cloakdoor, vlock, @tech/advwall, @tech/laybomb",
+				"@area/catredart, charge, vlock, [varia], @move/hori, grapple, @tech/laybomb",
+				"@area/catredart, charge, vlock, [varia], @tech/vert, @tech/laybomb",
+				"@area/catredart, charge, @lock/cloakdoor, $novlock, magnet, morph, diffusion",
+				"@area/catredart, charge, @lock/cloakdoor, $novlock, @move/vert, morph, diffusion",
+				"@area/catredart, charge, @lock/cloakdoor, $novlock, @tech/advwall, diffusion",
+				"@area/catredart, charge, $novlock, [varia], morph, diffusion",
+				"@area/catredart, charge, $novlock, [varia], @move/vert, morph, diffusion",
+				"@area/catredart, @lock/missiledoor, @lock/cloakdoor, $novlock, charge, magnet, diffusion",
+				"@area/catredart, @lock/missiledoor, @lock/cloakdoor, $novlock, charge, @move/vert, diffusion",
+				"@area/catredart, @lock/missiledoor, @lock/cloakdoor, $novlock, @tech/advwall, diffusion",
+				"@area/catredart, @lock/missiledoor, charge, [varia], $novlock, morph, diffusion",
+				"@area/catredart, @lock/missiledoor, charge, [varia], $novlock, @move/vert, diffusion",
+				"@area/catredart, charge, @lock/cloakdoor, $novlock, magnet, @move/hori, diffusion",
+				"@area/catredart, charge, @lock/cloakdoor, $novlock, @move/vert, diffusion",
+				"@area/catredart, charge, @lock/cloakdoor, $novlock, @tech/advwall, diffusion",
+				"@area/catredart, charge, $novlock, [varia], morph, @move/hori, grapple, diffusion",
+				"@area/catredart, charge, $novlock, [varia], @tech/vert, diffusion",
+//				Cataris Blue Teleport to Artaria
+//				"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
+				"@area/catbluart, grapple, wave, charge, @lock/cloakdoor, magnet, morph",
+				"@area/catbluart, grapple, wave, charge, @lock/cloakdoor, @move/vert, morph",
+				"@area/catbluart, grapple, wave, charge, @lock/cloakdoor, @tech/advwall",
+				"@area/catbluart, grapple, wave, charge, [varia], morph",
+				"@area/catbluart, grapple, wave, charge, [varia], @move/vert, morph",
+				"@area/catbluart, grapple, wave, @lock/missiledoor, @lock/cloakdoor, charge, magnet",
+				"@area/catbluart, grapple, wave, @lock/missiledoor, @lock/cloakdoor, charge, @move/vert",
+				"@area/catbluart, grapple, wave, @lock/missiledoor, @lock/cloakdoor, @tech/advwall",
+				"@area/catbluart, grapple, wave, @lock/missiledoor, charge, [varia], morph",
+				"@area/catbluart, grapple, wave, @lock/missiledoor, charge, [varia], @move/vert",
+				"@area/catbluart, grapple, wave, charge, @lock/cloakdoor, magnet, @move/hori",
+				"@area/catbluart, grapple, wave, charge, @lock/cloakdoor, @move/vert",
+				"@area/catbluart, grapple, wave, charge, @lock/cloakdoor, @tech/advwall",
+				"@area/catbluart, grapple, wave, charge, [varia], morph, @move/hori, grapple",
+				"@area/catbluart, grapple, wave, charge, [varia], @tech/vert",
+//				Diaron Yellow Teleport to Artaria
+//				"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
+				"@area/daiyelart, charge, @lock/cloakdoor, magnet",
+				"@area/daiyelart, charge, @lock/cloakdoor, @move/vert",
+				"@area/daiyelart, charge, @lock/cloakdoor, @tech/advwall",
+				"@area/daiyelart, charge, [varia], morph",
+				"@area/daiyelart, charge, [varia], @move/vert",
+//				Burenia Transport to artaria
+//				"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+				"@area/burtraart, screw, gravity, wave, @lock/grappledoor, charge, @lock/cloakdoor, magnet",
+				"@area/burtraart, screw, gravity, wave, @lock/grappledoor, charge, @lock/cloakdoor, @move/vert",
+				"@area/burtraart, screw, gravity, wave, @lock/grappledoor, charge, @lock/cloakdoor, @tech/advwall",
+				"@area/burtraart, screw, gravity, wave, @lock/grappledoor, charge, [varia], morph",
+				"@area/burtraart, screw, gravity, wave, @lock/grappledoor, charge, [varia], @move/vert",
+				"@area/burtraart, screw, gravity, wave, plasma, charge, @lock/cloakdoor, magnet, morph",
+				"@area/burtraart, screw, gravity, wave, plasma, charge, @lock/cloakdoor, @move/vert, morph",
+				"@area/burtraart, screw, gravity, wave, plasma, charge, @lock/cloakdoor, @tech/advwall",
+				"@area/burtraart, screw, gravity, wave, plasma, charge, [varia], morph",
+				"@area/burtraart, screw, gravity, wave, plasma, charge, [varia], @move/vert, morph",
+				"@area/burtraart, screw, gravity, wave, plasma, @lock/missiledoor, @lock/cloakdoor, charge, magnet",
+				"@area/burtraart, screw, gravity, wave, plasma, @lock/missiledoor, @lock/cloakdoor, charge, @move/vert",
+				"@area/burtraart, screw, gravity, wave, plasma, @lock/missiledoor, @lock/cloakdoor, @tech/advwall",
+				"@area/burtraart, screw, gravity, wave, plasma, @lock/missiledoor, charge, [varia], morph",
+				"@area/burtraart, screw, gravity, wave, plasma, @lock/missiledoor, charge, [varia], @move/vert",
+				"@area/burtraart, screw, gravity, wave, plasma, charge, @lock/cloakdoor, magnet, @move/hori",
+				"@area/burtraart, screw, gravity, wave, plasma, charge, @lock/cloakdoor, @move/vert",
+				"@area/burtraart, screw, gravity, wave, plasma, charge, @lock/cloakdoor, @tech/advwall",
+				"@area/burtraart, screw, gravity, wave, plasma, charge, [varia], @tech/vert"
 				],
 			"item_count": 1
 		},
 		{
 			"name": "cattraart",
 			"access_rules": [
-			//No Entrance
-			"$novlock, noentrance, morph",
-			"noentrance, vlock"
+			""
 			],
 			"item_count": 1
 		},
@@ -149,36 +348,61 @@
 			"access_rules": [
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, speed, [spin]",
-							"noentrance, speed, [magnet]",
-							"noentrance, speed, [grapple]",
+							"noentrance, speed, magnet",
+							"noentrance, speed, grapple",
+							"noentrance, speed, @move/advwall",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, speed, [spin]",
-							"aintro, speed, [magnet]",
-							"aintro, speed, [grapple]"
+							"aintro, speed, magnet",
+							"aintro, speed, grapple",
+							"aintro, speed, @move/advwall",
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
+							"amap, speed, magnet",
+							"amap, speed, grapple",
+							"amap, speed, @move/advwall",
 //							Artaria Navigation North
 //							"anavn, [DoorRestrictions], [ItemRestrictions]",
+							"anavn, speed, magnet",
+							"anavn, speed, grapple",
+							"anavn, speed, @move/advwall",
 //							Artaria Save East
 //							"asave, [DoorRestrictions], [ItemRestrictions]",
+							"asave, speed, magnet",
+							"asave, speed, grapple",
+							"asave, speed, @move/advwall",
 //							Artaria Save North
 //							"asavn, [DoorRestrictions], [ItemRestrictions]",
+							"asavn, speed, magnet",
+							"asavn, speed, grapple",
+							"asavn, speed, @move/advwall",
+							"asavn, [speed]",
 //							Artaria Save South
 //							"asavs, [DoorRestrictions], [ItemRestrictions]",
+							"asavs, speed, magnet",
+							"asavs, speed, grapple",
+							"asavs, speed, @move/advwall",
 //							Artaria Save West
 //							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
+							"asavw, speed, magnet",
+							"asavw, speed, grapple",
+							"asavw, speed, @move/advwall",
 //							Cataris Transport to Artaria
 //							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
+							"@area/cattraart, apump, speed, magnet",
+							"@area/cattraart, apump, speed, grapple",
+							"@area/cattraart, apump, speed, @move/advwall",
 //							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/cattraart, [DoorRestrictions], vlock, @tech/laybomb, [ItemRestrictions]",
+//							"@area/catredart, [DoorRestrictions], vlock, diffusion, [ItemRestrictions]",
+//							"@area/catredart, [DoorRestrictions], $novlock, [ItemRestrictions]",
 //							Cataris Blue Teleport to Artaria
 //							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
 //							Diaron Yellow Teleport to Artaria
 //							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
+							"@area/daiyelart, speed, magnet",
+							"@area/daiyelart, speed, grapple",
+							"@area/daiyelart, speed, @move/advwall",
 //							Burenia Transport to artaria
 //							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
 				],
@@ -237,28 +461,6 @@
 			"name": "cattradai",
 			"access_rules": [
 				""
-//				Cataris Map Station
-//				"cmap, [DoorRestrictions], [ItemRestrictions]",
-//				Cataris Navigation Station Northwest
-//				"cnavn, [DoorRestrictions], [ItemRestrictions]",
-//				Cataris Navigation Station Southeast
-//				"cnavs, [DoorRestrictions], [ItemRestrictions]",
-//				Cataris Save Station East
-//				"csave, [DoorRestrictions], [ItemRestrictions]",
-//				Cataris Save Station West
-//				"csavw, [DoorRestrictions], [ItemRestrictions]",
-//				Artaria - Transport to Cataris
-//				"arttracat, [DoorRestrictions], [ItemRestrictions]",
-//				Dairon - Transport to Cataris
-// 				"daitracat, [DoorRestrictions], [ItemRestrictions]",
-//				Artaria - Red Teleport to Cataris
-//				"artredcat, [DoorRestrictions], [ItemRestrictions]",
-//				Artaria - Blue Teleport to Cataris
-//				"artblucat, [DoorRestrictions], [ItemRestrictions]",
-//				Dairon - Purple Teleport to Cataris
-//				"daipurcat, [DoorRestrictions], [ItemRestrictions]",
-//				Ghavoran - Orange Teleport to Cataris
-//				"ghaoracat, [DoorRestrictions], [ItemRestrictions]"
 				],
 			"item_count": 1
 		},
@@ -337,14 +539,7 @@
 		{
 			"name": "fertrahan",
 			"access_rules": [
-				//Ghavoran Entrance
-				"gravity, screw, wave",
-				//Dairon DNA Entrance
-				"gravity, plasma, screw, wave",
-				//Dairon EMMI Intro Entrance
-				"morph, flash, speed, gravity, plasma, screw, wave",
-				//Cyan Teleport Entrance
-				"morph, pbomb, gravity, screw, wave"
+				""
 				],
 			"item_count": 1
 		},
@@ -365,11 +560,7 @@
 		{
 			"name": "hantragha",
 			"access_rules": [
-				//Ferenia Entrance
-				"Screw, @tech/laybomb",
-				//Itorash Entrance
-				"screw, morph, pbomb",
-				"speed, morph, pbmob" 
+				""
 				],
 			"item_count": 1
 		},
@@ -377,9 +568,7 @@
 		{
 			"name": "hantraito",
 			"access_rules": [
-				"morph, pbomb, speed, wave",
-				"morph, pbomb, space, screw, wave",
-				"pbomb, @tech/ibj, screw, wave"
+				""
 				],
 			"item_count": 1
 		},
@@ -393,7 +582,10 @@
 		{
 			"name": "artredcat",
 			"access_rules": [
-				"" ],
+//				Start Not Shuffled
+//				"noentrance, [DoorRestrictions], [ItemRestrictions]",
+				"morph" 
+				],
 			"item_count": 1
 		},
 		{
@@ -406,20 +598,30 @@
 		{
 			"name": "artyeldai",
 			"access_rules": [
-				"" ],
+//				All Start Points
+				"@area/daiyelart"
+				],
 			"item_count": 1
 		},
 		{
 			"name": "daiyelart",
 			"access_rules": [
-				"" ],
+//				Dairon Save Station East
+//				"dsave, [DoorRestrictions], [ItemRestrictions]",
+				"dsave, speed, @lock/widedoor"
+				],
 			"item_count": 1
 		},
 		// Artaria - Blue Teleport to Cataris
 		{
 			"name": "artblucat",
 			"access_rules": [
-				"" ],
+//				Start Not Shuffled
+//				"noentrance, [DoorRestrictions], [ItemRestrictions]",
+				"noentrance, wave, grapple",
+				"noentrance, @lock/grappledoor,morph, bomb, diffusion, space, screw, [gravity]",
+				"noentrance, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
+				],
 			"item_count": 1
 		},
 		{

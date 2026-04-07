@@ -358,20 +358,32 @@
 						"chest_unopened_img": "images/flash.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"morph, grapple",
-						"morph, magnet"
-//						Burenia Map Station
-//						"bmap, [DoorRestrictions], [ItemRestrictions]",
-//						Burenia Nav North
-//						"bnavn, [DoorRestrictions], [ItemRestrictions]",
-//						Burenia Nav South
-//						"bnavs, [DoorRestrictions], [ItemRestrictions]",
-//						Burenia Save North
-//						"bsavn, [DoorRestrictions], [ItemRestrictions]",
-//						Burenia Save Middle
-//						"bsavm, [DoorRestrictions], [ItemRestrictions]",
-//						Burenia Save South
-//						"bsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Map Station
+//							"bmap, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Navigation North
+//							"bnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Navigation South
+//							"bnavs, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Save Middle
+//							"bsavm, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Save North
+//							"bsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Save South
+//							"bsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Burenia
+//							"arttrabur", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - Lower Transport to Burenia
+//							"dailowbur", [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Burenia
+//							"ghatrabur", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - Upper Transport to Burenia
+//							"daiuppbur, [DoorRestrictions], [ItemRestrictions]",
+							"@area/daiuppbur, grapple, morph, flash",
+							"@area/daiuppbur, speed, flash"
+//							Ghavoran Green Teleport to Burenia
+//							"ghagrebur, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Cyan Teleport to Burenia
+//							"fercyabur, [DoorRestrictions], [ItemRestrictions]"
 						],
 						"item_count": 1
 					}
@@ -644,19 +656,31 @@
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"morph" 
-//						Burenia Map Station
-//						"bmap, [DoorRestrictions], [ItemRestrictions]",
-//						Burenia Nav North
-//						"bnavn, [DoorRestrictions], [ItemRestrictions]",
-//						Burenia Nav South
-//						"bnavs, [DoorRestrictions], [ItemRestrictions]",
-//						Burenia Save North
-//						"bsavn, [DoorRestrictions], [ItemRestrictions]",
-//						Burenia Save Middle
-//						"bsavm, [DoorRestrictions], [ItemRestrictions]",
-//						Burenia Save South
-//						"bsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Map Station
+//							"bmap, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Navigation North
+//							"bnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Navigation South
+//							"bnavs, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Save Middle
+//							"bsavm, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Save North
+//							"bsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Save South
+//							"bsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Burenia
+//							"arttrabur", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - Lower Transport to Burenia
+//							"dailowbur", [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Burenia
+//							"ghatrabur", [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - Upper Transport to Burenia
+//							"daiuppbur, [DoorRestrictions], [ItemRestrictions]",
+							"@area/daiuppbur, grapple, morph"
+//							Ghavoran Green Teleport to Burenia
+//							"ghagrebur, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Cyan Teleport to Burenia
+//							"fercyabur, [DoorRestrictions], [ItemRestrictions]"
 						],
 						"item_count": 1
 					}

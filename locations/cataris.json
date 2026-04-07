@@ -120,9 +120,10 @@
 //							"arttracat, [DoorRestrictions], [ItemRestrictions]",
 							"@area/arttracat, cpumps, @move/vert, charge, speed",
 							"@area/arttracat, cpumps, magnet, charge, speed",
-							"@area/artredcat, cpumps, grappgle, charge, speed"
+							"@area/artredcat, cpumps, grappgle, charge, speed",
 //							Dairon - Transport to Cataris
 // 							"daitracat, [DoorRestrictions], [ItemRestrictions]",
+							"@area/daitracat, speed"
 //							Artaria - Red Teleport to Cataris
 //							"artredcat, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria - Blue Teleport to Cataris
@@ -516,9 +517,9 @@
 						"capture_item": false,
 						"hosted_item": "kraid",
 						"access_rules": [ 
-						"morph, varia, magnet",
-						"morph, varia, magnet",
-						"morph, varia, @tech/chute",
+						"morph, varia, magnet, diffusion",
+						"morph, varia, magnet, diffusion",
+						"morph, varia, @tech/chute, diffusion",
 						],
 						"item_count": 0
 					}
@@ -621,7 +622,29 @@
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"morph"
+//							Cataris Map Station
+//							"cmap, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris Navigation Station Northwest
+//							"cnavn, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris Navigation Station Southeast
+//							"cnavs, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris Save Station East
+//							"csave, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris Save Station West
+//							"csavw, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Transport to Cataris
+//							"arttracat, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - Transport to Cataris
+// 							"daitracat, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria - Red Teleport to Cataris
+//							"artredcat, [DoorRestrictions], [ItemRestrictions]",
+							"@area/artredcat, morph"
+//							Artaria - Blue Teleport to Cataris
+//							"artblucat, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - Purple Teleport to Cataris
+//							"daipurcat, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Orange Teleport to Cataris
+//							"ghaoracat, [DoorRestrictions], [ItemRestrictions]"
 						],
 						"item_count": 1
 					}
@@ -669,7 +692,7 @@
 // 							"daitracat, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria - Red Teleport to Cataris
 //							"artredcat, [DoorRestrictions], [ItemRestrictions]",
-							"{@area/artredcat, morph, @tech/shutter, charge, varia}",
+							"{@area/artredcat, @tech/shutter, morph, charge, varia}",
 							"@area/artredcat, morph, @tech/shutter, charge, varia, @move/advwall, @tech/laybomb"
 //							Artaria - Blue Teleport to Cataris
 //							"artblucat, [DoorRestrictions], [ItemRestrictions]",
@@ -1163,12 +1186,14 @@
 //							"arttracat, [DoorRestrictions], [ItemRestrictions]",
 							"@area/arttracat, charge, cpumps, @tech/advwall, [varia]",
 							"@area/arttracat, charge, cpumps, magnet, [varia]",
+							"@area/arttracat, @tech/ibj, charge, cpumps, [varia]",
 //							Dairon - Transport to Cataris
 // 							"daitracat, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria - Red Teleport to Cataris
 //							"artredcat, [DoorRestrictions], [ItemRestrictions]",
 							"@area/artredcat, charge, cpumps, @tech/advwall, [varia]",
-							"@area/artredcat, charge, cpumps, magnet, [varia]"
+							"@area/artredcat, charge, cpumps, magnet, [varia]",
+							"@area/artredcat, morph, @tech/shutter, [varia]"
 //							Artaria - Blue Teleport to Cataris
 //							"artblucat, [DoorRestrictions], [ItemRestrictions]",
 //							Dairon - Purple Teleport to Cataris
@@ -1227,8 +1252,7 @@
 // 							"daitracat, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria - Red Teleport to Cataris
 //							"artredcat, [DoorRestrictions], [ItemRestrictions]",
-							"{@area/artredcat, morph}",
-							"@area/artredcat, morph, [varia]"
+							"@area/artredcat, @tech/shutter, morph, [varia]"
 //							Artaria - Blue Teleport to Cataris
 //							"artblucat, [DoorRestrictions], [ItemRestrictions]",
 //							Dairon - Purple Teleport to Cataris

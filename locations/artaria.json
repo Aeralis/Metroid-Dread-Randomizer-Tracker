@@ -155,7 +155,7 @@
 			{
 				"name": "Charge Beam Room",
 				"access_rules": [ 
-				"@lock/missiledoor" 
+				"" 
 				],
 				"children": [
 				{
@@ -220,7 +220,7 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, charge",
+							"noentrance, @lock/chargedoor",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
 							"aintro, charge",
@@ -375,11 +375,9 @@
 //							Start Not Shuffled
 //							"noentrance, [DoorRestrictions], [ItemRestrictions]",
 							"noentrance, charge",
-							"noentrance, @lock/cloakdoor, morph, speed",
 //							Artaria Intro Room		
 //							"aintro, [DoorRestrictions], [ItemRestrictions]",
 							"aintro, charge",
-							"aintro, @lock/cloakdoor, morph, speed",
 //							Artaria Map Room
 //							"amap, [DoorRestrictions], [ItemRestrictions]",
 							"amap, @lock/missiledoor, charge",

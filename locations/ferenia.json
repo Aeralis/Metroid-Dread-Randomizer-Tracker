@@ -225,7 +225,29 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+//							Ferenia Map Station
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Navigation Station
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station North
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station Southeast
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - East Transport to Ferenia
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - West Transport to Ferenia
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Ferenia
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatrafer, morph, grapple, @tech/laybomb, magnet",
+							"@area/ghatrafer, morph, grapple, @tech/laybomb, spin",
+							"@area/ghatrafer, morph, gravity, spin, @tech/laybomb"
+//							Hanubia - Transport to Ferenia
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Cyan Telepor to Ferenia
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",
+						],
 						"item_count": 1
 					}
 					]
@@ -474,7 +496,28 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
-						"access_rules": [ "morph" ],
+						"access_rules": [ 
+//							Ferenia Map Station
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Navigation Station
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station North
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station Southeast
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - East Transport to Ferenia
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - West Transport to Ferenia
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Ferenia
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatrafer, morph, pbomb",
+//							Hanubia - Transport to Ferenia
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Cyan Telepor to Ferenia
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",
+							"@area/burcyafer, morph"
+						],
 						"item_count": 1
 					}
 					]
@@ -557,7 +600,28 @@
 						"chest_unopened_img": "images/missile.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"space, @tech/laybomb",
+//							Ferenia Map Station
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Navigation Station
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station North
+							"{fnav, morph, pbomb}",
+							"space, @tech/laybomb",
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station Southeast
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - East Transport to Ferenia
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/daieasfer, morph, @tech/shutter, speed, screw, [gravity], @lock/plasmadoor}",
+							"@area/daieasfer, morph, @tech/shutter, speed, screw, [gravity], @lock/plasmadoor, @tech/laybomb"
+//							Dairon - West Transport to Ferenia
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Ferenia
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Hanubia - Transport to Ferenia
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Cyan Telepor to Ferenia
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",
 						],
 						"item_count": 1
 					}
@@ -639,7 +703,6 @@
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
 						"access_rules": [ 
-							"@tech/laybomb",
 //							Ferenia Map Station
 //							"fmap, [DoorRestrictions], [ItemRestrictions]",
 //							Ferenia Navigation Station
@@ -650,6 +713,8 @@
 //							"fsavs, [DoorRestrictions], [ItemRestrictions]",
 //							Dairon - East Transport to Ferenia
 //							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+							"@area/daieasfer, @tech/laybomb, @tech/ibj",
+							"@area/daieasfer, @tech/laybomb, @move/advwall"
 //							Dairon - West Transport to Ferenia
 //							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
 //							Ghavoran - Transport to Ferenia

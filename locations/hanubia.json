@@ -33,13 +33,13 @@
 						"access_rules": [
 //							Hanubia Navigation Station
 //							"hnav, [DoorRestrictions], [ItemRestrictions]",
-							"hnav, @tech/laybomb, grapple",
+							"hnav, @tech/laybomb",
 //							Ferenia - Transport to Hanubia
 //							"@area/fertrahan, [DoorRestrictions], [ItemRestrictions]",
-							"@area/fertrahan, grapple, screw, @tech/laybomb",
+							"@area/fertrahan, screw, @tech/laybomb",
 //							Ghavoran - Transport to Hanubia
 //							"@area/ghatrahan, [DoorRestrictions], [ItemRestrictions]",
-							"@area/ghatrahan, @tech/laybomb, grapple",
+							"@area/ghatrahan, @tech/laybomb",
 //							Itorash - Transport to Hanubia
 //							"itotrahan, [DoorRestrictions], [ItemRestrictions]",
 							"itotrahan, @tech/laybomb, speed, pbomb",

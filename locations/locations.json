@@ -22,13 +22,115 @@
 //							Cataris Transport to Artaria
 //							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/cattraart, [DoorRestrictions], vlock, @tech/laybomb, [ItemRestrictions]",
+//							"@area/catredart, [DoorRestrictions], vlock, diffusion, [ItemRestrictions]",
+//							"@area/catredart, [DoorRestrictions], $novlock, [ItemRestrictions]",
 //							Cataris Blue Teleport to Artaria
 //							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
 //							Diaron Yellow Teleport to Artaria
 //							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
 //							Burenia Transport to artaria
 //							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+	//Artaria
+	{
+        "name": "Artaria",
+		
+		"chest_opened_img": "images/item_sphere.png",
+        "children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Artaria Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Artaria Hint 1",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 200,
+						"y": 200
+					},					
+					{
+						"map": "artaria",
+						"x": 200,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Artaria Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Artaria Hint 2",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 300,
+						"y": 200
+					},						
+					{
+						"map": "artaria",
+						"x": 250,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Artaria Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Artaria Hint 3",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 400,
+						"y": 200
+					},						
+					{
+						"map": "artaria",
+						"x": 300,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	},
 	// Burenia
 //							Burenia Map Station
 //							"bmap, [DoorRestrictions], [ItemRestrictions]",
@@ -54,7 +156,105 @@
 //							"ghagrebur, [DoorRestrictions], [ItemRestrictions]",
 //							Ferenia Cyan Teleport to Burenia
 //							"fercyabur, [DoorRestrictions], [ItemRestrictions]"
-
+	{
+        "name": "Burenia",
+		
+		"chest_opened_img": "images/item_sphere.png",
+        "children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Burenia Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Burenia Hint 1",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 200,
+						"y": 300
+					},	
+					{
+						"map": "burenia",
+						"x": 200,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Burenia Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Burenia Hint 2",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 300,
+						"y": 300
+					},	
+					{
+						"map": "burenia",
+						"x": 250,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Burenia Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Burenia Hint 3",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 400,
+						"y": 300
+					},	
+					{
+						"map": "burenia",
+						"x": 300,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	},
 	// Cataris
 //							Cataris Map Station
 //							"cmap, [DoorRestrictions], [ItemRestrictions]",
@@ -78,6 +278,105 @@
 //							"daipurcat, [DoorRestrictions], [ItemRestrictions]",
 //							Ghavoran - Orange Teleport to Cataris
 //							"ghaoracat, [DoorRestrictions], [ItemRestrictions]"
+	{
+        "name": "Cataris",
+		
+		"chest_opened_img": "images/item_sphere.png",
+        "children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Cataris Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Cataris Hint 1",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 200,
+						"y": 400
+					},	
+					{
+						"map": "cataris",
+						"x": 200,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Cataris Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Cataris Hint 2",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 300,
+						"y": 400
+					},	
+					{
+						"map": "cataris",
+						"x": 250,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Cataris Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Cataris Hint 3",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 400,
+						"y": 400
+					},	
+					{
+						"map": "cataris",
+						"x": 300,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	},
 	// Dairon
 //							Dairon Map Station
 //							"dmap", [DoorRestrictions], [ItemRestrictions]",
@@ -107,13 +406,209 @@
 //							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Purple Teleport to Dairon
 //							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
-
+	{
+        "name": "Dairon",
+		
+		"chest_opened_img": "images/item_sphere.png",
+        "children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Dairon Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Dairon Hint 1",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 200,
+						"y": 500
+					},	
+					{
+						"map": "dairon",
+						"x": 200,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Dairon Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Dairon Hint 2",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 300,
+						"y": 500
+					},	
+					{
+						"map": "dairon",
+						"x": 250,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Dairon Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Dairon Hint 3",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 400,
+						"y": 500
+					},	
+					{
+						"map": "dairon",
+						"x": 300,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	},
 	// Elun
 //							Elun Save Station
 //							"esave, [DoorRestrictions], [ItemRestrictions]",
 //							Ghavoran - Transport to Elun
 //							"ghatraelu, [DoorRestrictions], [ItemRestrictions]",
-
+	{
+        "name": "Elun",
+		
+		"chest_opened_img": "images/item_sphere.png",
+        "children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Elun Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Elun Hint 1",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 200,
+						"y": 600
+					},	
+					{
+						"map": "elun",
+						"x": 200,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Elun Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Elun Hint 2",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 300,
+						"y": 600
+					},	
+					{
+						"map": "elun",
+						"x": 250,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Elun Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Elun Hint 3",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 400,
+						"y": 600
+					},	
+					{
+						"map": "elun",
+						"x": 300,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	},
 	// Ferenia
 //							Ferenia Map Station
 //							"fmap, [DoorRestrictions], [ItemRestrictions]",
@@ -133,6 +628,105 @@
 // 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
 //							Burenia - Cyan Telepor to Ferenia
 //							"burcyafer, [DoorRestrictions], [ItemRestrictions]",
+	{
+        "name": "Ferenia",
+		
+		"chest_opened_img": "images/item_sphere.png",
+        "children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Ferenia Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Ferenia Hint 1",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 200,
+						"y": 700
+					},	
+					{
+						"map": "ferenia",
+						"x": 200,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Ferenia Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Ferenia Hint 2",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 300,
+						"y": 700
+					},	
+					{
+						"map": "ferenia",
+						"x": 250,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Ferenia Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Ferenia Hint 3",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 400,
+						"y": 700
+					},	
+					{
+						"map": "ferenia",
+						"x": 300,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	},
 	// Ghavoran
 //							Ghavoran Map Station
 //							"gmap, [DoorRestrictions], [ItemRestrictions]",
@@ -156,7 +750,105 @@
 //							"catoragha, [DoorRestrictions], [ItemRestrictions]",
 //							Burenia - Green Teleport to Ghavoran
 //							"burgregha, [DoorRestrictions], [ItemRestrictions]",
-
+	{
+        "name": "Ghavoran",
+		
+		"chest_opened_img": "images/item_sphere.png",
+        "children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Ghavoran Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Ghavoran Hint 1",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 200,
+						"y": 800
+					},	
+					{
+						"map": "ghavoran",
+						"x": 200,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Ghavoran Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Ghavoran Hint 2",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 300,
+						"y": 800
+					},	
+					{
+						"map": "ghavoran",
+						"x": 250,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Ghavoran Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Ghavoran Hint 3",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 400,
+						"y": 800
+					},	
+					{
+						"map": "ghavoran",
+						"x": 300,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	},
 	// Hanubia
 //							Hanubia Navigation Station
 //							"hnav, [DoorRestrictions], [ItemRestrictions]",
@@ -166,4 +858,103 @@
 //							"@area/ghatrahan, [DoorRestrictions], [ItemRestrictions]",
 //							Itorash - Transport to Hanubia
 //							"itotrahan, [DoorRestrictions], [ItemRestrictions]",
+	{
+        "name": "Hanubia",
+		
+		"chest_opened_img": "images/item_sphere.png",
+        "children": [
+		{
+			"name": "Rooms",
+			"children": [
+			{
+				"name": "Hanubia Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Hanubia Hint 1",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 200,
+						"y": 900
+					},	
+					{
+						"map": "hanubia",
+						"x": 200,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Hanubia Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Hanubia Hint 2",
+					"map_locations": [
+					{
+						"map": "fullmap",
+						"x": 300,
+						"y": 900
+					},	
+					{
+						"map": "hanubia",
+						"x": 250,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			},
+			{
+				"name": "Hanubia Hints",
+				"access_rules": [ "" ],
+				"children": [
+				{
+					"name": "Hanubia Hint 3",
+					"map_locations": [
+
+					{
+						"map": "fullmap",
+						"x": 400,
+						"y": 900
+					},						{
+						"map": "hanubia",
+						"x": 300,
+						"y": 50
+					}
+					],
+					"sections": [
+					{
+						"name": "Hint",
+						"capture_item": true,
+						"access_rules": [ "{}" ],
+						"item_count": 1
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	}
 ]

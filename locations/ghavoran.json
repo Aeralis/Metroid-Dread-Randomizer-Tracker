@@ -319,9 +319,31 @@
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"@area/hantragha, morph",
-						"tech/laybomb, ice, screw, grapple, speed",
-						"tech/laybomb, ice, screw, grapple, space"
+//							Ghavoran Map Station
+//							"gmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran Navigation Station
+//							"gnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran Save Station Center
+//							"gsavc, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran Save Station East
+//							"gsave, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Transport to Ghavoran
+//							"burtragha, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - Transport to Ghavoran
+//							"daitragha, [DoorRestrictions], [ItemRestrictions]",
+//							Elun - Transport to Ghavoran
+//							"elutragha, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - Transport to Ghavoran
+//							"fertragha, [DoorRestrictions], [ItemRestrictions]",
+//							Hanubia - Transport to Ghavoran
+//							"hantragha, [DoorRestrictions], [ItemRestrictions]",
+							"@area/hantragha, morph",
+//							Cataris - Orange Teleport to Ghavoran
+//							"catoragha, [DoorRestrictions], [ItemRestrictions]",
+							"@area/catoragha, @lock/chargedoor, @tech/laybomb, cross",
+							"@area/catoragha, @lock/chargedoor, @tech/laybomb, ice, screw, grapple, @move/vert"
+//							Burenia - Green Teleport to Ghavoran
+//							"burgregha, [DoorRestrictions], [ItemRestrictions]",
 						],
 						"item_count": 1
 					}
@@ -666,7 +688,29 @@
 						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"morph" 
+//							Ghavoran Map Station
+//							"gmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran Navigation Station
+//							"gnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran Save Station Center
+//							"gsavc, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran Save Station East
+//							"gsave, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Transport to Ghavoran
+//							"burtragha, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - Transport to Ghavoran
+//							"daitragha, [DoorRestrictions], [ItemRestrictions]",
+							"@area/daitragha, @lock/super, morph"
+//							Elun - Transport to Ghavoran
+//							"elutragha, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia - Transport to Ghavoran
+//							"fertragha, [DoorRestrictions], [ItemRestrictions]",
+//							Hanubia - Transport to Ghavoran
+//							"hantragha, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris - Orange Teleport to Ghavoran
+//							"catoragha, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Green Teleport to Ghavoran
+//							"burgregha, [DoorRestrictions], [ItemRestrictions]",
 						],
 						"item_count": 1
 					}
