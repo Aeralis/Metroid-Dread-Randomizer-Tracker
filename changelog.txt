@@ -1,10 +1,39 @@
-v1.1.1t
-	Area Access logic is implemented but incomplete.
-	Starting Point tracking is implemented but not incomplete.
+v1.1.1f
+	Updates from Fayte
+	-Hints added to all maps.
+	-Updating various map logic.
+	-Updated logic.json with new starting area logics.
+	-Added additonal dangerous actions.
+
+	In Progress
+	-All Maps logic
+	
+	To Do
+	-Grab Images / Create Images for Starting Locations
+	-pbomb, missle+, etank on capture
+	-Pulse Radar on by Default
+	-Dangerous Actions
+		> Ghavoran Moving Block
+	-Realistic Map
+	-Determine Items that need added to broadcast view:
+	-Toggle for Quiet Robe
+	-Scoped items upgrading with progressive aquisition
+		> charge
+		> suit
+		> bomb
+		> spin
+	-Lua for power toggles (Dairon Freezer Power, etc.)
+	-Door Lock Logic
+		> What is wrong with @lock/chargedoor
+		> What is wrong with @lock/plasmadoor
+	-Artaria Area Logic
+		> Finish arttradai
+		> Finish Blue Teleport
+		> Finish Red Teleport
 
 v1.1.0f
 	Updates from Fayte. 
-	-Artaria names & icon updates.
+	-Artaria names & icon updatse.
 	-Burenia names & icon updates.
 	-Cataris names & icon updates.
 	-Dairon names & icon updates.
@@ -21,7 +50,7 @@ v1.1.0f
 	
 	Finished:
 	-Elun, items & area logic.
-	-Hanubia, itesm & area logic.
+	-Hanuba, itesm & area logic.
 	
 	Upcoming
 	-Hanubia Full Map Items
