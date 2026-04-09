@@ -1,0 +1,121 @@
+[
+			
+	{
+		"name": "Starting Area",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"name": "Artaria Start",
+			"img": "images/start/artaria.png",
+			"codes": "art"
+		},
+		{
+			"name": "Burenia Start",
+			"img": "images/start/burenia.png",
+			"codes": "bur"
+		},
+		{
+			"name": "Cataris Start",
+			"img": "images/start/cataris.png",
+			"codes": "cat"
+		},
+		{
+			"name": "Dairon Start",
+			"img": "images/start/dairon.png",
+			"codes": "dai"
+		},
+		{
+			"name": "Elun Start",
+			"img": "images/start/elun.png",
+			"codes": "elu"
+		},
+		{
+			"name": "Ferenia Start",
+			"img": "images/start/ferenia.png",
+			"codes": "fer"
+		},
+		{
+			"name": "Ghavoran Start",
+			"img": "images/start/ghavoran.png",
+			"codes": "gha"
+		},
+		{
+			"name": "Hanubia Start",
+			"img": "images/start/hanubia.png",
+			"codes": "han"
+		},
+		{
+			"name": "Itorash Start",
+			"img": "images/start/Itorash.png",
+			"codes": "ito"
+		}
+		],
+		"codes": "startarea"
+	},
+	{
+		"name": "Starting Room",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"name": "Intro Room",
+			"img": "images/start/intro.png",
+			"codes": "int"
+		},
+		{
+			"name": "Map Station",
+			"img": "images/start/map.png",
+			"codes": "nav"
+		},
+		{
+			"name": "Navigation Station",
+			"img": "images/start/navigation.png",
+			"codes": "map"
+		},
+		{
+			"name": "Save Station",
+			"img": "images/start/save.png",
+			"codes": "sav"
+		}
+		],
+		"codes": "startroom"
+	},
+	{
+		"name": "Starting Direction",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"name": "Neutral / Middle Start",
+			"img": "images/start/center.png",
+			"img_mods": "@disabled",
+			"codes": "c"
+		},
+		{
+			"name": "North Start",
+			"img": "images/start/north.png",
+			"codes": "n"
+		},
+		{
+			"name": "East Start",
+			"img": "images/start/east.png",
+			"codes": "e"
+		},
+		{
+			"name": "South Start",
+			"img": "images/start/south.png",
+			"codes": "s"
+		},
+		{
+			"name": "West Start",
+			"img": "images/start/west.png",
+			"codes": "w"
+		}
+		],
+		"codes": "startdir"
+	}
+]
