@@ -1,3 +1,30 @@
+v1.1.2f
+	-Added Start Lua from Tyr
+	-Updated Green Emmi IMG
+	-Artaria Transport & Teleport Logic complete.
+	
+	In Progress
+	-Artaria Logic: 4/32 Items
+	
+	To Do
+	-Grab Images / Create Images for Starting Locations
+	-pbomb, missle+, etank on capture
+	-Pulse Radar on by Default
+	-Dangerous Actions
+		> Ghavoran Moving Block
+	-Realistic Map
+	-Determine Items that need added to broadcast view:
+	-Toggle for Quiet Robe
+	-Scoped items upgrading with progressive aquisition
+		> charge
+		> suit
+		> bomb
+		> spin
+	-Lua for power toggles (Dairon Freezer Power, etc.)
+	-Door Lock Logic
+	-Transport Shuffle
+	-Trick Settings
+
 v1.1.1f
 	Updates from Fayte
 	-Hints added to all maps.
