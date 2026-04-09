@@ -1,84 +1,37 @@
 ﻿{
-	"items_and_bosses":
+	"difficulty_settings":
 	{
-		"type": "itemgrid",
-		"h_alignment": "center",
-		"item_margin": "1,2",
-		"rows": [
-			[ "charge", "diffusion", "wide", "super", "ice", "storm" ],
-			[ "plasma", "wave", "grapple", "cloak", "flash", "pulse" ],
-			[ "morph", "bomb", "cross", "pbomb", "varia", "gravity" ],
-			[ "magnet", "speed", "spin", "space", "screw", "thex" ],
-			[ "corpius", "kraid", "drogyga", "escue", "z57", "golzuna" ],
-			[ "emmi2", "emmi3", "emmi4", "emmi5", "emmi6", "emmi7" ]
-		]
-	},
-	"consumables":
-	{
-		"type": "array",
-		"orientation": "vertical",
-		"v_alignment": "bottom",
-		"margin": "0,0", 
-		"content": [
+		"type": "tabbed",
+		"tabs": [
 		{
-			"type": "itemgrid",
-			"item_margin": "1,2",
-			"item_width": "100",
-			"item_height": "60",
-			"h_alignment": "left",
-			"rows": [
-				[ "energyhud", "missilehud" ]
-//				[ "pbombhub" ]
-			]
-		},
-		{
-			"type": "itemgrid",
-			"item_margin": "1,2",
-			"item_width": "200",
-			"item_height": "60",
-			"h_alignment": "left",
-			"rows": [
-				[ "spartintroroom" ]
-			]
+			"title": "Start Location",
+			"content": 
+			{
+				"type": "array",
+				"orientation": "veritcal",
+				"content": [
+				{
+					"type": "item",
+					"h_alignment": "center",
+					"item": "art"
+				},
+				{
+					"type": "item",
+					"h_alignment": "center",
+					"item": "int"
+				},
+				{
+					"type": "item",
+					"h_alignment": "center",
+					"item": "c"
+				}
+				]
+			}
 		}
 		]
 	},
-	"startingpoint":
-	{
-		"type": "array",
-		"orientation": "vertical",
-		"v_alignment": "top",
-		"margin": "0,0",
-		"content": [
-		{
-			"type": "itemgrid",
-			"item_margin": "1,2",
-			"item_width": "90",
-			"item_height": "45",
-			"h_alignment": "left",
-			"rows": [
-				[ "spartintroroom" ]
-			]
-		}
-		]
-	},
-	"tracker_capture_item": 
-	{
-		"type": "container",
-		"content": {
-			"type": "itemgrid",
-			"h_alignment": "center",
-			"item_margin": "1,2",
-			"rows": [
-				[ "charge", "diffusion", "wide", "super", "ice", "storm" ],
-				[ "plasma", "wave", "grapple", "cloak", "flash", "pulse" ],
-				[ "morph", "bomb", "cross", "pbomb", "varia", "gravity" ],
-				[ "magnet", "speed", "spin", "space", "screw" ],
-				[ "energypart", "energytank", "missilepack", "missile+pack", "pbombtank" ]
-			]
-		}
-	},
-	"tracker_horizontal": 
+
+	"tracker_default": 
 	{
 		"type": "container",
 		"content": 
@@ -88,177 +41,59 @@
 			"content": [
 			{
 				"type": "dock",
-				"dock": "bottom",
+				"dock": "left",
 				"h_alignment": "stretch",
+				"margin": "0,0,3,0",
 				"content": [
 				{
 					"type": "group",
 					"header": "Items",
-					"content":
+					"dock": "top",
+					"header_content": 
+					{
+						"type": "button_popup",
+						"style": "settings",
+						"layout": "difficulty_settings"
+					},
+					"content": [
 					{
 						"type": "array",
-						"orientation": "horizontal",
 						"margin": "0,0",
+						"orientation": "horizontal",
 						"content": [
 						{
 							"type": "layout",
-							"key": "items_and_bosses"
+							"key": "interactive_devices"
 						},
 						{
 							"type": "layout",
-							"key": "consumables"
+							"key": "items_and_bosses"
 						}
 						]
-					}
+					},
+					]
 				},
-				{
-					"type": "group",
-					"header": "Pinned Locations",
-					"content":
-					{
-						"type": "recentpins",
-						"style": "wrap",
-						"h_alignment": "stretch",
-						"v_alignment": "stretch",
-						"orientation": "horizontal",
-						"compact": true
-					}
-				}
-				]
-			},
-			{
-				"type": "tabbed",
-				"tabs": [
-//				{
-//					"title": "Full Map",
-//					"content": 
-//					{
-//						"type": "map",
-//						"maps": [ "fullmap" ]
-//					}
-//				},
-				{
-					"title": "Artaria",
-					"content": 
-					{
-						"type": "map",
-						"maps": [ "artaria" ]
-					}
-				},
-				{
-					"title": "Burenia",
-					"content": 
-					{
-						"type": "map",
-						"maps": [ "burenia" ]
-					}
-				},
-				{
-					"title": "Cataris",
-					"content": 
-					{
-						"type": "map",
-						"maps": [ "cataris" ]
-					}
-				},
-				{
-					"title": "Dairon",
-					"content": 
-					{
-						"type": "map",
-						"maps": [ "dairon" ]
-					}
-				},
-				{
-					"title": "Elun",
-					"content": 
-					{
-						"type": "map",
-						"maps": [ "elun" ]
-					}
-				},
-				{
-					"title": "Ferenia",
-					"content": 
-					{
-						"type": "map",
-						"maps": [ "ferenia" ]
-					}
-				},
-				{
-					"title": "Ghavoran",
-					"content": 
-					{
-						"type": "map",
-						"maps": [ "ghavoran" ]
-					}
-				},
-				{
-					"title": "Hanubia",
-					"content": 
-					{
-						"type": "map",
-						"maps": [ "hanubia" ]
-					}
-				}
-				]
-			}
-			]
-		}
-	},
-	"tracker_vertical":
-	{
-		"type": "container",
-		"content": 
-		{
-			"type": "dock",
-			"dropshadow": true,
-			"content": [
-			{
-				"type": "dock",
-				"dock": "bottom",
-				"h_alignment": "stretch",
-				"content": [
 				{
 					"type": "array",
-					"orientation": "vertical",
+					"margin": "0,0",
 					"content": [
 					{
-						"type": "group",
-						"header": "Items",
-						"content": 
-						{
-							"type": "array",
-							"orientation": "horizontal",
-							"margin": "0,0",
-							"content": [
-							{
-								"type": "layout",
-								"key": "items_and_bosses"
-							},
-							{
-								"type": "layout",
-								"key": "consumables"
-							},
-							{
-								"type": "layout",
-								"key": "startingpoint"
-							}
-							]
-						}
+						"type": "layout",
+						"key": "consumables"
 					},
 					{
 						"type": "group",
 						"header": "Pinned Locations",
-						"content":
+						"dock": "bottom",
+						"content": [
 						{
 							"type": "recentpins",
 							"style": "wrap",
-							"h_alignment": "stretch",
-							"v_alignment": "stretch",
-							"orientation": "horizontal",
+							"h_alignment": "left",
+							"orientation": "vertical",
 							"compact": true
 						}
+						]
 					}
 					]
 				}
@@ -267,13 +102,14 @@
 			{
 				"type": "tabbed",
 				"tabs": [
-//				{
-//					"title": "Full Map",
-//					"content": {
-//						"type": "map",
-//						"maps": [ "fullmap" ]
-//					}
-//				},
+				{
+					"title": "Full Map",
+					"content": 
+					{
+						"type": "map",
+						"maps": [ "fullmap" ]
+					}
+				},
 				{
 					"title": "Artaria",
 					"content": 
@@ -307,14 +143,6 @@
 					}
 				},
 				{
-					"title": "Ghavoran",
-					"content": 
-					{
-						"type": "map",
-						"maps": [ "ghavoran" ]
-					}
-				},
-				{
 					"title": "Elun",
 					"content": 
 					{
@@ -328,6 +156,14 @@
 					{
 						"type": "map",
 						"maps": [ "ferenia" ]
+					}
+				},
+				{
+					"title": "Ghavoran",
+					"content": 
+					{
+						"type": "map",
+						"maps": [ "ghavoran" ]
 					}
 				},
 				{
