@@ -33,47 +33,77 @@
 						"capture_item": true,
 						"access_rules": [ 							
 //						No Start Shuffle
-//						"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"{noentrance}",
-							"noentrance, morph",
-//						Artaria Intro Room							
- 							"{aintro}",
-							"aintro, morph",
+//						"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|int|c}",
+							"$IsStart|art|int|c, morph",
 //							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-							"{amap, @lock/missiledoor, charge}",
-							"{amap, vlock, gravity, spin",
-							"{amap, spin, magnet}",
-							"{amap, space}",
-							"amap, @lock/missiledoor, charge, morph",
-							"amap, $novlock, morph, pbomb, spin",
-							"amap, vlock, gravity, spin, morph",
-							"amap, spin, magnet, morph",
-							"amap, space, morph",
-							"amap, morph",
+//							"$IsStart|art|map|c, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|map|c, @tech/wideblock, apump}",
+							"{$IsStart|art|map|c, @move/advwall, grapple}",
+							"{$IsStart|art|map|c, @move/advwall, magnet}",
+							"{$IsStart|art|map|c, speed}",
+							"{$IsStart|art|map|c, gravity, @move/advwall}",
+							"$IsStart|art|map|c, morph",
 //							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|nav|n, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|nav|n}",
+							"$IsStart|art|nav|n, morph",
 //							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-							"save, apump, [morph]"
+//							"$IsStart|art|sav|e, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|sav|e, apump}",
+							"$IsStart|art|sav|e, apump, morph",
 //							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|n, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|sav|n, speed}",
+							"$IsStart|art|sav|n, speed, morph",
 //							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|s, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|sav|s}",
+							"$IsStart|art|sav|s, morph",
 //							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|w, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|sav|w, @tech/wideblock, apump}",
+							"{$IsStart|art|sav|w, @move/advwall, grapple}",
+							"{$IsStart|art|sav|w, @move/advwall, magnet}",
+							"{$IsStart|art|sav|w, @move/advwall, gravity}",
+							"{$IsStart|art|sav|w, speed}",
+							"$IsStart|art|sav|w, morph",
 //							Dairon Transport to Artaria
 //							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/daitraart, speed}",
+							"@area/daitraart, speed, morph",
 //							Cataris Transport to Artaria
 //							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/cattraart, apump}",
+							"@area/cattraart, apump, morph",
 //							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/cattraart, [DoorRestrictions], vlock, @tech/laybomb, [ItemRestrictions]",
+							"@area/cattraart, vlock, @tech/laybomb",
+//							"@area/catredart, [DoorRestrictions], vlock, diffusion, [ItemRestrictions]",
+							"{@area/cattraart, vlock, diffusion, @tech/wideblock, apump}",
+							"{@area/cattraart, vlock, diffusion, @move/advwall, grapple}",
+							"{@area/cattraart, vlock, diffusion, @move/advwall, magnet}",
+							"{@area/cattraart, vlock, diffusion, @move/advwall, gravity}",
+							"{@area/cattraart, vlock, diffusion, speed}",
+							"@area/cattraart, vlock, diffusion, morph",
+//							"@area/catredart, [DoorRestrictions], $novlock, [ItemRestrictions]",
+							"{@area/catredart, $novlock, @tech/wideblock, apump}",
+							"{@area/catredart, $novlock, @move/advwall, grapple}",
+							"{@area/catredart, $novlock, @move/advwall, magnet}",
+							"{@area/catredart, $novlock, @move/advwall, gravity}",
+							"@area/catredart, $novlock, morph",
 //							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/catbluart, grapple, morph, wave, [DoorRestrictions], [ItemRestrictions]",
+							"@area/catbluart, grapple, morph, wave",
 //							Diaron Yellow Teleport to Artaria
 //							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/daiyelart, charge, wide}",
+							"@area/daiyelart, charge wide, morph",
 //							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple, [DoorRestrictions], [ItemRestrictions]",
+							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple",
+//							"@area/burtraart, screw, gravity, morph, plasma, wave, [DoorRestrictions], [ItemRestrictions]",
+							"@area/burtraart, screw, gravity, morph, plasma, wave"
 							],
 						"item_count": 1
 					}
@@ -82,11 +112,11 @@
 				]
 			},
 			{
-				"name": "Charge Beam Access",
+				"name": "charge Beam Access",
 				"access_rules": [ "" ],
 				"children": [
 				{
-					"name": "Charge Beam Access",
+					"name": "charge Beam Access",
 					"map_locations": [
 					{
 						"map": "fullmap",
@@ -107,44 +137,63 @@
 						"access_rules": [ 
 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/missiledoor, morph, pbomb",
-							"noentrance, @tech/chute, speed, [gravity]",
-							"noentrance, charge, morph, pbomb",
-							"noentrance, charge, @tech/chute, speed, [gravity]",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/missiledoor, morph, pbomb",
-							"aintro, @tech/chute, speed, [gravity]",
-							"aintro, charge, morph, pbomb",
-							"aintro, charge, @tech/chute, speed, [gravity]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, morph, pbomb",
+							"$IsStart|art|int|c, @tech/chute, speed, [gravity]",
 //							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-							"amap, @lock/missiledoor, morph, pbomb",
-							"amap, [gravity], speed, @tech/laybomb",
-							"amap, charge, morph, pbomb"
+//							"$IsStart|art|map|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|map|c, morph, pbomb",
+							"$IsStart|art|map|c, @tech/chute, speed, [gravity]",
 //							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|nav|n, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|nav|n, morph, pbomb",
+							"$IsStart|art|nav|n, @tech/chute, speed, [gravity]",
 //							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|e, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|e, apump, morph, pbomb",
+							"$IsStart|art|sav|e, apump, @tech/chute, speed, [gravity]",
 //							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|n, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|n, speed, morph, pbomb",
+							"$IsStart|art|sav|n, speed, @tech/chute, [gravity}]",
 //							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|s, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|s, morph, pbomb",
+							"$IsStart|art|sav|s, @tech/chute, speed, [gravity]",
 //							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|w, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|w, morph, pbomb",
+							"$IsStart|art|sav|w, @tech/chute, speed, [gravity]",
 //							Dairon Transport to Artaria
 //							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
+							"@area/daitraart, speed, morph, pbomb",
+							"@area/daitraart, speed, @tech/chute, [gravity]",
 //							Cataris Transport to Artaria
 //							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
+							"@area/cattraart, apump, morph, pbomb",
+							"@area/cattraart, apump, @tech/chute, speed, [gravity]",
 //							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/cattraart, [DoorRestrictions], vlock, @tech/laybomb, [ItemRestrictions]",
+							"@area/cattraart, vlock, @tech/laybomb, pbomb",
+							"@area/cattraart, vlock, @tech/chute, speed, [gravity]",
+//							"@area/catredart, [DoorRestrictions], $novlock, [ItemRestrictions]",
+							"@area/catredart, $novlock, morph, pbomb",
+							"@area/catredart, $novlock, @tech/chute, speed, [gravity]",
 //							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/catbluart, morph, grapple, wave, [DoorRestrictions], [ItemRestrictions]",
+							"@area/catbluart, morph, grapple, wave, pbomb",
+							"@area/catbluart, morph, grapple, @tech/chute, speed, [gravity]",
 //							Diaron Yellow Teleport to Artaria
 //							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
+							"@area/daiyelart, wide, charge, morph, pbomb",
+							"@area/daiyelart, wide, charge, @tech/chute, speed, [gravity]",
 //							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple, [DoorRestrictions], [ItemRestrictions]",
+							"@area/burtraart, screw, [gravity] morph, bomb, wave, grapple, pbomb",
+							"@area/burtraart, screw, [gravity] morph, bomb, speed",
+//							"@area/burtraart, screw, gravity, morph, plasma, wave, [DoorRestrictions], [ItemRestrictions]",
+							"@area/burtraart, screw, gravity, morph, plasma, wave, pbomb",
+							"@area/burtraart, screw, gravity, morph, plasma, wave, speed"
 						],
 						"item_count": 1
 					}
@@ -153,13 +202,13 @@
 				]
 			},
 			{
-				"name": "Charge Beam Room",
+				"name": "charge Beam Room",
 				"access_rules": [ 
 				"" 
 				],
 				"children": [
 				{
-					"name": "Charge Beam Room",
+					"name": "charge Beam Room",
 					"map_locations": [
 					{
 						"map": "fullmap",
@@ -174,15 +223,61 @@
 					],
 					"sections": [
 					{
-						"name": "Charge Beam",
+						"name": "charge Beam",
 						"chest_unopened_img": "images/charge.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+//							Start Not Shuffled
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c",
+//							Artaria Map Room
+//							"$IsStart|art|map|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|map|c",
+//							Artaria Navigation North
+//							"$IsStart|art|nav|n, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|nav|n",
+//							Artaria Save East
+//							"$IsStart|art|sav|e, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|e, apump",
+//							Artaria Save North
+//							"$IsStart|art|sav|n, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|n, speed",
+//							Artaria Save South
+//							"$IsStart|art|sav|s, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|n",
+//							Artaria Save West
+//							"$IsStart|art|sav|w, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|w",
+//							Dairon Transport to Artaria
+//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
+							"@area/daitraart, speed",
+//							Cataris Transport to Artaria
+//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
+							"@area/cattraart, apump",
+//							Cataris Red Teleport to Artaria
+//							"@area/cattraart, [DoorRestrictions], vlock, @tech/laybomb, [ItemRestrictions]",
+							"@area/cattraart, vlock, @tech/laybomb",
+//							"@area/catredart, [DoorRestrictions], vlock, diffusion, [ItemRestrictions]",
+							"@area/cattraart, vlock, diffuison",
+//							"@area/catredart, [DoorRestrictions], $novlock, [ItemRestrictions]",
+							"@area/catredart, $novlock",
+//							Cataris Blue Teleport to Artaria
+//							"@area/catbluart, morph, grapple, wave, [DoorRestrictions], [ItemRestrictions]",
+							"@area/catbluart, morph, grapple, wave",
+//							Diaron Yellow Teleport to Artaria
+//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
+							"@area/daiyelart, wide, charge",
+//							Burenia Transport to artaria
+//							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple, [DoorRestrictions], [ItemRestrictions]",
+							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple",
+//							"@area/burtraart, screw, gravity, morph, plasma, wave, [DoorRestrictions], [ItemRestrictions]",
+							"@area/burtraart, screw, gravity, morph, plasma, wave"
+						],
 						"item_count": 1
 					},
 					{
 						"name": "Escape with Morph (OOL)",
-						"chest_unopened_img": "images/Charge.png",
+						"chest_unopened_img": "images/charge.png",
 						"capture_item": false,
 						"hosted_item": "chadaction",
 						"access_rules": [ 
@@ -195,11 +290,11 @@
 				]
 			},
 			{
-				"name": "Charge Tutorial",
+				"name": "charge Tutorial",
 				"access_rules": [ "" ],
 				"children": [
 				{
-					"name": "Charge Tutorial",
+					"name": "charge Tutorial",
 					"map_locations": [
 					{
 						"map": "fullmap",
@@ -219,41 +314,50 @@
 						"capture_item": false,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/chargedoor",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, charge",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, charge",
 //							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-							"amap, @lock/missiledoor, charge",
-							"amap, charge, morph",
-							"amap, charge, spin, magnet",
-							"amap, charge, space",
-							"amap, charge, vlock, gravity, spin",
-							"amap, charge, vlock, gravity, spin, apump"
+//							"$IsStart|art|map|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|map|c, charge",
 //							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|nav|n, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|nav|n, charge",
 //							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|e, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|e, apump, charge",
 //							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|n, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|n, speed, charge",
 //							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|s, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|n, charge",
 //							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|w, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|w, charge",
 //							Dairon Transport to Artaria
 //							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
+							"@area/daitraart, speed, charge",
 //							Cataris Transport to Artaria
 //							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
+							"@area/cattraart, apump, charge",
 //							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/cattraart, [DoorRestrictions], vlock, @tech/laybomb, [ItemRestrictions]",
+							"@area/cattraart, vlock, @tech/laybomb, charge",
+//							"@area/catredart, [DoorRestrictions], vlock, diffusion, [ItemRestrictions]",
+							"@area/cattraart, vlock, diffuison, charge",
+//							"@area/catredart, [DoorRestrictions], $novlock, [ItemRestrictions]",
+							"@area/catredart, $novlock, charge",
 //							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/catbluart, morph, grapple, wave, [DoorRestrictions], [ItemRestrictions]",
+							"@area/catbluart, morph, grapple, wave, charge",
 //							Diaron Yellow Teleport to Artaria
 //							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
+							"@area/daiyelart, wide, charge",
 //							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple, [DoorRestrictions], [ItemRestrictions]",
+							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple, charge",
+//							"@area/burtraart, screw, gravity, morph, plasma, wave, [DoorRestrictions], [ItemRestrictions]",
+							"@area/burtraart, screw, gravity, morph, plasma, wave, charge"
 							],
 						"item_count": 1
 					}
@@ -264,7 +368,7 @@
 			{
 				"name": "Corpius Arena",
 				"access_rules": [
-					"@lock/cloakdoor",
+					" cloakdoor",
 					"diffusion",
 					"magnet",
 					"morph, pbomb"
@@ -291,46 +395,98 @@
 						"capture_item": true,
 						"access_rules": [
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, magnet",
-							"noentrance, [space], diffusion",
-							"noentrance, space, [diffusion]",
-							"noentrance, morph, pbomb, magnet",
-							"noentrance, morph, pbomb, [space]",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, magnet",
-							"aintro, [space], diffusion",
-							"aintro, space, [diffusion]",
-							"aintro, morph, pbomb, magnet",
-							"aintro, morph, pbomb, [space]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, magnet",
+							"$IsStart|art|int|c, [space], diffusion",
+							"$IsStart|art|int|c, space, [diffusion]",
+							"$IsStart|art|int|c, morph, pbomb, magnet",
+							"$IsStart|art|int|c, morph, pbomb, [space]",
 //							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-							"amap, spin, magnet",
-							"amap, space, [diffusion]",
-							"amap, morph, pbomb, magent",
+//							"$IsStart|art|map|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|map|c, @tech/wideblock, magnet",
+							"$IsStart|art|map|c, @tech/wideblock, [space], diffusion",
+							"$IsStart|art|map|c, @tech/wideblock, space, [diffusion]",
+							"$IsStart|art|map|c, @tech/wideblock, morph, pbomb, magnet",
+							"$IsStart|art|map|c, @tech/wideblock, morph, pbomb, [space]",
+							"$IsStart|art|map|c, @move/advwall, grapple, magnet",
+							"$IsStart|art|map|c, @move/advwall, grapple, [space], diffusion",
+							"$IsStart|art|map|c, @move/advwall, grapple, space, [diffusion]",
+							"$IsStart|art|map|c, @move/advwall, grapple, morph, pbomb, magnet",
+							"$IsStart|art|map|c, @move/advwall, grapple, morph, pbomb, [space]",
+							"$IsStart|art|map|c, @move/advwall, magnet",
+							"$IsStart|art|map|c, speed, magnet",
+							"$IsStart|art|map|c, speed, [space], diffusion",
+							"$IsStart|art|map|c, speed, space, [diffusion]",
+							"$IsStart|art|map|c, speed, morph, pbomb, magnet",
+							"$IsStart|art|map|c, speed, morph, pbomb, [space]",
+							"$IsStart|art|map|c, gravity, @move/advwall, magnet",
+							"$IsStart|art|map|c, gravity, @move/advwall, [space], diffusion",
+							"$IsStart|art|map|c, gravity, @move/advwall, space, [diffusion]",
+							"$IsStart|art|map|c, gravity, @move/advwall, morph, pbomb, magnet",
+							"$IsStart|art|map|c, gravity, @move/advwall, morph, pbomb, [space]",
+							"$IsStart|art|map|c, morph",
 //							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|nav|n, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|nav|n, magnet",
+							"$IsStart|art|nav|n, [space], diffusion",
+							"$IsStart|art|nav|n, space, [diffusion]",
+							"$IsStart|art|nav|n, morph, pbomb, magnet",
+							"$IsStart|art|nav|n, morph, pbomb, [space]",
 //							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|e, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|nav|e, apump, magnet",
+							"$IsStart|art|nav|e, apump, [space], diffusion",
+							"$IsStart|art|nav|e, apump, space, [diffusion]",
+							"$IsStart|art|nav|e, apump, morph, pbomb, magnet",
+							"$IsStart|art|nav|e, apump, morph, pbomb, [space]",
 //							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|n, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|n, speed, magnet",
+							"$IsStart|art|sav|n, speed, [space], diffusion",
+							"$IsStart|art|sav|n, speed, space, [diffusion]",
+							"$IsStart|art|sav|n, speed, morph, pbomb, magnet",
+							"$IsStart|art|sav|n, speed, morph, pbomb, [space]",
 //							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|s, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|w, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|w, @tech/wideblock, magnet",
+							"$IsStart|art|sav|w, @tech/wideblock, [space], diffusion",
+							"$IsStart|art|sav|w, @tech/wideblock, space, [diffusion]",
+							"$IsStart|art|sav|w, @tech/wideblock, morph, pbomb, magnet",
+							"$IsStart|art|sav|w, @tech/wideblock, morph, pbomb, [space]",
+							"$IsStart|art|sav|w, @move/advwall, grapple, magnet",
+							"$IsStart|art|sav|w, @move/advwall, grapple, [space], diffusion",
+							"$IsStart|art|sav|w, @move/advwall, grapple, space, [diffusion]",
+							"$IsStart|art|sav|w, @move/advwall, grapple, morph, pbomb, magnet",
+							"$IsStart|art|sav|w, @move/advwall, grapple, morph, pbomb, [space]",
+							"$IsStart|art|sav|w, @move/advwall, magnet",
+							"$IsStart|art|sav|w, speed, magnet",
+							"$IsStart|art|sav|w, speed, [space], diffusion",
+							"$IsStart|art|sav|w, speed, space, [diffusion]",
+							"$IsStart|art|sav|w, speed, morph, pbomb, magnet",
+							"$IsStart|art|sav|w, speed, morph, pbomb, [space]",
+							"$IsStart|art|sav|w, gravity, @move/advwall, magnet",
+							"$IsStart|art|sav|w, gravity, @move/advwall, [space], diffusion",
+							"$IsStart|art|sav|w, gravity, @move/advwall, space, [diffusion]",
+							"$IsStart|art|sav|w, gravity, @move/advwall, morph, pbomb, magnet",
+							"$IsStart|art|sav|w, gravity, @move/advwall, morph, pbomb, [space]",
+							"$IsStart|art|sav|w, morph",
 //							Dairon Transport to Artaria
 //							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris Transport to Artaria
 //							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/cattraart, [DoorRestrictions], vlock, @tech/laybomb, [ItemRestrictions]",
+//							"@area/catredart, [DoorRestrictions], vlock, diffusion, [ItemRestrictions]",
+//							"@area/catredart, [DoorRestrictions], $novlock, [ItemRestrictions]",
 //							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/catbluart, grapple, morph, wave, [DoorRestrictions], [ItemRestrictions]",
 //							Diaron Yellow Teleport to Artaria
 //							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
 //							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/burtraart, screw, gravity, morph, plasma, wave, [DoorRestrictions], [ItemRestrictions]",
 							],
 						"item_count": 1
 					},
@@ -340,7 +496,7 @@
 						"capture_item": false,
 						"hosted_item": "corpius",
 						"access_rules": [ 
-							"@lock/cloakdoor",
+							" cloakdoor",
 							],
 						"item_count": 0
 					}
@@ -373,37 +529,8 @@
 						"capture_item": false,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, charge",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, charge",
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-							"amap, @lock/missiledoor, charge",
-							"amap, charge, gravity, spin",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, charge"
 							],
 						"item_count": 1
 					}
@@ -415,41 +542,9 @@
 				"name": "E.M.M.I.-02SM",
 				"access_rules": [
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, charge, apump",
-							"noentrance, charge, charge, wide",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, charge, apump",
-							"aintro, charge, wide, charge",
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-							"amap, charge, $novlock, apump, gravity, spin",
-							"amap, charge, space",
-							"amap, charge, spin, magnet",
-							"amap, charge, wide, charge"
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, charge, apump",
+							"$IsStart|art|int|c, charge, wide"
 				],
 				"children": [
 				{
@@ -514,59 +609,19 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"{noentrance, charge}",
-							"noentrance, charge, gravity",
-							"noentrance, charge, [varia], magnet",
-							"noentrance, charge, [varia], space",
-							"noentrance, charge, [varia], speed",
-							"noentrance, charge, [varia], grapple",
-							"{noentrance, @lock/cloakdoor}",
-							"noentrance, @lock/cloakdoor, gravity",
-							"noentrance, @lock/cloakdoor, [varia], magnet",
-							"noentrance, @lock/cloakdoor, [varia], space",
-							"noentrance, @lock/cloakdoor, [varia], speed",
-							"noentrance, @lock/cloakdoor, [varia], grapple",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"{aintro, charge}",
-							"aintro, charge, gravity",
-							"aintro, charge, [varia], magnet",
-							"aintro, charge, [varia], space",
-							"aintro, charge, [varia], speed",
-							"aintro, charge, [varia], grapple",
-							"{aintro, @lock/cloakdoor}",
-							"aintro, @lock/cloakdoor, gravity",
-							"aintro, @lock/cloakdoor, [varia], magnet",
-							"aintro, @lock/cloakdoor, [varia], space",
-							"aintro, @lock/cloakdoor, [varia], speed",
-							"aintro, @lock/cloakdoor, [varia], grapple",
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-							"{amap, charge, @lock/missiledoor",
-							"{amap, charge, gravity"
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|int|c, charge}",
+							"$IsStart|art|int|c, charge, gravity",
+							"$IsStart|art|int|c, charge, [varia], magnet",
+							"$IsStart|art|int|c, charge, [varia], space",
+							"$IsStart|art|int|c, charge, [varia], speed",
+							"$IsStart|art|int|c, charge, [varia], grapple",
+							"{$IsStart|art|int|c,  cloakdoor}",
+							"$IsStart|art|int|c,  cloakdoor, gravity",
+							"$IsStart|art|int|c,  cloakdoor, [varia], magnet",
+							"$IsStart|art|int|c,  cloakdoor, [varia], space",
+							"$IsStart|art|int|c,  cloakdoor, [varia], speed",
+							"$IsStart|art|int|c,  cloakdoor, [varia], grapple"
 							],
 						"item_count": 1
 					}
@@ -599,35 +654,8 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, speed",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, speed"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, speed"
 						],
 						"item_count": 1
 					}
@@ -660,35 +688,8 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, morph, speed",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, morph, speed"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, morph, speed"
 						],
 						"item_count": 1
 					}
@@ -721,43 +722,12 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, []",
-							"noentrance, @move/advwall",
-							"noentrance, @move/vert",
-							"noentrance, grapple",
-							"noentrance, magnet",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, []",
-							"aintro, @move/advwall",
-							"aintro, @move/vert",
-							"aintro, grapple",
-							"aintro, magnet"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, []",
+							"$IsStart|art|int|c, @move/advwall",
+							"$IsStart|art|int|c, @move/vert",
+							"$IsStart|art|int|c, grapple",
+							"$IsStart|art|int|c, magnet"
 							],
 						"item_count": 1
 					}
@@ -790,42 +760,12 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"{noentrance}",
-							"noentrance, morph, flash",
-							"noentrance, morph, grapple",
-							"noentrance, morph,	magnet",
-							"noentrance, morph, @move/vert",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, morph, flash",
-							"aintro, morph, grapple",
-							"aintro, morph,	magnet",
-							"aintro, morph, @move/vert"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|int|c}",
+							"$IsStart|art|int|c, morph, flash",
+							"$IsStart|art|int|c, morph, grapple",
+							"$IsStart|art|int|c, morph,	magnet",
+							"$IsStart|art|int|c, morph, @move/vert"
 							],
 						"item_count": 1
 					}
@@ -858,41 +798,11 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"{noentrance, apump}",
-							"noentrance, apump, grapple",
-							"{noentrance, charge, wide}",
-							"noentrance, charge, wide, grapple",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"{aintro, apump}",
-							"aintro, apump, grapple",
-							"{aintro, charge, wide}",
-							"aintro, charge, wide, grapple"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|int|c, apump}",
+							"$IsStart|art|int|c, apump, grapple",
+							"{$IsStart|art|int|c, charge, wide}",
+							"$IsStart|art|int|c, charge, wide, grapple"
 							],
 						"item_count": 1
 					}
@@ -925,47 +835,14 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"{noentrance}",
-							"noentrance, flash",
-							"noentrance, spin",
-							"noentrance, magnet",
-							"noentrance, speed",
-							"noentrance, @move/vert",
-							"noentrance, grapple",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"{aintro}",
-							"aintro, flash",
-							"aintro, spin",
-							"aintro, magnet",
-							"aintro, speed",
-							"aintro, @move/vert",
-							"aintro, grapple"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|int|c}",
+							"$IsStart|art|int|c, flash",
+							"$IsStart|art|int|c, spin",
+							"$IsStart|art|int|c, magnet",
+							"$IsStart|art|int|c, speed",
+							"$IsStart|art|int|c, @move/vert",
+							"$IsStart|art|int|c, grapple"
 							],
 						"item_count": 1
 					}
@@ -998,35 +875,8 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, [gravity]",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, [gravity]"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, [gravity]"
 						],
 						"item_count": 1
 					}
@@ -1038,35 +888,8 @@
 				"name": "Grapple Beam Room",
 				"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/missiledoor, speed",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/missiledoor, speed"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c,  missiledoor, speed"
 				],
 				"children": [
 				{
@@ -1130,51 +953,16 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"{noentrance, charge}",
-							"noentrance, charge, spin, [varia]",
-							"noentrance, charge, morph, magnet, [varia]",
-							"noentrance, charge, @move/vert, [varia]",
-							"noentrance, charge, @move/advwall, [varia]",
-							"noentrance, @lock/cloakdoor, spin, [varia]",
-							"noentrance, @lock/cloakdoor, morph, magnet, [varia]",
-							"noentrance, @lock/cloakdoor, @move/vert, [varia]",
-							"noentrance, @lock/cloakdoor, @move/advwall, [varia]",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"{aintro, charge}",
-							"aintro, charge, spin, [varia]",
-							"aintro, charge, morph, magnet, [varia]",
-							"aintro, charge, @move/vert, [varia]",
-							"aintro, charge, @move/advwall, [varia]",
-							"aintro, @lock/cloakdoor, spin, [varia]",
-							"aintro, @lock/cloakdoor, morph, magnet, [varia]",
-							"aintro, @lock/cloakdoor, @move/vert, [varia]",
-							"aintro, @lock/cloakdoor, @move/advwall, [varia]"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|int|c, charge}",
+							"$IsStart|art|int|c, charge, spin, [varia]",
+							"$IsStart|art|int|c, charge, morph, magnet, [varia]",
+							"$IsStart|art|int|c, charge, @move/vert, [varia]",
+							"$IsStart|art|int|c, charge, @move/advwall, [varia]",
+							"$IsStart|art|int|c,  cloakdoor, spin, [varia]",
+							"$IsStart|art|int|c,  cloakdoor, morph, magnet, [varia]",
+							"$IsStart|art|int|c,  cloakdoor, @move/vert, [varia]",
+							"$IsStart|art|int|c,  cloakdoor, @move/advwall, [varia]"
 							],
 						"item_count": 1
 					}
@@ -1207,35 +995,8 @@
 						"capture_item": false,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c"
 						],
 						"item_count": 1
 					}
@@ -1268,43 +1029,12 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"{noentrance}",
-							"noentrance, @move/vert, morph",
-							"noentrance, speed, morph",
-							"noentrance, @tech/ibj",
-							"noentrance, charge, @tech/laybomb",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"{aintro}",
-							"aintro, @move/vert, morph",
-							"aintro, speed, morph",
-							"aintro, @tech/ibj",
-							"aintro, charge, @tech/laybomb"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|int|c}",
+							"$IsStart|art|int|c, @move/vert, morph",
+							"$IsStart|art|int|c, speed, morph",
+							"$IsStart|art|int|c, @tech/ibj",
+							"$IsStart|art|int|c,  charge, @tech/laybomb"
 							],
 						"item_count": 1
 					}
@@ -1331,35 +1061,8 @@
 						"capture_item": false,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",							
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c"
 						],
 						"item_count": 1
 					}
@@ -1392,39 +1095,10 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"{noentrance, morph, pbomb}",
-							"noentrance, @tech/laybomb, spin",
-							"noentrance, @tech/laybomb, @move/hori",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"{aintro, morph, pbomb}",
-							"aintro, @tech/laybomb, spin",
-							"aintro, @tech/laybomb, @move/hori"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|int|c, morph, pbomb}",
+							"$IsStart|art|int|c, @tech/laybomb, spin",
+							"$IsStart|art|int|c, @tech/laybomb, @move/hori"
 							],
 						"item_count": 1
 					}
@@ -1459,39 +1133,10 @@
 //							"gravity, grapple, @tech/laybomb, [diffusion], spin",
 //							"gravity, grapple, @tech/laybomb, [diffusion], @move/vert",
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/grappledoor, [gravity], diffusion, morph, bomb, space",
-							"noentrance, @lock/plasmadoor, wave, morph",
-							"noentrance, @lock/grappledoor, gravity, diffusion, @tech/ibj",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/grappledoor, [gravity], diffusion, morph, bomb, space",
-							"aintro, @lock/plasmadoor, wave, morph",
-							"aintro, @lock/grappledoor, gravity, diffusion, @tech/ibj"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, chargedoor, [gravity], diffusion, morph, bomb, space",
+							"$IsStart|art|int|c,  plasmadoor, wave, morph",
+							"$IsStart|art|int|c, chargedoor, gravity, diffusion, @tech/ibj"
 							],
 						"item_count": 1
 					}
@@ -1518,41 +1163,11 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/grappledoor, [gravity], diffusion, morph, bomb, spin, screw",
-							"noentrance, @lock/plasmadoor, wave, screw, morph",
-							"noentrance, @lock/plasmadoor, @tech/chute, screw, morph",
-							"noentrance, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/grappledoor, [gravity], diffusion, morph, bomb, spin, screw",
-							"aintro, @lock/plasmadoor, wave, screw, morph",
-							"aintro, @lock/plasmadoor, @tech/chute, screw, morph",
-							"aintro, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, chargedoor, [gravity], diffusion, morph, bomb, spin, screw",
+							"$IsStart|art|int|c,  plasmadoor, wave, screw, morph",
+							"$IsStart|art|int|c,  plasmadoor, @tech/chute, screw, morph",
+							"$IsStart|art|int|c, chargedoor, diffusion, gravity, @tech/ibj, screw"
 							],
 						"item_count": 1
 					}
@@ -1579,37 +1194,9 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/grappledoor, @tech/laybomb, diffusion, [gravity]",
-							"noentrance, @lock/plasmadoor, wave, space, screw, [gravity], morph",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/grappledoor, @tech/laybomb, diffusion, [gravity]",
-							"aintro, @lock/plasmadoor, wave, space, screw, [gravity], morph"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, chargedoor, @tech/laybomb, diffusion, [gravity]",
+							"$IsStart|art|int|c,  plasmadoor, wave, space, screw, [gravity], morph"
 							],
 						"item_count": 1
 					}
@@ -1642,35 +1229,8 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, charge, grapple, @tech/laybomb, speed",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, charge, grapple, @tech/laybomb, speed"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, charge, grapple, @tech/laybomb, speed"
 						],
 						"item_count": 1
 					}
@@ -1703,37 +1263,9 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, [gravity]",
-							"noentrance, @tech/laybomb, pbomb, speed",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, [gravity]",
-							"aintro, @tech/laybomb, pbomb, speed"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, [gravity]",
+							"$IsStart|art|int|c, @tech/laybomb, pbomb, speed"
 							],
 						"item_count": 1
 					}
@@ -1760,37 +1292,9 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, [gravity], speed",
-							"noentrance, @tech/laybomb, pbomb, speed",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, [gravity], speed",
-							"noentrance, @tech/laybomb, pbomb, speed"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, [gravity], speed",
+							"$IsStart|art|int|c, @tech/laybomb, pbomb, speed"
 							],
 						"item_count": 1
 					}
@@ -1823,37 +1327,9 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"{noentrance}",
-							"noentrance, morph",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"{aintro}",
-							"aintro, morph"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|int|c}",
+							"$IsStart|art|int|c, morph"
 						],
 						"item_count": 1
 					}
@@ -1880,39 +1356,10 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"{noentrance, morph, charge}",
-							"{noentrance, charge, @lock/superdoor}",
-							"noentrance, charge, @lock/superdoor, @tech/laybomb",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"{aintro, charge, @lock/superdoor}",
-							"{aintro, morph, charge}",
-							"aintro, charge, @lock/superdoor, @tech/laybomb"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|int|c, morph, charge}",
+							"{$IsStart|art|int|c, charge,  superdoor}",
+							"$IsStart|art|int|c, charge,  superdoor, @tech/laybomb"
 						],
 						
 						"item_count": 1
@@ -1946,35 +1393,8 @@
 						"capture_item": false,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, charge",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, charge"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, charge"
 							],
 						"item_count": 1
 					},
@@ -1985,35 +1405,8 @@
 						"hosted_item": "artarialavapump",
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, charge",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, charge"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",							
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, charge"
 							],
 						"item_count": 0
 					}
@@ -2047,39 +1440,10 @@
 						"capture_item": false,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/grappledoor, @lock/missiledoor, morph, bomb, diffusion, space, screw, [gravity]",
-							"noentrance, @lock/plasmadoor, @lock/missiledoor wave, screw, morph",
-							"noentrance, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, @lock/grappledoor, @lock/missiledoor morph, bomb, diffusion, space, screw, [gravity]",
-							"aintro, @lock/plasmadoor, @lock/missiledoor, wave, screw, morph",
-							"aintro, @lock/missiledoor, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, chargedoor,  missiledoor, morph, bomb, diffusion, space, screw, [gravity]",
+							"$IsStart|art|int|c,  plasmadoor,  missiledoor wave, screw, morph",
+							"$IsStart|art|int|c,  missiledoor, chargedoor, diffusion, gravity, @tech/ibj, screw"
 
 							],
 						"item_count": 1
@@ -2114,35 +1478,8 @@
 						"hosted_item": "vlock",
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, charge, @lock/missiledoor, morph",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, charge, @lock/missiledoor, morph"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, charge,  missiledoor, morph"
 
 						],
 						"item_count": 1
@@ -2176,35 +1513,8 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, charge, @lock/missiledoor, morph, varia, [gravity]",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro, charge, @lock/missiledoor, morph, varia, [gravity]"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, charge,  missiledoor, morph, varia, [gravity]"
 
 						],
 						"item_count": 1
@@ -2238,37 +1548,9 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Artaria Intro Room
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"{noentrance}",
-							"noentrance, morph",
-//							Artaria Intro Room
-//							"aintro, [DoorRestrictions], ItemRestrictions]",
-							"{aintro}",
-							"aintro, morph"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|art|int|c}",
+							"$IsStart|art|int|c, morph"
 						],
 						"item_count": 1
 					}
@@ -2295,35 +1577,8 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
-							"aintro"
-//							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
-//							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Red Teleport to Artaria
-//							"@area/catredart, [DoorRestrictions], [ItemRestrictions]",
-//							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
-//							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
-//							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c"
 						],
 						"item_count": 1
 					}

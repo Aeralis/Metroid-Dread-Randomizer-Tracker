@@ -2,21 +2,19 @@
 [
 	//  Artaria
 //							Start Not Shuffled
-//							"noentrance, [DoorRestrictions], [ItemRestrictions]",
-//							Artaria Intro Room		
-//							"aintro, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Map Room
-//							"amap, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|map|c, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Navigation North
-//							"anavn, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|nav|n, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Save East
-//							"asave, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|e, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Save North
-//							"asavn, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|n, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Save South
-//							"asavs, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|s, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria Save West
-//							"asavw, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|w, [DoorRestrictions], [ItemRestrictions]",
 //							Dairon Transport to Artaria
 //							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris Transport to Artaria
@@ -26,11 +24,12 @@
 //							"@area/catredart, [DoorRestrictions], vlock, diffusion, [ItemRestrictions]",
 //							"@area/catredart, [DoorRestrictions], $novlock, [ItemRestrictions]",
 //							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/catbluart, morph, grapple, wave, [DoorRestrictions], [ItemRestrictions]",
 //							Diaron Yellow Teleport to Artaria
 //							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
 //							Burenia Transport to artaria
-//							"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/burtraart, screw, gravity, morph, plasma, wave, [DoorRestrictions], [ItemRestrictions]",
 	//Artaria
 	{
         "name": "Artaria",
@@ -62,7 +61,8 @@
 					{
 						"name": "Hint",
 						"capture_item": true,
-						"access_rules": [ "{}" ],
+						"access_rules": [ "{}"
+						],
 						"item_count": 1
 					}
 					]
@@ -91,7 +91,8 @@
 					{
 						"name": "Hint",
 						"capture_item": true,
-						"access_rules": [ "{}" ],
+						"access_rules": [ "{}"
+						],
 						"item_count": 1
 					}
 					]
@@ -120,7 +121,8 @@
 					{
 						"name": "Hint",
 						"capture_item": true,
-						"access_rules": [ "{}" ],
+						"access_rules": [ "{}"
+						],
 						"item_count": 1
 					}
 					]
