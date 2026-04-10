@@ -32,13 +32,13 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Elun Save Station
-//							"esave, [DoorRestrictions], [ItemRestrictions]",
-							"{esave, @lock/plasmadoor}",
-							"esave, @lock/plasmadoor, morph",
+//							"${IsStart|4|3|, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|elu|sav|c, plasma}",
+							"$IsStart|elu|sav|c, plasma, morph",
 //							Ghavoran - Transport to Elun
 //							"ghatraelu, [DoorRestrictions], [ItemRestrictions]",
-							"{@area/ghatraelu, @lock/plasmadoor}",
-							"@area/ghatraelu, @lock/plasmadoor, morph"
+							"{@area/ghatraelu, plasma}",
+							"@area/ghatraelu, plasma, morph"
 							],
 						"item_count": 1
 					}
@@ -71,12 +71,12 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Elun Save Station
-//							"esave, [DoorRestrictions], [ItemRestrictions]",
-							"esave, @lock/plasmadoor, speed",
-							"esave, @tech/chute, speed",
+//							"${IsStart|4|3|, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|elu|sav|c, plasma, speed",
+							"$IsStart|elu|sav|c, @tech/chute, speed",
 //							Ghavoran - Transport to Elun
 //							"ghatraelu, [DoorRestrictions], [ItemRestrictions]",
-							"@area/ghatraelu, @lock/plasmadoor, speed",
+							"@area/ghatraelu, plasma, speed",
 							"@area/ghatraelu, @tech/chute, speed"
 							],
 						"item_count": 1
@@ -110,9 +110,9 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Elun Save Station
-//							"esave, [DoorRestrictions], [ItemRestrictions]",
-							"{esave, @tech/laybomb, plasma}",
-							"esave, plasma, @tech/laybomb, pbomb",
+//							"${IsStart|4|3|, [DoorRestrictions], [ItemRestrictions]",
+							"{$IsStart|elu|sav|c, @tech/laybomb, plasma}",
+							"$IsStart|elu|sav|c, plasma, @tech/laybomb, pbomb",
 //							Ghavoran - Transport to Elun
 //							"ghatraelu, [DoorRestrictions], [ItemRestrictions]",
 							"{@area/ghatraelu, @tech/laybomb, plasma}",
@@ -149,13 +149,13 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Elun Save Station
-//							"esave, [DoorRestrictions], [ItemRestrictions]",
-							"esave, @lock/missiledoor, @tech/chute",
-							"esave, @lock/plasmadoor, morph",
+//							"${IsStart|4|3|, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|elu|sav|c, @tech/chute",
+							"$IsStart|elu|sav|c, plasma, morph",
 //							Ghavoran - Transport to Elun
 //							"ghatraelu, [DoorRestrictions], [ItemRestrictions]",
-							"@area/ghatraelu, @lock/missiledoor, @tech/chute",
-							"@area/ghatraelu, @lock/plasmadoor, morph"
+							"@area/ghatraelu, @tech/chute",
+							"@area/ghatraelu, plasma, morph"
 							],
 						"item_count": 1
 					}
@@ -188,11 +188,11 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Elun Save Station
-//							"esave, [DoorRestrictions], [ItemRestrictions]",
-							"esave, @lock/plasmadoor, @tech/chute",
+//							"{$IsStart|4|3|, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|elu|sav|c, plasma, @tech/chute",
 //							Ghavoran - Transport to Elun
 //							"ghatraelu, [DoorRestrictions], [ItemRestrictions]",
-							"@area/ghatraelu, @lock/plasmadoor, @tech/chute"
+							"@area/ghatraelu, plasma, @tech/chute"
 							],
 						"item_count": 1
 					}

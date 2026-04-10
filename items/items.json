@@ -203,12 +203,21 @@
 		"codes": "flash"
 	},
 	{
-		"name": "Pulse Radar",
-		"type": "toggle",
-		"loop": "true",
-		"img": "images/pulse.png",
-		"codes": "pulse"
-	},
+        "name": "Pulse Radar",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": "true",
+        "stages": [
+        {
+            "img": "images/pulse.png",
+            "codes": "pulse"
+        },
+        {
+            "img": "images/pulse.png",
+            "img_mods": "@disabled"
+        }
+        ]
+    },
 	{
 		"name": "Varia Suit",
 		"type": "toggle",
@@ -286,13 +295,6 @@
 		"img": "images/screw.png",
 		"codes": "screw"
 	},
-	{
-		"name": "X Released",
-		"type": "toggle",
-		"loop": "true",
-		"img": "images/x.png",
-		"codes": "thex"
-	},
 	
 	// Incremental Items
 	{
@@ -320,7 +322,6 @@
 		"max_quantity": 15,
 		"codes": "pbombhud"
 	},
-	
 	
 	//Tracker Bosses
 	{
@@ -513,6 +514,26 @@
 			"img": "images/emmi7dna.png",
 			"codes": "emmi7, emmi7 dna"
 		}
+		]
+	},
+	{
+		"name": "Robe-X",
+		"capturable": "false",
+		"type": "progressive_toggle",
+		"loop": "true",
+		"stages": [
+		{
+			"img": "images/robe.png",
+			"codes": "robe"
+		},
+		{
+			"img": "images/thex.png",
+			"codes": "robe, thex"
+		},
+		{
+			"img": "images/robe-x.png",
+			"codes": "robe, thex, robe-x"
+		},
 		]
 	},
 

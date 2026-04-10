@@ -43,7 +43,7 @@
 			"item_height": "40",
 			"h_alignment": "left",
 			"rows": [
-				[ "energyhud", "missilehud", "pbombhud" ]
+				[ "energyhud", "missilehud", "pbombhud"]
 			]
 		}
 		]
@@ -63,7 +63,7 @@
 				[ "plasma", "wave", "grapple", "cloak", "flash", "pulse" ],
 				[ "morph", "bomb", "cross", "pbomb", "varia", "gravity" ],
 				[ "magnet", "speed", "spin", "space", "screw" ],
-				[ "energypart", "energytank", "missilepack", "missile+pack", "pbombtank" ]
+				[ "energyhud", "missilehud", "pbombhud" ]
 			]
 		}
 		]

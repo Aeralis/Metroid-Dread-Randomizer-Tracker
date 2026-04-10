@@ -683,7 +683,7 @@
 				"$IsStart|art|sav|n, @lock/widedoor, speed",
 //				Artaria Save South
 //				"$IsStart|art|sav|s, [DoorRestrictions], [ItemRestrictions]",
-				"$IsStart|art|sav|s, @lock/widedoor"
+				"$IsStart|art|sav|s, @lock/widedoor",
 //				Artaria Save West
 //				"$IsStart|art|sav|w, [DoorRestrictions], [ItemRestrictions]",
 				"$IsStart|art|sav|w, @lock/widedoor, morph",
@@ -763,61 +763,61 @@
 //				"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
 				"$IsStart|art|int|c, wave, grapple",
 				"$IsStart|art|int|c, @lock/grappledoor,morph, bomb, diffusion, space, screw, [gravity]",
-				"$IsStart|art|int|c, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
+				"$IsStart|art|int|c, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
 //				Artaria Map Room
 //				"$IsStart|art|map|c, [DoorRestrictions], [ItemRestrictions]",
 				"$IsStart|art|map|c, wave, grapple",
 				"$IsStart|art|map|c, @lock/grappledoor,morph, bomb, diffusion, space, screw, [gravity]",
-				"$IsStart|art|map|c, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
+				"$IsStart|art|map|c, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
 //				Artaria Navigation North
 //				"$IsStart|art|nav|n, [DoorRestrictions], [ItemRestrictions]",
 				"$IsStart|art|nav|n, wave, grapple",
 				"$IsStart|art|nav|n, @lock/grappledoor,morph, bomb, diffusion, space, screw, [gravity]",
-				"$IsStart|art|nav|n, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
+				"$IsStart|art|nav|n, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
 //				Artaria Save East
 //				"$IsStart|art|sav|e, [DoorRestrictions], [ItemRestrictions]",
 				"$IsStart|art|sav|e, apump, wave, grapple",
 				"$IsStart|art|sav|e, apump, @lock/grappledoor,morph, bomb, diffusion, space, screw, [gravity]",
-				"$IsStart|art|sav|e, apump, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
+				"$IsStart|art|sav|e, apump, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
 //				Artaria Save North
 //				"$IsStart|art|sav|n, [DoorRestrictions], [ItemRestrictions]",
 				"$IsStart|art|sav|n, speed, wave, grapple",
 				"$IsStart|art|sav|n, speed, @lock/grappledoor,morph, bomb, diffusion, space, screw, [gravity]",
-				"$IsStart|art|sav|n, speed, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
+				"$IsStart|art|sav|n, speed, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
 //				Artaria Save South
 //				"$IsStart|art|sav|s, [DoorRestrictions], [ItemRestrictions]",
 				"$IsStart|art|sav|s, wave, grapple",
 				"$IsStart|art|sav|s, @lock/grappledoor,morph, bomb, diffusion, space, screw, [gravity]",
-				"$IsStart|art|sav|s, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
+				"$IsStart|art|sav|s, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
 //				Artaria Save West
 //				"$IsStart|art|sav|w, [DoorRestrictions], [ItemRestrictions]",
 				"$IsStart|art|sav|w, wave, grapple",
 				"$IsStart|art|sav|w, @lock/grappledoor,morph, bomb, diffusion, space, screw, [gravity]",
-				"$IsStart|art|sav|w, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
+				"$IsStart|art|sav|w, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
 //				Dairon Transport to Artaria
 //				"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
 				"@area/daitraart, @lock/wide, wave, grapple",
 				"@area/daitraart, @lock/wide, @lock/grappledoor,morph, bomb, diffusion, space, screw, [gravity]",
-				"@area/daitraart, @lock/wide, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
+				"@area/daitraart, @lock/wide, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
 //				Cataris Transport to Artaria
 //				"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
 				"@area/cattraart, apump, wave, grapple",
 				"@area/cattraart, apump, @lock/grappledoor,morph, bomb, diffusion, space, screw, [gravity]",
-				"@area/cattraart, apump, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
+				"@area/cattraart, apump, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
 //				Cataris Red Teleport to Artaria
 //				"@area/catredart, [DoorRestrictions], vlock, diffusion, [ItemRestrictions]",
 				"@area/cattraart, apump, vlock,  wave, grapple",
 				"@area/cattraart, apump, vlock,  @lock/grappledoor,morph, bomb, diffusion, space, screw, [gravity]",
-				"@area/cattraart, apump, vlock,  @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
+				"@area/cattraart, apump, vlock,  @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
 //				"@area/catredart, [DoorRestrictions], $novlock, [ItemRestrictions]",
-				"@area/cattraart, $novlock wave, grapple",
-				"@area/cattraart, $novlock @lock/grappledoor,morph, bomb, diffusion, space, screw, [gravity]",
-				"@area/cattraart, $novlock @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
+				"@area/cattraart, $novlock, wave, grapple",
+				"@area/cattraart, $novlock, @lock/grappledoor,morph, bomb, diffusion, space, screw, [gravity]",
+				"@area/cattraart, $novlock, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
 //				Diaron Yellow Teleport to Artaria
 //				"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
 				"$IsStart|art|map|c, @lock/widebeam, wave, grapple",
 				"$IsStart|art|map|c, @lock/widebeam, @lock/grappledoor,morph, bomb, diffusion, space, screw, [gravity]",
-				"$IsStart|art|map|c, @lock/widebeam, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw"
+				"$IsStart|art|map|c, @lock/widebeam, @lock/grappledoor, diffusion, gravity, @tech/ibj, screw",
 //				Burenia Transport to artaria
 //				"@area/burtraart, [DoorRestrictions], [ItemRestrictions]",
 				"@area/burtraart, screw, [gravity], plasma, grapple, space, morph, bomb",
