@@ -3,9 +3,9 @@ function novlock()
 end
 
 function IsStart(area, room, dir)
-	print("area arg: " .. tostring(area))
-	print("room arg: " .. tostring(room))
-	print("dir arg: " .. tostring(dir))
+	--print("area arg: " .. tostring(area))
+	--print("room arg: " .. tostring(room))
+	--print("dir arg: " .. tostring(dir))
 	local areaStart = {
 		art = 0.0, bur = 1.0, cat = 2.0, dai = 3.0, elu = 4.0,
 		fer = 5.0, gha = 6.0, han = 7.0, ito = 8.0
@@ -20,12 +20,12 @@ function IsStart(area, room, dir)
 	local currentRoom = Tracker:FindObjectForCode("int").CurrentStage
 	local currentDir = Tracker:FindObjectForCode("c").CurrentStage
 	
-	print("Area: " .. tostring(currentArea))
-	print("Room: " .. tostring(currentRoom))
-	print("Dir: " .. tostring(currentDir))
-	print("areaStart result: " .. tostring(areaStart[area]))
-	print("currentArea: " .. tostring(math.floor(currentArea)))
-	print("match: " .. tostring(math.floor(currentArea) == areaStart[area]))
+	--print("Area: " .. tostring(currentArea))
+	--print("Room: " .. tostring(currentRoom))
+	--print("Dir: " .. tostring(currentDir))
+	--print("areaStart result: " .. tostring(areaStart[area]))
+	--print("currentArea: " .. tostring(math.floor(currentArea)))
+	--print("match: " .. tostring(math.floor(currentArea) == areaStart[area]))
 	
 	return currentArea == areaStart[area]
 		and currentRoom == roomStart[room]
