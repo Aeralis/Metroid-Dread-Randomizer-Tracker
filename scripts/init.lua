@@ -1,5 +1,7 @@
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/startingpoints.json")
+Tracker:AddItems("items/doorlocks.json")
+Tracker:AddItems("items/transports.json")
 
 Tracker:AddMaps("maps/maps.json")
 
