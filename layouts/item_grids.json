@@ -23,7 +23,7 @@
 			[ "charge", "diffusion", "wide", "super", "ice", "storm" ],
 			[ "plasma", "wave", "grapple", "cloak", "flash", "pulse" ],
 			[ "morph", "bomb", "cross", "pbomb", "varia", "gravity" ],
-			[ "magnet", "speed", "spin", "space", "screw", "thex" ],
+			[ "magnet", "speed", "spin", "space", "screw", "robex" ],
 			[ "corpius", "kraid", "drogyga", "escue", "z57", "golzuna" ],
 			[ "emmi2", "emmi3", "emmi4", "emmi5", "emmi6", "emmi7" ]
 		]
@@ -49,6 +49,29 @@
 		]
 	},
 	
+	"door_locks":
+	{
+		"type": "itemgrid",
+		"h_alignment": "center",
+		"item_margin": "1,2",
+		"rows": [
+			[ "chargelock", "widelock", "plasmalock", "wavelock", "grapplelock" ],
+			[ "missilelock", "superlock", "cloaklock", "accesslock", "lockedlock" ]
+		]
+	},
+	
+	"transports":
+	{
+		"type": "itemgrid",
+		"h_alignment": "center",
+		"item_margin": "1,2",
+		"item_width": 50,
+		"item_height": 50,
+		"rows": [
+			[ "artthermal" ]
+		]
+	},
+	
 	"tracker_capture_item":
 	{
 		"type": "array",
@@ -63,7 +86,7 @@
 				[ "plasma", "wave", "grapple", "cloak", "flash", "pulse" ],
 				[ "morph", "bomb", "cross", "pbomb", "varia", "gravity" ],
 				[ "magnet", "speed", "spin", "space", "screw" ],
-				[ "energyhud", "missilehud", "pbombhud" ]
+				[ "energypart", "energytank", "missilepack", "missile+pack", "pbombtank" ]
 			]
 		}
 		]

@@ -9,6 +9,7 @@
 			{
 				"type": "array",
 				"orientation": "veritcal",
+				"margin": "2,2,6,2",
 				"content": [
 				{
 					"type": "item",
@@ -34,7 +35,7 @@
 	"tracker_default": 
 	{
 		"type": "container",
-		"content": 
+		"content":
 		{
 			"type": "dock",
 			"dropshadow": true,
@@ -76,6 +77,7 @@
 				{
 					"type": "array",
 					"margin": "0,0",
+					"orientation": "vertical",
 					"content": [
 					{
 						"type": "layout",
@@ -83,17 +85,44 @@
 					},
 					{
 						"type": "group",
-						"header": "Pinned Locations",
-						"dock": "bottom",
+						"header": "Door Locks",
 						"content": [
 						{
-							"type": "recentpins",
-							"style": "wrap",
-							"h_alignment": "left",
-							"orientation": "vertical",
-							"compact": true
+							"type": "layout",
+							"key": "door_locks"
 						}
 						]
+					},
+					{
+						"type": "group",
+						"header": "Transports",
+						"content": [
+						{
+							"type": "layout",
+							"key": "transports"
+						}
+						]
+					}
+					]
+				}
+				]
+			},
+			{
+				"type": "dock",
+				"dock": "bottom",
+				"h_alignment": "left",
+				"margin": "0,0,3,0",
+				"content": [
+				{
+					"type": "group",
+					"header": "Pinned Locations",
+					"content": [
+					{
+						"type": "recentpins",
+						"style": "wrap",
+						"h_alignment": "left",
+						"orientation": "horizontal",
+						"compact": true
 					}
 					]
 				}
