@@ -1,0 +1,828 @@
+[
+	// Access, Charge, Cloak, Grapple, Missile, Plasma, Super, Wave, Wide
+	
+	// Beam, Bomb, Charge, Cross, Diffusion, Grapple, Ice,
+	// Missile, PBomb, Plasma, Storm, Super, Wave, Wide
+
+	// Door Locks
+	{
+		"name": "Charge Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/charge.png",
+			"codes": "chargelock"
+		},
+		{
+			"img": "images/charge.png",
+			"img_mods": "overlay|images/lock/overbeam.png",
+			"codes": "chabea"
+		},
+		{
+			"img": "images/charge.png",
+			"img_mods": "overlay|images/lock/overcharge.png",
+			"codes": "chacha"
+		},
+		{
+			"img": "images/charge.png",
+			"img_mods": "overlay|images/lock/overdiffusion.png",
+			"codes": "chadif"
+		},
+		{
+			"img": "images/charge.png",
+			"img_mods": "overlay|images/lock/overwide.png",
+			"codes": "chawid"
+		},
+		{
+			"img": "images/charge.png",
+			"img_mods": "overlay|images/lock/overplasma.png",
+			"codes": "chapla"
+		},
+		{
+			"img": "images/charge.png",
+			"img_mods": "overlay|images/lock/overwave.png",
+			"codes": "chawav"
+		},
+		{
+			"img": "images/charge.png",
+			"img_mods": "overlay|images/lock/overgrapple.png",
+			"codes": "chagra"
+		},
+		{
+			"img": "images/charge.png",
+			"img_mods": "overlay|images/lock/overmissile.png",
+			"codes": "chamis"
+		},
+		{
+			"img": "images/charge.png",
+			"img_mods": "overlay|images/lock/oversupers.png",
+			"codes": "chasup"
+		},
+		{
+			"img": "images/charge.png",
+			"img_mods": "overlay|images/lock/overice.png",
+			"codes": "chaice"
+		},
+		{
+			"img": "images/charge.png",
+			"img_mods": "overlay|images/lock/overstorm.png",
+			"codes": "chasto"
+		},
+		{
+			"img": "images/charge.png",
+			"img_mods": "overlay|images/lock/overbomb.png",
+			"codes": "chabom"
+		},
+		{
+			"img": "images/charge.png",
+			"img_mods": "overlay|images/lock/overcross.png",
+			"codes": "chacro"
+		},
+		{
+			"img": "images/charge.png",
+			"img_mods": "overlay|images/lock/overpbomb.png",
+			"codes": "chapbo"
+		}
+		]
+	},
+	{
+		"name": "Wide Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/wide.png",
+			"codes": "widelock"
+		},
+		{
+			"img": "images/wide.png",
+			"img_mods": "overlay|images/lock/overbeam.png",
+			"codes": "widbea"
+		},
+		{
+			"img": "images/wide.png",
+			"img_mods": "overlay|images/lock/overcharge.png",
+			"codes": "widcha"
+		},
+		{
+			"img": "images/wide.png",
+			"img_mods": "overlay|images/lock/overdiffusion.png",
+			"codes": "widdif"
+		},
+		{
+			"img": "images/wide.png",
+			"img_mods": "overlay|images/lock/overwide.png",
+			"codes": "widwid"
+		},
+		{
+			"img": "images/wide.png",
+			"img_mods": "overlay|images/lock/overplasma.png",
+			"codes": "widpla"
+		},
+		{
+			"img": "images/wide.png",
+			"img_mods": "overlay|images/lock/overwave.png",
+			"codes": "widwav"
+		},
+		{
+			"img": "images/wide.png",
+			"img_mods": "overlay|images/lock/overgrapple.png",
+			"codes": "widgra"
+		},
+		{
+			"img": "images/wide.png",
+			"img_mods": "overlay|images/lock/overmissile.png",
+			"codes": "widmis"
+		},
+		{
+			"img": "images/wide.png",
+			"img_mods": "overlay|images/lock/oversupers.png",
+			"codes": "widsup"
+		},
+		{
+			"img": "images/wide.png",
+			"img_mods": "overlay|images/lock/overice.png",
+			"codes": "widice"
+		},
+		{
+			"img": "images/wide.png",
+			"img_mods": "overlay|images/lock/overstorm.png",
+			"codes": "widsto"
+		},
+		{
+			"img": "images/wide.png",
+			"img_mods": "overlay|images/lock/overbomb.png",
+			"codes": "widbom"
+		},
+		{
+			"img": "images/wide.png",
+			"img_mods": "overlay|images/lock/overcross.png",
+			"codes": "widcro"
+		},
+		{
+			"img": "images/wide.png",
+			"img_mods": "overlay|images/lock/overpbomb.png",
+			"codes": "widpbo"
+		}
+		]
+	},
+	{
+		"name": "Plasma Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/plasma.png",
+			"codes": "plasmalock"
+		},
+		{
+			"img": "images/plasma.png",
+			"img_mods": "overlay|images/lock/overbeam.png",
+			"codes": "plabea"
+		},
+		{
+			"img": "images/plasma.png",
+			"img_mods": "overlay|images/lock/overcharge.png",
+			"codes": "placha"
+		},
+		{
+			"img": "images/plasma.png",
+			"img_mods": "overlay|images/lock/overdiffusion.png",
+			"codes": "pladif"
+		},
+		{
+			"img": "images/plasma.png",
+			"img_mods": "overlay|images/lock/overwide.png",
+			"codes": "plawid"
+		},
+		{
+			"img": "images/plasma.png",
+			"img_mods": "overlay|images/lock/overplasma.png",
+			"codes": "plapla"
+		},
+		{
+			"img": "images/plasma.png",
+			"img_mods": "overlay|images/lock/overwave.png",
+			"codes": "plawav"
+		},
+		{
+			"img": "images/plasma.png",
+			"img_mods": "overlay|images/lock/overgrapple.png",
+			"codes": "plagra"
+		},
+		{
+			"img": "images/plasma.png",
+			"img_mods": "overlay|images/lock/overmissile.png",
+			"codes": "plamis"
+		},
+		{
+			"img": "images/plasma.png",
+			"img_mods": "overlay|images/lock/oversupers.png",
+			"codes": "plasup"
+		},
+		{
+			"img": "images/plasma.png",
+			"img_mods": "overlay|images/lock/overice.png",
+			"codes": "plaice"
+		},
+		{
+			"img": "images/plasma.png",
+			"img_mods": "overlay|images/lock/overstorm.png",
+			"codes": "plasto"
+		},
+		{
+			"img": "images/plasma.png",
+			"img_mods": "overlay|images/lock/overbomb.png",
+			"codes": "plabom"
+		},
+		{
+			"img": "images/plasma.png",
+			"img_mods": "overlay|images/lock/overcross.png",
+			"codes": "placro"
+		},
+		{
+			"img": "images/plasma.png",
+			"img_mods": "overlay|images/lock/overpbomb.png",
+			"codes": "plapbo"
+		}
+		]
+	},
+	{
+		"name": "Wave Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/wave.png",
+			"codes": "wavelock"
+		},
+		{
+			"img": "images/wave.png",
+			"img_mods": "overlay|images/lock/overbeam.png",
+			"codes": "wavbea"
+		},
+		{
+			"img": "images/wave.png",
+			"img_mods": "overlay|images/lock/overcharge.png",
+			"codes": "wavcha"
+		},
+		{
+			"img": "images/wave.png",
+			"img_mods": "overlay|images/lock/overdiffusion.png",
+			"codes": "wavdif"
+		},
+		{
+			"img": "images/wave.png",
+			"img_mods": "overlay|images/lock/overwide.png",
+			"codes": "wavwid"
+		},
+		{
+			"img": "images/wave.png",
+			"img_mods": "overlay|images/lock/overplasma.png",
+			"codes": "wavpla"
+		},
+		{
+			"img": "images/wave.png",
+			"img_mods": "overlay|images/lock/overwave.png",
+			"codes": "wavwav"
+		},
+		{
+			"img": "images/wave.png",
+			"img_mods": "overlay|images/lock/overgrapple.png",
+			"codes": "wavgra"
+		},
+		{
+			"img": "images/wave.png",
+			"img_mods": "overlay|images/lock/overmissile.png",
+			"codes": "wavmis"
+		},
+		{
+			"img": "images/wave.png",
+			"img_mods": "overlay|images/lock/oversupers.png",
+			"codes": "wavsup"
+		},
+		{
+			"img": "images/wave.png",
+			"img_mods": "overlay|images/lock/overice.png",
+			"codes": "wavice"
+		},
+		{
+			"img": "images/wave.png",
+			"img_mods": "overlay|images/lock/overstorm.png",
+			"codes": "wavsto"
+		},
+		{
+			"img": "images/wave.png",
+			"img_mods": "overlay|images/lock/overbomb.png",
+			"codes": "wavbom"
+		},
+		{
+			"img": "images/wave.png",
+			"img_mods": "overlay|images/lock/overcross.png",
+			"codes": "wavcro"
+		},
+		{
+			"img": "images/wave.png",
+			"img_mods": "overlay|images/lock/overpbomb.png",
+			"codes": "wavpbo"
+		}
+		]
+	},
+	{
+		"name": "Grapple Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/grapple.png",
+			"codes": "grapplelock"
+		},
+		{
+			"img": "images/grapple.png",
+			"img_mods": "overlay|images/lock/overbeam.png",
+			"codes": "grabea"
+		},
+		{
+			"img": "images/grapple.png",
+			"img_mods": "overlay|images/lock/overcharge.png",
+			"codes": "gracha"
+		},
+		{
+			"img": "images/grapple.png",
+			"img_mods": "overlay|images/lock/overdiffusion.png",
+			"codes": "gradif"
+		},
+		{
+			"img": "images/grapple.png",
+			"img_mods": "overlay|images/lock/overwide.png",
+			"codes": "grawid"
+		},
+		{
+			"img": "images/grapple.png",
+			"img_mods": "overlay|images/lock/overplasma.png",
+			"codes": "grapla"
+		},
+		{
+			"img": "images/grapple.png",
+			"img_mods": "overlay|images/lock/overwave.png",
+			"codes": "grawav"
+		},
+		{
+			"img": "images/grapple.png",
+			"img_mods": "overlay|images/lock/overgrapple.png",
+			"codes": "gragra"
+		},
+		{
+			"img": "images/grapple.png",
+			"img_mods": "overlay|images/lock/overmissile.png",
+			"codes": "gramis"
+		},
+		{
+			"img": "images/grapple.png",
+			"img_mods": "overlay|images/lock/oversupers.png",
+			"codes": "grasup"
+		},
+		{
+			"img": "images/grapple.png",
+			"img_mods": "overlay|images/lock/overice.png",
+			"codes": "graice"
+		},
+		{
+			"img": "images/grapple.png",
+			"img_mods": "overlay|images/lock/overstorm.png",
+			"codes": "grasto"
+		},
+		{
+			"img": "images/grapple.png",
+			"img_mods": "overlay|images/lock/overbomb.png",
+			"codes": "grabom"
+		},
+		{
+			"img": "images/grapple.png",
+			"img_mods": "overlay|images/lock/overcross.png",
+			"codes": "gracro"
+		},
+		{
+			"img": "images/grapple.png",
+			"img_mods": "overlay|images/lock/overpbomb.png",
+			"codes": "grapbo"
+		}
+		]
+	},
+	{
+		"name": "Missile Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/missilepack.png",
+			"codes": "missilelock"
+		},
+		{
+			"img": "images/missilepack.png",
+			"img_mods": "overlay|images/lock/overbeam.png",
+			"codes": "misbea"
+		},
+		{
+			"img": "images/missilepack.png",
+			"img_mods": "overlay|images/lock/overcharge.png",
+			"codes": "mischa"
+		},
+		{
+			"img": "images/missilepack.png",
+			"img_mods": "overlay|images/lock/overdiffusion.png",
+			"codes": "misdif"
+		},
+		{
+			"img": "images/missilepack.png",
+			"img_mods": "overlay|images/lock/overwide.png",
+			"codes": "miswid"
+		},
+		{
+			"img": "images/missilepack.png",
+			"img_mods": "overlay|images/lock/overplasma.png",
+			"codes": "mispla"
+		},
+		{
+			"img": "images/missilepack.png",
+			"img_mods": "overlay|images/lock/overwave.png",
+			"codes": "miswav"
+		},
+		{
+			"img": "images/missilepack.png",
+			"img_mods": "overlay|images/lock/overgrapple.png",
+			"codes": "misgra"
+		},
+		{
+			"img": "images/missilepack.png",
+			"img_mods": "overlay|images/lock/overmissile.png",
+			"codes": "mismis"
+		},
+		{
+			"img": "images/missilepack.png",
+			"img_mods": "overlay|images/lock/oversupers.png",
+			"codes": "missup"
+		},
+		{
+			"img": "images/missilepack.png",
+			"img_mods": "overlay|images/lock/overice.png",
+			"codes": "misice"
+		},
+		{
+			"img": "images/missilepack.png",
+			"img_mods": "overlay|images/lock/overstorm.png",
+			"codes": "missto"
+		},
+		{
+			"img": "images/missilepack.png",
+			"img_mods": "overlay|images/lock/overbomb.png",
+			"codes": "misbom"
+		},
+		{
+			"img": "images/missilepack.png",
+			"img_mods": "overlay|images/lock/overcross.png",
+			"codes": "miscro"
+		},
+		{
+			"img": "images/missilepack.png",
+			"img_mods": "overlay|images/lock/overpbomb.png",
+			"codes": "mispbo"
+		}
+		]
+	},
+	{
+		"name": "Supers Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/supers.png",
+			"codes": "superlock"
+		},
+		{
+			"img": "images/supers.png",
+			"img_mods": "overlay|images/lock/overbeam.png",
+			"codes": "supbea"
+		},
+		{
+			"img": "images/supers.png",
+			"img_mods": "overlay|images/lock/overcharge.png",
+			"codes": "supcha"
+		},
+		{
+			"img": "images/supers.png",
+			"img_mods": "overlay|images/lock/overdiffusion.png",
+			"codes": "supdif"
+		},
+		{
+			"img": "images/supers.png",
+			"img_mods": "overlay|images/lock/overwide.png",
+			"codes": "supwid"
+		},
+		{
+			"img": "images/supers.png",
+			"img_mods": "overlay|images/lock/overplasma.png",
+			"codes": "suppla"
+		},
+		{
+			"img": "images/supers.png",
+			"img_mods": "overlay|images/lock/overwave.png",
+			"codes": "supwav"
+		},
+		{
+			"img": "images/supers.png",
+			"img_mods": "overlay|images/lock/overgrapple.png",
+			"codes": "supgra"
+		},
+		{
+			"img": "images/supers.png",
+			"img_mods": "overlay|images/lock/overmissile.png",
+			"codes": "supmis"
+		},
+		{
+			"img": "images/supers.png",
+			"img_mods": "overlay|images/lock/oversupers.png",
+			"codes": "supsup"
+		},
+		{
+			"img": "images/supers.png",
+			"img_mods": "overlay|images/lock/overice.png",
+			"codes": "supice"
+		},
+		{
+			"img": "images/supers.png",
+			"img_mods": "overlay|images/lock/overstorm.png",
+			"codes": "supsto"
+		},
+		{
+			"img": "images/supers.png",
+			"img_mods": "overlay|images/lock/overbomb.png",
+			"codes": "supbom"
+		},
+		{
+			"img": "images/supers.png",
+			"img_mods": "overlay|images/lock/overcross.png",
+			"codes": "supcro"
+		},
+		{
+			"img": "images/supers.png",
+			"img_mods": "overlay|images/lock/overpbomb.png",
+			"codes": "suppbo"
+		}
+		]
+	},
+	{
+		"name": "Cloak Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/cloak.png",
+			"codes": "cloaklock"
+		},
+		{
+			"img": "images/cloak.png",
+			"img_mods": "overlay|images/lock/overbeam.png",
+			"codes": "clobea"
+		},
+		{
+			"img": "images/cloak.png",
+			"img_mods": "overlay|images/lock/overcharge.png",
+			"codes": "clocha"
+		},
+		{
+			"img": "images/cloak.png",
+			"img_mods": "overlay|images/lock/overdiffusion.png",
+			"codes": "clodif"
+		},
+		{
+			"img": "images/cloak.png",
+			"img_mods": "overlay|images/lock/overwide.png",
+			"codes": "clowid"
+		},
+		{
+			"img": "images/cloak.png",
+			"img_mods": "overlay|images/lock/overplasma.png",
+			"codes": "clopla"
+		},
+		{
+			"img": "images/cloak.png",
+			"img_mods": "overlay|images/lock/overwave.png",
+			"codes": "clowav"
+		},
+		{
+			"img": "images/cloak.png",
+			"img_mods": "overlay|images/lock/overgrapple.png",
+			"codes": "clogra"
+		},
+		{
+			"img": "images/cloak.png",
+			"img_mods": "overlay|images/lock/overmissile.png",
+			"codes": "clomis"
+		},
+		{
+			"img": "images/cloak.png",
+			"img_mods": "overlay|images/lock/oversupers.png",
+			"codes": "closup"
+		},
+		{
+			"img": "images/cloak.png",
+			"img_mods": "overlay|images/lock/overice.png",
+			"codes": "cloice"
+		},
+		{
+			"img": "images/cloak.png",
+			"img_mods": "overlay|images/lock/overstorm.png",
+			"codes": "closto"
+		},
+		{
+			"img": "images/cloak.png",
+			"img_mods": "overlay|images/lock/overbomb.png",
+			"codes": "clobom"
+		},
+		{
+			"img": "images/cloak.png",
+			"img_mods": "overlay|images/lock/overcross.png",
+			"codes": "clocro"
+		},
+		{
+			"img": "images/cloak.png",
+			"img_mods": "overlay|images/lock/overpbomb.png",
+			"codes": "clopbo"
+		}
+		]
+	},
+	{
+		"name": "Access Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/access.png",
+			"codes": "accesslock"
+		},
+		{
+			"img": "images/access.png",
+			"img_mods": "overlay|images/lock/overbeam.png",
+			"codes": "accbea"
+		},
+		{
+			"img": "images/access.png",
+			"img_mods": "overlay|images/lock/overcharge.png",
+			"codes": "acccha"
+		},
+		{
+			"img": "images/access.png",
+			"img_mods": "overlay|images/lock/overdiffusion.png",
+			"codes": "accdif"
+		},
+		{
+			"img": "images/access.png",
+			"img_mods": "overlay|images/lock/overwide.png",
+			"codes": "accwid"
+		},
+		{
+			"img": "images/access.png",
+			"img_mods": "overlay|images/lock/overplasma.png",
+			"codes": "accpla"
+		},
+		{
+			"img": "images/access.png",
+			"img_mods": "overlay|images/lock/overwave.png",
+			"codes": "accwav"
+		},
+		{
+			"img": "images/access.png",
+			"img_mods": "overlay|images/lock/overgrapple.png",
+			"codes": "accgra"
+		},
+		{
+			"img": "images/access.png",
+			"img_mods": "overlay|images/lock/overmissile.png",
+			"codes": "accmis"
+		},
+		{
+			"img": "images/access.png",
+			"img_mods": "overlay|images/lock/oversupers.png",
+			"codes": "accsup"
+		},
+		{
+			"img": "images/access.png",
+			"img_mods": "overlay|images/lock/overice.png",
+			"codes": "accice"
+		},
+		{
+			"img": "images/access.png",
+			"img_mods": "overlay|images/lock/overstorm.png",
+			"codes": "accsto"
+		},
+		{
+			"img": "images/access.png",
+			"img_mods": "overlay|images/lock/overbomb.png",
+			"codes": "accbom"
+		},
+		{
+			"img": "images/access.png",
+			"img_mods": "overlay|images/lock/overcross.png",
+			"codes": "acccro"
+		},
+		{
+			"img": "images/access.png",
+			"img_mods": "overlay|images/lock/overpbomb.png",
+			"codes": "accpbo"
+		}
+		]
+	},
+		{
+		"name": "Locked Door",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/locked.png",
+			"codes": "lockedlock"
+		},
+		{
+			"img": "images/locked.png",
+			"img_mods": "overlay|images/lock/overbeam.png",
+			"codes": "locbea"
+		},
+		{
+			"img": "images/locked.png",
+			"img_mods": "overlay|images/lock/overcharge.png",
+			"codes": "loccha"
+		},
+		{
+			"img": "images/locked.png",
+			"img_mods": "overlay|images/lock/overdiffusion.png",
+			"codes": "locdif"
+		},
+		{
+			"img": "images/locked.png",
+			"img_mods": "overlay|images/lock/overwide.png",
+			"codes": "locwid"
+		},
+		{
+			"img": "images/locked.png",
+			"img_mods": "overlay|images/lock/overplasma.png",
+			"codes": "locpla"
+		},
+		{
+			"img": "images/locked.png",
+			"img_mods": "overlay|images/lock/overwave.png",
+			"codes": "locwav"
+		},
+		{
+			"img": "images/locked.png",
+			"img_mods": "overlay|images/lock/overgrapple.png",
+			"codes": "locgra"
+		},
+		{
+			"img": "images/locked.png",
+			"img_mods": "overlay|images/lock/overmissile.png",
+			"codes": "locmis"
+		},
+		{
+			"img": "images/locked.png",
+			"img_mods": "overlay|images/lock/oversupers.png",
+			"codes": "locsup"
+		},
+		{
+			"img": "images/locked.png",
+			"img_mods": "overlay|images/lock/overice.png",
+			"codes": "locice"
+		},
+		{
+			"img": "images/locked.png",
+			"img_mods": "overlay|images/lock/overstorm.png",
+			"codes": "locsto"
+		},
+		{
+			"img": "images/locked.png",
+			"img_mods": "overlay|images/lock/overbomb.png",
+			"codes": "locbom"
+		},
+		{
+			"img": "images/locked.png",
+			"img_mods": "overlay|images/lock/overcross.png",
+			"codes": "loccro"
+		},
+		{
+			"img": "images/locked.png",
+			"img_mods": "overlay|images/lock/overpbomb.png",
+			"codes": "locpbo"
+		}
+		]
+	}
+]
