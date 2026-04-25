@@ -61,73 +61,6 @@
 	{
 		"name": "Charge Beam",
 		"type": "toggle",
-//		"type": "progressive_toggle",
-//		"stages": [
-//		{
-//			"img": "images/charge.png",
-//			"codes": "charge",
-//			"secondary_codes": "none"
-//		},
-//		{
-//			"img": "images/chargeWbeam.png",
-//			"codes": "charge",
-//			"secondary_codes": "none"
-//		},
-//		{
-//			"img": "images/chargeWcharge.png"
-//			"codes": "charge",
-//			"secondary_codes": "chargerequired"
-//		},
-//		{
-//			"img": "images/chargeWplasma.png",
-//			"codes": "charge",
-//			"secondary_codes": "plasmarequired"
-//		},
-//		{
-//			"img": "images/chargeWwave.png",
-//			"codes": "charge",
-//			"secondary_codes": "waverequired"
-//		},
-//		{
-//			"img": "images/chargeWmissile.png",
-//			"codes": "charge",
-//			"secondary_codes": "none"
-//		},
-//		{
-//			"img": "images/chargeWsuper.png",
-//			"codes": "charge",
-//			"secondary_codes": "superrequired"
-//		},
-//		{
-//			"img": "images/chargeWice.png",
-//			"codes": "charge",
-//			"secondary_codes": "icerequired"
-//		},
-//		{
-//			"img": "images/chargeWstorm.png",
-//			"codes": "charge",
-//			"secondary_codes": "stormrequired"
-//		},
-//		{
-//			"img": "images/chargeWbomb.png",
-//			"codes": "charge",
-//			"secondary_codes": "bombrequired"
-//		},
-//		{
-//			"img": "images/chargeWcross.png",
-//			"codes": "charge",
-//			"secondary_codes": "crossrequired"
-//		},
-//		{
-//			"img": "images/chargeWpbomb.png",
-//			"codes": "charge",
-//			"secondary_codes": "pbombrequired"
-//		},
-//		{
-//			"img": "images/chargeWgrapple.png",
-//			"codes": "charge",
-//			"secondary_codes": "grapplerequired"
-//		}
 		"loop": "true",
 		"img": "images/charge.png",
 		"codes": "charge"
@@ -322,7 +255,51 @@
 		"max_quantity": 15,
 		"codes": "pbombhud"
 	},
-	
+    // Quiet Robe, The X, and Both
+    {
+      "name": "Quiet Robe",
+      "type": "toggle",
+      "img": "images/robe.png",
+      "codes": "robe"
+    },
+  
+    {
+      "name": "The X",
+      "type": "toggle",
+      "img": "images/thex.png",
+      "codes": "thex"
+    },
+  
+    {
+      "name": "Robe-X",
+      "type": "composite_toggle",
+      "codes": "robex",
+      "item_left": "robe",
+      "item_right": "thex",
+      "images": [
+        {
+          "left": false,
+          "right": false,
+          "img": "images/robe-x.png",
+          "img_mods": "@disabled"
+        },
+        {
+          "left": true,
+          "right": false,
+          "img": "images/robe.png"
+        },
+        {
+          "left": false,
+          "right": true,
+          "img": "images/thex.png"
+        },
+        {
+          "left": true,
+          "right": true,
+          "img": "images/robe-x.png"
+        }
+      ]
+    },
 	//Tracker Bosses
 	{
 		"name": "Corpius",
@@ -516,25 +493,42 @@
 		}
 		]
 	},
+  
+	// Capture Items
 	{
-		"name": "Robe-X",
-		"capturable": "false",
-		"type": "progressive_toggle",
+		"name": "Energy Part",
+		"type": "toggle",
 		"loop": "true",
-		"stages": [
-		{
-			"img": "images/robe.png",
-			"codes": "robe"
-		},
-		{
-			"img": "images/thex.png",
-			"codes": "robe, thex"
-		},
-		{
-			"img": "images/robe-x.png",
-			"codes": "robe, thex, robe-x"
-		},
-		]
+		"img": "images/energypart.png",
+		"codes": "energypart"
+	},
+	{
+		"name": "Energy Tank",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/energytank.png",
+		"codes": "energytank"
+	},
+	{
+		"name": "Missile Pack",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/missilepack.png",
+		"codes": "missilepack"
+	},
+	{
+		"name": "Missile+ Pack",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/missile+pack.png",
+		"codes": "missile+pack"
+	},
+	{
+		"name": "Power Bomb Tank",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/pbombtank.png",
+		"codes": "pbombtank"
 	},
 
 	//Dangerous Actions
@@ -542,7 +536,7 @@
 		"name": "Charge Beam Escape",
 		"type": "toggle",
 		"loop": "true",
-		"img": "images/charge.png",
+		"img": "images/morph.png",
 		"codes": "chadaction"
 	},
 	{
@@ -580,4 +574,19 @@
 		"img": "images/wide.png",
 		"codes": "quidaction3"
 	},
+	{
+		"name": "Escue Escape Arena",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/wide.png",
+		"codes": "escdaction1"
+	},
+	{
+		"name": "Escue Escape Eye Door",
+		"type": "toggle",
+		"loop": "true",
+		"img": "wide.png",
+		"codes": "escdaction2"
+	}
+	
 ]
