@@ -1,18 +1,8 @@
 ﻿{
-	"name": "Metroid Dread Randomizer",
-	"game_name": "Metroid Dread Randomizer",
+	"name": "Metroid Dread Randomizer Tracker",
+	"game_name": "Metroid Dread",
+	"platform": "Nintendo Switch",
 	"package_version": "0.1.0",
 	"package_uid": "dread_tyraelundone",
 	"author": "TyraelUndone, FayteFireix"
-//	"variants": 
-//	{
-//		"standard": 
-//		{
-//			"display_name": "Map Tracker"
-//		},
-//		"v_itemsonly": 
-//		{
-//			"display_name": "Items Only"
-//		}
-//	}
 }
