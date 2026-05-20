@@ -22,6 +22,42 @@ function IsStart(area, room, dir)
 		and currentDir == dirStart[dir] 
 end
 
+local transportOrder =
+{
+	"artthermal", "artgrapple", "artscrew", "burlower", "burseabrid",
+	"bursubmari", "burupper", "catcentral", "catexperim", "daidnastat",
+	"daientranc", "daifreezer", "daigrapple", "daiseabrid", "daisubmari",
+	"daisuperhe", "eelun", "fercentral", "fermaingat", "ferqrenter",
+	"ferqrexit", "ghaearlysu", "ghaflipper", "ghagolzuna", "gharobot",
+	"ghastormga", "hanelitech", "hanemmi", "hanbridge", "itotranspo"
+}
+
+function DestinationStage(transport, destination)
+	local destIndex = nil
+	local selfIndex = nil
+	
+	for i, code in ipairs(transportOrder) do
+		if code == destination then destIndex = i end
+		if code == transport then selfIndex = i end
+	end
+	
+	if destIndex == selfIndex then return -1 end
+	if destIndex > selfIndex then return destIndex - 2 end
+	return destIndex -1
+end
+
+function LeadsTo(destination)
+	local transports = transportOrder
+	for _, transport in ipairs(transports) do
+		local item = Tracker:FindObjectForCode(transport)
+		local stage = GetDestinationStage(transport, destination)
+		if item and item.CurrentStage == stage then
+			return true
+		end
+	end
+	return false
+end
+
 function OpenCharge()
 	local chargeDoor = Tracker:FindObjectForCode("chargelock").CurrentStage
 	if chargeDoor == 0 then
