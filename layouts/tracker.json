@@ -95,11 +95,14 @@
 					},
 					{
 						"type": "group",
-						"header": "Transports",
+						"header": "Pinned Locations",
 						"content": [
 						{
-							"type": "layout",
-							"key": "transports"
+							"type": "recentpins",
+							"style": "wrap",
+							"h_alignment": "left",
+							"orientation": "horizontal",
+							"compact": true
 						}
 						]
 					}
@@ -115,14 +118,11 @@
 				"content": [
 				{
 					"type": "group",
-					"header": "Pinned Locations",
+					"header": "Transports",
 					"content": [
 					{
-						"type": "recentpins",
-						"style": "wrap",
-						"h_alignment": "left",
-						"orientation": "horizontal",
-						"compact": true
+						"type": "layout",
+						"key": "transports"
 					}
 					]
 				}

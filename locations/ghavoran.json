@@ -30,7 +30,7 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"@area/catoragha, $OpenCharge, morph",
+						"@area/catoragha, charge, morph",
 						"@area/burgregha, screw, grapple, ice, @tech/laybomb, spin",
 						"@area/burgregha, screw, magnet, ice, @tech/laybomb, spin",
 						"@area/burgregha, screw, grapple, ice, @tech/laybomb, gravity",
@@ -58,7 +58,7 @@
 //							"hantragha, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Orange Teleport to Ghavoran
 //							"catoragha, [DoorRestrictions], [ItemRestrictions]",
-							"@area/catoragha, $OpenCharge, morph"
+							"@area/catoragha, charge, morph"
 //							Burenia - Green Teleport to Ghavoran
 //							"burgregha, [DoorRestrictions], [ItemRestrictions]",
 						],
@@ -340,8 +340,8 @@
 							"@area/hantragha, morph",
 //							Cataris - Orange Teleport to Ghavoran
 //							"catoragha, [DoorRestrictions], [ItemRestrictions]",
-							"@area/catoragha, @lock/$OpenCharge, @tech/laybomb, cross",
-							"@area/catoragha, @lock/$OpenCharge, @tech/laybomb, ice, screw, grapple, @tech/vert"
+							"@area/catoragha, @lock/chargedoor, @tech/laybomb, cross",
+							"@area/catoragha, @lock/chargedoor, @tech/laybomb, ice, screw, grapple, @move/vert"
 //							Burenia - Green Teleport to Ghavoran
 //							"burgregha, [DoorRestrictions], [ItemRestrictions]",
 						],
@@ -461,7 +461,7 @@
 //							"hantragha, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Orange Teleport to Ghavoran
 //							"catoragha, [DoorRestrictions], [ItemRestrictions]",
-							"@area/catoragha, $OpenCharge, morph"
+							"@area/catoragha, charge, morph"
 //							Burenia - Green Teleport to Ghavoran
 //							"burgregha, [DoorRestrictions], [ItemRestrictions]",
 						],
@@ -685,7 +685,7 @@
 					"sections": [
 					{
 						"name": "Missile+ Pack",
-						"chest_unopened_img": "images/missile+.png",
+						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
 						"access_rules": [ 
 //							Ghavoran Map Station
@@ -700,7 +700,7 @@
 //							"burtragha, [DoorRestrictions], [ItemRestrictions]",
 //							Dairon - Transport to Ghavoran
 //							"daitragha, [DoorRestrictions], [ItemRestrictions]",
-							"@area/daitragha, $OpenSuper, morph"
+							"@area/daitragha, @lock/super, morph"
 //							Elun - Transport to Ghavoran
 //							"elutragha, [DoorRestrictions], [ItemRestrictions]",
 //							Ferenia - Transport to Ghavoran

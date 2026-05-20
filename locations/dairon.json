@@ -78,7 +78,7 @@
 //							"dsavw, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria - Transport to Dairon
 //							"arttradai, [DoorRestrictions], [ItemRestrictions]",
-							"@area/arttradai, @tech/advwall, speed, morph",
+							"@area/arttradai, @move/advwall, speed, morph",
 //							Burenia - Lower Transport to Dairon
 //							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
 //							Burenia - Upper Transport to Dairon
@@ -96,7 +96,7 @@
 //							Cataris - Purple Teleport to Dairon
 //							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
 							"@area/catpurdai, diffusion, @tech/wideblock, speed, morph",
-							"@area/catpurdai, diffusion, @tech/vert, speed, morph"
+							"@area/catpurdai, diffusion, @move/vert, speed, morph"
 						],
 						"item_count": 1
 					}
@@ -135,8 +135,8 @@
 //							"savw, [DoorRestrictions], [ItemRestrictions]",
 //							Artaria - Transport to Dairon
 //							"arttradai, [DoorRestrictions], [ItemRestrictions]",
-							"{@area/arttradai, @tech/vert, speed, morph, pbomb}",
-							"@area/arttradai, @tech/vert, speed, @tech/chute",
+							"{@area/arttradai, @move/vert, speed, morph, pbomb}",
+							"@area/arttradai, @move/vert, speed, @tech/chute",
 //							Burenia - Lower Transport to Dairon
 //							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
 //							Burenia - Upper Transport to Dairon
@@ -154,9 +154,9 @@
 //							Cataris - Purple Teleport to Dairon
 //							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
 							"{@area/catpurdai, diffusion, @tech/wideblock, speed, morph, pbomb}",
-							"{@area/catpurdai, diffusion, @tech/vert, speed, morph, pbomb}",
+							"{@area/catpurdai, diffusion, @move/vert, speed, morph, pbomb}",
 							"@area/catpurdai, diffusion, @tech/wideblock, speed, @tech/chute",
-							"@area/catpurdai, diffusion, @tech/vert, speed, @tech/chute"
+							"@area/catpurdai, diffusion, @move/vert, speed, @tech/chute"
 						],
 						"item_count": 1
 					}
@@ -202,10 +202,10 @@
 //							"arttradai, [DoorRestrictions], [ItemRestrictions]",
 //							Burenia - Lower Transport to Dairon
 //							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
-							"{@area/burlowdai, gravity, $OpenCharge}",
-							"{@area/burlowdai, grapple, $OpenCharge}",
-							"@area/burlowdai, gravity, $OpenCharge, speed, morph",
-							"@area/burlowdai, gravity, $OpenCharge, speed, morph"
+							"{@area/burlowdai, gravity, charge}",
+							"{@area/burlowdai, grapple, charge}",
+							"@area/burlowdai, gravity, charge, speed, morph",
+							"@area/burlowdai, gravity, charge, speed, morph"
 //							Burenia - Upper Transport to Dairon
 //							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Transport to Dairon
@@ -271,9 +271,9 @@
 //							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Transport to Dairon
 //							"cattradai, [DoorRestrictions], [ItemRestrictions]",
-							"{@area/cattradai, @tech/advwall, speed}",
-							"@area/cattradai, @tech/advwall, speed, @tech/chute, grapple",
-							"@area/cattradai, @tech/advwall, speed, morph, cross",
+							"{@area/cattradai, @move/advwall, speed}",
+							"@area/cattradai, @move/advwall, speed, @tech/chute, grapple",
+							"@area/cattradai, @move/advwall, speed, morph, cross",
 //							Ferenia - East Transport to Dairon
 //							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
 //							Ghavoran - Transport to Dairon
@@ -284,10 +284,10 @@
 //							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Purple Teleport to Dairon
 //							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
-							"{@area/catpurdai, diffusion, @tech/vert, speed}",
+							"{@area/catpurdai, diffusion, @move/vert, speed}",
 							"{@area/catpurdai, diffusion, @tech/wideblock, speed}",
-							"@area/catpurdai, diffusion, @tech/vert, speed, @tech/ibj",
-							"@area/catpurdai, diffusion, @tech/vert, @tech/ibj",
+							"@area/catpurdai, diffusion, @move/vert, speed, @tech/ibj",
+							"@area/catpurdai, diffusion, @move/vert, @tech/ibj",
 							"@area/catpurdai, diffusion, @tech/wideblock, speed, @tech/ibj",
 							"@area/catpurdai, diffusion, @tech/wideblock, @tech/ibj"
 							
@@ -337,8 +337,8 @@
 //							"arttradai, [DoorRestrictions], [ItemRestrictions]",
 //							Burenia - Lower Transport to Dairon
 //							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
-							"@area/burlowdai, grapple, $OpenCharge, morph",
-							"@area/burlowdai, gravity, $OpenCharge, morph"
+							"@area/burlowdai, grapple, charge, morph",
+							"@area/burlowdai, gravity, charge, morph"
 //							Burenia - Upper Transport to Dairon
 //							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Transport to Dairon
@@ -385,7 +385,7 @@
 						"chest_unopened_img": "/images/energypart.png",
 						"capture_item": true,
 						"access_rules": [ 
-						"morph, $OpenCharge, speed, [varia]",
+						"morph, charge, speed, [varia]",
 						"morph, wide, [varia]",
 						],
 						"item_count": 1
@@ -474,9 +474,9 @@
 //							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Purple Teleport to Dairon
 //							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
-							"@area/catpurdai, diffusion, @lock/widedoor, $OpenCharge, varia, morph, speed, [gravity]",
+							"@area/catpurdai, diffusion, @lock/widedoor, charge, varia, morph, speed, [gravity]",
 							"@area/catpurdai, diffusion, @tech/wideblock, varia, morph, speed, [gravity]",
-							"@area/catpurdai, diffusion, @tech/vert, varia, morph, speed, [gravity]"
+							"@area/catpurdai, diffusion, @move/vert, varia, morph, speed, [gravity]"
 						],
 						"item_count": 1
 					}
@@ -526,8 +526,8 @@
 //							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Transport to Dairon
 //							"cattradai, [DoorRestrictions], [ItemRestrictions]",
-							"{@area/cattradai, @tech/advwall, speed}",
-							"@area/cattradai, @tech/advwall, speed, morph, pbomb",
+							"{@area/cattradai, @move/advwall, speed}",
+							"@area/cattradai, @move/advwall, speed, morph, pbomb",
 //							Ferenia - East Transport to Dairon
 //							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
 //							Ghavoran - Transport to Dairon
@@ -538,9 +538,9 @@
 //							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Purple Teleport to Dairon
 //							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
-							"{@area/catpurdai, diffusion, @tech/vert, speed}",
+							"{@area/catpurdai, diffusion, @move/vert, speed}",
 							"{@area/catpurdai, diffusion, @tech/wideblock, speed}",
-							"@area/catpurdai, diffusion, @tech/vert, morph, pbomb",
+							"@area/catpurdai, diffusion, @move/vert, morph, pbomb",
 							"@area/catpurdai, diffusion, @tech/wideblock, speed, morph, pbomb"
 						],
 						"item_count": 1
@@ -634,7 +634,7 @@
 //							Cataris - Purple Teleport to Dairon
 //							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
 							"@area/catpurdai, diffusion, @tech/wideblock, speed, morph, [gravity]",
-							"@area/catpurdai, diffusion, @tech/vert, speed, morph, [gravity]"
+							"@area/catpurdai, diffusion, @move/vert, speed, morph, [gravity]"
 						],
 						"item_count": 1
 					}
@@ -697,7 +697,7 @@
 //							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Purple Teleport to Dairon
 //							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
-							"@area/catpurdai, diffusion, @tech/vert, speed, morph, [gravity]",
+							"@area/catpurdai, diffusion, @move/vert, speed, morph, [gravity]",
 							"@area/catpurdai, diffusion, @tech/wideblock, speed, morph, [gravity]"
 						],
 						"item_count": 1
@@ -804,8 +804,8 @@
 //							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Transport to Dairon
 //							"cattradai, [DoorRestrictions], [ItemRestrictions]",
-							"@area/cattradai, @tech/advwall, speed, grapple, morph",
-							"@area/cattradai, @tech/advwall, speed, @tech/chute"
+							"@area/cattradai, @move/advwall, speed, grapple, morph",
+							"@area/cattradai, @move/advwall, speed, @tech/chute"
 //							Ferenia - East Transport to Dairon
 //							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
 //							Ghavoran - Transport to Dairon
@@ -936,9 +936,9 @@
 //							Cataris - Purple Teleport to Dairon
 //							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
 							"{@area/catpurdai, diffusion, @tech/wideblock, speed}",
-							"{@area/catpurdai, diffusion, @tech/vert, speed}",
+							"{@area/catpurdai, diffusion, @move/vert, speed}",
 							"@area/catpurdai, diffusion, @tech/wideblock, speed",
-							"@area/catpurdai, diffusion, @tech/vert, speed"
+							"@area/catpurdai, diffusion, @move/vert, speed"
 						],
 						"item_count": 1
 					}
@@ -1050,7 +1050,7 @@
 //							Cataris - Transport to Dairon
 //							"cattradai, [DoorRestrictions], [ItemRestrictions]",
 							"@area/cattradai, magnet",
-							"@area/cattradai, @tech/advwall",
+							"@area/cattradai, @move/advwall",
 //							Ferenia - East Transport to Dairon
 //							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
 //							Ghavoran - Transport to Dairon
@@ -1122,7 +1122,7 @@
 					"sections": [
 					{
 						"name": "Missile+ Pack",
-						"chest_unopened_img": "images/missile+.png",
+						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
 						"access_rules": [ 
 //							Dairon Map Station
@@ -1154,9 +1154,9 @@
 //							Cataris - Purple Teleport to Dairon
 //							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
 							"{@area/catpurdai, diffusion, @tech/wideblock, speed}",
-							"{@area/catpurdai, diffusion, @tech/vert, speed}",
+							"{@area/catpurdai, diffusion, @move/vert, speed}",
 							"@area/catpurdai, diffusion, @tech/wideblock, speed, @tech/laybomb",
-							"@area/catpurdai, diffusion, @tech/vert, speed, @tech/laybomb"
+							"@area/catpurdai, diffusion, @move/vert, speed, @tech/laybomb"
 						],
 						"item_count": 1
 					}
@@ -1201,7 +1201,7 @@
 //							Artaria - Transport to Dairon
 //							"arttradai, [DoorRestrictions], [ItemRestrictions]",
 							"{@area/arttradai}",
-							"@area/arttradai, @tech/vert, morph, [varia]",
+							"@area/arttradai, @move/vert, morph, [varia]",
 							"@area/arttradai, spin, morph, [varia]",
 							"@area/arttardai, grapple, morph, [varia]",
 //							Burenia - Lower Transport to Dairon
@@ -1220,14 +1220,14 @@
 //							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Purple Teleport to Dairon
 //							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
-							"@area/catpurdai, diffusion, @tech/wideblock, speed, $OpenCharge, grapple, morph, [varia]",
-							"@area/catpurdai, diffusion, @tech/wideblock, speed, $OpenCharge, spin, morph, [varia]",
-							"@area/catpurdai, diffusion, @tech/vert, speed, $OpenCharge, spin, morph, [varia]",
-							"@area/catpurdai, diffusion, @tech/vert, speed, $OpenCharge, grapple, morph",
-							"@area/catpurdai, diffusion, $OpenCharge, wide, grapple, morph",
-							"@area/catpurdai, dffusion, $OpenCharge, wide, @tech/vert, morph, [varia]",
-							"@area/catpurdai, diffusion, $OpenCharge, wide, spin, morph, [varia]",
-							"@area/catpurdai, diffusion, cahrge, wide, @tech/vert, morph, [varia]"
+							"@area/catpurdai, diffusion, @tech/wideblock, speed, charge, grapple, morph, [varia]",
+							"@area/catpurdai, diffusion, @tech/wideblock, speed, charge, spin, morph, [varia]",
+							"@area/catpurdai, diffusion, @move/vert, speed, charge, spin, morph, [varia]",
+							"@area/catpurdai, diffusion, @move/vert, speed, charge, grapple, morph",
+							"@area/catpurdai, diffusion, charge, wide, grapple, morph",
+							"@area/catpurdai, dffusion, charge, wide, @move/vert, morph, [varia]",
+							"@area/catpurdai, diffusion, charge, wide, spin, morph, [varia]",
+							"@area/catpurdai, diffusion, cahrge, wide, @move/vert, morph, [varia]"
 						],
 						"item_count": 1
 					}
@@ -1277,7 +1277,7 @@
 //							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
 //							Cataris - Transport to Dairon
 //							"cattradai, [DoorRestrictions], [ItemRestrictions]",
-							"@area/cattradai, @tech/advwall, morph, pbomb",
+							"@area/cattradai, @move/advwall, morph, pbomb",
 //							Ferenia - East Transport to Dairon
 //							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
 //							Ghavoran - Transport to Dairon
@@ -1289,7 +1289,7 @@
 //							Cataris - Purple Teleport to Dairon
 //							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
 							"@area/catpurdai, diffusion, @tech/wideblock, speed, @tech/laybomb",
-							"@area/catpurdai, diffusion, @tech/vert, speed, @tech/laybomb"
+							"@area/catpurdai, diffusion, @move/vert, speed, @tech/laybomb"
 						],
 						"item_count": 1
 					}

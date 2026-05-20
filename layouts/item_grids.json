@@ -39,8 +39,8 @@
 		{
 			"type": "itemgrid",
 			"item_margin": "1,2",
-			"item_width": "60",
-			"item_height": "40",
+			"item_width": "45",
+			"item_height": "30",
 			"h_alignment": "left",
 			"rows": [
 				[ "energyhud", "missilehud", "pbombhud"]
@@ -63,12 +63,17 @@
 	"transports":
 	{
 		"type": "itemgrid",
-		"h_alignment": "center",
+		"h_alignment": "left",
 		"item_margin": "1,2",
-		"item_width": 50,
-		"item_height": 50,
+		"item_width": 125,
+		"item_height": 40,
 		"rows": [
-			[ "artthermal" ]
+			[ "artgrapple", "burlower", "burupper", "daifreezer", "daidnastat",
+				"daigrapple", "fermaingat", "ghagolzuna", "ghastormga", "itotranspo" ],
+			[ "artscrewat", "burseabrid", "catcentral", "daiseabrid", "daientranc",
+				"eelun", "fercentral", "ghaflipper", "ghaearlysu", "hanelitech" ],
+			[ "artthermal", "bursubmari", "catexperim", "daisubmari", "daisuperhe",
+				"ferqrexit", "ferqrenter", "gharobot", "hanbridge", "hanemmi" ]
 		]
 	},
 	
@@ -86,7 +91,7 @@
 				[ "plasma", "wave", "grapple", "cloak", "flash", "pulse" ],
 				[ "morph", "bomb", "cross", "pbomb", "varia", "gravity" ],
 				[ "magnet", "speed", "spin", "space", "screw" ],
-				[ "energyhud", "missilehud", "pbombhud" ]
+				[ "energypart", "energytank", "missilepack", "missile+pack", "pbombtank" ]
 			]
 		}
 		]

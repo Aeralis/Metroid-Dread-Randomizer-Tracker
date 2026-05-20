@@ -31,34 +31,7 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
-//							Ferenia Map Station
-//							"$IsStart|fer|map|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|map|c, $OpenPlasma, $OpenGrapple, @tech/laybomb, storm, gravity, speed",
-							"$IsStart|fer|map|c, $OpenPlasma, $OpenGrapple, @tech/laybomb, gravity, speed",
-//							Ferenia Navigation Station
-//							"$IsStart|fer|nav|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|nav|c, $OpenPlasma, $OpenGrapple, @tech/laybomb, gravity, speed",
-//							Ferenia Save Station North
-//							"$IsStart|fer|sav|n, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|n, $OpenPlasma, $OpenGrapple, screw, @tech/laybomb, gravity, speed",
-//							Ferenia Save Station Southeast
-//							"$IsStart|fer|sav|s, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|s, $OpenPlasma, $OpenGrapple, @tech/laybomb, storm, gravity, speed",
-//							Dairon - East Transport to Ferenia
-//							"@area/daieasfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daieasfer, $OpenPlasma, $OpenGrapple, @tech/advwall, @tech/shutter, speed, gravity, @tech/laybomb",
-//							Dairon - West Transport to Ferenia
-//							"@area/daiwesfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daiwesfer, $OpenPlasma, $OpenGrapple, speed, gravity, @tech/laybomb",
-//							Ghavoran - Transport to Ferenia
-//							"@area/ghatrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/ghatrafer, $OpenPlasma, $OpenGrapple, @tech/laybomb, gravity, speed",
-//							Hanubia - Transport to Ferenia
-// 							"@area/hantrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/hantrafer, $OpenPlasma, $OpenGrapple, screw, @tech/laybomb, gravity, speed",
-//							Burenia - Cyan Telepor to Ferenia
-//							"@area/burcyafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/burcyafer, $OpenPlasma, $OpenGrapple, @tech/laybomb, pbomb, gravity, speed"
+						"morph, grapple, speed" 
 						],
 						"item_count": 1
 					}
@@ -68,37 +41,7 @@
 			},
 			{
 				"name": "E.M.M.I.-06WB",
-				"access_rules": [ 
-//							Ferenia Map Station
-//							"$IsStart|fer|map|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|map|c, $OpenPlasma, $OpenGrapple, @tech/laybomb, storm, gravity, screw, space",
-//							Ferenia Navigation Station
-//							"$IsStart|fer|nav|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|nav|c, $OpenPlasma, $OpenGrapple, storm, gravity, screw, space",
-//							Ferenia Save Station North
-//							"$IsStart|fer|sav|n, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|n, $OpenWave, speed",
-							"$IsStart|fer|sav|n, $OpenWave, gravity, space",
-//							Ferenia Save Station Southeast
-//							"$IsStart|fer|sav|s, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|s, $OpenPlasma, $OpenGrapple, screw, storm, gravity",
-//							Dairon - East Transport to Ferenia
-//							"@area/daieasfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daieasfer, $OpenPlasma, $OpenGrapple, @tech/advwall, @tech/shutter,gravity, screw, storm, space",
-//							Dairon - West Transport to Ferenia
-//							"@area/daiwesfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daiwesfer, $OpenPlasma, $OpenGrapple, gravity, screw, space, storm",
-//							Ghavoran - Transport to Ferenia
-//							"@area/ghatrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/ghatrafer, $OpenPlasma, $OpenGrapple, gravity, screw, space, storm",
-//							Hanubia - Transport to Ferenia
-// 							"@area/hantrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/hantrafer, wave, $OpenWave, gravity, space",
-							"@area/hantrafer, wave, $OpenWave, gravity, space, [speed]",
-//							Burenia - Cyan Telepor to Ferenia
-//							"@area/burcyafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/burcyafer, morph, pbomb, gravity, @tech/laybomb, $OpenPlasma, $OpenGrapple, screw, storm, space"
-				],
+				"access_rules": [ "" ],
 				"children": [
 				{
 					"name": "Purple EMMI",
@@ -116,21 +59,12 @@
 					],
 					"sections": [
 					{
-						"name": "Reward",
-						"chest_unopened_img": "images/item_sphere.png",
-						"capture_item": true,
-						"access_rules": [ 
-						"@tech/chute, @tech/wideblock" 
-						],
-						"item_count": 1
-					},
-					{
 						"name": "Defeat Purple EMMI",
 						"chest_unopened_img": "images/emmi6.png",
 						"capture_item": true,
 						"hosted_item": "emmi6",
 						"access_rules": [ 
-						"@tech/chute, @tech/wideblock, $OpenWave" 
+						"gravity, diffusion, @tech/chute, wide" 
 						],
 						"item_count": 0
 					}
@@ -162,41 +96,7 @@
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
 						"access_rules": [ 
-//							Ferenia Map Station
-//							"$IsStart|fer|map|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|map|c, @tech/laybomb, screw, @tech/advwall, grapple",
-							"$IsStart|fer|map|c, @tech/laybomb, screw, spin, grapple",
-//							Ferenia Navigation Station
-//							"$IsStart|fer|nav|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|nav|c, grapple, screw, @tech/advwall, @tech/laybomb",
-							"$IsStart|fer|nav|c, grapple, screw, spin, @tech/laybomb",
-//							Ferenia Save Station North
-//							"$IsStart|fer|sav|n, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|n, gravity, screw, @tech/laybomb, @tech/advwall, grapple",
-							"$IsStart|fer|sav|n, gravity, screw, @tech/laybomb, spin, grapple",
-//							Ferenia Save Station Southeast
-//							"$IsStart|fer|sav|s, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|s, @tech/laybomb, screw, @tech/advwall, grapple",
-							"$IsStart|fer|sav|s, @tech/laybomb, screw, spin, grapple",
-//							Dairon - East Transport to Ferenia
-//							"@area/daieasfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daieasfer, $OpenPlasma, @tech/advwall, @tech/shutter, [gravity], grapple, screw, @tech/laybomb, speed",
-//							Dairon - West Transport to Ferenia
-//							"@area/daiwesfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daiwesfer, $OpenPlasma, [gravity], screw, @tech/laybomb, @tech/advwall, grapple",
-							"@area/daiwesfer, $OpenPlasma, [gravity], screw, @tech/laybomb, spin, grapple",
-//							Ghavoran - Transport to Ferenia
-//							"@area/ghatrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/ghatrafer, grapple, @tech/laybomb, screw, @tech/advwall, grapple",
-							"@area/ghatrafer, grapple, @tech/laybomb, screw, spin, grapple",
-//							Hanubia - Transport to Ferenia
-// 							"@area/hantrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/hantrafer, wave, [gravity], screw, grapple, @tech/laybomb, @tech/advwall",
-							"@area/hantrafer, wave, [gravity], screw, grapple, @tech/laybomb, spin",
-//							Burenia - Cyan Telepor to Ferenia
-//							"@area/burcyafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/burcyafer, pbomb, grapple, @tech/laybomb, screw, @tech/advwall",
-							"@area/burcyafer, pbomb, grapple, @tech/laybomb, screw, spin"
+						"morph, bomb, grapple"
 						],
 						"item_count": 1
 					}
@@ -208,55 +108,24 @@
 				"name": "Escue Arena",
 				"access_rules": [
 //							Ferenia Map Station
-//							"$IsStart|fer|map|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|map|c, @tech/laybomb, speed",
-							"$IsStart|fer|map|c, @tech/laybomb, magnet",
-							"$IsStart|fer|map|c, @tech/laybomb, space",
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
 //							Ferenia Navigation Station
-//							"$IsStart|fer|nav|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|nav|c, grapple, @tech/laybomb, speed",
-							"$IsStart|fer|nav|c, grapple, @tech/laybomb, magnet",
-							"$IsStart|fer|nav|c, grapple, @tech/laybomb, space",
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
 //							Ferenia Save Station North
-//							"$IsStart|fer|sav|n, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|n, [gravity], screw, grapple, @tech/laybomb, speed",
-							"$IsStart|fer|sav|n, [gravity], screw, grapple, @tech/laybomb, magnet",
-							"$IsStart|fer|sav|n, [gravity], screw, grapple, @tech/laybomb, space",
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
 //							Ferenia Save Station Southeast
-//							"$IsStart|fer|sav|s, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|s, morph, speed",
-							"$IsStart|fer|sav|s, morph, magnet",
-							"$IsStart|fer|sav|s, morph, space",
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
 //							Dairon - East Transport to Ferenia
-//							"@area/daieasfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daieasfer,$OpenPlasma, @tech/advwall, @tech/shutter, speed, [gravity], screw, @tech/laybomb, grapple",
-							"@area/daieasfer,$OpenPlasma, @tech/advwall, @tech/shutter, speed, gravity, screw, @tech/laybomb",
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
 //							Dairon - West Transport to Ferenia
-//							"@area/daiwesfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daiwesfer, $OpenPlasma, [gravity], grapple, @tech/laybomb, speed",
-							"@area/daiwesfer, $OpenPlasma, [gravity], grapple, @tech/laybomb, magnet",
-							"@area/daiwesfer, $OpenPlasma, [gravity], grapple, @tech/laybomb, space",
-							"@area/daiwesfer, $OpenPlasma, gravity, @tech/laybomb, speed",
-							"@area/daiwesfer, $OpenPlasma, gravity, @tech/laybomb, magnet",
-							"@area/daiwesfer, $OpenPlasma, gravity, @tech/laybomb, space",
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
 //							Ghavoran - Transport to Ferenia
-//							"@area/ghatrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/ghatrafer, [gravity], grapple, @tech/laybomb, speed",
-							"@area/ghatrafer, [gravity], grapple, @tech/laybomb, magnet",
-							"@area/ghatrafer, [gravity], grapple, @tech/laybomb, space",
-							"@area/ghatrafer, gravity, @tech/laybomb, speed",
-							"@area/ghatrafer, gravity, @tech/laybomb, magnet",
-							"@area/ghatrafer, gravity, @tech/laybomb, space",
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatrafer, gravity, morph"
 //							Hanubia - Transport to Ferenia
-// 							"@area/hantrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/hantrafer, wave, [gravity], screw, grapple, @tech/laybomb, speed",
-							"@area/hantrafer, wave, [gravity], screw, grapple, @tech/laybomb, magnet",
-							"@area/hantrafer, wave, [gravity], screw, grapple, @tech/laybomb, space",
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
 //							Burenia - Cyan Telepor to Ferenia
-//							"@area/burcyafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/burcyafer, grapple, @tech/laybomb, pbomb, speed",
-							"@area/burcyafer, grapple, @tech/laybomb, pbomb, magnet",
-							"@area/burcyafer, grapple, @tech/laybomb, pbomb, space"
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",
 				],
 				"children": [
 				{
@@ -279,7 +148,25 @@
 						"chest_unopened_img": "images/dna.png",
 						"capture_item": true,
 						"access_rules": [ 
-							"storm"
+//							Ferenia Map Station
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Navigation Station
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station North
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station Southeast
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - East Transport to Ferenia
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - West Transport to Ferenia
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Ferenia
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatrafer, gravity, morph, storm"
+//							Hanubia - Transport to Ferenia
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Cyan Telepor to Ferenia
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",
 						],
 						"item_count": 1
 					},
@@ -289,7 +176,25 @@
 						"caputre_item": false,
 						"hosted_item": "escue",
 						"acces_rules": [ 
-							"storm"
+//							Ferenia Map Station
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Navigation Station
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station North
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station Southeast
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - East Transport to Ferenia
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - West Transport to Ferenia
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Ferenia
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatrafer, gravity, morph"
+//							Hanubia - Transport to Ferenia
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Cyan Telepor to Ferenia
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",
 						],
 						"item_count": 0
 					}
@@ -322,67 +227,28 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							Ferenia Map Station
-//							"$IsStart|fer|map|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|map|c, @tech/laybomb, speed",
-							"$IsStart|fer|map|c, @tech/laybomb, magnet",
-							"$IsStart|fer|map|c, @tech/laybomb, space",
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
 //							Ferenia Navigation Station
-//							"$IsStart|fer|nav|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|nav|c, grapple, @tech/laybomb, speed",
-							"$IsStart|fer|nav|c, grapple, @tech/laybomb, magnet",
-							"$IsStart|fer|nav|c, grapple, @tech/laybomb, space",
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
 //							Ferenia Save Station North
-//							"$IsStart|fer|sav|n, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|n, [gravity], screw, grapple, @tech/laybomb, speed",
-							"$IsStart|fer|sav|n, [gravity], screw, grapple, @tech/laybomb, magnet",
-							"$IsStart|fer|sav|n, [gravity], screw, grapple, @tech/laybomb, space",
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
 //							Ferenia Save Station Southeast
-//							"$IsStart|fer|sav|s, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|s, morph, speed",
-							"$IsStart|fer|sav|s, morph, magnet",
-							"$IsStart|fer|sav|s, morph, space",
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
 //							Dairon - East Transport to Ferenia
-//							"@area/daieasfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daieasfer,$OpenPlasma, @tech/advwall, @tech/shutter, speed, [gravity], screw, @tech/laybomb, grapple",
-							"@area/daieasfer,$OpenPlasma, @tech/advwall, @tech/shutter, speed, gravity, screw, @tech/laybomb",
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
 //							Dairon - West Transport to Ferenia
-//							"@area/daiwesfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daiwesfer, $OpenPlasma, [gravity], grapple, @tech/laybomb, speed",
-							"@area/daiwesfer, $OpenPlasma, [gravity], grapple, @tech/laybomb, magnet",
-							"@area/daiwesfer, $OpenPlasma, [gravity], grapple, @tech/laybomb, space",
-							"@area/daiwesfer, $OpenPlasma, gravity, @tech/laybomb, speed",
-							"@area/daiwesfer, $OpenPlasma, gravity, @tech/laybomb, magnet",
-							"@area/daiwesfer, $OpenPlasma, gravity, @tech/laybomb, space",
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
 //							Ghavoran - Transport to Ferenia
-//							"@area/ghatrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/ghatrafer, [gravity], grapple, @tech/laybomb, speed",
-							"@area/ghatrafer, [gravity], grapple, @tech/laybomb, magnet",
-							"@area/ghatrafer, [gravity], grapple, @tech/laybomb, space",
-							"@area/ghatrafer, gravity, @tech/laybomb, speed",
-							"@area/ghatrafer, gravity, @tech/laybomb, magnet",
-							"@area/ghatrafer, gravity, @tech/laybomb, space",
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatrafer, morph, grapple, @tech/laybomb, magnet",
+							"@area/ghatrafer, morph, grapple, @tech/laybomb, spin",
+							"@area/ghatrafer, morph, gravity, spin, @tech/laybomb"
 //							Hanubia - Transport to Ferenia
-// 							"@area/hantrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/hantrafer, wave, [gravity], screw, grapple, @tech/laybomb, speed",
-							"@area/hantrafer, wave, [gravity], screw, grapple, @tech/laybomb, magnet",
-							"@area/hantrafer, wave, [gravity], screw, grapple, @tech/laybomb, space",
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
 //							Burenia - Cyan Telepor to Ferenia
-//							"@area/burcyafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/burcyafer, grapple, @tech/laybomb, pbomb, speed",
-							"@area/burcyafer, grapple, @tech/laybomb, pbomb, magnet",
-							"@area/burcyafer, grapple, @tech/laybomb, pbomb, space"
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",
 						],
 						"item_count": 1
-					},
-					{
-						"name": "Escape with Storm",
-						"chest_unopened_img": "storm.png",
-						"capture_item": false,
-						"hosted_item": "escdaction1",
-						"access_rules": [ 
-						"storm",
-							],
-						"item_count": 0
 					}
 					]
 				}
@@ -409,102 +275,20 @@
 					"sections": [
 					{
 						"name": "Missile+ Pack",
-						"chest_unopened_img": "images/missile+.png",
+						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
 						"access_rules": [ 
-//							Ferenia Map Station
-//							"$IsStart|fer|map|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|map|c, @tech/laybomb, speed",
-//							Ferenia Navigation Station
-//							"$IsStart|fer|nav|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|nav|c, grapple, @tech/laybomb, speed",
-//							Ferenia Save Station North
-//							"$IsStart|fer|sav|n, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|n, [gravity], screw, grapple, @tech/laybomb, speed",
-//							Ferenia Save Station Southeast
-//							"$IsStart|fer|sav|s, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|s, morph, speed",
-//							Dairon - East Transport to Ferenia
-//							"@area/daieasfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daieasfer,$OpenPlasma, @tech/advwall, @tech/shutter, speed, [gravity], screw, @tech/laybomb, grapple",
-							"@area/daieasfer,$OpenPlasma, @tech/advwall, @tech/shutter, speed, gravity, screw, @tech/laybomb",
-//							Dairon - West Transport to Ferenia
-//							"@area/daiwesfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daiwesfer, $OpenPlasma, [gravity], grapple, @tech/laybomb, speed",
-							"@area/daiwesfer, $OpenPlasma, gravity, @tech/laybomb, speed",
-//							Ghavoran - Transport to Ferenia
-//							"@area/ghatrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/ghatrafer, [gravity], grapple, @tech/laybomb, speed",
-							"@area/ghatrafer, gravity, @tech/laybomb, speed",
-//							Hanubia - Transport to Ferenia
-// 							"@area/hantrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/hantrafer, wave, [gravity], screw, grapple, @tech/laybomb, speed",
-//							Burenia - Cyan Telepor to Ferenia
-//							"@area/burcyafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/burcyafer, grapple, @tech/laybomb, pbomb, speed",
+						"morph, speed" 
 						],
 						"item_count": 1
 					},
 					{
 						"name": "Dangerous Action",
-						"chest_unopened_img": "wide.png",
+						"chest_unopened_img": "images/wide.png",
 						"capture_item": false,
 						"hosted_item": "quidaction3",
 						"access_rules": [ 
-//							Ferenia Map Station
-//							"$IsStart|fer|map|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|map|c, @tech/wideblock, tech/laybomb, speed",
-							"$IsStart|fer|map|c, [gravity], $OpenPlasma, $OpenCharge, tech/laybomb, speed",
-							"$IsStart|fer|map|c, [Gravity], $OpenPlasma, screw, wave, tech/laybomb, speed",
-//							Ferenia Navigation Station
-//							"$IsStart|fer|nav|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|nav|c, @tech/wideblock, grapple, @tech/laybomb, speed",
-							"$IsStart|fer|nav|c, [gravity], $OpenPlasma, $OpenCharge, grapple, @tech/laybomb, speed",
-							"$IsStart|fer|nav|c, [gravity], $OpenPlasma, screw, wave, grapple, @tech/laybomb, speed",
-//							Ferenia Save Station North
-//							"$IsStart|fer|sav|n, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|n, @tech/wideblock, [gravity], screw, grapple, @tech/laybomb, speed",
-							"$IsStart|fer|sav|n, $OpenPlasma, $OpenCharge, [gravity], screw, grapple, @tech/laybomb, speed",
-							"$IsStart|fer|sav|n, $OpenPlasma, wave, [gravity], screw, grapple, @tech/laybomb, speed",
-//							Ferenia Save Station Southeast
-//							"$IsStart|fer|sav|s, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|s, @tech/wideblock, morph, speed",
-							"$IsStart|fer|sav|s, [gravity], $OpenPlasma, $OpenCharge, morph, speed",
-							"$IsStart|fer|sav|s, [gravity], $OpenPlasma, screw, wave, morph, speed",
-//							Dairon - East Transport to Ferenia
-//							"@area/daieasfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daieasfer, @tech/wideblock, $OpenPlasma, @tech/advwall, @tech/shutter, speed, [gravity], screw, @tech/laybomb, grapple",
-							"@area/daieasfer, @tech/wideblock, $OpenPlasma, @tech/advwall, @tech/shutter, speed, gravity, screw, @tech/laybomb",
-							"@area/daieasfer, $OpenPlasma, $OpenCharge, @tech/advwall, @tech/shutter, speed, [gravity], screw, @tech/laybomb, grapple",
-							"@area/daieasfer, $OpenPlasma, $OpenCharge, @tech/advwall, @tech/shutter, speed, gravity, screw, @tech/laybomb",
-							"@area/daieasfer, wave, $OpenPlasma, @tech/advwall, @tech/shutter, speed, [gravity], screw, @tech/laybomb, grapple",
-							"@area/daieasfer, wave, $OpenPlasma, @tech/advwall, @tech/shutter, speed, gravity, screw, @tech/laybomb",
-//							Dairon - West Transport to Ferenia
-//							"@area/daiwesfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daiwesfer, @tech/wideblock, $OpenPlasma, [gravity], grapple, @tech/laybomb, speed",
-							"@area/daiwesfer, @tech/wideblock, $OpenPlasma, gravity, @tech/laybomb, speed",
-							"@area/daiwesfer, @OpenCharge, $OpenPlasma, [gravity], grapple, @tech/laybomb, speed",
-							"@area/daiwesfer, @OpenCharge, $OpenPlasma, gravity, @tech/laybomb, speed",
-							"@area/daiwesfer, screw, wave, $OpenPlasma, [gravity], grapple, @tech/laybomb, speed",
-							"@area/daiwesfer, screw, wave, $OpenPlasma, gravity, @tech/laybomb, speed",
-//							Ghavoran - Transport to Ferenia
-//							"@area/ghatrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/ghatrafer, @tech/wideblock, [gravity], grapple, @tech/laybomb, speed",
-							"@area/ghatrafer, @tech/wideblock, gravity, @tech/laybomb, speed",
-							"@area/ghatrafer, $OpenPlasma, $OpenCharge, [gravity], grapple, @tech/laybomb, speed",
-							"@area/ghatrafer, $OpenPlasma, $OpenCharge, gravity, @tech/laybomb, speed",
-							"@area/ghatrafer, $OpenPlasma, screw, wave, [gravity], grapple, @tech/laybomb, speed",
-							"@area/ghatrafer, $OpenPlasma, screw, wave, gravity, @tech/laybomb, speed",
-//							Hanubia - Transport to Ferenia
-// 							"@area/hantrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/hantrafer, @tech/wideblock, wave, [gravity], screw, grapple, @tech/laybomb, speed",
-							"@area/hantrafer, [gravity], @OpenCharge, $OpenPlasma, wave, [gravity], screw, grapple, @tech/laybomb, speed",
-							"@area/hantrafer, $OpenPlasma, wave, [gravity], screw, grapple, @tech/laybomb, speed",
-//							Burenia - Cyan Telepor to Ferenia
-//							"@area/burcyafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/burcyafer, @tech/wideblock, grapple, @tech/laybomb, pbomb, speed",
-							"@area/burcyafer, [gravity], $OpenPlasma, $OpenCharge, grapple, @tech/laybomb, pbomb, speed",
-							"@area/burcyafer, [gravity], $OpenPlasma, screw, wave, grapple, @tech/laybomb, pbomb, speed",
+						"@tech/wideblock",
 							],
 						"item_count": 0
 					}
@@ -536,68 +320,9 @@
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
 						"access_rules": [ 
-//							Ferenia Map Station
-//							"$IsStart|fer|map|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|map|c, @tech/laybomb, speed",
-							"$IsStart|fer|map|c, @tech/laybomb, magnet",
-							"$IsStart|fer|map|c, @tech/laybomb, space",
-//							Ferenia Navigation Station
-//							"$IsStart|fer|nav|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|nav|c, grapple, @tech/laybomb, speed",
-							"$IsStart|fer|nav|c, grapple, @tech/laybomb, magnet",
-							"$IsStart|fer|nav|c, grapple, @tech/laybomb, space",
-//							Ferenia Save Station North
-//							"$IsStart|fer|sav|n, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|n, [gravity], screw, grapple, @tech/laybomb, speed",
-							"$IsStart|fer|sav|n, [gravity], screw, grapple, @tech/laybomb, magnet",
-							"$IsStart|fer|sav|n, [gravity], screw, grapple, @tech/laybomb, space",
-//							Ferenia Save Station Southeast
-//							"$IsStart|fer|sav|s, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|s, morph, speed",
-							"$IsStart|fer|sav|s, morph, magnet",
-							"$IsStart|fer|sav|s, morph, space",
-//							Dairon - East Transport to Ferenia
-//							"@area/daieasfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daieasfer,$OpenPlasma, @tech/advwall, @tech/shutter, speed, [gravity], screw, @tech/laybomb, grapple",
-							"@area/daieasfer,$OpenPlasma, @tech/advwall, @tech/shutter, speed, gravity, screw, @tech/laybomb",
-//							Dairon - West Transport to Ferenia
-//							"@area/daiwesfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daiwesfer, $OpenPlasma, [gravity], grapple, @tech/laybomb, speed",
-							"@area/daiwesfer, $OpenPlasma, [gravity], grapple, @tech/laybomb, magnet",
-							"@area/daiwesfer, $OpenPlasma, [gravity], grapple, @tech/laybomb, space",
-							"@area/daiwesfer, $OpenPlasma, gravity, @tech/laybomb, speed",
-							"@area/daiwesfer, $OpenPlasma, gravity, @tech/laybomb, magnet",
-							"@area/daiwesfer, $OpenPlasma, gravity, @tech/laybomb, space",
-//							Ghavoran - Transport to Ferenia
-//							"@area/ghatrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/ghatrafer, [gravity], grapple, @tech/laybomb, speed",
-							"@area/ghatrafer, [gravity], grapple, @tech/laybomb, magnet",
-							"@area/ghatrafer, [gravity], grapple, @tech/laybomb, space",
-							"@area/ghatrafer, gravity, @tech/laybomb, speed",
-							"@area/ghatrafer, gravity, @tech/laybomb, magnet",
-							"@area/ghatrafer, gravity, @tech/laybomb, space",
-//							Hanubia - Transport to Ferenia
-// 							"@area/hantrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/hantrafer, wave, [gravity], screw, grapple, @tech/laybomb, speed",
-							"@area/hantrafer, wave, [gravity], screw, grapple, @tech/laybomb, magnet",
-							"@area/hantrafer, wave, [gravity], screw, grapple, @tech/laybomb, space",
-//							Burenia - Cyan Telepor to Ferenia
-//							"@area/burcyafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/burcyafer, grapple, @tech/laybomb, pbomb, speed",
-							"@area/burcyafer, grapple, @tech/laybomb, pbomb, magnet",
-							"@area/burcyafer, grapple, @tech/laybomb, pbomb, space"
+						"morph, bomb" 
 						],
 						"item_count": 1
-					},
-					{
-						"name": "Escape with Storm",
-						"chest_unopened_img": "storm.png",
-						"capture_item": false,
-						"hosted_item": "escdaction2",
-						"access_rules": [ 
-						"storm",
-							],
-						"item_count": 0
 					}
 					]
 				}
@@ -627,60 +352,7 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
-//							Ferenia Map Station
-//							"$IsStart|fer|map|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|map|c, diffusion, [wave], @tech/laybomb, storm, $OpenCharge, gravity, spin, magnet",
-							"$IsStart|fer|map|c, diffusion, [wave], @tech/laybomb, storm, $OpenCharge, gravity, flash, magnet",
-							"$IsStart|fer|map|c, diffusion, [wave], @tech/laybomb, storm, $OpenCharge, gravity, spin, grapple",
-							"$IsStart|fer|map|c, diffusion, [wave], @tech/laybomb, Storm, $OpenCharge, grapple, flash, grapple",
-//							Ferenia Navigation Station
-//							"$IsStart|fer|nav|c, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|nav|c, diffusion, [wave], @tech/laybomb, $OpenCharge, gravity, spin, magnet",
-							"$IsStart|fer|nav|c, diffusion, [wave], @tech/laybomb, $OpenCharge, gravity, flash, magnet",
-							"$IsStart|fer|nav|c, diffusion, [wave], @tech/laybomb, $OpenCharge, gravity, spin, grapple",
-							"$IsStart|fer|nav|c, diffusion, [wave], @tech/laybomb, $OpenCharge, grapple, flash, grapple",
-//							Ferenia Save Station North
-//							"$IsStart|fer|sav|n, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|n, diffusion, [wave], $OpenPlasma, $OpenCharge, gravity, screw, @tech/laybomb, spin, magnet",
-							"$IsStart|fer|sav|n, diffusion, [wave], $OpenPlasma, $OpenCharge, gravity, screw, @tech/laybomb, flash, magnet",
-							"$IsStart|fer|sav|n, diffusion, [wave], $OpenPlasma, $OpenCharge, gravity, screw, @tech/laybomb, spin, grapple",
-							"$IsStart|fer|sav|n, diffusion, [wave], $OpenPlasma, $OpenCharge, gravity, screw, @tech/laybomb, flash, grapple",
-//							Ferenia Save Station Southeast
-//							"$IsStart|fer|sav|s, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|s, diffusion, [wave], @tech/laybomb, storm, $OpenCharge, gravity, spin, magnet",
-							"$IsStart|fer|sav|s, diffusion, [wave], @tech/laybomb, storm, $OpenCharge, gravity, flash, magnet",
-							"$IsStart|fer|sav|s, diffusion, [wave], @tech/laybomb, storm, $OpenCharge, gravity, spin, grapple",
-							"$IsStart|fer|sav|s, diffusion, [wave], @tech/laybomb, Storm, $OpenCharge, grapple, flash, grapple",
-//							Dairon - East Transport to Ferenia
-//							"@area/daieasfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daieasfer, diffusion, [wave], $OpenPlasma, @tech/advwall, @tech/shutter, speed, gravity, screw, @tech/laybomb, spin, magnet",
-							"@area/daieasfer, diffusion, [wave], $OpenPlasma, @tech/advwall, @tech/shutter, speed, gravity, screw, @tech/laybomb, flash, magnet",
-							"@area/daieasfer, diffusion, [wave], $OpenPlasma, @tech/advwall, @tech/shutter, speed, gravity, screw, @tech/laybomb, spin, grapple",
-							"@area/daieasfer, diffusion, [wave], $OpenPlasma, @tech/advwall, @tech/shutter, speed, gravity, screw, @tech/laybomb, flash, grapple",
-//							Dairon - West Transport to Ferenia
-//							"@area/daiwesfer, $Open[DoorType], [ItemRestrictions]",
-							"@area/daiwesfer, diffusion, [wave], $OpenPlasma, screw, gravity, @tech/laybomb, flash, magnet",
-							"@area/daiwesfer, diffusion, [wave], $OpenPlasma, screw, gravity, @tech/laybomb, spin, magnet",
-							"@area/daiwesfer, diffusion, [wave], $OpenPlasma, screw, gravity, @tech/laybomb, flash, grapple",
-							"@area/daiwesfer, diffusion, [wave], $OpenPlasma, screw, gravity, @tech/laybomb, spin, grapple",
-//							Ghavoran - Transport to Ferenia
-//							"@area/ghatrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/ghatrafer, [diffusion], wave, @tech/laybomb, gravity, spin, magnet",
-							"@area/ghatrafer, [diffusion], wave, @tech/laybomb, gravity, spin, grapple",
-							"@area/ghatrafer, [diffusion], wave, @tech/laybomb, gravity, flash, magnet",
-							"@area/ghatrafer, [diffusion], wave, @tech/laybomb, gravity, flash, grapple",
-//							Hanubia - Transport to Ferenia
-// 							"@area/hantrafer, $Open[DoorType], [ItemRestrictions]",
-							"$IsStart|fer|sav|n, diffusion, [wave], $OpenPlasma, $OpenCharge, wave, gravity, screw, @tech/laybomb, spin, magnet",
-							"$IsStart|fer|sav|n, diffusion, [wave], $OpenPlasma, $OpenCharge, wave, gravity, screw, @tech/laybomb, flash, magnet",
-							"$IsStart|fer|sav|n, diffusion, [wave], $OpenPlasma, $OpenCharge, wave, gravity, screw, @tech/laybomb, spin, grapple",
-							"$IsStart|fer|sav|n, diffusion, [wave], $OpenPlasma, $OpenCharge, wave, gravity, screw, @tech/laybomb, flash, grapple",
-//							Burenia - Cyan Telepor to Ferenia
-//							"@area/burcyafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/burcyafer, diffusion, [wave], $OpenPlasma, $OpenCharge, pbomb, gravity, screw, @tech/laybomb, spin, magnet",
-							"@area/burcyafer, diffusion, [wave], $OpenPlasma, $OpenCharge, pbomb, gravity, screw, @tech/laybomb, flash, magnet",
-							"@area/burcyafer, diffusion, [wave], $OpenPlasma, $OpenCharge, pbomb, gravity, screw, @tech/laybomb, spin, grapple",
-							"@area/burcyafer, diffusion, [wave], $OpenPlasma, $OpenCharge, pbomb, gravity, screw, @tech/laybomb, flash, grapple"
+						"morph, @move/advwall" 
 						],
 						"item_count": 1
 					}
@@ -690,58 +362,7 @@
 			},
 			{
 				"name": "Purple EMMI Introduction",
-				"access_rules": [ 
-//					Ferenia Map Station
-//					"$IsStart|fer|map|c, $Open[DoorType], [ItemRestrictions]",
-					"{$IsStart|fer|map|c}",
-					"$IsStart|fer|map|c, emmi6, gravity, morph, pbomb, @tech/vert",
-					"$IsStart|fer|map|c, emmi6, gravity, @tech/ibj, pbomb",
-//					Ferenia Navigation Station
-//					"$IsStart|fer|nav|c, $Open[DoorType], [ItemRestrictions]",
-					"{$IsStart|fer|nav|c}",
-					"$IsStart|fer|nav|c, emmi6, gravity, morph, pbomb, @tech/vert",
-					"$IsStart|fer|nav|c, emmi6, gravity, @tech/ibj, pbomb",
-//					Ferenia Save Station North
-//					"$IsStart|fer|sav|n, $Open[DoorType], [ItemRestrictions]",
-					"{$IsStart|fer|sav|n, wave, [gravity], screw}",
-					"$IsStart|fer|sav|n, wave, gravity, screw, morph, pbomb, @tech/vert",
-					"$IsStart|fer|sav|n, wave, gravity, screw, @tech/ibj, pbomb",
-//					Ferenia Save Station Southeast
-//					"$IsStart|fer|sav|s, $Open[DoorType], [ItemRestrictions]",
-					"{$IsStart|fer|sav|s, @tech/laybomb}",
-					"$IsStart|fer|sav|s, emmi6, @tech/laybomb, gravity, pbomb, @tech/vert",
-					"$IsStart|fer|sav|s, emmi6, @tech/ibj, gravity, pbomb",
-//					Dairon - East Transport to Ferenia
-//					"@area/daieasfer, $Open[DoorType], [ItemRestrictions]",
-					"{@area/daieasfer, @tech/ibj, @tech/shutter}",
-					"{@area/daieasfer, @tech/vert}",
-					"@area/daieasfer, @tech/ibj, @tech/shutter, pbomb",
-					"@area/daieasfer, @tech/vert, morph, pbomb",
-//					Dairon - West Transport to Ferenia
-//					"@area/daiwesfer, $Open[DoorType], [ItemRestrictions]",
-					"{@area/daiwesfer, [gravity], screw, $OpenPlasma}",
-					"{@area/daiwesfer, emmi6, morph, @tech/vert}",
-					"{@area/daiwesfer, emmi6, @tech/ibj}",
-					"@area/daiwesfer, emmi6, [gravity], screw, $OpenPlasma, @tech/vert, pbomb",
-					"@area/daiwesfer, emmi6, [gravity], screw, $OpenPlasma, @tech/ibj, pbomb",
-					"@area/daiwesfer, emmi6, morph, @tech/vert, pbomb",
-					"@area/daiwesfer, emmi6, @tech/ibj, pbomb",
-//					Ghavoran - Transport to Ferenia
-//					"@area/ghatrafer, $Open[DoorType], [ItemRestrictions]",
-					"{@area/ghatrafer}",
-					"@area/ghatrafer, emmi6, gravity, morph, pbomb, @tech/vert",
-					"@area/ghatrafer, emmi6, gravity, @tech/ibj, pbomb",
-//					Hanubia - Transport to Ferenia
-// 					"@area/hantrafer, $Open[DoorType], [ItemRestrictions]",
-					"{@area/hantrafer, wave, [gravity], screw}",
-					"@area/hantrafer, wave, gravity, screw, morph, pbomb, @tech/vert",
-					"@area/hantrafer, wave, gravity, screw, @tech/ibj, pbomb",
-//					Burenia - Cyan Telepor to Ferenia
-//					"@area/burcyafer, $Open[DoorType], [ItemRestrictions]",
-					"{@area/burcyafer, @tech/laybomb, pbomb}",
-					"@area/burcyafer, @tech/laybomb, pbomb, emmi6, gravity, @tech/vert",
-					"@area/burcyafer, @tech/laybomb, pbomb, emmi6, gravity, @tech/ibj"
-					],
+				"access_rules": [ "" ],
 				"children": [
 				{
 					"name": "Purple EMMI Introduction",
@@ -763,7 +384,29 @@
 						"chest_unopened_img": "images/pbombtank.png",
 						"capture_item": true,
 						"access_rules": [ 
-							"@tech/wideblock"
+							"morph, pbomb, flash, @move/vert",
+//							Ferenia Map Station
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Navigation Station
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station North
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station Southeast
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - East Transport to Ferenia
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/daieasfer, @tech/ibj, @tech/shutter}",
+							"{@area/daieasfer, @move/vert}",
+							"@area/daieasfer, @tech/ibj, morph, pbomb, @tech/shutter",
+							"@aera/daieasfer, @move/vert, morph, pbomb"
+//							Dairon - West Transport to Ferenia
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Ferenia
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Hanubia - Transport to Ferenia
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Cyan Telepor to Ferenia
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",						
 						],
 						"item_count": 1
 					},
@@ -773,7 +416,28 @@
 						"capture_item": false,
 						"hosted_item": "quidaction2",
 						"access_rules": [ 
-							"@tech/wideblock"
+//							Ferenia Map Station
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Navigation Station
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station North
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station Southeast
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - East Transport to Ferenia
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/daieasfer, @tech/ibj, @tech/shutter}",
+							"{@area/daieasfer, @move/vert}",
+							"@area/daieasfer, @tech/ibj, morph, pbomb, @tech/shutter, @tech/wideblock",
+							"@aera/daieasfer, @move/vert, morph, pbomb, @tech/wideblock"
+//							Dairon - West Transport to Ferenia
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Ferenia
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Hanubia - Transport to Ferenia
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Cyan Telepor to Ferenia
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",	
 							],
 						"item_count": 0
 					}
@@ -833,7 +497,25 @@
 						"chest_unopened_img": "images/missilepack.png",
 						"capture_item": true,
 						"access_rules": [ 
+//							Ferenia Map Station
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Navigation Station
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station North
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station Southeast
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - East Transport to Ferenia
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - West Transport to Ferenia
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Ferenia
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
 							"@area/ghatrafer, morph, pbomb",
+//							Hanubia - Transport to Ferenia
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Cyan Telepor to Ferenia
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",
 							"@area/burcyafer, morph"
 						],
 						"item_count": 1
@@ -863,28 +545,10 @@
 					"sections": [
 					{
 						"name": "Missile+ Pack",
-						"chest_unopened_img": "images/missile+.png",
+						"chest_unopened_img": "images/missile+pack.png",
 						"capture_item": true,
 						"access_rules": [ 
-//							Ferenia Map Station
-//							"$IsStart|fer|map|c, $Open[DoorType], [ItemRestrictions]",
-//							Ferenia Navigation Station
-//							"$IsStart|fer|nav|c, $Open[DoorType], [ItemRestrictions]",
-//							Ferenia Save Station North
-//							"$IsStart|fer|sav|n, $Open[DoorType], [ItemRestrictions]",
-//							Ferenia Save Station Southeast
-//							"$IsStart|fer|sav|s, $Open[DoorType], [ItemRestrictions]",
-//							Dairon - East Transport to Ferenia
-//							"@area/daieasfer, $Open[DoorType], [ItemRestrictions]",
-//							Dairon - West Transport to Ferenia
-//							"@area/daiwesfer, $Open[DoorType], [ItemRestrictions]",
-//							Ghavoran - Transport to Ferenia
-//							"@area/ghatrafer, $Open[DoorType], [ItemRestrictions]",
-							"@area/ghatrafer, speed, @tech/chute"
-//							Hanubia - Transport to Ferenia
-// 							"@area/hantrafer, $Open[DoorType], [ItemRestrictions]",
-//							Burenia - Cyan Telepor to Ferenia
-//							"@area/burcyafer, $Open[DoorType], [ItemRestrictions]",
+						"speed, bomb" 
 						],
 						"item_count": 1
 					}
@@ -936,10 +600,28 @@
 						"chest_unopened_img": "images/missile.png",
 						"capture_item": true,
 						"access_rules": [ 
+//							Ferenia Map Station
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Navigation Station
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station North
 							"{fnav, morph, pbomb}",
 							"space, @tech/laybomb",
-							"{@area/daieasfer, morph, @tech/shutter, speed, screw, [gravity], @lock/$OpenPlasma}",
-							"@area/daieasfer, morph, @tech/shutter, speed, screw, [gravity], @lock/$OpenPlasma, @tech/laybomb"
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station Southeast
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - East Transport to Ferenia
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+							"{@area/daieasfer, morph, @tech/shutter, speed, screw, [gravity], @lock/plasmadoor}",
+							"@area/daieasfer, morph, @tech/shutter, speed, screw, [gravity], @lock/plasmadoor, @tech/laybomb"
+//							Dairon - West Transport to Ferenia
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Ferenia
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Hanubia - Transport to Ferenia
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Cyan Telepor to Ferenia
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",
 						],
 						"item_count": 1
 					}
@@ -971,7 +653,25 @@
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
 						"access_rules": [ 
-							"@area/ghatrafer, diffusion, $OpenCharge, magnet, space, @tech/laybomb, speed"
+//							Ferenia Map Station
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Navigation Station
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station North
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station Southeast
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - East Transport to Ferenia
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - West Transport to Ferenia
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Ferenia
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+							"@area/ghatrafer, diffusion, charge, magnet, space, @tech/laybomb, speed"
+//							Hanubia - Transport to Ferenia
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Cyan Telepor to Ferenia
+//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",
 						],
 						"item_count": 1
 					}
@@ -1003,8 +703,26 @@
 						"chest_unopened_img": "images/energypart.png",
 						"capture_item": true,
 						"access_rules": [ 
+//							Ferenia Map Station
+//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Navigation Station
+//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station North
+//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							Ferenia Save Station Southeast
+//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							Dairon - East Transport to Ferenia
+//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
 							"@area/daieasfer, @tech/laybomb, @tech/ibj",
-							"@area/daieasfer, @tech/laybomb, @tech/advwall"
+							"@area/daieasfer, @tech/laybomb, @move/advwall"
+//							Dairon - West Transport to Ferenia
+//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							Ghavoran - Transport to Ferenia
+//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Hanubia - Transport to Ferenia
+// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia - Cyan Telepor to Ferenia
+//							"burcyafer, [DoorRestrictions], 
 						],
 						"item_count": 1
 					},

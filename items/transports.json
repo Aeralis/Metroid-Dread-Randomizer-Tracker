@@ -8,152 +8,152 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/artthermal.png",
+			"img": "images/transports/overartthe.png",
 			"codes": "artthermal"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overartgrapple.png",
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-artgrapple"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overartscrew.png",
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-artscrew"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overburlower.png",
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-burlower"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overburseabrid.png",
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-burseabrid"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overbursubmari.png",
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-bursubmari"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overburupper.png",
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-burupper"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overcatcentral.png",
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-catcentral"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overcatexperim.png",
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-catexperim"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overdaidnastat.png",
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-daidnastat"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overdaientranc.png",
-			"codes": "artthermal-dnaentranc"
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
+			"codes": "artthermal-daientranc"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overdaifreezer.png",
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-daifreezer"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overdaigrapple.png",
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-daigrapple"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overdaiseabrid.png",
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-daiseabrid"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overdaisubmari.png",
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-daisubmari"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overdasuperhe.png",
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-daisuperhe"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overeelun.png",
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-eelun"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overfercentral.png",
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-fercentral"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overfermaingat.png",
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-fermaingat"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overferqrenter.png",
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-ferqrenter"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overferqrexit.png",
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-ferqrexit"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overghaearlysu.png",
-			"codes": "artthermal-artgrapple"
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
+			"codes": "artthermal-ghaearlysu"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overghaflipper.png",
-			"codes": "artthermal-artgrapple"
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
+			"codes": "artthermal-ghaflipper"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overghagolzuna.png",
-			"codes": "artthermal-artgrapple"
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
+			"codes": "artthermal-ghagolzuna"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overgharobot.png",
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-gharobot"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overghastormga.png",
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-ghastormga"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overhanelitech.png",
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-hanelitech"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overhanemmi.png",
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-hanemmi"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overhanbridge.png",
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-hanbridge"
 		},
 		{
-			"img": "images/transports/artthermal.png",
-			"img_mods": "overlay|images/transports/overitotranspo.png",
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overartthe.png",
 			"codes": "artthermal-itotranspo"
 		}
 		]
@@ -165,152 +165,152 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/artgrapple.png",
+			"img": "images/transports/overartgra.png",
 			"codes": "artgrapple"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overartthermal.png",
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-artthermal"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overartscrew.png",
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-artscrew"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overburlower.png",
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-burlower"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overburseabrid.png",
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-burseabrid"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overbursubmari.png",
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-bursubmari"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overburupper.png",
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-burupper"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overcatcentral.png",
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-catcentral"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overcatexperim.png",
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-catexperim"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overdaidnastat.png",
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-daidnastat"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overdaientranc.png",
-			"codes": "artgrapple-dnaentranc"
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
+			"codes": "artgrapple-daientranc"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overdaifreezer.png",
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-daifreezer"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overdaigrapple.png",
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-daigrapple"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overdaiseabrid.png",
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-daiseabrid"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overdaisubmari.png",
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-daisubmari"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overdasuperhe.png",
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-daisuperhe"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overeelun.png",
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-eelun"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overfercentral.png",
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-fercentral"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overfermaingat.png",
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-fermaingat"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overferqrenter.png",
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-ferqrenter"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overferqrexit.png",
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-ferqrexit"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overghaearlysu.png",
-			"codes": "artgrapple-artgrapple"
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
+			"codes": "artgrapple-ghaearlysu"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overghaflipper.png",
-			"codes": "artgrapple-artgrapple"
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
+			"codes": "artgrapple-ghaflipper"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overghagolzuna.png",
-			"codes": "artgrapple-artgrapple"
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
+			"codes": "artgrapple-ghagolzuna"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overgharobot.png",
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-gharobot"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overghastormga.png",
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-ghastormga"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overhanelitech.png",
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-hanelitech"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overhanemmi.png",
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-hanemmi"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overhanbridge.png",
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-hanbridge"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overitotranspo.png",
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overartgra.png",
 			"codes": "artgrapple-itotranspo"
 		}
 		]
@@ -322,153 +322,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/ascrewat.png",
-			"codes": "ascrewat"
+			"img": "images/transports/overartscr.png",
+			"codes": "artscrewat"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-artthermal"
 		},
 		{
 			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overartthermal.png",
-			"codes": "artgrapple-artthermal"
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-artgrapple"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overartscrew.png",
-			"codes": "artgrapple-artscrew"
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-burlower"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overburlower.png",
-			"codes": "artgrapple-burlower"
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-burseabrid"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overburseabrid.png",
-			"codes": "artgrapple-burseabrid"
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-bursubmari"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overbursubmari.png",
-			"codes": "artgrapple-bursubmari"
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-burupper"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overburupper.png",
-			"codes": "artgrapple-burupper"
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-catcentral"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overcatcentral.png",
-			"codes": "artgrapple-catcentral"
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-catexperim"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overcatexperim.png",
-			"codes": "artgrapple-catexperim"
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-daidnastat"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overdaidnastat.png",
-			"codes": "artgrapple-daidnastat"
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-daientranc"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overdaientranc.png",
-			"codes": "artgrapple-dnaentranc"
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-daifreezer"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overdaifreezer.png",
-			"codes": "artgrapple-daifreezer"
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-daigrapple"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overdaigrapple.png",
-			"codes": "artgrapple-daigrapple"
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-daiseabrid"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overdaiseabrid.png",
-			"codes": "artgrapple-daiseabrid"
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-daisubmari"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overdaisubmari.png",
-			"codes": "artgrapple-daisubmari"
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-daisuperhe"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overdasuperhe.png",
-			"codes": "artgrapple-daisuperhe"
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-eelun"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overeelun.png",
-			"codes": "artgrapple-eelun"
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-fercentral"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overfercentral.png",
-			"codes": "artgrapple-fercentral"
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-fermaingat"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overfermaingat.png",
-			"codes": "artgrapple-fermaingat"
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-ferqrenter"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overferqrenter.png",
-			"codes": "artgrapple-ferqrenter"
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-ferqrexit"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overferqrexit.png",
-			"codes": "artgrapple-ferqrexit"
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-ghaearlysu"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overghaearlysu.png",
-			"codes": "artgrapple-artgrapple"
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-ghaflipper"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overghaflipper.png",
-			"codes": "artgrapple-artgrapple"
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-ghagolzuna"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overghagolzuna.png",
-			"codes": "artgrapple-artgrapple"
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-gharobot"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overgharobot.png",
-			"codes": "artgrapple-gharobot"
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-ghastormga"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overghastormga.png",
-			"codes": "artgrapple-ghastormga"
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-hanelitech"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overhanelitech.png",
-			"codes": "artgrapple-hanelitech"
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-hanemmi"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overhanemmi.png",
-			"codes": "artgrapple-hanemmi"
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-hanbridge"
 		},
 		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overhanbridge.png",
-			"codes": "artgrapple-hanbridge"
-		},
-		{
-			"img": "images/transports/artgrapple.png",
-			"img_mods": "overlay|images/transports/overitotranspo.png",
-			"codes": "artgrapple-itotranspo"
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overartscr.png",
+			"codes": "artscrewat-itotranspo"
 		}
 		]
 	},
@@ -482,8 +482,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/blower.png",
-			"codes": "blower"
+			"img": "images/transports/overburlow.png",
+			"codes": "burlower"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-artscrew"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overburlow.png",
+			"codes": "burlower-itotranspo"
 		}
 		]
 	},
@@ -494,8 +639,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/bseabrid.png",
-			"codes": "bseabrid"
+			"img": "images/transports/overbursea.png",
+			"codes": "burseabrid"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-burlower"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-bursubmari"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overbursea.png",
+			"codes": "burseabrid-itotranspo"
 		}
 		]
 	},
@@ -506,8 +796,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/bsubmari.png",
-			"codes": "bsubmari"
+			"img": "images/transports/overbursub.png",
+			"codes": "bursubmari"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-burseabrid"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overbursub.png",
+			"codes": "bursubmari-itotranspo"
 		}
 		]
 	},
@@ -518,8 +953,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/bupper.png",
-			"codes": "bupper"
+			"img": "images/transports/overburupp.png",
+			"codes": "burupper"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-bursubmari"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overburupp.png",
+			"codes": "burupper-itotranspo"
 		}
 		]
 	},
@@ -533,8 +1113,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/ccentral.png",
-			"codes": "ccentral"
+			"img": "images/transports/overcatcen.png",
+			"codes": "catcentral"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-burupper"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overcatcen.png",
+			"codes": "catcentral-itotranspo"
 		}
 		]
 	},
@@ -545,8 +1270,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/cexperim.png",
-			"codes": "cexperim"
+			"img": "images/transports/overcatexp.png",
+			"codes": "catexperim"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-catcentral"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overcatexp.png",
+			"codes": "catexperim-itotranspo"
 		}
 		]
 	},
@@ -560,8 +1430,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/ddnastat.png",
-			"codes": "ddnastat"
+			"img": "images/transports/overdaidna.png",
+			"codes": "daidnastat"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-catexperim"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overdaidna.png",
+			"codes": "daidnastat-itotranspo"
 		}
 		]
 	},
@@ -572,8 +1587,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/dentranc.png",
-			"codes": "dentranc"
+			"img": "images/transports/overdaient.png",
+			"codes": "daientranc"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-daidnastat"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overdaient.png",
+			"codes": "daientranc-itotranspo"
 		}
 		]
 	},
@@ -584,8 +1744,158 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/dfreezer.png",
-			"codes": "dfreezer"
+			"img": "images/transports/overdaifre.png",
+			"codes": "daifreezer"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-hanelitech"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overdaifre.png",
+			"codes": "daifreezer-itotranspo"
 		}
 		]
 	},
@@ -596,8 +1906,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/dgrapple.png",
-			"codes": "dgrapple"
+			"img": "images/transports/overdaigra.png",
+			"codes": "daigrapple"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-daifreezer"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overdaigra.png",
+			"codes": "daigrapple-itotranspo"
 		}
 		]
 	},
@@ -608,8 +2063,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/dseabrid.png",
-			"codes": "dseabrid"
+			"img": "images/transports/overdaisea.png",
+			"codes": "daiseabrid"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-daigrapple"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overdaisea.png",
+			"codes": "daiseabrid-itotranspo"
 		}
 		]
 	},
@@ -620,8 +2220,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/dsubmari.png",
-			"codes": "dsubmari"
+			"img": "images/transports/overdaisub.png",
+			"codes": "daisubmari"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overdaisub.png",
+			"codes": "daisubmari-itotranspo"
 		}
 		]
 	},
@@ -632,8 +2377,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/dsuperhe.png",
-			"codes": "dsuperhe"
+			"img": "images/transports/overdaisup.png",
+			"codes": "daisuperhe"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-daisubmari"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overdaisup.png",
+			"codes": "daisuperhe-itotranspo"
 		}
 		]
 	},
@@ -648,8 +2538,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/eelun.png",
+			"img": "images/transports/overelu.png",
 			"codes": "eelun"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-daisuperhe"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overelu.png",
+			"codes": "eelun-itotranspo"
 		}
 		]
 	},
@@ -663,8 +2698,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/fcentral.png",
-			"codes": "fcentral"
+			"img": "images/transports/overfercen.png",
+			"codes": "fercentral"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-eelun"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overfercen.png",
+			"codes": "fercentral-itotranspo"
 		}
 		]
 	},
@@ -675,8 +2855,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/fmaingat.png",
-			"codes": "fmaingat"
+			"img": "images/transports/overfermai.png",
+			"codes": "fermaingat"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-fercentral"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overfermai.png",
+			"codes": "fermaingat-itotranspo"
 		}
 		]
 	},
@@ -687,8 +3012,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/fqrenter.png",
-			"codes": "fqrenter"
+			"img": "images/transports/overferent.png",
+			"codes": "ferqrenter"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overferent.png",
+			"codes": "ferqrenter-itotranspo"
 		}
 		]
 	},
@@ -699,8 +3169,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/fqrexit.png",
-			"codes": "fqrexit"
+			"img": "images/transports/overferexi.png",
+			"codes": "ferqrexit"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-ferqrenter"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overferexi.png",
+			"codes": "ferqrexit-itotranspo"
 		}
 		]
 	},
@@ -714,8 +3329,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/gearlysu.png",
-			"codes": "gearlysu"
+			"img": "images/transports/overghaear.png",
+			"codes": "ghaearlysu"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overghaear.png",
+			"codes": "ghaearlysu-itotranspo"
 		}
 		]
 	},
@@ -726,8 +3486,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/gflipper.png",
-			"codes": "gflipper"
+			"img": "images/transports/overghafli.png",
+			"codes": "ghaflipper"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overghafli.png",
+			"codes": "ghaflipper-itotranspo"
 		}
 		]
 	},
@@ -738,8 +3643,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/ggolzuna.png",
-			"codes": "ggolzuna"
+			"img": "images/transports/overghagol.png",
+			"codes": "ghagolzuna"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-ghaflipper"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overghagol.png",
+			"codes": "ghagolzuna-itotranspo"
 		}
 		]
 	},
@@ -750,8 +3800,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/grobot.png",
-			"codes": "grobot"
+			"img": "images/transports/overgharob.png",
+			"codes": "gharobot"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-ghagolzuna"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overgharob.png",
+			"codes": "gharobot-itotranspo"
 		}
 		]
 	},
@@ -762,8 +3957,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/gstormga.png",
-			"codes": "gstormga"
+			"img": "images/transports/overghasto.png",
+			"codes": "ghastormga"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-gharobot"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overghasto.png",
+			"codes": "ghastormga-itotranspo"
 		}
 		]
 	},
@@ -771,14 +4111,316 @@
 	// Hanubia To:
 		// Ferenia, Ghavoran, Itorash
 	{
+		"name": "Hanubia - Bridge",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/transports/overhanbri.png",
+			"codes": "hanbridge"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-ghastormga"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overhanbri.png",
+			"codes": "hanbridge-itotranspo"
+		}
+		]
+	},
+	{
 		"name": "Hanubia - Elite Chozo",
 		"type": "progressive",
 		"loop": true,
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/helitech.png",
-			"codes": "helitech"
+			"img": "images/transports/overhaneli.png",
+			"codes": "hanelitech"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-hanbridge"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-hanemmi"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overhaneli.png",
+			"codes": "hanelitech-itotranspo"
 		}
 		]
 	},
@@ -789,20 +4431,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/hemmi.png",
-			"codes": "hemmi"
-		}
-		]
-	},
-	{
-		"name": "Hanubia - Bridge",
-		"type": "progressive",
-		"loop": true,
-		"allow_disabled": false,
-		"stages": [
+			"img": "images/transports/overhanemm.png",
+			"codes": "hanemmi"
+		},
 		{
-			"img": "images/transports/hbridge.png",
-			"codes": "hbridge"
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-hanelitech"
+		},
+		{
+			"img": "images/transports/itotranspo.png",
+			"img_mods": "overlay|images/transports/overhanemm.png",
+			"codes": "hanemmi-itotranspo"
 		}
 		]
 	},
@@ -816,8 +4591,153 @@
 		"allow_disabled": false,
 		"stages": [
 		{
-			"img": "images/transports/itranspo.png",
-			"codes": "itranspo"
+			"img": "images/transports/overito.png",
+			"codes": "itotranspo"
+		},
+		{
+			"img": "images/transports/artthermal.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-artthermal"
+		},
+		{
+			"img": "images/transports/artgrapple.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-artgrapple"
+		},
+		{
+			"img": "images/transports/artscrew.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-artscrew"
+		},
+		{
+			"img": "images/transports/burlower.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-burlower"
+		},
+		{
+			"img": "images/transports/burseabrid.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-burseabrid"
+		},
+		{
+			"img": "images/transports/bursubmari.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-bursubmari"
+		},
+		{
+			"img": "images/transports/burupper.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-burupper"
+		},
+		{
+			"img": "images/transports/catcentral.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-catcentral"
+		},
+		{
+			"img": "images/transports/catexperim.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-catexperim"
+		},
+		{
+			"img": "images/transports/daidnastat.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-daidnastat"
+		},
+		{
+			"img": "images/transports/daientranc.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-daientranc"
+		},
+		{
+			"img": "images/transports/daifreezer.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-daifreezer"
+		},
+		{
+			"img": "images/transports/daigrapple.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-daigrapple"
+		},
+		{
+			"img": "images/transports/daiseabrid.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-daiseabrid"
+		},
+		{
+			"img": "images/transports/daisubmari.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-daisubmari"
+		},
+		{
+			"img": "images/transports/daisuperhe.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-daisuperhe"
+		},
+		{
+			"img": "images/transports/eelun.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-eelun"
+		},
+		{
+			"img": "images/transports/fercentral.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-fercentral"
+		},
+		{
+			"img": "images/transports/fermaingat.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-fermaingat"
+		},
+		{
+			"img": "images/transports/ferqrenter.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-ferqrenter"
+		},
+		{
+			"img": "images/transports/ferqrexit.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-ferqrexit"
+		},
+		{
+			"img": "images/transports/ghaearlysu.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-ghaearlysu"
+		},
+		{
+			"img": "images/transports/ghaflipper.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-ghaflipper"
+		},
+		{
+			"img": "images/transports/ghagolzuna.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-ghagolzuna"
+		},
+		{
+			"img": "images/transports/gharobot.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-gharobot"
+		},
+		{
+			"img": "images/transports/ghastormga.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-ghastormga"
+		},
+		{
+			"img": "images/transports/hanbridge.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-hanbridge"
+		},
+		{
+			"img": "images/transports/hanelitech.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-hanelitech"
+		},
+		{
+			"img": "images/transports/hanemmi.png",
+			"img_mods": "overlay|images/transports/overito.png",
+			"codes": "itotranspo-hanemmi"
 		}
 		]
 	}
