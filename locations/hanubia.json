@@ -32,18 +32,18 @@
 						"caputre_item": true,
 						"access_rules": [
 //							Hanubia Navigation Station
-//							"hnav, [DoorRestrictions], [ItemRestrictions]",
-							"hnav, @tech/laybomb",
+//							"$IsStart|han|nav|c, $Open[DoorType], [ItemRestrictions]",
+							"$IsStart|han|nav|c, @tech/laybomb",
 //							Ferenia - Transport to Hanubia
-//							"@area/fertrahan, [DoorRestrictions], [ItemRestrictions]",
-							"@area/fertrahan, screw, @tech/laybomb",
+//							"@area/fertrahan, $Open[DoorType], [ItemRestrictions]",
+							"@area/fertrahan, @tech/laybomb, @tech/ibj, screw",
 //							Ghavoran - Transport to Hanubia
-//							"@area/ghatrahan, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/ghatrahan, $Open[DoorType], [ItemRestrictions]",
 							"@area/ghatrahan, @tech/laybomb",
 //							Itorash - Transport to Hanubia
-//							"itotrahan, [DoorRestrictions], [ItemRestrictions]",
-							"itotrahan, @tech/laybomb, speed, pbomb",
-							"itotrahan, @tech/laybomb, screw, pbomb"
+//							"@area/itotrahan, $Open[DoorType], [ItemRestrictions]",
+							"@area/itotrahan, speed, @tech/laybomb, pbomb",
+							"@area/itotrahan, screw, @tech/laybomb, pbomb"
 					],
 						"item_count": 1
 					}
@@ -76,19 +76,19 @@
 						"capture_item": true,
 						"access_rules": [
 //							Hanubia Navigation Station
-//							"hnav, [DoorRestrictions], [ItemRestrictions]",
-							"hnav, @lock/wavedoor,@tech/laybomb",
+//							"$IsStart|han|nav|c, $Open[DoorType], [ItemRestrictions]",
+							"$IsStart|han|nav|c, $OpenWave, @tech/laybomb",
 //							Ferenia - Transport to Hanubia
-//							"@area/fertrahan, [DoorRestrictions], [ItemRestrictions]",
-							"@area/fertrahan, @lock/wavedoor, screw, spin",
-							"@area/fertrahan, @lock/wavedoor, screw, morph, bomb, [cross]",
+//							"@area/fertrahan, $Open[DoorType], [ItemRestrictions]",
+							"@area/fertrahan, $OpenWave, screw, space",
+							"@area/fertrahan, $OpenWave, screw, @tech/ibj",
 //							Ghavoran - Transport to Hanubia
-//							"@area/ghatrahan, [DoorRestrictions], [ItemRestrictions]",
-							"@area/ghatrahan, @lock/wavedoor, @tech/laybomb",
+//							"@area/ghatrahan, $Open[DoorType], [ItemRestrictions]",
+							"@area/ghatrahan, $OpenWave, @tech/laybomb",
 //							Itorash - Transport to Hanubia
-//							"itotrahan, [DoorRestrictions], [ItemRestrictions]",
-							"itotrahan, @lock/wavedoor, screw, morph, pbomb",
-							"itotrahan, @lock/wavedoor, speed, morph, pbomb"
+//							"@area/itotrahan, $Open[DoorType], [ItemRestrictions]",
+							"@area/itotrahan, $OpenWave, speed, @tech/laybomb, pbomb",
+							"@area/itotrahan, $OpenWave, screw, @tech/laybomb, pbomb"
 							],
 						"item_count": 1
 					},
@@ -98,20 +98,7 @@
 						"capture_item": false,
 						"hosted_item": "emmi7",
 						"access_rules": [ 
-//							Hanubia Navigation Station
-//							"hnav, [DoorRestrictions], [ItemRestrictions]",
-							"hnav, @lock/wavedoor,@tech/laybomb",
-//							Ferenia - Transport to Hanubia
-//							"@area/fertrahan, [DoorRestrictions], [ItemRestrictions]",
-							"@area/fertrahan, @lock/wavedoor, screw, spin",
-							"@area/fertrahan, @lock/wavedoor, screw, morph, bomb, [cross]",
-//							Ghavoran - Transport to Hanubia
-//							"@area/ghatrahan, [DoorRestrictions], [ItemRestrictions]",
-							"@area/ghatrahan, @lock/wavedoor, @tech/laybomb",
-//							Itorash - Transport to Hanubia
-//							"itotrahan, [DoorRestrictions], [ItemRestrictions]",
-							"itotrahan, @lock/wavedoor, screw, morph, pbomb",
-							"itotrahan, @lock/wavedoor, speed, morph, pbomb"
+							"morph, pbomb"
 						],
 						"item_count": 0
 					}
@@ -144,18 +131,18 @@
 						"caputre_item": true,
 						"access_rules": [ 
 //							Hanubia Navigation Station
-//							"hnav, [DoorRestrictions], [ItemRestrictions]",
-							"hnav, @lock/wavedoor, @tech/laybomb, speed",
+//							"$IsStart|han|nav|c, $Open[DoorType], [ItemRestrictions]",
+							"$IsStart|han|nav|c, $OpenWave, @tech/laybomb, speed",
 //							Ferenia - Transport to Hanubia
-//							"@area/fertrahan, [DoorRestrictions], [ItemRestrictions]",
-							"@area/fertrahan, @lock/wavedoor, screw, spin",
-							"@area/fertrahan, @lock/wavedoor, screw, morph, bomb, [cross]",
+//							"@area/fertrahan, $Open[DoorType], [ItemRestrictions]",
+							"@area/fertrahan, $OpenWave, screw, space, @tech/laybomb, speed",
+							"@area/fertrahan, $OpenWave, screw, @tech/ibj, speed",
 //							Ghavoran - Transport to Hanubia
-//							"@area/ghatrahan, [DoorRestrictions], [ItemRestrictions]",
-							"@area/ghatrahan, @lock/wavedoor, @tech/laybomb, speed",
+//							"@area/ghatrahan, $Open[DoorType], [ItemRestrictions]",
+							"@area/ghatrahan, $OpenWave, @tech/laybomb, speed",
 //							Itorash - Transport to Hanubia
-//							"itotrahan, [DoorRestrictions], [ItemRestrictions]",
-							"itotrahan, @lock/wavedoor, morph, pbomb, speed"
+//							"@area/itotrahan, $Open[DoorType], [ItemRestrictions]",
+							"@area/itotrahan, $OpenWave, speed, @tech/laybomb, pbomb"
 						],
 						"item_count": 1
 					}
@@ -186,25 +173,23 @@
 						"name": "Missile Pack",
 						"chest_unopened_img": "images/missilepack.png",
 						"caputre_item": true,
-						"access_rules": [ 
+						"access_rules": [
 //							Hanubia Navigation Station
-//							"hnav, [DoorRestrictions], [ItemRestrictions]",
-							"hnav, @lock/wavedoor, morph, pbomb, space, screw",
-							"hnav, @lock/wavedoor, morph, pbomb, speed",
-							"hnav, @lock/wavedoor, @tech/ibj, pbomb, screw",
+//							"$IsStart|han|nav|c, $Open[DoorType], [ItemRestrictions]",
+							"$IsStart|han|nav|c, morph, pbomb, speed",
+							"$IsStart|han|nav|c, morph, pbomb, space, screw",
 //							Ferenia - Transport to Hanubia
-//							"@area/fertrahan, [DoorRestrictions], [ItemRestrictions]",
-							"@area/fertrahan, @lock/wavedoor, @tech/laybomb, pbomb, space, screw",
-							"@area/fertrahan, @lock/wavedoor, @tech/laybomb, pbomb, speed, spin, screw",
-							"@area/fertrahan, @lock/wavedoor, @tech,ibj, pbomb, screw",
+//							"@area/fertrahan, $Open[DoorType], [ItemRestrictions]",
+							"@area/fertrahan, @tech/ibj, pbomb, speed, screw",
+							"@area/fertrahan, morph, pbomb, space, screw",
 //							Ghavoran - Transport to Hanubia
-//							"@area/ghatrahan, [DoorRestrictions], [ItemRestrictions]",
-							"noentrance, @lock/wavedoor, @tech/laybomb, pbomb, speed",
-							"noentrance, @lock/wavedoor, @tech/laybomb, pbomb, space, screw",
-							"noentrance, @lock/wavedoor, @tech/ibj, pbomb, screw",
+//							"@area/ghatrahan, $Open[DoorType], [ItemRestrictions]",
+							"@area/ghatrahan, morph, pbomb, speed",
+							"@area/ghatrahan, morph, pbomb, space, screw",
 //							Itorash - Transport to Hanubia
-//							"itotrahan, [DoorRestrictions], [ItemRestrictions]",
-							"itotrahan, morph"
+//							"@area/itotrahan, $Open[DoorType], [ItemRestrictions]",
+							"{@area/itotrahan}",
+							"@area/itotrahan, morph"
 						],
 						"item_count": 1
 					}

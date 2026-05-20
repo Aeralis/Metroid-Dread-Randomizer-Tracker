@@ -34,15 +34,15 @@
 						"access_rules": [ 							
 //						No Start Shuffle
 //						"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"{$IsStart|art|int|c}",
-							"$IsStart|art|int|c, morph",
+							"{$IsStart|art|int|c, $OpenAccess}",
+							"$IsStart|art|int|c, $OpenAccess, morph",
 //							Artaria Map Room
 //							"$IsStart|art|map|c, [DoorRestrictions], [ItemRestrictions]",
 							"{$IsStart|art|map|c, @tech/wideblock, apump}",
-							"{$IsStart|art|map|c, @move/advwall, grapple}",
-							"{$IsStart|art|map|c, @move/advwall, magnet}",
+							"{$IsStart|art|map|c, @tech/advwall, grapple}",
+							"{$IsStart|art|map|c, @tech/advwall, magnet}",
 							"{$IsStart|art|map|c, speed}",
-							"{$IsStart|art|map|c, gravity, @move/advwall}",
+							"{$IsStart|art|map|c, gravity, @tech/advwall}",
 							"$IsStart|art|map|c, morph",
 //							Artaria Navigation North
 //							"$IsStart|art|nav|n, [DoorRestrictions], [ItemRestrictions]",
@@ -63,9 +63,9 @@
 //							Artaria Save West
 //							"$IsStart|art|sav|w, [DoorRestrictions], [ItemRestrictions]",
 							"{$IsStart|art|sav|w, @tech/wideblock, apump}",
-							"{$IsStart|art|sav|w, @move/advwall, grapple}",
-							"{$IsStart|art|sav|w, @move/advwall, magnet}",
-							"{$IsStart|art|sav|w, @move/advwall, gravity}",
+							"{$IsStart|art|sav|w, @tech/advwall, grapple}",
+							"{$IsStart|art|sav|w, @tech/advwall, magnet}",
+							"{$IsStart|art|sav|w, @tech/advwall, gravity}",
 							"{$IsStart|art|sav|w, speed}",
 							"$IsStart|art|sav|w, morph",
 //							Dairon Transport to Artaria
@@ -81,16 +81,16 @@
 							"@area/cattraart, vlock, @tech/laybomb",
 //							"@area/catredart, [DoorRestrictions], vlock, diffusion, [ItemRestrictions]",
 							"{@area/cattraart, vlock, diffusion, @tech/wideblock, apump}",
-							"{@area/cattraart, vlock, diffusion, @move/advwall, grapple}",
-							"{@area/cattraart, vlock, diffusion, @move/advwall, magnet}",
-							"{@area/cattraart, vlock, diffusion, @move/advwall, gravity}",
+							"{@area/cattraart, vlock, diffusion, @tech/advwall, grapple}",
+							"{@area/cattraart, vlock, diffusion, @tech/advwall, magnet}",
+							"{@area/cattraart, vlock, diffusion, @tech/advwall, gravity}",
 							"{@area/cattraart, vlock, diffusion, speed}",
 							"@area/cattraart, vlock, diffusion, morph",
 //							"@area/catredart, [DoorRestrictions], $novlock, [ItemRestrictions]",
 							"{@area/catredart, $novlock, @tech/wideblock, apump}",
-							"{@area/catredart, $novlock, @move/advwall, grapple}",
-							"{@area/catredart, $novlock, @move/advwall, magnet}",
-							"{@area/catredart, $novlock, @move/advwall, gravity}",
+							"{@area/catredart, $novlock, @tech/advwall, grapple}",
+							"{@area/catredart, $novlock, @tech/advwall, magnet}",
+							"{@area/catredart, $novlock, @tech/advwall, gravity}",
 							"@area/catredart, $novlock, morph",
 //							Cataris Blue Teleport to Artaria
 //							"@area/catbluart, grapple, morph, wave, [DoorRestrictions], [ItemRestrictions]",
@@ -112,11 +112,11 @@
 				]
 			},
 			{
-				"name": "charge Beam Access",
+				"name": "Charge Beam Access",
 				"access_rules": [ "" ],
 				"children": [
 				{
-					"name": "charge Beam Access",
+					"name": "Charge Beam Access",
 					"map_locations": [
 					{
 						"map": "fullmap",
@@ -202,13 +202,13 @@
 				]
 			},
 			{
-				"name": "charge Beam Room",
+				"name": "Charge Beam Room",
 				"access_rules": [ 
 				"" 
 				],
 				"children": [
 				{
-					"name": "charge Beam Room",
+					"name": "Charge Beam Room",
 					"map_locations": [
 					{
 						"map": "fullmap",
@@ -223,13 +223,14 @@
 					],
 					"sections": [
 					{
-						"name": "charge Beam",
+						"name": "Charge Beam",
 						"chest_unopened_img": "images/charge.png",
 						"capture_item": true,
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c",
+							"$IsStart|art|int|c, $OpenAccess",
+							"$IsStart|art|int|c, $OpenCharge",
 //							Artaria Map Room
 //							"$IsStart|art|map|c, [DoorRestrictions], [ItemRestrictions]",
 							"$IsStart|art|map|c",
@@ -281,7 +282,53 @@
 						"capture_item": false,
 						"hosted_item": "chadaction",
 						"access_rules": [ 
-						"charge",
+						"$OpenCharge",
+//							Start Not Shuffled
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, $OpenAccess, $OpenCharge",
+							"$IsStart|art|int|c, $OpenCharge",
+//							Artaria Map Room
+//							"$IsStart|art|map|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|map|c, $OpenCharge",
+//							Artaria Navigation North
+//							"$IsStart|art|nav|n, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|nav|n, $OpenCharge",
+//							Artaria Save East
+//							"$IsStart|art|sav|e, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|e, apump, $OpenCharge",
+//							Artaria Save North
+//							"$IsStart|art|sav|n, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|n, speed, $OpenCharge",
+//							Artaria Save South
+//							"$IsStart|art|sav|s, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|n, $OpenCharge",
+//							Artaria Save West
+//							"$IsStart|art|sav|w, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|w, $OpenCharge",
+//							Dairon Transport to Artaria
+//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
+							"@area/daitraart, speed, $OpenCharge",
+//							Cataris Transport to Artaria
+//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
+							"@area/cattraart, apump, $OpenCharge",
+//							Cataris Red Teleport to Artaria
+//							"@area/cattraart, [DoorRestrictions], vlock, @tech/laybomb, [ItemRestrictions]",
+							"@area/cattraart, vlock, @tech/laybomb, $OpenCharge",
+//							"@area/catredart, [DoorRestrictions], vlock, diffusion, [ItemRestrictions]",
+							"@area/cattraart, vlock, diffuison, $OpenCharge",
+//							"@area/catredart, [DoorRestrictions], $novlock, [ItemRestrictions]",
+							"@area/catredart, $novlock, $OpenCharge",
+//							Cataris Blue Teleport to Artaria
+//							"@area/catbluart, morph, grapple, wave, [DoorRestrictions], [ItemRestrictions]",
+							"@area/catbluart, morph, grapple, wave, $OpenCharge",
+//							Diaron Yellow Teleport to Artaria
+//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
+							"@area/daiyelart, wide, $OpenCharge",
+//							Burenia Transport to artaria
+//							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple, [DoorRestrictions], [ItemRestrictions]",
+							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple, $OpenCharge",
+//							"@area/burtraart, screw, gravity, morph, plasma, wave, [DoorRestrictions], [ItemRestrictions]",
+							"@area/burtraart, screw, gravity, morph, plasma, wave, $OpenCharge"
 							],
 						"item_count": 0
 					}
@@ -290,11 +337,11 @@
 				]
 			},
 			{
-				"name": "charge Tutorial",
+				"name": "Charge Tutorial",
 				"access_rules": [ "" ],
 				"children": [
 				{
-					"name": "charge Tutorial",
+					"name": "Charge Tutorial",
 					"map_locations": [
 					{
 						"map": "fullmap",
@@ -324,7 +371,7 @@
 							"$IsStart|art|nav|n, $OpenCharge",
 //							Artaria Save East
 //							"$IsStart|art|sav|e, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|sav|e, apump, charge, $OpenCharge",
+							"$IsStart|art|sav|e, apump, $OpenCharge",
 //							Artaria Save North
 //							"$IsStart|art|sav|n, [DoorRestrictions], [ItemRestrictions]",
 							"$IsStart|art|sav|n, speed, $OpenCharge",
@@ -339,12 +386,12 @@
 							"@area/daitraart, speed, $OpenCharge",
 //							Cataris Transport to Artaria
 //							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
-							"@area/cattraart, apump, charge, $OpenCharge",
+							"@area/cattraart, apump, $OpenCharge",
 //							Cataris Red Teleport to Artaria
 //							"@area/cattraart, [DoorRestrictions], vlock, @tech/laybomb, [ItemRestrictions]",
-							"@area/cattraart, vlock, @tech/laybomb, charge, $OpenCharge",
+							"@area/cattraart, vlock, @tech/laybomb, $OpenCharge",
 //							"@area/catredart, [DoorRestrictions], vlock, diffusion, [ItemRestrictions]",
-							"@area/cattraart, vlock, diffuison, charge, $OpenCharge",
+							"@area/cattraart, vlock, diffuison, $OpenCharge",
 //							"@area/catredart, [DoorRestrictions], $novlock, [ItemRestrictions]",
 							"@area/catredart, $novlock, $OpenCharge",
 //							Cataris Blue Teleport to Artaria
@@ -408,22 +455,22 @@
 							"$IsStart|art|map|c, @tech/wideblock, space, [diffusion]",
 							"$IsStart|art|map|c, @tech/wideblock, morph, pbomb, magnet",
 							"$IsStart|art|map|c, @tech/wideblock, morph, pbomb, [space]",
-							"$IsStart|art|map|c, @move/advwall, grapple, magnet",
-							"$IsStart|art|map|c, @move/advwall, grapple, [space], diffusion",
-							"$IsStart|art|map|c, @move/advwall, grapple, space, [diffusion]",
-							"$IsStart|art|map|c, @move/advwall, grapple, morph, pbomb, magnet",
-							"$IsStart|art|map|c, @move/advwall, grapple, morph, pbomb, [space]",
-							"$IsStart|art|map|c, @move/advwall, magnet",
+							"$IsStart|art|map|c, @tech/advwall, grapple, magnet",
+							"$IsStart|art|map|c, @tech/advwall, grapple, [space], diffusion",
+							"$IsStart|art|map|c, @tech/advwall, grapple, space, [diffusion]",
+							"$IsStart|art|map|c, @tech/advwall, grapple, morph, pbomb, magnet",
+							"$IsStart|art|map|c, @tech/advwall, grapple, morph, pbomb, [space]",
+							"$IsStart|art|map|c, @tech/advwall, magnet",
 							"$IsStart|art|map|c, speed, magnet",
 							"$IsStart|art|map|c, speed, [space], diffusion",
 							"$IsStart|art|map|c, speed, space, [diffusion]",
 							"$IsStart|art|map|c, speed, morph, pbomb, magnet",
 							"$IsStart|art|map|c, speed, morph, pbomb, [space]",
-							"$IsStart|art|map|c, gravity, @move/advwall, magnet",
-							"$IsStart|art|map|c, gravity, @move/advwall, [space], diffusion",
-							"$IsStart|art|map|c, gravity, @move/advwall, space, [diffusion]",
-							"$IsStart|art|map|c, gravity, @move/advwall, morph, pbomb, magnet",
-							"$IsStart|art|map|c, gravity, @move/advwall, morph, pbomb, [space]",
+							"$IsStart|art|map|c, gravity, @tech/advwall, magnet",
+							"$IsStart|art|map|c, gravity, @tech/advwall, [space], diffusion",
+							"$IsStart|art|map|c, gravity, @tech/advwall, space, [diffusion]",
+							"$IsStart|art|map|c, gravity, @tech/advwall, morph, pbomb, magnet",
+							"$IsStart|art|map|c, gravity, @tech/advwall, morph, pbomb, [space]",
 							"$IsStart|art|map|c, morph",
 //							Artaria Navigation North
 //							"$IsStart|art|nav|n, [DoorRestrictions], [ItemRestrictions]",
@@ -455,22 +502,22 @@
 							"$IsStart|art|sav|w, @tech/wideblock, space, [diffusion]",
 							"$IsStart|art|sav|w, @tech/wideblock, morph, pbomb, magnet",
 							"$IsStart|art|sav|w, @tech/wideblock, morph, pbomb, [space]",
-							"$IsStart|art|sav|w, @move/advwall, grapple, magnet",
-							"$IsStart|art|sav|w, @move/advwall, grapple, [space], diffusion",
-							"$IsStart|art|sav|w, @move/advwall, grapple, space, [diffusion]",
-							"$IsStart|art|sav|w, @move/advwall, grapple, morph, pbomb, magnet",
-							"$IsStart|art|sav|w, @move/advwall, grapple, morph, pbomb, [space]",
-							"$IsStart|art|sav|w, @move/advwall, magnet",
+							"$IsStart|art|sav|w, @tech/advwall, grapple, magnet",
+							"$IsStart|art|sav|w, @tech/advwall, grapple, [space], diffusion",
+							"$IsStart|art|sav|w, @tech/advwall, grapple, space, [diffusion]",
+							"$IsStart|art|sav|w, @tech/advwall, grapple, morph, pbomb, magnet",
+							"$IsStart|art|sav|w, @tech/advwall, grapple, morph, pbomb, [space]",
+							"$IsStart|art|sav|w, @tech/advwall, magnet",
 							"$IsStart|art|sav|w, speed, magnet",
 							"$IsStart|art|sav|w, speed, [space], diffusion",
 							"$IsStart|art|sav|w, speed, space, [diffusion]",
 							"$IsStart|art|sav|w, speed, morph, pbomb, magnet",
 							"$IsStart|art|sav|w, speed, morph, pbomb, [space]",
-							"$IsStart|art|sav|w, gravity, @move/advwall, magnet",
-							"$IsStart|art|sav|w, gravity, @move/advwall, [space], diffusion",
-							"$IsStart|art|sav|w, gravity, @move/advwall, space, [diffusion]",
-							"$IsStart|art|sav|w, gravity, @move/advwall, morph, pbomb, magnet",
-							"$IsStart|art|sav|w, gravity, @move/advwall, morph, pbomb, [space]",
+							"$IsStart|art|sav|w, gravity, @tech/advwall, magnet",
+							"$IsStart|art|sav|w, gravity, @tech/advwall, [space], diffusion",
+							"$IsStart|art|sav|w, gravity, @tech/advwall, space, [diffusion]",
+							"$IsStart|art|sav|w, gravity, @tech/advwall, morph, pbomb, magnet",
+							"$IsStart|art|sav|w, gravity, @tech/advwall, morph, pbomb, [space]",
 							"$IsStart|art|sav|w, morph",
 //							Dairon Transport to Artaria
 //							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
@@ -496,7 +543,99 @@
 						"capture_item": false,
 						"hosted_item": "corpius",
 						"access_rules": [ 
-							" cloakdoor",
+//							Start Not Shuffled
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, $OpenCloak, magnet",
+							"$IsStart|art|int|c, $OpenCloak, [space], diffusion",
+							"$IsStart|art|int|c, $OpenCloak, space, [diffusion]",
+							"$IsStart|art|int|c, $OpenCloak, morph, pbomb, magnet",
+							"$IsStart|art|int|c, $OpenCloak, morph, pbomb, [space]",
+//							Artaria Map Room
+//							"$IsStart|art|map|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|map|c, $OpenCloak, @tech/wideblock, magnet",
+							"$IsStart|art|map|c, $OpenCloak, @tech/wideblock, [space], diffusion",
+							"$IsStart|art|map|c, $OpenCloak, @tech/wideblock, space, [diffusion]",
+							"$IsStart|art|map|c, $OpenCloak, @tech/wideblock, morph, pbomb, magnet",
+							"$IsStart|art|map|c, $OpenCloak, @tech/wideblock, morph, pbomb, [space]",
+							"$IsStart|art|map|c, $OpenCloak, @tech/advwall, grapple, magnet",
+							"$IsStart|art|map|c, $OpenCloak, @tech/advwall, grapple, [space], diffusion",
+							"$IsStart|art|map|c, $OpenCloak, @tech/advwall, grapple, space, [diffusion]",
+							"$IsStart|art|map|c, $OpenCloak, @tech/advwall, grapple, morph, pbomb, magnet",
+							"$IsStart|art|map|c, $OpenCloak, @tech/advwall, grapple, morph, pbomb, [space]",
+							"$IsStart|art|map|c, $OpenCloak, @tech/advwall, magnet",
+							"$IsStart|art|map|c, $OpenCloak, speed, magnet",
+							"$IsStart|art|map|c, $OpenCloak, speed, [space], diffusion",
+							"$IsStart|art|map|c, $OpenCloak, speed, space, [diffusion]",
+							"$IsStart|art|map|c, $OpenCloak, speed, morph, pbomb, magnet",
+							"$IsStart|art|map|c, $OpenCloak, speed, morph, pbomb, [space]",
+							"$IsStart|art|map|c, $OpenCloak, gravity, @tech/advwall, magnet",
+							"$IsStart|art|map|c, $OpenCloak, gravity, @tech/advwall, [space], diffusion",
+							"$IsStart|art|map|c, $OpenCloak, gravity, @tech/advwall, space, [diffusion]",
+							"$IsStart|art|map|c, $OpenCloak, gravity, @tech/advwall, morph, pbomb, magnet",
+							"$IsStart|art|map|c, $OpenCloak, gravity, @tech/advwall, morph, pbomb, [space]",
+							"$IsStart|art|map|c, $OpenCloak, morph",
+//							Artaria Navigation North
+//							"$IsStart|art|nav|n, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|nav|n, $OpenCloak, magnet",
+							"$IsStart|art|nav|n, $OpenCloak, [space], diffusion",
+							"$IsStart|art|nav|n, $OpenCloak, space, [diffusion]",
+							"$IsStart|art|nav|n, $OpenCloak, morph, pbomb, magnet",
+							"$IsStart|art|nav|n, $OpenCloak, morph, pbomb, [space]",
+//							Artaria Save East
+//							"$IsStart|art|sav|e, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|nav|e, $OpenCloak, apump, magnet",
+							"$IsStart|art|nav|e, $OpenCloak, apump, [space], diffusion",
+							"$IsStart|art|nav|e, $OpenCloak, apump, space, [diffusion]",
+							"$IsStart|art|nav|e, $OpenCloak, apump, morph, pbomb, magnet",
+							"$IsStart|art|nav|e, $OpenCloak, apump, morph, pbomb, [space]",
+//							Artaria Save North
+//							"$IsStart|art|sav|n, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|n, $OpenCloak, speed, magnet",
+							"$IsStart|art|sav|n, $OpenCloak, speed, [space], diffusion",
+							"$IsStart|art|sav|n, $OpenCloak, speed, space, [diffusion]",
+							"$IsStart|art|sav|n, $OpenCloak, speed, morph, pbomb, magnet",
+							"$IsStart|art|sav|n, $OpenCloak, speed, morph, pbomb, [space]",
+//							Artaria Save South
+//							"$IsStart|art|sav|s, [DoorRestrictions], [ItemRestrictions]",
+//							Artaria Save West
+//							"$IsStart|art|sav|w, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|sav|w, $OpenCloak, @tech/wideblock, magnet",
+							"$IsStart|art|sav|w, $OpenCloak, @tech/wideblock, [space], diffusion",
+							"$IsStart|art|sav|w, $OpenCloak, @tech/wideblock, space, [diffusion]",
+							"$IsStart|art|sav|w, $OpenCloak, @tech/wideblock, morph, pbomb, magnet",
+							"$IsStart|art|sav|w, $OpenCloak, @tech/wideblock, morph, pbomb, [space]",
+							"$IsStart|art|sav|w, $OpenCloak, @tech/advwall, grapple, magnet",
+							"$IsStart|art|sav|w, $OpenCloak, @tech/advwall, grapple, [space], diffusion",
+							"$IsStart|art|sav|w, $OpenCloak, @tech/advwall, grapple, space, [diffusion]",
+							"$IsStart|art|sav|w, $OpenCloak, @tech/advwall, grapple, morph, pbomb, magnet",
+							"$IsStart|art|sav|w, $OpenCloak, @tech/advwall, grapple, morph, pbomb, [space]",
+							"$IsStart|art|sav|w, $OpenCloak, @tech/advwall, magnet",
+							"$IsStart|art|sav|w, $OpenCloak, speed, magnet",
+							"$IsStart|art|sav|w, $OpenCloak, speed, [space], diffusion",
+							"$IsStart|art|sav|w, $OpenCloak, speed, space, [diffusion]",
+							"$IsStart|art|sav|w, $OpenCloak, speed, morph, pbomb, magnet",
+							"$IsStart|art|sav|w, $OpenCloak, speed, morph, pbomb, [space]",
+							"$IsStart|art|sav|w, $OpenCloak, gravity, @tech/advwall, magnet",
+							"$IsStart|art|sav|w, $OpenCloak, gravity, @tech/advwall, [space], diffusion",
+							"$IsStart|art|sav|w, $OpenCloak, gravity, @tech/advwall, space, [diffusion]",
+							"$IsStart|art|sav|w, $OpenCloak, gravity, @tech/advwall, morph, pbomb, magnet",
+							"$IsStart|art|sav|w, $OpenCloak, gravity, @tech/advwall, morph, pbomb, [space]",
+							"$IsStart|art|sav|w, $OpenCloak, morph",
+//							Dairon Transport to Artaria
+//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris Transport to Artaria
+//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
+//							Cataris Red Teleport to Artaria
+//							"@area/cattraart, [DoorRestrictions], vlock, @tech/laybomb, [ItemRestrictions]",
+//							"@area/catredart, [DoorRestrictions], vlock, diffusion, [ItemRestrictions]",
+//							"@area/catredart, [DoorRestrictions], $novlock, [ItemRestrictions]",
+//							Cataris Blue Teleport to Artaria
+//							"@area/catbluart, grapple, morph, wave, [DoorRestrictions], [ItemRestrictions]",
+//							Diaron Yellow Teleport to Artaria
+//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
+//							Burenia Transport to artaria
+//							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/burtraart, screw, gravity, morph, plasma, wave, [DoorRestrictions], [ItemRestrictions]",
 							],
 						"item_count": 0
 					}
@@ -530,7 +669,7 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c, charge"
+							"$IsStart|art|int|c, $OpenAccess, $OpenCharge"
 							],
 						"item_count": 1
 					}
@@ -540,12 +679,7 @@
 			},
 			{
 				"name": "E.M.M.I.-02SM",
-				"access_rules": [
-//							Start Not Shuffled
-//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c, charge, apump",
-							"$IsStart|art|int|c, charge, wide"
-				],
+				"access_rules": [ "" ],
 				"children": [
 				{
 					"name": "E.M.M.I.-02SM",
@@ -566,7 +700,12 @@
 						"name": "Reward",
 						"chest_unopened_img": "images/dna.png",
 						"capture_item": true,
-						"access_rules": [ "" ],
+						"access_rules": [ 
+//							Start Not Shuffled
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, apump, $OpenCharge, $OpenAccess",
+							"$IsStart|art|int|c, $OpenAccess, @tech/wideblock"
+							],
 						"item_count": 1
 					},
 					{
@@ -575,8 +714,14 @@
 						"capture_item": false,
 						"hosted_item": "emmi2",
 						"access_rules": [ 
-								"magnet",
-								"@move/vert"
+//							Start Not Shuffled
+//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+							"$IsStart|art|int|c, apump, $OpenAccess, $OpenCharge, magnet",
+							"$IsStart|art|int|c, apump, $OpenAccess, $OpenCharge, @tech/vert",
+							"$IsStart|art|int|c, apump, $OpenAccess, $OpenCharge, @tech/advwall",
+							"$IsStart|art|int|c, $OpenAccess, @tech/wideblock, magnet",
+							"$IsStart|art|int|c, $OpenAccess, @tech/wideblock, @tech/vert",
+							"$IsStart|art|int|c, $OpenAccess, @tech/wideblock, @tech/advwall"
 						],
 						"item_count": 0
 					}
@@ -610,18 +755,12 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"{$IsStart|art|int|c, charge}",
-							"$IsStart|art|int|c, charge, gravity",
-							"$IsStart|art|int|c, charge, [varia], magnet",
-							"$IsStart|art|int|c, charge, [varia], space",
-							"$IsStart|art|int|c, charge, [varia], speed",
-							"$IsStart|art|int|c, charge, [varia], grapple",
-							"{$IsStart|art|int|c,  cloakdoor}",
-							"$IsStart|art|int|c,  cloakdoor, gravity",
-							"$IsStart|art|int|c,  cloakdoor, [varia], magnet",
-							"$IsStart|art|int|c,  cloakdoor, [varia], space",
-							"$IsStart|art|int|c,  cloakdoor, [varia], speed",
-							"$IsStart|art|int|c,  cloakdoor, [varia], grapple"
+							"{$IsStart|art|int|c, $OpenAccess, $OpenCharge}",
+							"$IsStart|art|int|c, $OpenAccess, $OpenCharge, gravity",
+							"$IsStart|art|int|c, $OpenAccess, $OpenCharge, varia, magnet",
+							"$IsStart|art|int|c, $OpenAccess, $OpenCharge, varia, space",
+							"$IsStart|art|int|c, $OpenAccess, $OpenCharge, varia, speed",
+							"$IsStart|art|int|c, $OpenAccess, $OpenCharge, varia, grapple",
 							],
 						"item_count": 1
 					}
@@ -724,8 +863,8 @@
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
 							"$IsStart|art|int|c, []",
-							"$IsStart|art|int|c, @move/advwall",
-							"$IsStart|art|int|c, @move/vert",
+							"$IsStart|art|int|c, @tech/advwall",
+							"$IsStart|art|int|c, @tech/vert",
 							"$IsStart|art|int|c, grapple",
 							"$IsStart|art|int|c, magnet"
 							],
@@ -761,11 +900,16 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"{$IsStart|art|int|c}",
-							"$IsStart|art|int|c, morph, flash",
-							"$IsStart|art|int|c, morph, grapple",
-							"$IsStart|art|int|c, morph,	magnet",
-							"$IsStart|art|int|c, morph, @move/vert"
+							"{$IsStart|art|int|c, $OpenAccess}",
+							"{$IsStart|art|int|c, @tech/advwall}",
+							"$IsStart|art|int|c, $OpenAccess, morph, flash",
+							"$IsStart|art|int|c, $OpenAccess, morph, grapple",
+							"$IsStart|art|int|c, $OpenAccess, morph, magnet",
+							"$IsStart|art|int|c, $OpenAccess, morph, @tech/vert",
+							"$IsStart|art|int|c, spin, morph, flash",
+							"$IsStart|art|int|c, @tech/advwall, morph, grapple",
+							"$IsStart|art|int|c, @tech/advwall, morph, magnet",
+							"$IsStart|art|int|c, morph, @tech/vert"
 							],
 						"item_count": 1
 					}
@@ -801,8 +945,8 @@
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
 							"{$IsStart|art|int|c, apump}",
 							"$IsStart|art|int|c, apump, grapple",
-							"{$IsStart|art|int|c, charge, wide}",
-							"$IsStart|art|int|c, charge, wide, grapple"
+							"{$IsStart|art|int|c, @tech/advwall, @tech/wideblock}",
+							"$IsStart|art|int|c, @tech/advwall, @tech/wideblock, grapple"
 							],
 						"item_count": 1
 					}
@@ -836,13 +980,13 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"{$IsStart|art|int|c}",
-							"$IsStart|art|int|c, flash",
-							"$IsStart|art|int|c, spin",
-							"$IsStart|art|int|c, magnet",
-							"$IsStart|art|int|c, speed",
-							"$IsStart|art|int|c, @move/vert",
-							"$IsStart|art|int|c, grapple"
+							"{$IsStart|art|int|c, $OpenAccess}",
+							"$IsStart|art|int|c, @tech/advwall",
+							"$IsStart|art|int|c, $OpenAccess, magnet",
+							"$IsStart|art|int|c, $OpenAccess, speed",
+							"$IsStart|art|int|c, $OpenAccess, @tech/vert",
+							"$IsStart|art|int|c, $OpenAccess, grapple",
+							"$IsStart|art|int|c, spin"
 							],
 						"item_count": 1
 					}
@@ -876,7 +1020,10 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c, [gravity]"
+							"$IsStart|art|int|c, $OpenAccess, [gravity]",
+							"$IsStart|art|int|c, @tech/advwall, [gravity]",
+							"$IsStart|art|int|c, $OpenCharge, @tech/laybomb, pbomb, speed, [gravity]",
+							"$IsStart|art|int|c, $OpenCharge, $OpenMissile, wave, [gravity]"
 						],
 						"item_count": 1
 					}
@@ -889,7 +1036,7 @@
 				"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c,  missiledoor, speed"
+							"$IsStart|art|int|c, $OpenMissile, speed"
 				],
 				"children": [
 				{
@@ -954,15 +1101,11 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"{$IsStart|art|int|c, charge}",
-							"$IsStart|art|int|c, charge, spin, [varia]",
-							"$IsStart|art|int|c, charge, morph, magnet, [varia]",
-							"$IsStart|art|int|c, charge, @move/vert, [varia]",
-							"$IsStart|art|int|c, charge, @move/advwall, [varia]",
-							"$IsStart|art|int|c,  cloakdoor, spin, [varia]",
-							"$IsStart|art|int|c,  cloakdoor, morph, magnet, [varia]",
-							"$IsStart|art|int|c,  cloakdoor, @move/vert, [varia]",
-							"$IsStart|art|int|c,  cloakdoor, @move/advwall, [varia]"
+							"{$IsStart|art|int|c, $OpenAccess, $OpenCharge}",
+							"$IsStart|art|int|c, $OpenAccess, $OpenCharge, spin, [varia]",
+							"$IsStart|art|int|c, $OpenAccess, $OpenCharge, morph, magnet, [varia]",
+							"$IsStart|art|int|c, $OpenAccess, $OpenCharge, @tech/vert, [varia]",
+							"$IsStart|art|int|c, $OpenAccess, $OpenCharge, @tech/advwall, [varia]",
 							],
 						"item_count": 1
 					}
@@ -996,7 +1139,7 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c"
+							"$IsStart|art|int|c, $OpenAccess"
 						],
 						"item_count": 1
 					}
@@ -1031,10 +1174,10 @@
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
 							"{$IsStart|art|int|c}",
-							"$IsStart|art|int|c, @move/vert, morph",
+							"$IsStart|art|int|c, @tech/vert, morph",
 							"$IsStart|art|int|c, speed, morph",
 							"$IsStart|art|int|c, @tech/ibj",
-							"$IsStart|art|int|c,  charge, @tech/laybomb"
+							"$IsStart|art|int|c,  $OpenCharge, @tech/laybomb"
 							],
 						"item_count": 1
 					}
@@ -1098,7 +1241,7 @@
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
 							"{$IsStart|art|int|c, morph, pbomb}",
 							"$IsStart|art|int|c, @tech/laybomb, spin",
-							"$IsStart|art|int|c, @tech/laybomb, @move/hori"
+							"$IsStart|art|int|c, @tech/laybomb, @tech/hori"
 							],
 						"item_count": 1
 					}
@@ -1131,12 +1274,12 @@
 						"capture_item": true,
 						"access_rules": [ 
 //							"gravity, grapple, @tech/laybomb, [diffusion], spin",
-//							"gravity, grapple, @tech/laybomb, [diffusion], @move/vert",
+//							"gravity, grapple, @tech/laybomb, [diffusion], @tech/vert",
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c, chargedoor, [gravity], diffusion, morph, bomb, space",
-							"$IsStart|art|int|c,  plasmadoor, wave, morph",
-							"$IsStart|art|int|c, chargedoor, gravity, diffusion, @tech/ibj"
+							"$IsStart|art|int|c, $OpenCharge, [gravity], diffusion, morph, bomb, space",
+							"$IsStart|art|int|c, $OpenPlasma, wave, morph",
+							"$IsStart|art|int|c, $OpenCharge, gravity, diffusion, @tech/ibj"
 							],
 						"item_count": 1
 					}
@@ -1164,10 +1307,14 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c, chargedoor, [gravity], diffusion, morph, bomb, spin, screw",
-							"$IsStart|art|int|c,  plasmadoor, wave, screw, morph",
-							"$IsStart|art|int|c,  plasmadoor, @tech/chute, screw, morph",
-							"$IsStart|art|int|c, chargedoor, diffusion, gravity, @tech/ibj, screw"
+							"{$IsStart|art|int|c, $OpenCharge, $OpenMissile, $OpenPlasma, wave}",
+							"{$IsStart|art|int|c, $OpenAccess, $OpenPlasma, wave}",
+							"$IsStart|art|int|c, $OpenCharge, $OpenMissile, $OpenPlasma, wave, morph, screw",
+							"$IsStart|art|int|c, $OpenAccess, $OpenPlasma, wave, morph, screw",
+							"$IsStart|art|int|c, $OpenCharge, [gravity], diffusion, morph, bomb, spin, screw",
+							"$IsStart|art|int|c, $OpenPlasma, wave, screw, morph",
+							"$IsStart|art|int|c, $OpenPlasma, @tech/chute, screw, morph",
+							"$IsStart|art|int|c, $OpenCharge, diffusion, gravity, @tech/ibj, screw"
 							],
 						"item_count": 1
 					}
@@ -1195,8 +1342,8 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c, chargedoor, @tech/laybomb, diffusion, [gravity]",
-							"$IsStart|art|int|c,  plasmadoor, wave, space, screw, [gravity], morph"
+							"$IsStart|art|int|c, $OpenCharge, @tech/laybomb, diffusion, [gravity]",
+							"$IsStart|art|int|c, $OpenPlasma, wave, space, screw, [gravity], morph"
 							],
 						"item_count": 1
 					}
@@ -1230,7 +1377,8 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c, charge, grapple, @tech/laybomb, speed"
+							"{$IsStart|art|int|c, apump, $OpenCharge, grapple, @tech/laybomb}",
+							"$IsStart|art|int|c, apump, $OpenCharge, grapple, @tech/laybomb, speed"
 						],
 						"item_count": 1
 					}
@@ -1264,8 +1412,12 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c, [gravity]",
-							"$IsStart|art|int|c, @tech/laybomb, pbomb, speed"
+							"$IsStart|art|int|c, $OpenAccess, [gravity]",
+							"$IsStart|art|int|c, $OpenAccess, @tech/laybomb, pbomb, speed",
+							"$IsStart|art|int|c, @tech/advwall, [gravity]",
+							"$IsStart|art|int|c, spin, @tech/laybomb, pbomb, speed",
+							"$IsStart|art|int|c, $OpenCharge, @tech/laybomb, pbomb, speed",
+							"$IsStart|art|int|c, $OpenCharge, $OpenMissile, wave, [gravity]"
 							],
 						"item_count": 1
 					}
@@ -1328,8 +1480,8 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"{$IsStart|art|int|c}",
-							"$IsStart|art|int|c, morph"
+							"{$IsStart|art|int|c, $OpenAccess}",
+							"$IsStart|art|int|c, $OpenAccess, morph"
 						],
 						"item_count": 1
 					}
@@ -1357,9 +1509,9 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"{$IsStart|art|int|c, morph, charge}",
-							"{$IsStart|art|int|c, charge,  superdoor}",
-							"$IsStart|art|int|c, charge,  superdoor, @tech/laybomb"
+							"{$IsStart|art|int|c, apump, morph, $OpenCharge}",
+							"{$IsStart|art|int|c, apump, charge, $OpenSuper}",
+							"$IsStart|art|int|c, apump, $OpenCharge, $OpenSuper, @tech/laybomb"
 						],
 						
 						"item_count": 1
@@ -1394,7 +1546,8 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c, charge"
+							"$IsStart|art|int|c, $OpenAccess, $OpenCharge",
+							"$IsStart|art|int|c, @tech/vert, $OpenWave, morph, $OpenCharge"
 							],
 						"item_count": 1
 					},
@@ -1406,7 +1559,7 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c, charge"
+							"$IsStart|art|int|c, $OpenAccess, $OpenCharge"
 							],
 						"item_count": 0
 					}
@@ -1441,9 +1594,9 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c, chargedoor,  missiledoor, morph, bomb, diffusion, space, screw, [gravity]",
-							"$IsStart|art|int|c,  plasmadoor,  missiledoor wave, screw, morph",
-							"$IsStart|art|int|c,  missiledoor, chargedoor, diffusion, gravity, @tech/ibj, screw"
+							"$IsStart|art|int|c, $OpenCharge,  $OpenMissile, morph, bomb, diffusion, space, screw, [gravity]",
+							"$IsStart|art|int|c,  $OpenPlasma,  $OpenMissile, wave, screw, morph",
+							"$IsStart|art|int|c,  $OpenMissile, $OpenCharge, diffusion, gravity, @tech/ibj, screw"
 
 							],
 						"item_count": 1
@@ -1479,7 +1632,7 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c, charge,  missiledoor, morph"
+							"$IsStart|art|int|c, apump, $OpenCharge, $OpenMissile, morph"
 
 						],
 						"item_count": 1
@@ -1514,7 +1667,7 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c, charge,  missiledoor, morph, varia, [gravity]"
+							"$IsStart|art|int|c, $OpenCharge, $OpenMissile, morph, varia, [gravity]"
 
 						],
 						"item_count": 1
@@ -1549,8 +1702,8 @@
 						"access_rules": [ 
 //							Artaria Intro Room
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"{$IsStart|art|int|c}",
-							"$IsStart|art|int|c, morph"
+							"{$IsStart|art|int|c, $OpenAccess}",
+							"$IsStart|art|int|c, $OpenAccess, morph"
 						],
 						"item_count": 1
 					}
@@ -1578,7 +1731,53 @@
 						"access_rules": [ 
 //							Start Not Shuffled
 //							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
-							"$IsStart|art|int|c"
+							"$IsStart|art|int|c, $OpenAccess",
+							"$IsStart|art|int|c, @tech/advwall",
+//							Artaria Map Room
+//							"$IsStart|art|map|c, $Open[DoorType], [ItemRestrictions]",
+							"$IsStart|art|map|c",
+//							Artaria Navigation North
+//							"$IsStart|art|nav|n, $Open[DoorType], [ItemRestrictions]",
+							"$IsStart|art|nav|n, $OpenAccess",
+							"$IsStart|art|nav|n, @tech/advwall",
+//							Artaria Save East
+//							"$IsStart|art|sav|e, $Open[DoorType], [ItemRestrictions]",
+							"$IsStart|art|sav|e, apump, $OpenAccess",
+							"$IsStart|art|sav|e, apump, @tech/advwall",
+//							Artaria Save North
+//							"$IsStart|art|sav|n, $Open[DoorType], [ItemRestrictions]",
+							"$IsStart|art|sav|e, speed, $OpenAccess",
+							"$IsStart|art|sav|e, speed, @tech/advwall",
+//							Artaria Save South
+//							"$IsStart|art|sav|s, $Open[DoorType], [ItemRestrictions]",
+							"$IsStart|art|sav|s, $OpenAccess",
+							"$IsStart|art|sav|s, @tech/advwall",
+//							Artaria Save West
+//							"$IsStart|art|sav|w, $Open[DoorType], [ItemRestrictions]",
+							"$IsStart|art|sav|w",
+//							Dairon Transport to Artaria
+//							"@area/daitraart, $Open[DoorType], [ItemRestrictions]",
+							"@area/daitraart, speed, $OpenAccess",
+							"@area/daitraart, speed, @tech/advwall",
+//							Cataris Transport to Artaria
+//							"@area/cattraart, $Open[DoorType], [ItemRestrictions]",
+							"@area/cattraart, $OpenCharge, spin, morph, $OpenAccess",
+							"@area/cattraart, $OpenCharge, spin, morph, @tech/advwall",
+							"@area/cattraart, $OpenCharge, speed, morph, $OpenAccess",
+							"@area/cattraart, $OpenCharge, speed, morph, @tech/advwall",
+							"@area/cattraart, apump, $OpenAccess",
+							"@area/cattraart, apump, @tech/advwall"
+//							Cataris Red Teleport to Artaria
+//							"@area/cattraart, $Open[DoorType], vlock, @tech/laybomb, [ItemRestrictions]",
+//							"@area/catredart, $Open[DoorType], vlock, diffusion, [ItemRestrictions]",
+//							"@area/catredart, $Open[DoorType], $novlock, [ItemRestrictions]",
+//							Cataris Blue Teleport to Artaria
+//							"@area/catbluart, morph, grapple, wave, $Open[DoorType], [ItemRestrictions]",
+//							Diaron Yellow Teleport to Artaria
+//							"@area/daiyelart, wide, $Open[DoorType], [ItemRestrictions]",
+//							Burenia Transport to artaria
+//							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple, $Open[DoorType], [ItemRestrictions]",
+//							"@area/burtraart, screw, gravity, morph, plasma, wave, $Open[DoorType], [ItemRestrictions]",
 						],
 						"item_count": 1
 					}
