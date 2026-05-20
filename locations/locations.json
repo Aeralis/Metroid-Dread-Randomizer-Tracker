@@ -2,39 +2,39 @@
 [
 	//  Artaria
 //							Start Not Shuffled
-//							"$IsStart|art|int|c, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|int|c, $Open[DoorType], [ItemRestrictions]",
 //							Artaria Map Room
-//							"$IsStart|art|map|c, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|map|c, $Open[DoorType], [ItemRestrictions]",
 //							Artaria Navigation North
-//							"$IsStart|art|nav|n, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|nav|n, $Open[DoorType], [ItemRestrictions]",
 //							Artaria Save East
-//							"$IsStart|art|sav|e, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|e, $Open[DoorType], [ItemRestrictions]",
 //							Artaria Save North
-//							"$IsStart|art|sav|n, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|n, $Open[DoorType], [ItemRestrictions]",
 //							Artaria Save South
-//							"$IsStart|art|sav|s, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|s, $Open[DoorType], [ItemRestrictions]",
 //							Artaria Save West
-//							"$IsStart|art|sav|w, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|art|sav|w, $Open[DoorType], [ItemRestrictions]",
 //							Dairon Transport to Artaria
-//							"@area/daitraart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/daitraart, $Open[DoorType], [ItemRestrictions]",
 //							Cataris Transport to Artaria
-//							"@area/cattraart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/cattraart, $Open[DoorType], [ItemRestrictions]",
 //							Cataris Red Teleport to Artaria
-//							"@area/cattraart, [DoorRestrictions], vlock, @tech/laybomb, [ItemRestrictions]",
-//							"@area/catredart, [DoorRestrictions], vlock, diffusion, [ItemRestrictions]",
-//							"@area/catredart, [DoorRestrictions], $novlock, [ItemRestrictions]",
+//							"@area/cattraart, $Open[DoorType], vlock, @tech/laybomb, [ItemRestrictions]",
+//							"@area/catredart, $Open[DoorType], vlock, diffusion, [ItemRestrictions]",
+//							"@area/catredart, $Open[DoorType], $novlock, [ItemRestrictions]",
 //							Cataris Blue Teleport to Artaria
-//							"@area/catbluart, morph, grapple, wave, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/catbluart, morph, grapple, wave, $Open[DoorType], [ItemRestrictions]",
 //							Diaron Yellow Teleport to Artaria
-//							"@area/daiyelart, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/daiyelart, wide, $Open[DoorType], [ItemRestrictions]",
 //							Burenia Transport to artaria
-//							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple, [DoorRestrictions], [ItemRestrictions]",
-//							"@area/burtraart, screw, gravity, morph, plasma, wave, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/burtraart, screw, [gravity], morph, bomb, wave, grapple, $Open[DoorType], [ItemRestrictions]",
+//							"@area/burtraart, screw, gravity, morph, plasma, wave, $Open[DoorType], [ItemRestrictions]",
 	//Artaria
 	{
         "name": "Artaria",
 		
-		"chest_opened_img": "images/item_sphere.png",
+		"chest_unopened_img": "images/item_sphere.png",
         "children": [
 		{
 			"name": "Rooms",
@@ -135,33 +135,33 @@
 	},
 	// Burenia
 //							Burenia Map Station
-//							"bmap, [DoorRestrictions], [ItemRestrictions]",
+//							"bmap, $Open[DoorType], [ItemRestrictions]",
 //							Burenia Navigation North
-//							"bnavn, [DoorRestrictions], [ItemRestrictions]",
+//							"bnavn, $Open[DoorType], [ItemRestrictions]",
 //							Burenia Navigation South
-//							"bnavs, [DoorRestrictions], [ItemRestrictions]",
+//							"bnavs, $Open[DoorType], [ItemRestrictions]",
 //							Burenia Save Middle
-//							"bsavm, [DoorRestrictions], [ItemRestrictions]",
+//							"bsavm, $Open[DoorType], [ItemRestrictions]",
 //							Burenia Save North
-//							"bsavn, [DoorRestrictions], [ItemRestrictions]",
+//							"bsavn, $Open[DoorType], [ItemRestrictions]",
 //							Burenia Save South
-//							"bsavs, [DoorRestrictions], [ItemRestrictions]",
+//							"bsavs, $Open[DoorType], [ItemRestrictions]",
 //							Artaria - Transport to Burenia
-//							"arttrabur", [DoorRestrictions], [ItemRestrictions]",
+//							"arttrabur", $Open[DoorType], [ItemRestrictions]",
 //							Dairon - Lower Transport to Burenia
-//							"dailowbur", [DoorRestrictions], [ItemRestrictions]",
+//							"dailowbur", $Open[DoorType], [ItemRestrictions]",
 //							Ghavoran - Transport to Burenia
-//							"ghatrabur", [DoorRestrictions], [ItemRestrictions]",
+//							"ghatrabur", $Open[DoorType], [ItemRestrictions]",
 //							Dairon - Upper Transport to Burenia
-//							"daiuppbur, [DoorRestrictions], [ItemRestrictions]",
+//							"daiuppbur, $Open[DoorType], [ItemRestrictions]",
 //							Ghavoran Green Teleport to Burenia
-//							"ghagrebur, [DoorRestrictions], [ItemRestrictions]",
+//							"ghagrebur, $Open[DoorType], [ItemRestrictions]",
 //							Ferenia Cyan Teleport to Burenia
-//							"fercyabur, [DoorRestrictions], [ItemRestrictions]"
+//							"fercyabur, $Open[DoorType], [ItemRestrictions]"
 	{
         "name": "Burenia",
 		
-		"chest_opened_img": "images/item_sphere.png",
+		"chest_unopened_img": "images/item_sphere.png",
         "children": [
 		{
 			"name": "Rooms",
@@ -259,31 +259,31 @@
 	},
 	// Cataris
 //							Cataris Map Station
-//							"cmap, [DoorRestrictions], [ItemRestrictions]",
+//							"cmap, $Open[DoorType], [ItemRestrictions]",
 //							Cataris Navigation Station Northwest
-//							"cnavn, [DoorRestrictions], [ItemRestrictions]",
+//							"cnavn, $Open[DoorType], [ItemRestrictions]",
 //							Cataris Navigation Station Southeast
-//							"cnavs, [DoorRestrictions], [ItemRestrictions]",
+//							"cnavs, $Open[DoorType], [ItemRestrictions]",
 //							Cataris Save Station East
-//							"csave, [DoorRestrictions], [ItemRestrictions]",
+//							"csave, $Open[DoorType], [ItemRestrictions]",
 //							Cataris Save Station West
-//							"csavw, [DoorRestrictions], [ItemRestrictions]",
+//							"csavw, $Open[DoorType], [ItemRestrictions]",
 //							Artaria - Transport to Cataris
-//							"arttracat, [DoorRestrictions], [ItemRestrictions]",
+//							"arttracat, $Open[DoorType], [ItemRestrictions]",
 //							Dairon - Transport to Cataris
-// 							"daitracat, [DoorRestrictions], [ItemRestrictions]",
+// 							"daitracat, $Open[DoorType], [ItemRestrictions]",
 //							Artaria - Red Teleport to Cataris
-//							"artredcat, [DoorRestrictions], [ItemRestrictions]",
+//							"artredcat, $Open[DoorType], [ItemRestrictions]",
 //							Artaria - Blue Teleport to Cataris
-//							"artblucat, [DoorRestrictions], [ItemRestrictions]",
+//							"artblucat, $Open[DoorType], [ItemRestrictions]",
 //							Dairon - Purple Teleport to Cataris
-//							"daipurcat, [DoorRestrictions], [ItemRestrictions]",
+//							"daipurcat, $Open[DoorType], [ItemRestrictions]",
 //							Ghavoran - Orange Teleport to Cataris
-//							"ghaoracat, [DoorRestrictions], [ItemRestrictions]"
+//							"ghaoracat, $Open[DoorType], [ItemRestrictions]"
 	{
         "name": "Cataris",
 		
-		"chest_opened_img": "images/item_sphere.png",
+		"chest_unopened_img": "images/item_sphere.png",
         "children": [
 		{
 			"name": "Rooms",
@@ -381,37 +381,37 @@
 	},
 	// Dairon
 //							Dairon Map Station
-//							"dmap", [DoorRestrictions], [ItemRestrictions]",
+//							"dmap", $Open[DoorType], [ItemRestrictions]",
 //							Dairon Navigation Station North
-//							"dnavn, [DoorRestrictions], [ItemRestrictions]",
+//							"dnavn, $Open[DoorType], [ItemRestrictions]",
 //							Dairon Navigation Station South
 //							"dnavs, [DoorRestrictions, [ItemRestrictions]",
 //							Dairon Save Station East
-//							"dsave, [DoorRestrictions], [ItemRestrictions]",
+//							"dsave, $Open[DoorType], [ItemRestrictions]",
 //							Dairon Save Station West
-//							"dsavw, [DoorRestrictions], [ItemRestrictions]",
+//							"dsavw, $Open[DoorType], [ItemRestrictions]",
 //							Artaria - Transport to Dairon
-//							"arttradai, [DoorRestrictions], [ItemRestrictions]",
+//							"arttradai, $Open[DoorType], [ItemRestrictions]",
 //							Burenia - Lower Transport to Dairon
-//							"burlowdai, [DoorRestrictions], [ItemRestrictions]",
+//							"burlowdai, $Open[DoorType], [ItemRestrictions]",
 //							Burenia - Upper Transport to Dairon
-//							"buruppdai, [DoorRestrictions], [ItemRestrictions]",
+//							"buruppdai, $Open[DoorType], [ItemRestrictions]",
 //							Cataris - Transport to Dairon
-//							"cattradai, [DoorRestrictions], [ItemRestrictions]",
+//							"cattradai, $Open[DoorType], [ItemRestrictions]",
 //							Ferenia - East Transport to Dairon
-//							"freeasdai, [DoorRestrictions], [ItemRestrictions]",
+//							"freeasdai, $Open[DoorType], [ItemRestrictions]",
 //							Ghavoran - Transport to Dairon
-//							"ghatradai, [DoorRestrictions], [ItemRestrictions]",
+//							"ghatradai, $Open[DoorType], [ItemRestrictions]",
 //							Ferenia - West Transport to Dairon
-//							"ferwesdai, [DoorRestrictions], [ItemRestrictions]",
+//							"ferwesdai, $Open[DoorType], [ItemRestrictions]",
 //							Artaria - Yellow Teleport to Dairon
-//							"artyeldai, [DoorRestrictions], [ItemRestrictions]",
+//							"artyeldai, $Open[DoorType], [ItemRestrictions]",
 //							Cataris - Purple Teleport to Dairon
-//							"catpurdai, [DoorRestrictions], [ItemRestrictions]",
+//							"catpurdai, $Open[DoorType], [ItemRestrictions]",
 	{
         "name": "Dairon",
 		
-		"chest_opened_img": "images/item_sphere.png",
+		"chest_unopened_img": "images/item_sphere.png",
         "children": [
 		{
 			"name": "Rooms",
@@ -509,13 +509,13 @@
 	},
 	// Elun
 //							Elun Save Station
-//							"esave, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|elu|sav|c, $Open[DoorType], [ItemRestrictions]",
 //							Ghavoran - Transport to Elun
-//							"ghatraelu, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/ghatraelu, $Open[DoorType], [ItemRestrictions]",
 	{
         "name": "Elun",
 		
-		"chest_opened_img": "images/item_sphere.png",
+		"chest_unopened_img": "images/item_sphere.png",
         "children": [
 		{
 			"name": "Rooms",
@@ -613,27 +613,27 @@
 	},
 	// Ferenia
 //							Ferenia Map Station
-//							"fmap, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|fer|map|c, $Open[DoorType], [ItemRestrictions]",
 //							Ferenia Navigation Station
-//							"fnav, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|fer|nav|c, $Open[DoorType], [ItemRestrictions]",
 //							Ferenia Save Station North
-//							"fsavn, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|fer|sav|n, $Open[DoorType], [ItemRestrictions]",
 //							Ferenia Save Station Southeast
-//							"fsavs, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|fer|sav|s, $Open[DoorType], [ItemRestrictions]",
 //							Dairon - East Transport to Ferenia
-//							"daieasfer, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/daieasfer, $Open[DoorType], [ItemRestrictions]",
 //							Dairon - West Transport to Ferenia
-//							"daiwesfer, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/daiwesfer, $Open[DoorType], [ItemRestrictions]",
 //							Ghavoran - Transport to Ferenia
-//							"ghatrafer, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/ghatrafer, $Open[DoorType], [ItemRestrictions]",
 //							Hanubia - Transport to Ferenia
-// 							"hantrafer, [DoorRestrictions], [ItemRestrictions]",
+// 							"@area/hantrafer, $Open[DoorType], [ItemRestrictions]",
 //							Burenia - Cyan Telepor to Ferenia
-//							"burcyafer, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/burcyafer, $Open[DoorType], [ItemRestrictions]",
 	{
         "name": "Ferenia",
 		
-		"chest_opened_img": "images/item_sphere.png",
+		"chest_unopened_img": "images/item_sphere.png",
         "children": [
 		{
 			"name": "Rooms",
@@ -731,31 +731,31 @@
 	},
 	// Ghavoran
 //							Ghavoran Map Station
-//							"gmap, [DoorRestrictions], [ItemRestrictions]",
+//							"gmap, $Open[DoorType], [ItemRestrictions]",
 //							Ghavoran Navigation Station
-//							"gnav, [DoorRestrictions], [ItemRestrictions]",
+//							"gnav, $Open[DoorType], [ItemRestrictions]",
 //							Ghavoran Save Station Center
-//							"gsavc, [DoorRestrictions], [ItemRestrictions]",
+//							"gsavc, $Open[DoorType], [ItemRestrictions]",
 //							Ghavoran Save Station East
-//							"gsave, [DoorRestrictions], [ItemRestrictions]",
+//							"gsave, $Open[DoorType], [ItemRestrictions]",
 //							Burenia - Transport to Ghavoran
-//							"burtragha, [DoorRestrictions], [ItemRestrictions]",
+//							"burtragha, $Open[DoorType], [ItemRestrictions]",
 //							Dairon - Transport to Ghavoran
-//							"daitragha, [DoorRestrictions], [ItemRestrictions]",
+//							"daitragha, $Open[DoorType], [ItemRestrictions]",
 //							Elun - Transport to Ghavoran
-//							"elutragha, [DoorRestrictions], [ItemRestrictions]",
+//							"elutragha, $Open[DoorType], [ItemRestrictions]",
 //							Ferenia - Transport to Ghavoran
-//							"fertragha, [DoorRestrictions], [ItemRestrictions]",
+//							"fertragha, $Open[DoorType], [ItemRestrictions]",
 //							Hanubia - Transport to Ghavoran
-//							"hantragha, [DoorRestrictions], [ItemRestrictions]",
+//							"hantragha, $Open[DoorType], [ItemRestrictions]",
 //							Cataris - Orange Teleport to Ghavoran
-//							"catoragha, [DoorRestrictions], [ItemRestrictions]",
+//							"catoragha, $Open[DoorType], [ItemRestrictions]",
 //							Burenia - Green Teleport to Ghavoran
-//							"burgregha, [DoorRestrictions], [ItemRestrictions]",
+//							"burgregha, $Open[DoorType], [ItemRestrictions]",
 	{
         "name": "Ghavoran",
 		
-		"chest_opened_img": "images/item_sphere.png",
+		"chest_unopened_img": "images/item_sphere.png",
         "children": [
 		{
 			"name": "Rooms",
@@ -853,17 +853,17 @@
 	},
 	// Hanubia
 //							Hanubia Navigation Station
-//							"hnav, [DoorRestrictions], [ItemRestrictions]",
+//							"$IsStart|han|nav|c, $Open[DoorType], [ItemRestrictions]",
 //							Ferenia - Transport to Hanubia
-//							"@area/fertrahan, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/fertrahan, $Open[DoorType], [ItemRestrictions]",
 //							Ghavoran - Transport to Hanubia
-//							"@area/ghatrahan, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/ghatrahan, $Open[DoorType], [ItemRestrictions]",
 //							Itorash - Transport to Hanubia
-//							"itotrahan, [DoorRestrictions], [ItemRestrictions]",
+//							"@area/itotrahan, $Open[DoorType], [ItemRestrictions]",
 	{
         "name": "Hanubia",
 		
-		"chest_opened_img": "images/item_sphere.png",
+		"chest_unopened_img": "images/item_sphere.png",
         "children": [
 		{
 			"name": "Rooms",
