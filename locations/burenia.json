@@ -91,7 +91,7 @@
 			},
 			{
 				"name": "Drogyga Arena",
-				"access_rules": [ "@room/Bdrogygaarena" ],
+				"access_rules": [ "" ],
 				"children": [
 				{
 					"name": "Drogyga Arena",
@@ -243,7 +243,7 @@
 					"sections": [
 					{
 						"name": "Missile+ Pack",
-						"chest_unopened_img": "images/missile+pack.png",
+						"chest_unopened_img": "images/missile+.png",
 						"capture_item": true,
 						"access_rules": [ 
 //							Burenia Map Station
@@ -318,7 +318,7 @@
 //							"arttrabur", [DoorRestrictions], [ItemRestrictions]",
 //							Dairon - Lower Transport to Burenia
 //							"dailowbur", [DoorRestrictions], [ItemRestrictions]",
-							"@area/dailowbur, @tech/laybomb, magnet, @lock/plasmadoor, morph, gravity"
+							"@area/dailowbur, @tech/laybomb, magnet, @lock/$OpenPlasma, morph, gravity"
 //							Ghavoran - Transport to Burenia
 //							"ghatrabur", [DoorRestrictions], [ItemRestrictions]",
 //							Dairon - Upper Transport to Burenia
@@ -525,8 +525,8 @@
 //							"arttrabur", [DoorRestrictions], [ItemRestrictions]",
 //							Dairon - Lower Transport to Burenia
 //							"dailowbur", [DoorRestrictions], [ItemRestrictions]",
-							"@area/dailowbur, @lock/plasmadoor, @tech/laybomb, @move/vert, gravity, magnet, grapple, speed, screw",
-							"@area/dailowbur, @lock/plasmadoor, wave, ice, speed, grapple, gravity, space, screw"
+							"@area/dailowbur, @lock/$OpenPlasma, @tech/laybomb, @tech/vert, gravity, magnet, grapple, speed, screw",
+							"@area/dailowbur, @lock/$OpenPlasma, wave, ice, speed, grapple, gravity, space, screw"
 //							Ghavoran - Transport to Burenia
 //							"ghatrabur", [DoorRestrictions], [ItemRestrictions]",
 //							Dairon - Upper Transport to Burenia
@@ -557,7 +557,7 @@
 					"sections": [
 					{
 						"name": "Missile+ Pack",
-						"chest_unopened_img": "images/missile+pack.png",
+						"chest_unopened_img": "images/missile+.png",
 						"capture_item": true,
 						"access_rules": [ 
 //							Burenia Map Station
@@ -653,7 +653,7 @@
 					"sections": [
 					{
 						"name": "Missile+ Pack",
-						"chest_unopened_img": "images/missile+pack.png",
+						"chest_unopened_img": "images/missile+.png",
 						"capture_item": true,
 						"access_rules": [ 
 //							Burenia Map Station
@@ -713,7 +713,7 @@
 						"capture_item": true,
 						"access_rules": [ 
 						"morph, grapple",
-						"morph, @move/advwall"
+						"morph, @tech/advwall"
 //						Burenia Map Station
 //						"bmap, [DoorRestrictions], [ItemRestrictions]",
 //						Burenia Nav North
@@ -838,7 +838,7 @@
 					"sections": [
 					{
 						"name": "Missile+ Pack",
-						"chest_unopened_img": "images/missile+pack.png",
+						"chest_unopened_img": "images/missile+.png",
 						"capture_item": true,
 						"access_rules": [ 
 //							Burenia Map Station

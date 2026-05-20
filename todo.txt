@@ -1,0 +1,55 @@
+Lua
+	One Way Doors (Example: Corpious, don't need cloak to enter, but in door rando need [DoorType] to enter.
+
+Art | David Jaff - Can be accessed w/ Space + Morph
+
+Fer | Fan Room - Dangerous Action needs the different paths set for exit so that you don't get it in logic at the incorrect time.
+
+Progressive Items
+
+Multi-World
+
+Artaria
+	-Cold Introduction / Path to Charge > Cannot be accessed from Charge side first w/o Wave.
+	-Corpius Arena - OoL: Sphere0
+	-Speed Hallway: Wrong Item Icon
+	
+Cataris
+	-Above Z-57 Missile Pack: Requires Morph all paths
+	-Thermal Device North (Left): Scopeable - ArtRedCat, Morph, @tech/shutter
+	-Thermal Device North (Right): " "
+	-Underlava" Scopable = Wave, Morph, Charge, cloak, varia, screw, spin, speed [Which of these makes it scope vs not]
+		-Shutter, Morph, Wave
+		-@tech/vert, Morph, Wave
+	
+Locations/Logic: Move @move to @tech
+
+Dairon
+	-Storm Missile Gate: Wrong Item Icon
+	
+Burenia
+	-Gravity Suit Missile+: Wrong Item Icon
+	
+DaiWesFer
+	> How do you put it out of logic with 2 items required. Charge+Wave or Charge+Plasma, but using those are OoL
+				Use @tech/widedoor
+	
+Above Super Missle is another 1-way door; has to be open from the right side.
+Green Teleporter has 2; Super from left & Plasma from Left
+
+How do we want to handle Hanubia items that use the @area/itotrahan, since it has no requirements to use that transporter. Screw, pbomb, @tech/laybomb gets the item available even if you can't get to it, because itorash has no restrictions. Only really affects non-area shuffled seeds?
+
+Confirm what is needed to get to main Hanubia from FerTraHan entrance.
+	Is that Itorash to main Hanubia door wave locked on the Itorash side?
+	
+Art | Grapple Room
+	-Non Door Shuffle: Dangerous Action Grapple to get out
+	-Door Shuffle: only needs $OpenMissile
+	
+Dairon | Transport to Artaria
+	-Non Door shuffle: Can only be opened from left
+	-Door Shuffle: only needs $OpenMissile
+	
+Cataris - Save Station East
+	-Non Door Shuffle: Door in Energy Recharge room can only be opened from Right
+	-Door SHuffle: only needs $OpenCharge

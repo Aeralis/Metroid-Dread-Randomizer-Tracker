@@ -131,14 +131,14 @@
 			{
 				"type": "tabbed",
 				"tabs": [
-//				{
-//					"title": "Full Map",
-//					"content": 
-//					{
-//						"type": "map",
-//						"maps": [ "fullmap" ]
-//					}
-//				},
+				{
+					"title": "Full Map",
+					"content": 
+					{
+						"type": "map",
+						"maps": [ "fullmap" ]
+					}
+				},
 				{
 					"title": "Artaria",
 					"content": 

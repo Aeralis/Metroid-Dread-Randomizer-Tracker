@@ -1,0 +1,620 @@
+[
+	// Access, Charge, Cloak, Grapple, Missile, Plasma, Super, Wave, Wide
+	
+	// Beam, Bomb, Charge, Cross, Diffusion, Grapple, Ice,
+	// Missile, PBomb, Plasma, Storm, Super, Wave, Wide
+
+	// Door Locks
+	{
+		"name": "Charge Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/charge.png",
+			"codes": "chargelock"
+		},
+		{
+			"img": "images/lock/charge-beam.png",
+			"codes": "chabea"
+		},
+		{
+			"img": "images/lock/charge-charge.png",
+			"codes": "chacha"
+		},
+		{
+			"img": "images/lock/charge-diffusion.png",
+			"codes": "chadif"
+		},
+		{
+			"img": "images/lock/charge-wide.png",
+			"codes": "chawid"
+		},
+		{
+			"img": "images/lock/charge-plasma.png",
+			"codes": "chapla"
+		},
+		{
+			"img": "images/lock/charge-wave.png",
+			"codes": "chawav"
+		},
+		{
+			"img": "images/lock/charge-grapple.png",
+			"codes": "chagra"
+		},
+		{
+			"img": "images/lock/charge-missile.png",
+			"codes": "chamis"
+		},
+		{
+			"img": "images/lock/charge-supers.png",
+			"codes": "chasup"
+		},
+		{
+			"img": "images/lock/charge-ice.png",
+			"codes": "chaice"
+		},
+		{
+			"img": "images/lock/charge-storm.png",
+			"codes": "chasto"
+		},
+		{
+			"img": "images/lock/charge-bomb.png",
+			"codes": "chabom"
+		},
+		{
+			"img": "images/lock/charge-cross.png",
+			"codes": "chacro"
+		},
+		{
+			"img": "images/lock/charge-pbomb.png",
+			"codes": "chapbo"
+		}
+		]
+	},
+	{
+		"name": "Wide Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/wide.png",
+			"codes": "widelock"
+		},
+		{
+			"img": "images/lock/wide-beam.png",
+			"codes": "widbea"
+		},
+		{
+			"img": "images/lock/wide-charge.png",
+			"codes": "widcha"
+		},
+		{
+			"img": "images/lock/wide-diffusion.png",
+			"codes": "widdif"
+		},
+		{
+			"img": "images/lock/wide-wide.png",
+			"codes": "widwid"
+		},
+		{
+			"img": "images/lock/wide-plasma.png",
+			"codes": "widpla"
+		},
+		{
+			"img": "images/lock/wide-wave.png",
+			"codes": "widwav"
+		},
+		{
+			"img": "images/lock/wide-grapple.png",
+			"codes": "widgra"
+		},
+		{
+			"img": "images/lock/wide-missile.png",
+			"codes": "widmis"
+		},
+		{
+			"img": "images/lock/wide-supers.png",
+			"codes": "widsup"
+		},
+		{
+			"img": "images/lock/wide-ice.png",
+			"codes": "widice"
+		},
+		{
+			"img": "images/lock/wide-storm.png",
+			"codes": "widsto"
+		},
+		{
+			"img": "images/lock/wide-bomb.png",
+			"codes": "widbom"
+		},
+		{
+			"img": "images/lock/wide-cross.png",
+			"codes": "widcro"
+		},
+		{
+			"img": "images/lock/wide-pbomb.png",
+			"codes": "widpbo"
+		}
+		]
+	},
+	{
+		"name": "Plasma Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/plasma.png",
+			"codes": "plasmalock"
+		},
+		{
+			"img": "images/lock/plasma-beam.png",
+			"codes": "plabea"
+		},
+		{
+			"img": "images/lock/plasma-charge.png",
+			"codes": "placha"
+		},
+		{
+			"img": "images/lock/plasma-diffusion.png",
+			"codes": "pladif"
+		},
+		{
+			"img": "images/lock/plasma-wide.png",
+			"codes": "plawid"
+		},
+		{
+			"img": "images/lock/plasma-plasma.png",
+			"codes": "plapla"
+		},
+		{
+			"img": "images/lock/plasma-wave.png",
+			"codes": "plawav"
+		},
+		{
+			"img": "images/lock/plasma-grapple.png",
+			"codes": "plagra"
+		},
+		{
+			"img": "images/lock/plasma-missile.png",
+			"codes": "plamis"
+		},
+		{
+			"img": "images/lock/plasma-supers.png",
+			"codes": "plasup"
+		},
+		{
+			"img": "images/lock/plasma-ice.png",
+			"codes": "plaice"
+		},
+		{
+			"img": "images/lock/plasma-storm.png",
+			"codes": "plasto"
+		},
+		{
+			"img": "images/lock/plasma-bomb.png",
+			"codes": "plabom"
+		},
+		{
+			"img": "images/lock/plasma-cross.png",
+			"codes": "placro"
+		},
+		{
+			"img": "images/lock/plasma-pbomb.png",
+			"codes": "plapbo"
+		}
+		]
+	},
+	{
+		"name": "Wave Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/wave.png",
+			"codes": "wavelock"
+		},
+		{
+			"img": "images/lock/wave-beam.png",
+			"codes": "wavbea"
+		},
+		{
+			"img": "images/lock/wave-charge.png",
+			"codes": "wavcha"
+		},
+		{
+			"img": "images/lock/wave-diffusion.png",
+			"codes": "wavdif"
+		},
+		{
+			"img": "images/lock/wave-wide.png",
+			"codes": "wavwid"
+		},
+		{
+			"img": "images/lock/wave-plasma.png",
+			"codes": "wavpla"
+		},
+		{
+			"img": "images/lock/wave-wave.png",
+			"codes": "wavwav"
+		},
+		{
+			"img": "images/lock/wave-grapple.png",
+			"codes": "wavgra"
+		},
+		{
+			"img": "images/lock/wave-missile.png",
+			"codes": "wavmis"
+		},
+		{
+			"img": "images/lock/wave-supers.png",
+			"codes": "wavsup"
+		},
+		{
+			"img": "images/lock/wave-ice.png",
+			"codes": "wavice"
+		},
+		{
+			"img": "images/lock/wave-storm.png",
+			"codes": "wavsto"
+		},
+		{
+			"img": "images/lock/wave-bomb.png",
+			"codes": "wavbom"
+		},
+		{
+			"img": "images/lock/wave-cross.png",
+			"codes": "wavcro"
+		},
+		{
+			"img": "images/lock/wave-pbomb.png",
+			"codes": "wavpbo"
+		}
+		]
+	},
+	{
+		"name": "Grapple Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/grapple.png",
+			"codes": "grapplelock"
+		},
+		{
+			"img": "images/lock/grapple-beam.png",
+			"codes": "grabea"
+		},
+		{
+			"img": "images/lock/grapple-charge.png",
+			"codes": "gracha"
+		},
+		{
+			"img": "images/lock/grapple-diffusion.png",
+			"codes": "gradif"
+		},
+		{
+			"img": "images/lock/grapple-wide.png",
+			"codes": "grawid"
+		},
+		{
+			"img": "images/lock/grapple-plasma.png",
+			"codes": "grapla"
+		},
+		{
+			"img": "images/lock/grapple-wave.png",
+			"codes": "grawav"
+		},
+		{
+			"img": "images/lock/grapple-grapple.png",
+			"codes": "gragra"
+		},
+		{
+			"img": "images/lock/grapple-missile.png",
+			"codes": "gramis"
+		},
+		{
+			"img": "images/lock/grapple-supers.png",
+			"codes": "grasup"
+		},
+		{
+			"img": "images/lock/grapple-ice.png",
+			"codes": "graice"
+		},
+		{
+			"img": "images/lock/grapple-storm.png",
+			"codes": "grasto"
+		},
+		{
+			"img": "images/lock/grapple-bomb.png",
+			"codes": "grabom"
+		},
+		{
+			"img": "images/lock/grapple-cross.png",
+			"codes": "gracro"
+		},
+		{
+			"img": "images/lock/grapple-pbomb.png",
+			"codes": "grapbo"
+		}
+		]
+	},
+	{
+		"name": "Missile Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/missilepack.png",
+			"codes": "missilelock"
+		},
+		{
+			"img": "images/lock/missile-beam.png",
+			"codes": "misbea"
+		},
+		{
+			"img": "images/lock/missile-charge.png",
+			"codes": "mischa"
+		},
+		{
+			"img": "images/lock/missile-diffusion.png",
+			"codes": "misdif"
+		},
+		{
+			"img": "images/lock/missile-wide.png",
+			"codes": "miswid"
+		},
+		{
+			"img": "images/lock/missile-plasma.png",
+			"codes": "mispla"
+		},
+		{
+			"img": "images/lock/missile-wave.png",
+			"codes": "miswav"
+		},
+		{
+			"img": "images/lock/missile-grapple.png",
+			"codes": "misgra"
+		},
+		{
+			"img": "images/lock/missile-missile.png",
+			"codes": "mismis"
+		},
+		{
+			"img": "images/lock/missile-supers.png",
+			"codes": "missup"
+		},
+		{
+			"img": "images/lock/missile-ice.png",
+			"codes": "misice"
+		},
+		{
+			"img": "images/lock/missile-storm.png",
+			"codes": "missto"
+		},
+		{
+			"img": "images/lock/missile-bomb.png",
+			"codes": "misbom"
+		},
+		{
+			"img": "images/lock/missile-cross.png",
+			"codes": "miscro"
+		},
+		{
+			"img": "images/lock/missile-pbomb.png",
+			"codes": "mispbo"
+		}
+		]
+	},
+	{
+		"name": "Supers Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/supers.png",
+			"codes": "superlock"
+		},
+		{
+			"img": "images/lock/supers-beam.png",
+			"codes": "supbea"
+		},
+		{
+			"img": "images/lock/supers-charge.png",
+			"codes": "supcha"
+		},
+		{
+			"img": "images/lock/supers-diffusion.png",
+			"codes": "supdif"
+		},
+		{
+			"img": "images/lock/supers-wide.png",
+			"codes": "supwid"
+		},
+		{
+			"img": "images/lock/supers-plasma.png",
+			"codes": "suppla"
+		},
+		{
+			"img": "images/lock/supers-wave.png",
+			"codes": "supwav"
+		},
+		{
+			"img": "images/lock/supers-grapple.png",
+			"codes": "supgra"
+		},
+		{
+			"img": "images/lock/supers-missile.png",
+			"codes": "supmis"
+		},
+		{
+			"img": "images/lock/supers-supers.png",
+			"codes": "supsup"
+		},
+		{
+			"img": "images/lock/supers-ice.png",
+			"codes": "supice"
+		},
+		{
+			"img": "images/lock/supers-storm.png",
+			"codes": "supsto"
+		},
+		{
+			"img": "images/lock/supers-bomb.png",
+			"codes": "supbom"
+		},
+		{
+			"img": "images/lock/supers-cross.png",
+			"codes": "supcro"
+		},
+		{
+			"img": "images/lock/supers-pbomb.png",
+			"codes": "suppbo"
+		}
+		]
+	},
+	{
+		"name": "Cloak Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/cloak.png",
+			"codes": "cloaklock"
+		},
+		{
+			"img": "images/lock/cloak-beam.png",
+			"codes": "clobea"
+		},
+		{
+			"img": "images/lock/cloak-charge.png",
+			"codes": "clocha"
+		},
+		{
+			"img": "images/lock/cloak-diffusion.png",
+			"codes": "clodif"
+		},
+		{
+			"img": "images/lock/cloak-wide.png",
+			"codes": "clowid"
+		},
+		{
+			"img": "images/lock/cloak-plasma.png",
+			"codes": "clopla"
+		},
+		{
+			"img": "images/lock/cloak-wave.png",
+			"codes": "clowav"
+		},
+		{
+			"img": "images/lock/cloak-grapple.png",
+			"codes": "clogra"
+		},
+		{
+			"img": "images/lock/cloak-missile.png",
+			"codes": "clomis"
+		},
+		{
+			"img": "images/lock/cloak-supers.png",
+			"codes": "closup"
+		},
+		{
+			"img": "images/lock/cloak-ice.png",
+			"codes": "cloice"
+		},
+		{
+			"img": "images/lock/cloak-storm.png",
+			"codes": "closto"
+		},
+		{
+			"img": "images/lock/cloak-bomb.png",
+			"codes": "clobom"
+		},
+		{
+			"img": "images/lock/cloak-cross.png",
+			"codes": "clocro"
+		},
+		{
+			"img": "images/lock/cloak-pbomb.png",
+			"codes": "clopbo"
+		}
+		]
+	},
+	{
+		"name": "Access Lock",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+		{
+			"img": "images/access.png",
+			"codes": "accesslock"
+		},
+		{
+			"img": "images/lock/access-beam.png",
+			"codes": "accbea"
+		},
+		{
+			"img": "images/lock/access-charge.png",
+			"codes": "acccha"
+		},
+		{
+			"img": "images/lock/access-diffusion.png",
+			"codes": "accdif"
+		},
+		{
+			"img": "images/lock/access-wide.png",
+			"codes": "accwid"
+		},
+		{
+			"img": "images/lock/access-plasma.png",
+			"codes": "accpla"
+		},
+		{
+			"img": "images/lock/access-wave.png",
+			"codes": "accwav"
+		},
+		{
+			"img": "images/lock/access-grapple.png",
+			"codes": "accgra"
+		},
+		{
+			"img": "images/lock/access-missile.png",
+			"codes": "accmis"
+		},
+		{
+			"img": "images/lock/access-supers.png",
+			"codes": "accsup"
+		},
+		{
+			"img": "images/lock/access-ice.png",
+			"codes": "accice"
+		},
+		{
+			"img": "images/lock/access-storm.png",
+			"codes": "accsto"
+		},
+		{
+			"img": "images/lock/access-bomb.png",
+			"codes": "accbom"
+		},
+		{
+			"img": "images/lock/access-cross.png",
+			"codes": "acccro"
+		},
+		{
+			"img": "images/lock/access-pbomb.png",
+			"codes": "accpbo"
+		}
+		]
+	}
+]

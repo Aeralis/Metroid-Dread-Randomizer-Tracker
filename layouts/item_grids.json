@@ -86,7 +86,7 @@
 				[ "plasma", "wave", "grapple", "cloak", "flash", "pulse" ],
 				[ "morph", "bomb", "cross", "pbomb", "varia", "gravity" ],
 				[ "magnet", "speed", "spin", "space", "screw" ],
-				[ "energypart", "energytank", "missilepack", "missile+pack", "pbombtank" ]
+				[ "energyhud", "missilehud", "pbombhud" ]
 			]
 		}
 		]
